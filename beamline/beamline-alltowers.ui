@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1550</width>
+    <height>547</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="background">
+   <color>
+    <red>75</red>
+    <green>75</green>
+    <blue>75</blue>
+   </color>
+  </property>
+  <property name="backgroundMode">
+   <enum>caFrame::Filled</enum>
+  </property>
+  <widget class="caInclude" name="cainclude">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>281</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="filename" stdset="0">
+    <string notr="true">./rgbh-ss.ui</string>
+   </property>
+  </widget>
+  <widget class="caInclude" name="cainclude_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>0</y>
+     <width>281</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="filename" stdset="0">
+    <string notr="true">./rgbh-s0.ui</string>
+   </property>
+  </widget>
+  <widget class="caInclude" name="cainclude_3">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>0</y>
+     <width>281</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="filename" stdset="0">
+    <string notr="true">./rgbh-g0.ui</string>
+   </property>
+  </widget>
+  <widget class="caInclude" name="cainclude_4">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>0</y>
+     <width>281</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="filename" stdset="0">
+    <string notr="true">./rgbh-g1.ui</string>
+   </property>
+  </widget>
+  <widget class="caInclude" name="cainclude_5">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>0</y>
+     <width>281</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="filename" stdset="0">
+    <string notr="true">./rgbh-g2.ui</string>
+   </property>
+  </widget>
+  <widget class="caInclude" name="cainclude_6">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>-1</y>
+     <width>152</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="filename" stdset="0">
+    <string notr="true">./rgbh-sample.ui</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caInclude</class>
+   <extends>QWidget</extends>
+   <header>caInclude</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="rgbh.qrc"/>
+ </resources>
+ <connections/>
+</ui>

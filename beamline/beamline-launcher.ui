@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="caFrame" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>221</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="background">
+   <color>
+    <red>75</red>
+    <green>75</green>
+    <blue>75</blue>
+   </color>
+  </property>
+  <property name="backgroundMode">
+   <enum>caFrame::Filled</enum>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="caLabel" name="calabel_8">
+     <property name="font">
+      <font>
+       <pointsize>6</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="text">
+      <string>IPL Beamline Launcher</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>177</red>
+       <green>177</green>
+       <blue>181</blue>
+      </color>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
+       <property name="label">
+        <string notr="true">-X-ray</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>170</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./xray.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_7">
+       <property name="label">
+        <string notr="true">-combined</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>36</red>
+         <green>56</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-alltowers.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_2">
+       <property name="label">
+        <string notr="true">-ss</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>36</red>
+         <green>56</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-ss.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_3">
+       <property name="label">
+        <string notr="true">-s0</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>28</red>
+         <green>54</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-s0.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_4">
+       <property name="label">
+        <string notr="true">-g0</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>28</red>
+         <green>54</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-g0.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
+       <property name="label">
+        <string notr="true">-g1</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>28</red>
+         <green>54</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-g1.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_8">
+       <property name="label">
+        <string notr="true">-sample</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>28</red>
+         <green>54</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-sample.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_6">
+       <property name="label">
+        <string notr="true">-g2</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>28</red>
+         <green>54</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-g2.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_9">
+       <property name="label">
+        <string notr="true">-camera</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>28</red>
+         <green>54</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./nikonqt.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_11">
+       <property name="label">
+        <string notr="true">-scan</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>28</red>
+         <green>54</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./beamline/beamline-scan.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_10">
+       <property name="label">
+        <string notr="true">-IPL xray status</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>170</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./xray_status2.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=$(P),M=$(M);</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
