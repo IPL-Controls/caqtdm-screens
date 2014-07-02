@@ -74,7 +74,7 @@
     <string notr="true">P=KOZ:,M=m1</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor-1.1.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_2">
@@ -90,7 +90,7 @@
     <string notr="true">P=KOZ:,M=m3</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_3">
@@ -106,7 +106,7 @@
     <string notr="true">P=KOZ:,M=m5</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_4">
@@ -122,7 +122,7 @@
     <string notr="true">P=KOZ:,M=m6</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_5">
@@ -138,7 +138,7 @@
     <string notr="true">P=KOZ:,M=m4</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -327,7 +327,7 @@
     <string notr="true">P=KOZ:,M=m2</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caLabel" name="calabel_56">

@@ -74,7 +74,7 @@
     <string notr="true">P=NEW:,M=m10</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_5">
@@ -90,7 +90,7 @@
     <string notr="true">P=NEW:,M=m9</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -279,7 +279,7 @@
     <string notr="true">P=AER:,M=m19</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_4">
@@ -295,7 +295,7 @@
     <string notr="true">P=AER:,M=m20</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_6">
@@ -311,7 +311,7 @@
     <string notr="true">P=AER:,M=m18</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
  </widget>

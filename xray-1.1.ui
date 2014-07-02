@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>256</width>
+    <width>260</width>
     <height>291</height>
    </rect>
   </property>
@@ -448,7 +448,7 @@
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">P=srxr500</string>
+     <string notr="true">P=$(P)</string>
     </property>
     <property name="background">
      <color>
@@ -564,7 +564,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -635,7 +635,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>16</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -904,7 +904,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -945,7 +945,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1031,7 +1031,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>13</pointsize>
+         <pointsize>9</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1189,7 +1189,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1275,7 +1275,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>8</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1460,7 +1460,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1501,7 +1501,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1542,7 +1542,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>16</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1583,7 +1583,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>8</pointsize>
          <weight>75</weight>
          <bold>true</bold>
         </font>
@@ -1650,7 +1650,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1691,7 +1691,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>17</pointsize>
+         <pointsize>11</pointsize>
         </font>
        </property>
        <property name="text">
@@ -1792,7 +1792,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>102</pointsize>
+         <pointsize>68</pointsize>
         </font>
        </property>
        <property name="text">
@@ -2317,7 +2317,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>13</pointsize>
+         <pointsize>9</pointsize>
         </font>
        </property>
        <property name="text">
@@ -2365,7 +2365,7 @@ QTabBar::tab {
        </property>
        <property name="font">
         <font>
-         <pointsize>14</pointsize>
+         <pointsize>9</pointsize>
         </font>
        </property>
        <property name="text">

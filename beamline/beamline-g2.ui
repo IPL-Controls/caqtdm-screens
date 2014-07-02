@@ -34,7 +34,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>16</pointsize>
+     <pointsize>11</pointsize>
     </font>
    </property>
    <property name="frameShape">
@@ -74,7 +74,7 @@
     <string notr="true">P=KOZ:,M=m13</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_2">
@@ -90,7 +90,7 @@
     <string notr="true">P=KOZ:,M=m15</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_3">
@@ -106,7 +106,7 @@
     <string notr="true">P=KOZ:,M=m17</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_4">
@@ -122,7 +122,7 @@
     <string notr="true">P=KOZ:,M=m18</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_5">
@@ -138,7 +138,7 @@
     <string notr="true">P=KOZ:,M=m16</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -165,7 +165,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>15</pointsize>
+     <pointsize>10</pointsize>
     </font>
    </property>
    <property name="text">
@@ -197,7 +197,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>18</pointsize>
+     <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">
@@ -229,7 +229,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>18</pointsize>
+     <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">
@@ -261,7 +261,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>18</pointsize>
+     <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">
@@ -293,7 +293,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>18</pointsize>
+     <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">
@@ -327,7 +327,7 @@
     <string notr="true">P=KOZ:,M=m14</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caLabel" name="calabel_56">
@@ -341,7 +341,7 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>18</pointsize>
+     <pointsize>12</pointsize>
     </font>
    </property>
    <property name="text">

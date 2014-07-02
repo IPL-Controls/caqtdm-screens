@@ -81,10 +81,10 @@
         <string notr="true">$(M) (Debug)</string>
        </property>
        <property name="files">
-        <string notr="true">./xray.ui</string>
+        <string notr="true">./xray-1.1.ui</string>
        </property>
        <property name="args">
-        <string notr="true">P=$(P),M=$(M);</string>
+        <string notr="true">P=srxr</string>
        </property>
        <property name="stackingMode" stdset="0">
         <enum>caRowColMenu::Menu</enum>
@@ -441,7 +441,7 @@
         <string notr="true">$(M) (Debug)</string>
        </property>
        <property name="files">
-        <string notr="true">./xray_status2.ui</string>
+        <string notr="true">./xray-status-small.ui</string>
        </property>
        <property name="args">
         <string notr="true">P=$(P),M=$(M);</string>

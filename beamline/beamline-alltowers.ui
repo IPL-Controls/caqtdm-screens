@@ -33,7 +33,7 @@
     </rect>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./rgbh-ss.ui</string>
+    <string notr="true">./beamline/beamline-ss.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_2">
@@ -46,7 +46,7 @@
     </rect>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./rgbh-s0.ui</string>
+    <string notr="true">./beamline/beamline-s0.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_3">
@@ -59,7 +59,7 @@
     </rect>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./rgbh-g0.ui</string>
+    <string notr="true">./beamline/beamline-g0.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_4">
@@ -72,7 +72,7 @@
     </rect>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./rgbh-g1.ui</string>
+    <string notr="true">./beamline/beamline-g1.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_5">
@@ -85,7 +85,7 @@
     </rect>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./rgbh-g2.ui</string>
+    <string notr="true">./beamline/beamline-g2.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_6">
@@ -98,7 +98,7 @@
     </rect>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./rgbh-sample.ui</string>
+    <string notr="true">./beamline/beamline-sample.ui</string>
    </property>
   </widget>
  </widget>

@@ -74,7 +74,7 @@
     <string notr="true">P=NEW:,M=m8</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caInclude" name="cainclude_5">
@@ -90,7 +90,7 @@
     <string notr="true">P=NEW:,M=m6</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -151,7 +151,7 @@
     <string notr="true">P=NEW:,M=m3</string>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./motor.ui</string>
+    <string notr="true">./beamline/motor.ui</string>
    </property>
   </widget>
   <widget class="caLabel" name="calabel_56">
