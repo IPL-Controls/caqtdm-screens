@@ -372,7 +372,7 @@
         <string notr="true">./nikonqt.ui</string>
        </property>
        <property name="args">
-        <string notr="true">P=$(P),M=$(M);</string>
+        <string notr="true">P=D800:, W=IOC:</string>
        </property>
        <property name="stackingMode" stdset="0">
         <enum>caRowColMenu::Menu</enum>

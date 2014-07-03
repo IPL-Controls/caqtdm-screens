@@ -1172,7 +1172,7 @@
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)SAVE</string>
+      <string notr="true">$(P)SAVEIMG</string>
      </property>
      <property name="foreground">
       <color>
@@ -1450,7 +1450,7 @@
       <enum>Qt::WheelFocus</enum>
      </property>
      <property name="macro">
-      <string notr="true">P=$W</string>
+      <string notr="true">P=$(W)</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">scan.ui</string>
