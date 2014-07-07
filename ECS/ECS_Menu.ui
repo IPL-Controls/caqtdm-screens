@@ -95,7 +95,7 @@
       <string notr="true">Camera </string>
      </property>
      <property name="files">
-      <string notr="true">..\nikonqt.ui</string>
+      <string notr="true">./nikonqt.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=D3X:, W=SWEEP:</string>
@@ -128,7 +128,7 @@
       <string notr="true">Motors</string>
      </property>
      <property name="files">
-      <string notr="true">ECS_All;</string>
+      <string notr="true">./ECS/ECS_All;</string>
      </property>
      <property name="args">
       <string notr="true"/>
@@ -170,7 +170,7 @@
       <string notr="true">IPL x-ray status</string>
      </property>
      <property name="files">
-      <string notr="true">..\xray-status-small.ui;</string>
+      <string notr="true">./xray-status-small.ui;</string>
      </property>
      <property name="args">
       <string notr="true"/>
