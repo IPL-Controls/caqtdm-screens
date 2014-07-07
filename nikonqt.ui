@@ -185,7 +185,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -382,7 +382,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -422,7 +422,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -462,7 +462,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -502,7 +502,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -692,7 +692,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>14</pointsize>
+       <pointsize>18</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -747,7 +747,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -923,7 +923,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -969,7 +969,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1124,7 +1124,7 @@
      <property name="text">
       <string>Save Image</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1209,7 +1209,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>14</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1342,7 +1342,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1381,7 +1381,7 @@
      <property name="text">
       <string>Send</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1411,7 +1411,7 @@
       <string notr="true">P=$(W)</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">..\scan.ui</string>
+      <string notr="true">scan.ui</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_4">
@@ -1426,7 +1426,7 @@
      <property name="text">
       <string>ImageJ</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1452,7 +1452,7 @@
      <property name="text">
       <string>Live View</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1478,7 +1478,7 @@
      <property name="text">
       <string>Green Only</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1581,7 +1581,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1620,7 +1620,7 @@
      <property name="text">
       <string>Nef Convert</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1693,7 +1693,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1779,7 +1779,7 @@
      <property name="text">
       <string>AutoIncr</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1852,7 +1852,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2029,9 +2029,6 @@
      <property name="channel" stdset="0">
       <string notr="true">$(P)INITSTAT</string>
      </property>
-     <property name="bitNr">
-      <number>0</number>
-     </property>
      <property name="colorMode">
       <enum>caLed::Static</enum>
      </property>
@@ -2049,6 +2046,9 @@
        <blue>0</blue>
       </color>
      </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
     </widget>
     <widget class="caLabel" name="calabel_18">
      <property name="geometry">
@@ -2061,7 +2061,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2147,7 +2147,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2282,7 +2282,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2326,7 +2326,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
