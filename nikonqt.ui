@@ -79,9 +79,9 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>40</y>
        <width>261</width>
-       <height>131</height>
+       <height>141</height>
       </rect>
      </property>
      <property name="foreground">
@@ -106,7 +106,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>60</y>
+       <y>50</y>
        <width>241</width>
        <height>21</height>
       </rect>
@@ -135,77 +135,11 @@
       </color>
      </property>
     </widget>
-    <widget class="caTextEntry" name="catextentry">
-     <property name="geometry">
-      <rect>
-       <x>119</x>
-       <y>90</y>
-       <width>141</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)CAMERA_NAME</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>135</red>
-       <green>135</green>
-       <blue>135</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caTextEntry" name="catextentry_2">
-     <property name="geometry">
-      <rect>
-       <x>119</x>
-       <y>110</y>
-       <width>141</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Lucida Sans Typewriter</family>
-       <pointsize>7</pointsize>
-      </font>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)LENS</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>135</red>
-       <green>135</green>
-       <blue>135</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caLabel" name="calabel_4">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>110</y>
+       <y>100</y>
        <width>91</width>
        <height>21</height>
       </rect>
@@ -244,14 +178,14 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>130</y>
-       <width>71</width>
+       <y>120</y>
+       <width>81</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -282,9 +216,9 @@
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>130</y>
+       <y>125</y>
        <width>141</width>
-       <height>21</height>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
@@ -342,8 +276,8 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>90</y>
-       <width>91</width>
+       <y>80</y>
+       <width>81</width>
        <height>21</height>
       </rect>
      </property>
@@ -448,7 +382,9 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="text">
@@ -486,7 +422,9 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="text">
@@ -524,7 +462,9 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="text">
@@ -562,7 +502,9 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="text">
@@ -750,7 +692,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>18</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -805,7 +747,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -979,6 +921,13 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="text">
       <string>FILEPATH</string>
      </property>
@@ -1017,6 +966,13 @@
        <width>81</width>
        <height>21</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
      </property>
      <property name="text">
       <string>FILENAME</string>
@@ -1168,7 +1124,7 @@
      <property name="text">
       <string>Save Image</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1253,7 +1209,9 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="text">
@@ -1384,7 +1342,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1423,7 +1381,7 @@
      <property name="text">
       <string>Send</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1468,7 +1426,7 @@
      <property name="text">
       <string>ImageJ</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1494,7 +1452,7 @@
      <property name="text">
       <string>Live View</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1520,7 +1478,7 @@
      <property name="text">
       <string>Green Only</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1623,7 +1581,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1662,7 +1620,7 @@
      <property name="text">
       <string>Nef Convert</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1732,6 +1690,13 @@
        <width>51</width>
        <height>21</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -1814,7 +1779,7 @@
      <property name="text">
       <string>AutoIncr</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1887,7 +1852,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2056,16 +2021,13 @@
      <property name="geometry">
       <rect>
        <x>230</x>
-       <y>149</y>
+       <y>140</y>
        <width>31</width>
        <height>21</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)INITSTAT</string>
-     </property>
-     <property name="bitNr">
-      <number>0</number>
      </property>
      <property name="colorMode">
       <enum>caLed::Static</enum>
@@ -2079,24 +2041,27 @@
      </property>
      <property name="trueColor">
       <color>
-       <red>255</red>
-       <green>0</green>
+       <red>0</red>
+       <green>170</green>
        <blue>0</blue>
       </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_18">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>150</y>
+       <y>140</y>
        <width>121</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2175,14 +2140,14 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>150</y>
+       <y>140</y>
        <width>131</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2213,6 +2178,184 @@
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)INITSTAT</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="caLabel_25">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>550</y>
+       <width>10</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::Height</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>222</red>
+       <green>19</green>
+       <blue>9</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>222</red>
+       <green>19</green>
+       <blue>9</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A&lt;1</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FILEPATHEXISTS</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="caLabel_26">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>590</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>Exists</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::Height</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>222</red>
+       <green>19</green>
+       <blue>9</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>222</red>
+       <green>19</green>
+       <blue>9</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A==1</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FILENAMEEXISTS</string>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="calineedit">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>80</y>
+       <width>141</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)CAMERA_NAME</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="framePresent" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="frameColor">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="calineedit_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>100</y>
+       <width>141</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)LENS</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="framePresent" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="frameColor">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
      </property>
     </widget>
    </widget>

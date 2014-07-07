@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>198</width>
-    <height>313</height>
+    <width>218</width>
+    <height>222</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,8 +22,8 @@
      <rect>
       <x>-1</x>
       <y>0</y>
-      <width>201</width>
-      <height>311</height>
+      <width>221</width>
+      <height>221</height>
      </rect>
     </property>
     <widget class="caLabel" name="calabel">
@@ -31,7 +31,7 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>200</width>
+       <width>221</width>
        <height>60</height>
       </rect>
      </property>
@@ -68,53 +68,67 @@
     <widget class="caRelatedDisplay" name="carelateddisplay_3">
      <property name="geometry">
       <rect>
-       <x>25</x>
+       <x>10</x>
        <y>70</y>
-       <width>150</width>
-       <height>45</height>
+       <width>197</width>
+       <height>39</height>
       </rect>
      </property>
      <property name="label">
       <string notr="true"/>
      </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
      <property name="background">
       <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>255</blue>
+       <red>28</red>
+       <green>54</green>
+       <blue>170</blue>
       </color>
      </property>
      <property name="labels">
       <string notr="true">Camera </string>
      </property>
      <property name="files">
-      <string notr="true">nikonqt.ui;</string>
+      <string notr="true">./nikonqt.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D700:</string>
+      <string notr="true">P=D3X:, W=SWEEP:</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_4">
      <property name="geometry">
       <rect>
-       <x>25</x>
-       <y>130</y>
-       <width>150</width>
-       <height>45</height>
+       <x>10</x>
+       <y>120</y>
+       <width>197</width>
+       <height>39</height>
       </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
      </property>
      <property name="background">
       <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>255</blue>
+       <red>28</red>
+       <green>54</green>
+       <blue>170</blue>
       </color>
      </property>
      <property name="labels">
       <string notr="true">Motors</string>
      </property>
      <property name="files">
-      <string notr="true">ECS_All;</string>
+      <string notr="true">./ECS/ECS_All;</string>
      </property>
      <property name="args">
       <string notr="true"/>
@@ -123,45 +137,10 @@
     <widget class="caRelatedDisplay" name="carelateddisplay_2">
      <property name="geometry">
       <rect>
-       <x>25</x>
-       <y>190</y>
-       <width>150</width>
-       <height>45</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="label">
-      <string notr="true">X-Ray Status</string>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string notr="true">X-Ray Status</string>
-     </property>
-     <property name="files">
-      <string notr="true">xray_status2.ui;</string>
-     </property>
-     <property name="args">
-      <string notr="true"/>
-     </property>
-    </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay_5">
-     <property name="geometry">
-      <rect>
-       <x>25</x>
-       <y>250</y>
-       <width>151</width>
-       <height>45</height>
+       <x>10</x>
+       <y>170</y>
+       <width>197</width>
+       <height>39</height>
       </rect>
      </property>
      <property name="font">
@@ -173,21 +152,28 @@
      <property name="label">
       <string notr="true"/>
      </property>
-     <property name="background">
+     <property name="foreground">
       <color>
-       <red>0</red>
-       <green>170</green>
+       <red>255</red>
+       <green>255</green>
        <blue>255</blue>
       </color>
      </property>
+     <property name="background">
+      <color>
+       <red>28</red>
+       <green>54</green>
+       <blue>170</blue>
+      </color>
+     </property>
      <property name="labels">
-      <string notr="true">Camera (Old)</string>
+      <string notr="true">IPL x-ray status</string>
      </property>
      <property name="files">
-      <string notr="true">nikoncaqt.ui;</string>
+      <string notr="true">./xray-status-small.ui;</string>
      </property>
      <property name="args">
-      <string notr="true">P=D700:</string>
+      <string notr="true"/>
      </property>
     </widget>
    </widget>
