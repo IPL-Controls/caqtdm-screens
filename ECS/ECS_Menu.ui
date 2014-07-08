@@ -98,7 +98,7 @@
       <string notr="true">./nikonqt.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D3X:, W=SWEEP:</string>
+      <string notr="true">P=D700:, W=SWEEP:</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_4">

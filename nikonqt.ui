@@ -388,7 +388,7 @@
       </font>
      </property>
      <property name="text">
-      <string>GAIN/ISO</string>
+      <string>GAIN/INT</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
