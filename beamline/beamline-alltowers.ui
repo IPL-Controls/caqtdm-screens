@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1550</width>
+    <width>1682</width>
     <height>547</height>
    </rect>
   </property>
@@ -78,7 +78,7 @@
   <widget class="caInclude" name="cainclude_5">
    <property name="geometry">
     <rect>
-     <x>1270</x>
+     <x>1121</x>
      <y>0</y>
      <width>281</width>
      <height>551</height>
@@ -88,17 +88,17 @@
     <string notr="true">./beamline/beamline-g2.ui</string>
    </property>
   </widget>
-  <widget class="caInclude" name="cainclude_6">
+  <widget class="caInclude" name="cainclude_7">
    <property name="geometry">
     <rect>
-     <x>1120</x>
-     <y>-1</y>
-     <width>152</width>
+     <x>1401</x>
+     <y>0</y>
+     <width>281</width>
      <height>551</height>
     </rect>
    </property>
    <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-sample.ui</string>
+    <string notr="true">./beamline/beamline-s2.ui</string>
    </property>
   </widget>
  </widget>
