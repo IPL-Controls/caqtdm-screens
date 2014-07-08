@@ -630,7 +630,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Delay</string>
+      <string>Settling</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -666,7 +666,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.DDLY</string>
+      <string notr="true">$(P)scan1.PDLY</string>
      </property>
      <property name="foreground">
       <color>
