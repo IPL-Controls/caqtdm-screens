@@ -7129,7 +7129,7 @@
     </rect>
    </property>
    <property name="macro">
-    <string notr="true">P=ampstep:</string>
+    <string notr="true">P=ampstep:, S=scan2</string>
    </property>
    <property name="filename" stdset="0">
     <string notr="true">scan.ui</string>

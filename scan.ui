@@ -44,7 +44,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -86,7 +86,7 @@
       </font>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.PASM</string>
+      <string notr="true">$(P)$(S).PASM</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Static</enum>
@@ -117,7 +117,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -166,7 +166,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.P1PV</string>
+      <string notr="true">$(P)$(S).P1PV</string>
      </property>
      <property name="foreground">
       <color>
@@ -203,7 +203,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -252,7 +252,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.T1PV</string>
+      <string notr="true">$(P)$(S).T1PV</string>
      </property>
      <property name="foreground">
       <color>
@@ -289,7 +289,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -327,7 +327,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -365,7 +365,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -414,7 +414,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.P1SP</string>
+      <string notr="true">$(P)$(S).P1SP</string>
      </property>
      <property name="foreground">
       <color>
@@ -462,7 +462,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.P1EP</string>
+      <string notr="true">$(P)$(S).P1EP</string>
      </property>
      <property name="foreground">
       <color>
@@ -501,7 +501,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.P1SI</string>
+      <string notr="true">$(P)$(S).P1SI</string>
      </property>
      <property name="foreground">
       <color>
@@ -553,7 +553,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -595,7 +595,7 @@
       </font>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.P1AR</string>
+      <string notr="true">$(P)$(S).P1AR</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Static</enum>
@@ -626,7 +626,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -666,7 +666,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.PDLY</string>
+      <string notr="true">$(P)$(S).PDLY</string>
      </property>
      <property name="foreground">
       <color>
@@ -715,7 +715,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -755,7 +755,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.NPTS</string>
+      <string notr="true">$(P)$(S).NPTS</string>
      </property>
      <property name="foreground">
       <color>
@@ -806,7 +806,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.AWCT</string>
+      <string notr="true">$(P)$(S).AWCT</string>
      </property>
      <property name="foreground">
       <color>
@@ -855,7 +855,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -898,7 +898,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.CPT</string>
+      <string notr="true">$(P)$(S).CPT</string>
      </property>
      <property name="foreground">
       <color>
@@ -936,7 +936,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -946,7 +946,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.SMSG</string>
+      <string notr="true">$(P)$(S).SMSG</string>
      </property>
      <property name="foreground">
       <color>
@@ -984,7 +984,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -994,7 +994,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.FAZE</string>
+      <string notr="true">$(P)$(S).FAZE</string>
      </property>
      <property name="foreground">
       <color>
@@ -1036,7 +1036,7 @@
       <enum>EPushButton::Height</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)scan1.EXSC</string>
+      <string notr="true">$(P)$(S).EXSC</string>
      </property>
      <property name="label">
       <string notr="true">Scan</string>
@@ -1180,7 +1180,7 @@
      <string notr="true">scan_full.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=$(P), S=scan1</string>
+     <string notr="true">P=$(P), S=$(S)</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
