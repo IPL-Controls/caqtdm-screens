@@ -95,7 +95,7 @@
       <string notr="true">Camera </string>
      </property>
      <property name="files">
-      <string notr="true">./nikonqt.ui</string>
+      <string notr="true">./nikoncaqt.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=D700:, W=SWEEP:</string>
