@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
+    <width>560</width>
     <height>849</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>0</x>
       <y>-1</y>
-      <width>591</width>
+      <width>571</width>
       <height>861</height>
      </rect>
     </property>
@@ -49,7 +49,7 @@
       <enum>QFrame::Sunken</enum>
      </property>
      <property name="text">
-      <string>  PI4300+EPS Scan</string>
+      <string> PI-4096+EPS Scan</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -173,13 +173,13 @@
       <rect>
        <x>20</x>
        <y>110</y>
-       <width>91</width>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -209,7 +209,7 @@
       <enum>caLabel::IfZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)INITSTAT</string>
+      <string notr="true">$(P)$(R)AsynIO.CNCT</string>
      </property>
     </widget>
     <widget class="caMessageButton" name="caMessageButton_13">
@@ -301,13 +301,13 @@
       <rect>
        <x>20</x>
        <y>110</y>
-       <width>91</width>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -334,10 +334,10 @@
       </color>
      </property>
      <property name="visibility">
-      <enum>caLabel::IfZero</enum>
+      <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)INITSTAT</string>
+      <string notr="true">$(P)$(R)AsynIO.CNCT</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_21">
@@ -351,7 +351,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -435,9 +435,9 @@
     <widget class="caLineEdit" name="caLineEdit_15">
      <property name="geometry">
       <rect>
-       <x>210</x>
+       <x>200</x>
        <y>136</y>
-       <width>51</width>
+       <width>61</width>
        <height>20</height>
       </rect>
      </property>
@@ -445,7 +445,7 @@
       <string>123</string>
      </property>
      <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(R)Temperature_RBV</string>
@@ -459,9 +459,9 @@
      </property>
      <property name="background">
       <color>
-       <red>58</red>
-       <green>58</green>
-       <blue>58</blue>
+       <red>80</red>
+       <green>80</green>
+       <blue>80</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -561,7 +561,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -608,7 +608,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -654,7 +654,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -707,7 +707,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1095,7 +1095,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>490</y>
+       <y>480</y>
        <width>101</width>
        <height>21</height>
       </rect>
@@ -1125,8 +1125,8 @@
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>490</y>
-       <width>61</width>
+       <y>480</y>
+       <width>81</width>
        <height>20</height>
       </rect>
      </property>
@@ -2057,10 +2057,10 @@
     <widget class="caLineEdit" name="caLineEdit_9">
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>120</x>
        <y>71</y>
-       <width>111</width>
-       <height>20</height>
+       <width>141</width>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
@@ -2073,23 +2073,23 @@
       <string>123</string>
      </property>
      <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(R)Manufacturer_RBV</string>
      </property>
      <property name="foreground">
       <color>
-       <red>195</red>
-       <green>195</green>
-       <blue>195</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>58</red>
-       <green>58</green>
-       <blue>58</blue>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -2116,8 +2116,8 @@
       <rect>
        <x>270</x>
        <y>0</y>
-       <width>321</width>
-       <height>491</height>
+       <width>281</width>
+       <height>411</height>
       </rect>
      </property>
      <property name="macro">
@@ -2202,6 +2202,9 @@
        <height>201</height>
       </rect>
      </property>
+     <property name="macro">
+      <string notr="true">P=SWEEP:, S=scan1</string>
+     </property>
      <property name="filename" stdset="0">
       <string notr="true">scan.ui</string>
      </property>
@@ -2209,9 +2212,9 @@
     <widget class="caLabel" name="calabel_3">
      <property name="geometry">
       <rect>
-       <x>280</x>
-       <y>500</y>
-       <width>301</width>
+       <x>290</x>
+       <y>410</y>
+       <width>251</width>
        <height>41</height>
       </rect>
      </property>
@@ -2245,9 +2248,9 @@
     <widget class="caInclude" name="cainclude_3">
      <property name="geometry">
       <rect>
-       <x>280</x>
-       <y>550</y>
-       <width>301</width>
+       <x>290</x>
+       <y>460</y>
+       <width>251</width>
        <height>291</height>
       </rect>
      </property>
@@ -2300,39 +2303,39 @@
     <widget class="caLineEdit" name="caLineEdit_10">
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>190</x>
        <y>90</y>
-       <width>111</width>
+       <width>71</width>
        <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
       <string>123</string>
      </property>
      <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)$(R)Manufacturer_RBV</string>
+      <string notr="true">$(P)$(R)Model_RBV</string>
      </property>
      <property name="foreground">
       <color>
-       <red>195</red>
-       <green>195</green>
-       <blue>195</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>58</red>
-       <green>58</green>
-       <blue>58</blue>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -2354,6 +2357,114 @@
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>500</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Sans Serif</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="label">
+      <string notr="true">Plugins</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>187</red>
+       <green>187</green>
+       <blue>187</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true"/>
+     </property>
+     <property name="files">
+      <string notr="true">commonPlugins.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=PI4096:, R=cam1:</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::None</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_3">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>500</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Sans Serif</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="label">
+      <string notr="true">Roper</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>187</red>
+       <green>187</green>
+       <blue>187</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true"/>
+     </property>
+     <property name="files">
+      <string notr="true">Roper.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=PI4096:, R=cam1:</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::None</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>
@@ -2362,6 +2473,11 @@
    <class>caMenu</class>
    <extends>QComboBox</extends>
    <header>caMenu</header>
+  </customwidget>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
   </customwidget>
   <customwidget>
    <class>caTextEntry</class>
