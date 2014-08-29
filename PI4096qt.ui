@@ -7,27 +7,21 @@
     <x>0</x>
     <y>0</y>
     <width>281</width>
-    <height>987</height>
+    <height>849</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>NIKON CONTROL</string>
+   <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="caFrame" name="caframe">
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
-      <width>285</width>
-      <height>991</height>
+      <y>-1</y>
+      <width>291</width>
+      <height>861</height>
      </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::HLine</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
     </property>
     <property name="background">
      <color>
@@ -55,7 +49,7 @@
       <enum>QFrame::Sunken</enum>
      </property>
      <property name="text">
-      <string>NIKON DSLR CONTROL</string>
+      <string> PI-4096</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -81,7 +75,7 @@
        <x>10</x>
        <y>40</y>
        <width>261</width>
-       <height>141</height>
+       <height>121</height>
       </rect>
      </property>
      <property name="foreground">
@@ -99,6 +93,45 @@
        <red>85</red>
        <green>170</green>
        <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CAMERA </string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>176</red>
+       <green>176</green>
+       <blue>176</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>69</red>
+       <green>69</green>
+       <blue>71</blue>
       </color>
      </property>
     </widget>
@@ -135,23 +168,22 @@
       </color>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_4">
+    <widget class="caLabel" name="calabel_19">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>100</y>
-       <width>91</width>
+       <y>110</y>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
      <property name="text">
-      <string>LENS TYPE</string>
-     </property>
-     <property name="textFormat">
-      <enum>Qt::PlainText</enum>
-     </property>
-     <property name="scaledContents">
-      <bool>false</bool>
+      <string>DISCONNECTED</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -173,13 +205,103 @@
        <blue>71</blue>
       </color>
      </property>
+     <property name="visibility">
+      <enum>caLabel::IfZero</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)AsynIO.CNCT</string>
+     </property>
     </widget>
-    <widget class="caLabel" name="calabel_5">
+    <widget class="caMessageButton" name="caMessageButton_13">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>110</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Enable</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::Height</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)AsynIO.CNCT</string>
+     </property>
+     <property name="label">
+      <string notr="true">Enable</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="pressMessage">
+      <string>1</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMessageButton::Static</enum>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="caMessageButton_12">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>110</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Disable</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::Height</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)AsynIO.CNCT</string>
+     </property>
+     <property name="label">
+      <string notr="true">Disable</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="pressMessage">
+      <string notr="true">0</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMessageButton::Static</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_20">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>120</y>
-       <width>81</width>
+       <y>110</y>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
@@ -189,7 +311,7 @@
       </font>
      </property>
      <property name="text">
-      <string>BATTERY</string>
+      <string>CONNECTED</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -211,575 +333,163 @@
        <blue>71</blue>
       </color>
      </property>
+     <property name="visibility">
+      <enum>caLabel::IfNotZero</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)AsynIO.CNCT</string>
+     </property>
     </widget>
-    <widget class="caThermo" name="cathermo">
+    <widget class="caLabel" name="calabel_21">
      <property name="geometry">
       <rect>
-       <x>120</x>
-       <y>125</y>
-       <width>141</width>
-       <height>16</height>
+       <x>20</x>
+       <y>135</y>
+       <width>111</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>MS Serif</family>
-       <pointsize>6</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
-     <property name="scalePosition">
-      <enum>QwtThermoMarker::NoScale</enum>
+     <property name="text">
+      <string>TEMPERATURE</string>
      </property>
-     <property name="maxValue">
-      <double>100.000000000000000</double>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
-     <property name="minValue">
-      <double>0.000000000000000</double>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
      </property>
-     <property name="value">
-      <double>22.000000000000000</double>
+     <property name="foreground">
+      <color>
+       <red>176</red>
+       <green>176</green>
+       <blue>176</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>69</red>
+       <green>69</green>
+       <blue>71</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::IfZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)BATTERY</string>
+      <string notr="true">$(P)INITSTAT</string>
      </property>
-     <property name="direction">
-      <enum>caThermo::Right</enum>
+    </widget>
+    <widget class="caTextEntry" name="caTextEntry_13">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>136</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
      </property>
-     <property name="look">
-      <enum>caThermo::noLabel</enum>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
-     <property name="logScale">
-      <bool>false</bool>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)Temperature</string>
      </property>
      <property name="foreground">
       <color>
        <red>0</red>
-       <green>170</green>
+       <green>0</green>
        <blue>0</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="colorMode">
-      <enum>caThermo::Alarm</enum>
+      <enum>caLineEdit::Static</enum>
      </property>
-     <property name="limitsMode">
-      <enum>caThermo::Channel</enum>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_6">
+    <widget class="caLineEdit" name="caLineEdit_15">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>80</y>
-       <width>81</width>
-       <height>21</height>
+       <x>200</x>
+       <y>136</y>
+       <width>61</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="text">
-      <string>CAMERA </string>
-     </property>
-     <property name="textFormat">
-      <enum>Qt::PlainText</enum>
-     </property>
-     <property name="scaledContents">
-      <bool>false</bool>
+      <string>123</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)Temperature_RBV</string>
      </property>
      <property name="foreground">
       <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
+       <red>80</red>
+       <green>80</green>
+       <blue>80</blue>
       </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
     <widget class="caGraphics" name="cagraphics_2">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>190</y>
+       <y>170</y>
        <width>261</width>
-       <height>321</height>
-      </rect>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="lineSize">
-      <number>2</number>
-     </property>
-     <property name="lineColor">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_3">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>200</y>
-       <width>241</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="text">
-      <string>Camera Controls</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_7">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>230</y>
-       <width>81</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>13</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>GAIN/INT</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_8">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>260</y>
-       <width>111</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>EXPOSURE TIME</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_9">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>290</y>
-       <width>101</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>13</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>IMAGE TYPE</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caMenu" name="camenu">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>230</y>
-       <width>131</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maxVisibleItems">
-      <number>40</number>
-     </property>
-     <property name="maxCount">
-      <number>40</number>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)ISO</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMenu::Static</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>181</red>
-       <green>181</green>
-       <blue>181</blue>
-      </color>
-     </property>
-     <property name="labelDisplay">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="caMenu" name="camenu_2">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>260</y>
-       <width>131</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)SHUTTER</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMenu::Static</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>181</red>
-       <green>181</green>
-       <blue>181</blue>
-      </color>
-     </property>
-     <property name="labelDisplay">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="caMenu" name="camenu_4">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>290</y>
-       <width>131</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maxVisibleItems">
-      <number>40</number>
-     </property>
-     <property name="maxCount">
-      <number>40</number>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)FILE_TYPE</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMenu::Static</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>181</red>
-       <green>181</green>
-       <blue>181</blue>
-      </color>
-     </property>
-     <property name="labelDisplay">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="camessagebutton">
-     <property name="geometry">
-      <rect>
-       <x>80</x>
-       <y>420</y>
-       <width>121</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>18</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>ACQUIRE</string>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>13</width>
-       <height>20</height>
-      </size>
-     </property>
-     <property name="fontScaleMode">
-      <enum>EPushButton::WidthAndHeight</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)FIRE</string>
-     </property>
-     <property name="label">
-      <string notr="true">ACQUIRE</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>255</red>
-       <green>170</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true"/>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">1</string>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_11">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>410</y>
-       <width>51</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>XSYNC</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="camessagebutton_2">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>430</y>
-       <width>51</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>ON</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)XSYNC</string>
-     </property>
-     <property name="label">
-      <string notr="true">ON</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true">1</string>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">1</string>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="camessagebutton_3">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>460</y>
-       <width>51</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>OFF</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)XSYNC</string>
-     </property>
-     <property name="label">
-      <string notr="true">OFF</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true">0</string>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">0</string>
-     </property>
-    </widget>
-    <widget class="caGraphics" name="cagraphics_3">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>520</y>
-       <width>261</width>
-       <height>161</height>
+       <height>201</height>
       </rect>
      </property>
      <property name="foreground">
@@ -804,7 +514,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>530</y>
+       <y>180</y>
        <width>241</width>
        <height>21</height>
       </rect>
@@ -833,18 +543,72 @@
       </color>
      </property>
     </widget>
+    <widget class="caTextEntry" name="caTextEntry_10">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>asdfasdf</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)FilePath</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::string</enum>
+     </property>
+    </widget>
     <widget class="caLabel" name="calabel_13">
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>551</y>
+       <y>206</y>
        <width>101</width>
-       <height>20</height>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -883,14 +647,14 @@
      <property name="geometry">
       <rect>
        <x>100</x>
-       <y>590</y>
+       <y>242</y>
        <width>81</width>
-       <height>21</height>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -925,38 +689,35 @@
       </color>
      </property>
     </widget>
-    <widget class="caTextEntry" name="catextentry_3">
+    <widget class="caTextEntry" name="caTextEntry_12">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>570</y>
+       <y>260</y>
        <width>241</width>
-       <height>22</height>
+       <height>21</height>
       </rect>
      </property>
-     <property name="focusPolicy">
-      <enum>Qt::StrongFocus</enum>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
-     <property name="autoFillBackground">
-      <bool>false</bool>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>11</pointsize>
+      </font>
      </property>
      <property name="text">
-      <string>123</string>
-     </property>
-     <property name="echoMode">
-      <enum>QLineEdit::Normal</enum>
-     </property>
-     <property name="cursorPosition">
-      <number>0</number>
+      <string/>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
      </property>
-     <property name="dragEnabled">
-      <bool>false</bool>
-     </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)FILEPATH</string>
+      <string notr="true">$(P)$(R)FileName</string>
      </property>
      <property name="foreground">
       <color>
@@ -975,97 +736,308 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="precision">
-      <number>0</number>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::string</enum>
      </property>
     </widget>
-    <widget class="caTextEntry" name="catextentry_4">
+    <widget class="caMenu" name="camenu">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>610</y>
-       <width>241</width>
-       <height>22</height>
+       <x>80</x>
+       <y>290</y>
+       <width>51</width>
+       <height>16</height>
       </rect>
      </property>
-     <property name="focusPolicy">
-      <enum>Qt::StrongFocus</enum>
-     </property>
-     <property name="autoFillBackground">
-      <bool>false</bool>
-     </property>
-     <property name="text">
-      <string>123</string>
-     </property>
-     <property name="echoMode">
-      <enum>QLineEdit::Normal</enum>
-     </property>
-     <property name="cursorPosition">
-      <number>0</number>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="dragEnabled">
-      <bool>false</bool>
-     </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)FILENAME</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precision">
-      <number>0</number>
+      <string notr="true">$(P)$(R)AutoIncrement</string>
      </property>
     </widget>
-    <widget class="caToggleButton" name="catogglebutton">
+    <widget class="caLabel" name="calabel_38">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>660</y>
-       <width>91</width>
+       <y>290</y>
+       <width>61</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
-      <string>Save Image</string>
+      <string>AutoIncr</string>
      </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)SAVEIMG</string>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="foreground">
       <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
       </color>
      </property>
     </widget>
-    <widget class="caGraphics" name="cagraphics_4">
+    <widget class="caMenu" name="camenu_4">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>310</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)FileFormat</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_39">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>310</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>FileType</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caMenu" name="camenu_2">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>290</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)AutoSave</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_40">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>290</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AutoSave</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="caTextEntry_17">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>310</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)FileNumber</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_41">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>310</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>File Num</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_14">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>350</y>
+       <width>241</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)FullFileName_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>195</red>
+       <green>195</green>
+       <blue>195</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_42">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>330</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Last File</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="cagraphics_3">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>690</y>
+       <y>380</y>
        <width>261</width>
-       <height>291</height>
+       <height>141</height>
       </rect>
      </property>
      <property name="foreground">
@@ -1090,7 +1062,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>700</y>
+       <y>390</y>
        <width>241</width>
        <height>21</height>
       </rect>
@@ -1099,7 +1071,7 @@
       <enum>QFrame::StyledPanel</enum>
      </property>
      <property name="text">
-      <string>Scan</string>
+      <string>Exposure Settings</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1119,448 +1091,42 @@
       </color>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_21">
+    <widget class="caLabel" name="calabel_51">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>350</y>
-       <width>91</width>
-       <height>31</height>
+       <y>480</y>
+       <width>101</width>
+       <height>21</height>
       </rect>
      </property>
-     <property name="font">
-      <font>
-       <pointsize>14</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
      <property name="text">
-      <string>APERTURE</string>
+      <string>Exposure Time</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
      <property name="foreground">
       <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
       </color>
      </property>
      <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
       </color>
      </property>
     </widget>
-    <widget class="caMenu" name="camenu_5">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>350</y>
-       <width>131</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maxVisibleItems">
-      <number>40</number>
-     </property>
-     <property name="maxCount">
-      <number>40</number>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)APERTURE</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMenu::Static</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>181</red>
-       <green>181</green>
-       <blue>181</blue>
-      </color>
-     </property>
-     <property name="labelDisplay">
-      <bool>false</bool>
-     </property>
-    </widget>
-    <widget class="caTextEntry" name="catextentry_5">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>950</y>
-       <width>241</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="focusPolicy">
-      <enum>Qt::StrongFocus</enum>
-     </property>
-     <property name="autoFillBackground">
-      <bool>false</bool>
-     </property>
-     <property name="text">
-      <string>123</string>
-     </property>
-     <property name="echoMode">
-      <enum>QLineEdit::Normal</enum>
-     </property>
-     <property name="cursorPosition">
-      <number>0</number>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="dragEnabled">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)ADDR</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precision">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_27">
+    <widget class="caTextEntry" name="caTextEntry_35">
      <property name="geometry">
       <rect>
        <x>120</x>
-       <y>930</y>
-       <width>41</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>E-mail</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_2">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>930</y>
+       <y>480</y>
        <width>81</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Send</string>
-     </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)MAIL</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>730</y>
-       <width>241</width>
-       <height>201</height>
-      </rect>
-     </property>
-     <property name="focusPolicy">
-      <enum>Qt::WheelFocus</enum>
-     </property>
-     <property name="macro">
-      <string notr="true">P=$(W)</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">scan.ui</string>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_4">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>490</y>
-       <width>71</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>ImageJ</string>
-     </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)IMAGEJ</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_6">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>490</y>
-       <width>81</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Live View</string>
-     </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)LV</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_5">
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>490</y>
-       <width>91</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Green Only</string>
-     </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)GREEN</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="camessagebutton_4">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>430</y>
-       <width>51</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>ON</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)DOC</string>
-     </property>
-     <property name="label">
-      <string notr="true">ON</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true">1</string>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">1</string>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="camessagebutton_5">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>460</y>
-       <width>51</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>OFF</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)DOC</string>
-     </property>
-     <property name="label">
-      <string notr="true">OFF</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true">0</string>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">0</string>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_16">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>410</y>
-       <width>51</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>DOC</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_3">
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>661</y>
-       <width>91</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Nef Convert</string>
-     </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)NEFTOTIFF</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caTextEntry" name="caTextEntry_20">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>380</y>
-       <width>40</width>
        <height>20</height>
       </rect>
      </property>
@@ -1577,7 +1143,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)BULBTIMER</string>
+      <string notr="true">$(P)$(R)AcquireTime</string>
      </property>
      <property name="foreground">
       <color>
@@ -1603,56 +1169,247 @@
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caLabel" name="caLabel_21">
+    <widget class="caLabel" name="calabel_63">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>380</y>
-       <width>51</width>
+       <y>420</y>
+       <width>41</width>
        <height>21</height>
       </rect>
      </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
      <property name="text">
-      <string>Bulb</string>
+      <string>Min X</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::Height</enum>
-     </property>
      <property name="foreground">
       <color>
-       <red>156</red>
-       <green>156</green>
-       <blue>156</blue>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
       </color>
      </property>
      <property name="background">
       <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="caTextEntry_29">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>420</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)MinX</string>
+     </property>
+     <property name="foreground">
+      <color>
        <red>0</red>
        <green>0</green>
        <blue>0</blue>
       </color>
      </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
     </widget>
-    <widget class="caLineEdit" name="caLineEdit_21">
+    <widget class="caLabel" name="calabel_66">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>380</y>
-       <width>40</width>
+       <x>20</x>
+       <y>440</y>
+       <width>41</width>
        <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>End X</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="caTextEntry_31">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>440</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)SizeX</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_59">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>460</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bin X</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="caTextEntry_26">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>460</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)BinX</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_12">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>420</y>
+       <width>51</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="text">
@@ -1662,7 +1419,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)BULBCOUNTDOWN</string>
+      <string notr="true">$(P)$(R)MinX_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -1681,6 +1438,15 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
      <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
@@ -1688,39 +1454,145 @@
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caToggleButton" name="catogglebutton_7">
+    <widget class="caLineEdit" name="caLineEdit_16">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>640</y>
-       <width>61</width>
-       <height>16</height>
+       <x>90</x>
+       <y>440</y>
+       <width>51</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>AutoIncr</string>
+      <string>123</string>
      </property>
-     <property name="tristate">
-      <bool>false</bool>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)AUTOINCR</string>
+      <string notr="true">$(P)$(R)SizeX_RBV</string>
      </property>
      <property name="foreground">
       <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
+       <red>195</red>
+       <green>195</green>
+       <blue>195</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_21">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>460</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)BinX_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>195</red>
+       <green>195</green>
+       <blue>195</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_64">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>420</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Min Y</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
       </color>
      </property>
     </widget>
-    <widget class="caTextEntry" name="caTextEntry_19">
+    <widget class="caTextEntry" name="caTextEntry_30">
      <property name="geometry">
       <rect>
-       <x>120</x>
-       <y>640</y>
-       <width>41</width>
-       <height>16</height>
+       <x>180</x>
+       <y>420</y>
+       <width>31</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -1736,7 +1608,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)FILENUM</string>
+      <string notr="true">$(P)$(R)MinY</string>
      </property>
      <property name="foreground">
       <color>
@@ -1762,266 +1634,13 @@
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_17">
-     <property name="geometry">
-      <rect>
-       <x>60</x>
-       <y>638</y>
-       <width>61</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Next #</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>160</red>
-       <green>160</green>
-       <blue>164</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caGraphics" name="caRectangle_7">
+    <widget class="caLineEdit" name="caLineEdit_22">
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>410</y>
+       <y>420</y>
        <width>51</width>
-       <height>78</height>
-      </rect>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>199</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="linestyle" stdset="0">
-      <enum>caGraphics::Solid</enum>
-     </property>
-     <property name="lineSize">
-      <number>3</number>
-     </property>
-     <property name="lineColor">
-      <color>
-       <red>170</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caGraphics::IfNotZero</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)DOC</string>
-     </property>
-     <property name="form">
-      <enum>caGraphics::Rectangle</enum>
-     </property>
-     <property name="background" stdset="0">
-      <color alpha="0">
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caGraphics" name="caRectangle_6">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>410</y>
-       <width>51</width>
-       <height>78</height>
-      </rect>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>199</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="linestyle" stdset="0">
-      <enum>caGraphics::Solid</enum>
-     </property>
-     <property name="lineSize">
-      <number>3</number>
-     </property>
-     <property name="lineColor">
-      <color>
-       <red>170</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caGraphics::IfNotZero</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)XSYNC</string>
-     </property>
-     <property name="form">
-      <enum>caGraphics::Rectangle</enum>
-     </property>
-     <property name="background" stdset="0">
-      <color alpha="0">
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caGraphics" name="caRectangle_8">
-     <property name="geometry">
-      <rect>
-       <x>74</x>
-       <y>414</y>
-       <width>131</width>
-       <height>71</height>
-      </rect>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>170</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="linestyle" stdset="0">
-      <enum>caGraphics::Dash</enum>
-     </property>
-     <property name="lineSize">
-      <number>2</number>
-     </property>
-     <property name="lineColor">
-      <color>
-       <red>255</red>
-       <green>170</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caGraphics::IfNotZero</enum>
-     </property>
-     <property name="visibilityCalc">
-      <string notr="true"/>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)STATUS</string>
-     </property>
-     <property name="form">
-      <enum>caGraphics::Rectangle</enum>
-     </property>
-     <property name="background" stdset="0">
-      <color alpha="0">
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caLed" name="caled_6">
-     <property name="geometry">
-      <rect>
-       <x>230</x>
-       <y>140</y>
-       <width>31</width>
        <height>21</height>
-      </rect>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)INITSTAT</string>
-     </property>
-     <property name="colorMode">
-      <enum>caLed::Static</enum>
-     </property>
-     <property name="falseColor">
-      <color>
-       <red>161</red>
-       <green>165</green>
-       <blue>161</blue>
-      </color>
-     </property>
-     <property name="trueColor">
-      <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="bitNr" stdset="0">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_18">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>140</y>
-       <width>121</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>CONNECTED</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::WidthAndHeight</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caLabel::IfNotZero</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)INITSTAT</string>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="caLineEdit_13">
-     <property name="geometry">
-      <rect>
-       <x>79</x>
-       <y>460</y>
-       <width>121</width>
-       <height>20</height>
       </rect>
      </property>
      <property name="text">
@@ -2031,7 +1650,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)STATUS</string>
+      <string notr="true">$(P)$(R)MinY_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -2042,9 +1661,126 @@
      </property>
      <property name="background">
       <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_65">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>440</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>End Y</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_60">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>460</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bin Y</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>180</red>
+       <green>180</green>
+       <blue>180</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="caTextEntry_32">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>440</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)SizeY</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -2057,22 +1793,423 @@
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_19">
+    <widget class="caTextEntry" name="caTextEntry_27">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>460</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)BinY</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_24">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>460</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)BinY_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>195</red>
+       <green>195</green>
+       <blue>195</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_23">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>440</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)SizeY_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>195</red>
+       <green>195</green>
+       <blue>195</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="cagraphics_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>530</y>
+       <width>261</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="lineSize">
+      <number>2</number>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="caMessageButton_14">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>140</y>
-       <width>131</width>
-       <height>21</height>
+       <y>565</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Acquire</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::Height</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)Acquire</string>
+     </property>
+     <property name="label">
+      <string notr="true">Acquire</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="pressMessage">
+      <string>1</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMessageButton::Static</enum>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="caMessageButton_15">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>565</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Abort</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::Height</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)Acquire</string>
+     </property>
+     <property name="label">
+      <string notr="true">Abort</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="pressMessage">
+      <string notr="true">0</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMessageButton::Static</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_9">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>71</y>
+       <width>141</width>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
-      <string>DISCONNECTED</string>
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)Manufacturer_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_16">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>540</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string>Single shot</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>176</red>
+       <green>176</green>
+       <blue>176</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>69</red>
+       <green>69</green>
+       <blue>71</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_17">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>600</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string>EPS Scan</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>176</red>
+       <green>176</green>
+       <blue>176</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>69</red>
+       <green>69</green>
+       <blue>71</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>630</y>
+       <width>241</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=SWEEP:, S=scan1</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">scan.ui</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONTROLLER</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -2094,125 +2231,37 @@
        <blue>71</blue>
       </color>
      </property>
-     <property name="visibility">
-      <enum>caLabel::IfZero</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)INITSTAT</string>
-     </property>
     </widget>
-    <widget class="caLabel" name="caLabel_25">
+    <widget class="caLineEdit" name="caLineEdit_10">
      <property name="geometry">
       <rect>
-       <x>180</x>
-       <y>550</y>
-       <width>10</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <property name="text">
-      <string>X</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::Height</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>222</red>
-       <green>19</green>
-       <blue>9</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>222</red>
-       <green>19</green>
-       <blue>9</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caLabel::Calc</enum>
-     </property>
-     <property name="visibilityCalc">
-      <string notr="true">A&lt;1</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)FILEPATHEXISTS</string>
-     </property>
-    </widget>
-    <widget class="caLabel" name="caLabel_26">
-     <property name="geometry">
-      <rect>
-       <x>50</x>
-       <y>590</y>
-       <width>41</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <property name="text">
-      <string>Exists</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::Height</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>222</red>
-       <green>19</green>
-       <blue>9</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>222</red>
-       <green>19</green>
-       <blue>9</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caLabel::Calc</enum>
-     </property>
-     <property name="visibilityCalc">
-      <string notr="true">A==1</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)FILENAMEEXISTS</string>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit">
-     <property name="geometry">
-      <rect>
-       <x>120</x>
-       <y>80</y>
-       <width>141</width>
-       <height>18</height>
+       <x>190</x>
+       <y>90</y>
+       <width>71</width>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <pointsize>10</pointsize>
       </font>
      </property>
+     <property name="text">
+      <string>123</string>
+     </property>
      <property name="alignment">
-      <set>Qt::AlignCenter</set>
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)CAMERA_NAME</string>
+      <string notr="true">$(P)$(R)Model_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
      </property>
      <property name="background">
       <color>
@@ -2224,158 +2273,129 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="framePresent" stdset="0">
-      <bool>true</bool>
+     <property name="precision">
+      <number>3</number>
      </property>
-     <property name="frameColor">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caLineEdit" name="calineedit_2">
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_2">
      <property name="geometry">
       <rect>
-       <x>120</x>
-       <y>100</y>
-       <width>141</width>
-       <height>18</height>
+       <x>20</x>
+       <y>500</y>
+       <width>51</width>
+       <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <family>MS Sans Serif</family>
+       <pointsize>8</pointsize>
       </font>
      </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
      </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)LENS</string>
+     <property name="label">
+      <string notr="true">Plugins</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
      </property>
      <property name="background">
       <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
+       <red>187</red>
+       <green>187</green>
+       <blue>187</blue>
       </color>
      </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
+     <property name="labels">
+      <string notr="true"/>
      </property>
-     <property name="framePresent" stdset="0">
-      <bool>true</bool>
+     <property name="files">
+      <string notr="true">commonPlugins.ui</string>
      </property>
-     <property name="frameColor">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
+     <property name="args">
+      <string notr="true">P=PI4096:, R=cam1:</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::None</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
      </property>
     </widget>
-    <widget class="caFrame" name="caframe_2">
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_3">
      <property name="geometry">
       <rect>
-       <x>16</x>
-       <y>321</y>
-       <width>249</width>
-       <height>31</height>
+       <x>210</x>
+       <y>500</y>
+       <width>51</width>
+       <height>16</height>
       </rect>
      </property>
-     <property name="visibility">
-      <enum>caFrame::Calc</enum>
+     <property name="font">
+      <font>
+       <family>MS Sans Serif</family>
+       <pointsize>8</pointsize>
+      </font>
      </property>
-     <property name="visibilityCalc">
-      <string notr="true">A==0|A==1|A==2</string>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
      </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)FILE_TYPE</string>
+     <property name="label">
+      <string notr="true">Roper</string>
      </property>
-     <widget class="caLabel" name="calabel_10">
-      <property name="geometry">
-       <rect>
-        <x>4</x>
-        <y>-1</y>
-        <width>91</width>
-        <height>31</height>
-       </rect>
-      </property>
-      <property name="font">
-       <font>
-        <pointsize>14</pointsize>
-        <weight>50</weight>
-        <bold>false</bold>
-       </font>
-      </property>
-      <property name="text">
-       <string>JPEG SIZE</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-      </property>
-      <property name="fontScaleMode">
-       <enum>ESimpleLabel::WidthAndHeight</enum>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>176</red>
-        <green>176</green>
-        <blue>176</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>69</red>
-        <green>69</green>
-        <blue>71</blue>
-       </color>
-      </property>
-     </widget>
-     <widget class="caMenu" name="camenu_3">
-      <property name="geometry">
-       <rect>
-        <x>114</x>
-        <y>-1</y>
-        <width>131</width>
-        <height>30</height>
-       </rect>
-      </property>
-      <property name="maxVisibleItems">
-       <number>40</number>
-      </property>
-      <property name="maxCount">
-       <number>40</number>
-      </property>
-      <property name="channel" stdset="0">
-       <string notr="true">$(P)JPEGSIZE</string>
-      </property>
-      <property name="colorMode">
-       <enum>caMenu::Static</enum>
-      </property>
-      <property name="foreground">
-       <color>
-        <red>0</red>
-        <green>0</green>
-        <blue>0</blue>
-       </color>
-      </property>
-      <property name="background">
-       <color>
-        <red>181</red>
-        <green>181</green>
-        <blue>181</blue>
-       </color>
-      </property>
-      <property name="labelDisplay">
-       <bool>false</bool>
-      </property>
-     </widget>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>187</red>
+       <green>187</green>
+       <blue>187</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true"/>
+     </property>
+     <property name="files">
+      <string notr="true">Roper.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=PI4096:, R=cam1:</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::None</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
     </widget>
    </widget>
   </widget>
@@ -2387,6 +2407,11 @@
    <header>caMenu</header>
   </customwidget>
   <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
    <class>caTextEntry</class>
    <extends>caLineEdit</extends>
    <header>caTextEntry</header>
@@ -2395,11 +2420,6 @@
    <class>caMessageButton</class>
    <extends>QPushButton</extends>
    <header>caMessageButton</header>
-  </customwidget>
-  <customwidget>
-   <class>caToggleButton</class>
-   <extends>QCheckBox</extends>
-   <header>caToggleButton</header>
   </customwidget>
   <customwidget>
    <class>caFrame</class>
@@ -2423,19 +2443,9 @@
    <header>caInclude</header>
   </customwidget>
   <customwidget>
-   <class>caLed</class>
-   <extends>QWidget</extends>
-   <header>caLed</header>
-  </customwidget>
-  <customwidget>
    <class>caLineEdit</class>
    <extends>QLineEdit</extends>
    <header>caLineEdit</header>
-  </customwidget>
-  <customwidget>
-   <class>caThermo</class>
-   <extends>QWidget</extends>
-   <header>caThermo</header>
   </customwidget>
  </customwidgets>
  <resources/>
