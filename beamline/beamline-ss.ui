@@ -71,7 +71,7 @@
     </rect>
    </property>
    <property name="macro">
-    <string notr="true">P=NEW:,M=m10</string>
+    <string notr="true">P=NEW:,M=m9</string>
    </property>
    <property name="filename" stdset="0">
     <string notr="true">./beamline/motor.ui</string>
@@ -87,7 +87,7 @@
     </rect>
    </property>
    <property name="macro">
-    <string notr="true">P=NEW:,M=m9</string>
+    <string notr="true">P=NEW:,M=m10</string>
    </property>
    <property name="filename" stdset="0">
     <string notr="true">./beamline/motor.ui</string>
@@ -276,7 +276,7 @@
     </rect>
    </property>
    <property name="macro">
-    <string notr="true">P=AER:,M=m19</string>
+    <string notr="true">P=NEW:,M=m17</string>
    </property>
    <property name="filename" stdset="0">
     <string notr="true">./beamline/motor.ui</string>
@@ -292,7 +292,7 @@
     </rect>
    </property>
    <property name="macro">
-    <string notr="true">P=AER:,M=m20</string>
+    <string notr="true">P=NEW:,M=m2</string>
    </property>
    <property name="filename" stdset="0">
     <string notr="true">./beamline/motor.ui</string>
@@ -308,7 +308,7 @@
     </rect>
    </property>
    <property name="macro">
-    <string notr="true">P=AER:,M=m18</string>
+    <string notr="true">P=NEW:,M=m6</string>
    </property>
    <property name="filename" stdset="0">
     <string notr="true">./beamline/motor.ui</string>

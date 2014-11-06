@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>221</width>
-    <height>539</height>
+    <height>588</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,8 +23,8 @@
   <property name="backgroundMode">
    <enum>caFrame::Filled</enum>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
     <widget class="caLabel" name="calabel_8">
      <property name="font">
       <font>
@@ -56,8 +56,44 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="0">
+   <item>
     <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_12">
+       <property name="label">
+        <string notr="true">-Rotating Anode TEST</string>
+       </property>
+       <property name="foreground">
+        <color>
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </property>
+       <property name="background">
+        <color>
+         <red>170</red>
+         <green>170</green>
+         <blue>170</blue>
+        </color>
+       </property>
+       <property name="labels">
+        <string notr="true">$(M) (Debug)</string>
+       </property>
+       <property name="files">
+        <string notr="true">./cpi2.ui</string>
+       </property>
+       <property name="args">
+        <string notr="true">P=cpi</string>
+       </property>
+       <property name="stackingMode" stdset="0">
+        <enum>caRowColMenu::Menu</enum>
+       </property>
+       <property name="removeParent" stdset="0">
+        <string>false</string>
+       </property>
+      </widget>
+     </item>
      <item>
       <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
        <property name="label">
@@ -347,7 +383,7 @@
       </widget>
      </item>
      <item>
-      <widget class="caRelatedDisplay" name="caRelatedDisplay_12">
+      <widget class="caRelatedDisplay" name="caRelatedDisplay_13">
        <property name="label">
         <string notr="true">-s2</string>
        </property>
@@ -385,7 +421,7 @@
      <item>
       <widget class="caRelatedDisplay" name="caRelatedDisplay_9">
        <property name="label">
-        <string notr="true">-camera</string>
+        <string notr="true">-D700</string>
        </property>
        <property name="foreground">
         <color>
@@ -408,7 +444,7 @@
         <string notr="true">./nikonqt.ui</string>
        </property>
        <property name="args">
-        <string notr="true">P=D800:, W=IOC:</string>
+        <string notr="true">P=D700:, W=IOC, S=scan1</string>
        </property>
        <property name="stackingMode" stdset="0">
         <enum>caRowColMenu::Menu</enum>

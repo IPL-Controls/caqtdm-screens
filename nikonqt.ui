@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>281</width>
-    <height>987</height>
+    <width>275</width>
+    <height>988</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>0</y>
-      <width>285</width>
-      <height>991</height>
+      <y>-2</y>
+      <width>389</width>
+      <height>993</height>
      </rect>
     </property>
     <property name="frameShape">
@@ -81,7 +81,7 @@
        <x>10</x>
        <y>40</y>
        <width>261</width>
-       <height>141</height>
+       <height>148</height>
       </rect>
      </property>
      <property name="foreground">
@@ -185,7 +185,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -382,7 +382,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -422,7 +422,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>7</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -462,7 +462,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -613,7 +613,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>14</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -668,7 +668,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -844,7 +844,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -890,7 +890,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>8</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1038,14 +1038,14 @@
       <rect>
        <x>20</x>
        <y>660</y>
-       <width>91</width>
+       <width>147</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
-      <string>Save Image</string>
+      <string>Save Cam. Img.</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1130,7 +1130,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1263,7 +1263,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1302,7 +1302,7 @@
      <property name="text">
       <string>Send</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1329,7 +1329,7 @@
       <enum>Qt::WheelFocus</enum>
      </property>
      <property name="macro">
-      <string notr="true">P=$(W), S=scan1</string>
+      <string notr="true">P=$(W)</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">scan.ui</string>
@@ -1340,14 +1340,14 @@
       <rect>
        <x>20</x>
        <y>490</y>
-       <width>71</width>
+       <width>90</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
       <string>ImageJ</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1364,46 +1364,20 @@
     <widget class="caToggleButton" name="catogglebutton_6">
      <property name="geometry">
       <rect>
-       <x>90</x>
+       <x>160</x>
        <y>490</y>
-       <width>81</width>
+       <width>97</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
       <string>Live View</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)LV</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_5">
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>490</y>
-       <width>91</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Green Only</string>
-     </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)GREEN</string>
      </property>
      <property name="foreground">
       <color>
@@ -1502,7 +1476,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1526,32 +1500,6 @@
        <red>69</red>
        <green>69</green>
        <blue>71</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_3">
-     <property name="geometry">
-      <rect>
-       <x>180</x>
-       <y>661</y>
-       <width>91</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Nef Convert</string>
-     </property>
-     <property name="tristate">
-      <bool>false</bool>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)NEFTOTIFF</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
       </color>
      </property>
     </widget>
@@ -1614,7 +1562,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>8</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1693,14 +1641,14 @@
       <rect>
        <x>180</x>
        <y>640</y>
-       <width>61</width>
+       <width>80</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
-      <string>AutoIncr</string>
+      <string>Incr.</string>
      </property>
-     <property name="tristate">
+     <property name="tristate" stdset="0">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1773,7 +1721,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1982,7 +1930,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2068,7 +2016,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2203,7 +2151,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2247,7 +2195,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2308,7 +2256,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>11</pointsize>
+        <pointsize>9</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -2377,6 +2325,271 @@
       </property>
      </widget>
     </widget>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
+     <property name="geometry">
+      <rect>
+       <x>165</x>
+       <y>657</y>
+       <width>100</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="label">
+      <string notr="true">-Nef Convert</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">$(M) (Debug)</string>
+     </property>
+     <property name="files">
+      <string notr="true">./nikon-ntt.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=$(P)</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_20">
+     <property name="geometry">
+      <rect>
+       <x>22</x>
+       <y>159</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>FOCUS MOTOR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>176</red>
+       <green>176</green>
+       <blue>176</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>69</red>
+       <green>69</green>
+       <blue>71</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::StaticV</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled_7">
+     <property name="geometry">
+      <rect>
+       <x>231</x>
+       <y>163</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FOCUSSWITCH</string>
+     </property>
+     <property name="colorMode">
+      <enum>caLed::Static</enum>
+     </property>
+     <property name="falseColor">
+      <color>
+       <red>161</red>
+       <green>165</green>
+       <blue>161</blue>
+      </color>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="caMessageButton_14">
+     <property name="geometry">
+      <rect>
+       <x>281</x>
+       <y>84</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Connect</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::Height</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">D800:INIT</string>
+     </property>
+     <property name="label">
+      <string notr="true">Connect</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="pressMessage">
+      <string>1</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMessageButton::Static</enum>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="caMessageButton_16">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>122</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Disconnect</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::Height</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">D800:DEINIT</string>
+     </property>
+     <property name="label">
+      <string notr="true">Disconnect</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="pressMessage">
+      <string>1</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMessageButton::Static</enum>
+     </property>
+    </widget>
+    <zorder>calabel</zorder>
+    <zorder>cagraphics</zorder>
+    <zorder>calabel_2</zorder>
+    <zorder>calabel_4</zorder>
+    <zorder>calabel_5</zorder>
+    <zorder>cathermo</zorder>
+    <zorder>calabel_6</zorder>
+    <zorder>cagraphics_2</zorder>
+    <zorder>calabel_3</zorder>
+    <zorder>calabel_7</zorder>
+    <zorder>calabel_8</zorder>
+    <zorder>calabel_9</zorder>
+    <zorder>camenu</zorder>
+    <zorder>camenu_2</zorder>
+    <zorder>camenu_4</zorder>
+    <zorder>camessagebutton</zorder>
+    <zorder>calabel_11</zorder>
+    <zorder>camessagebutton_2</zorder>
+    <zorder>camessagebutton_3</zorder>
+    <zorder>cagraphics_3</zorder>
+    <zorder>calabel_12</zorder>
+    <zorder>calabel_13</zorder>
+    <zorder>calabel_14</zorder>
+    <zorder>catextentry_3</zorder>
+    <zorder>catextentry_4</zorder>
+    <zorder>catogglebutton</zorder>
+    <zorder>cagraphics_4</zorder>
+    <zorder>calabel_15</zorder>
+    <zorder>calabel_21</zorder>
+    <zorder>camenu_5</zorder>
+    <zorder>catextentry_5</zorder>
+    <zorder>calabel_27</zorder>
+    <zorder>catogglebutton_2</zorder>
+    <zorder>cainclude</zorder>
+    <zorder>catogglebutton_4</zorder>
+    <zorder>catogglebutton_6</zorder>
+    <zorder>camessagebutton_4</zorder>
+    <zorder>camessagebutton_5</zorder>
+    <zorder>calabel_16</zorder>
+    <zorder>caTextEntry_20</zorder>
+    <zorder>caLabel_21</zorder>
+    <zorder>caLineEdit_21</zorder>
+    <zorder>catogglebutton_7</zorder>
+    <zorder>caTextEntry_19</zorder>
+    <zorder>calabel_17</zorder>
+    <zorder>caRectangle_7</zorder>
+    <zorder>caRectangle_6</zorder>
+    <zorder>caRectangle_8</zorder>
+    <zorder>caled_6</zorder>
+    <zorder>calabel_18</zorder>
+    <zorder>caLineEdit_13</zorder>
+    <zorder>calabel_19</zorder>
+    <zorder>caLabel_25</zorder>
+    <zorder>caLabel_26</zorder>
+    <zorder>calineedit</zorder>
+    <zorder>calineedit_2</zorder>
+    <zorder>caframe_2</zorder>
+    <zorder>caRelatedDisplay_1</zorder>
+    <zorder>caled_7</zorder>
+    <zorder>calabel_20</zorder>
+    <zorder>caMessageButton_14</zorder>
+    <zorder>caMessageButton_16</zorder>
    </widget>
   </widget>
  </widget>
@@ -2385,6 +2598,11 @@
    <class>caMenu</class>
    <extends>QComboBox</extends>
    <header>caMenu</header>
+  </customwidget>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
   </customwidget>
   <customwidget>
    <class>caTextEntry</class>
