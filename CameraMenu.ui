@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>218</width>
-    <height>377</height>
+    <height>368</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,7 +23,7 @@
       <x>-1</x>
       <y>0</y>
       <width>221</width>
-      <height>401</height>
+      <height>451</height>
      </rect>
     </property>
     <widget class="caLabel" name="calabel">
@@ -209,7 +209,7 @@
       <string notr="true">xray-1.1.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=srxr3</string>
+      <string notr="true">P=srxr2</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_6">
