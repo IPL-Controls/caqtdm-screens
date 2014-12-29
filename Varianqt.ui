@@ -5173,6 +5173,9 @@
      <property name="precision">
       <number>0</number>
      </property>
+     <property name="formatType">
+      <enum>caLineEdit::string</enum>
+     </property>
     </widget>
     <zorder>cagraphics_4</zorder>
     <zorder>cagraphics_5</zorder>
