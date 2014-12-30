@@ -421,7 +421,7 @@
      <item>
       <widget class="caRelatedDisplay" name="caRelatedDisplay_9">
        <property name="label">
-        <string notr="true">-D700</string>
+        <string notr="true">-D800</string>
        </property>
        <property name="foreground">
         <color>
@@ -444,7 +444,7 @@
         <string notr="true">./nikonqt.ui</string>
        </property>
        <property name="args">
-        <string notr="true">P=D700:, W=IOC, S=scan1</string>
+        <string notr="true">P=D800:, W=IOC:</string>
        </property>
        <property name="stackingMode" stdset="0">
         <enum>caRowColMenu::Menu</enum>

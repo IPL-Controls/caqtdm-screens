@@ -629,7 +629,7 @@
      <string notr="true">Percent</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">cpi:AnodeTubeHeat; cpiSync:ExposeOut</string>
+     <string notr="true">cpi:AnodeTubeHeat; cpi:Xray</string>
     </property>
     <property name="period">
      <double>360.000000000000000</double>
@@ -3114,100 +3114,17 @@
      </item>
     </layout>
    </widget>
-   <widget class="caTextEntry" name="caTextEntry_11">
+   <widget class="caMenu" name="camenu_5">
     <property name="geometry">
      <rect>
-      <x>665</x>
-      <y>657</y>
-      <width>143</width>
-      <height>23</height>
+      <x>375</x>
+      <y>18</y>
+      <width>119</width>
+      <height>25</height>
      </rect>
     </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P):SetMA</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>170</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="fontScaleMode">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caTextEntry" name="caTextEntry_12">
-    <property name="geometry">
-     <rect>
-      <x>670</x>
-      <y>682</y>
-      <width>143</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">$(P):SetMS</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>170</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="fontScaleMode">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
+     <string notr="true">$(P):GeneratorStatus.SCAN</string>
     </property>
    </widget>
   </widget>

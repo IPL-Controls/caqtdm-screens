@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1801</width>
-    <height>547</height>
+    <width>2087</width>
+    <height>573</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,97 +23,60 @@
   <property name="backgroundMode">
    <enum>caFrame::Filled</enum>
   </property>
-  <widget class="caInclude" name="cainclude">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>281</width>
-     <height>551</height>
-    </rect>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="0" columnstretch="0,0,0,0,0,0,0,0,0,0">
+   <property name="horizontalSpacing">
+    <number>0</number>
    </property>
-   <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-ss.ui</string>
-   </property>
-  </widget>
-  <widget class="caInclude" name="cainclude_2">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>0</y>
-     <width>281</width>
-     <height>551</height>
-    </rect>
-   </property>
-   <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-s0.ui</string>
-   </property>
-  </widget>
-  <widget class="caInclude" name="cainclude_3">
-   <property name="geometry">
-    <rect>
-     <x>560</x>
-     <y>0</y>
-     <width>281</width>
-     <height>551</height>
-    </rect>
-   </property>
-   <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-g0.ui</string>
-   </property>
-  </widget>
-  <widget class="caInclude" name="cainclude_4">
-   <property name="geometry">
-    <rect>
-     <x>840</x>
-     <y>0</y>
-     <width>281</width>
-     <height>551</height>
-    </rect>
-   </property>
-   <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-g1.ui</string>
-   </property>
-  </widget>
-  <widget class="caInclude" name="cainclude_5">
-   <property name="geometry">
-    <rect>
-     <x>1247</x>
-     <y>-1</y>
-     <width>281</width>
-     <height>551</height>
-    </rect>
-   </property>
-   <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-g2.ui</string>
-   </property>
-  </widget>
-  <widget class="caInclude" name="cainclude_7">
-   <property name="geometry">
-    <rect>
-     <x>1525</x>
-     <y>-4</y>
-     <width>281</width>
-     <height>551</height>
-    </rect>
-   </property>
-   <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-s2.ui</string>
-   </property>
-  </widget>
-  <widget class="caInclude" name="cainclude_6">
-   <property name="geometry">
-    <rect>
-     <x>1120</x>
-     <y>-2</y>
-     <width>133</width>
-     <height>551</height>
-    </rect>
-   </property>
-   <property name="filename" stdset="0">
-    <string notr="true">./beamline/beamline-sample.ui</string>
-   </property>
-  </widget>
+   <item row="0" column="9">
+    <widget class="caInclude" name="cainclude_7">
+     <property name="filename" stdset="0">
+      <string notr="true">./beamline/beamline-s2.ui</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="7">
+    <widget class="caInclude" name="cainclude_6">
+     <property name="filename" stdset="0">
+      <string notr="true">./beamline/beamline-sample.ui</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="caInclude" name="cainclude">
+     <property name="filename" stdset="0">
+      <string notr="true">./beamline/beamline-ss.ui</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="8">
+    <widget class="caInclude" name="cainclude_5">
+     <property name="filename" stdset="0">
+      <string notr="true">./beamline/beamline-g2.ui</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="caInclude" name="cainclude_3">
+     <property name="filename" stdset="0">
+      <string notr="true">./beamline/beamline-g0.ui</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6">
+    <widget class="caInclude" name="cainclude_4">
+     <property name="filename" stdset="0">
+      <string notr="true">./beamline/beamline-g1.ui</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4">
+    <widget class="caInclude" name="cainclude_2">
+     <property name="filename" stdset="0">
+      <string notr="true">./beamline/beamline-s0.ui</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <customwidgets>
   <customwidget>
