@@ -221,8 +221,8 @@
   <widget class="caRelatedDisplay" name="carelateddisplay">
    <property name="geometry">
     <rect>
-     <x>156</x>
-     <y>248</y>
+     <x>151</x>
+     <y>38</y>
      <width>106</width>
      <height>41</height>
     </rect>
@@ -235,6 +235,44 @@
    </property>
    <property name="args">
     <string notr="true">P=GAL:,M1=A,M2=B,DMC=DMC01:</string>
+   </property>
+  </widget>
+  <widget class="caRelatedDisplay" name="carelateddisplay_2">
+   <property name="geometry">
+    <rect>
+     <x>153</x>
+     <y>99</y>
+     <width>106</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="labels">
+    <string notr="true">Galil A Extras</string>
+   </property>
+   <property name="files">
+    <string notr="true">galil_motor_extras.adl</string>
+   </property>
+   <property name="args">
+    <string notr="true">M=A,P=DMC01:</string>
+   </property>
+  </widget>
+  <widget class="caRelatedDisplay" name="carelateddisplay_3">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>269</y>
+     <width>106</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="labels">
+    <string notr="true">Galil B Extras</string>
+   </property>
+   <property name="files">
+    <string notr="true">galil_motor_extras.adl</string>
+   </property>
+   <property name="args">
+    <string notr="true">M=B,P=DMC01:</string>
    </property>
   </widget>
  </widget>
