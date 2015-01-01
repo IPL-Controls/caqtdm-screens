@@ -376,7 +376,7 @@
       <rect>
        <x>20</x>
        <y>230</y>
-       <width>81</width>
+       <width>46</width>
        <height>31</height>
       </rect>
      </property>
@@ -388,7 +388,7 @@
       </font>
      </property>
      <property name="text">
-      <string>GAIN/INT</string>
+      <string>GAIN</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -495,8 +495,8 @@
      <property name="geometry">
       <rect>
        <x>130</x>
-       <y>230</y>
-       <width>131</width>
+       <y>229</y>
+       <width>65</width>
        <height>30</height>
       </rect>
      </property>
@@ -2528,6 +2528,45 @@
       <enum>caMessageButton::Static</enum>
      </property>
     </widget>
+    <widget class="caMenu" name="camenu_6">
+     <property name="geometry">
+      <rect>
+       <x>198</x>
+       <y>229</y>
+       <width>63</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="maxVisibleItems">
+      <number>40</number>
+     </property>
+     <property name="maxCount">
+      <number>40</number>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)ISO0</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMenu::Static</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>181</red>
+       <green>181</green>
+       <blue>181</blue>
+      </color>
+     </property>
+     <property name="labelDisplay">
+      <bool>false</bool>
+     </property>
+    </widget>
     <zorder>calabel</zorder>
     <zorder>cagraphics</zorder>
     <zorder>calabel_2</zorder>
@@ -2590,6 +2629,7 @@
     <zorder>calabel_20</zorder>
     <zorder>caMessageButton_14</zorder>
     <zorder>caMessageButton_16</zorder>
+    <zorder>camenu_6</zorder>
    </widget>
   </widget>
  </widget>
