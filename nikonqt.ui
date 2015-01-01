@@ -185,7 +185,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -382,7 +382,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -422,7 +422,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -462,7 +462,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -613,7 +613,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>18</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -668,7 +668,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -844,7 +844,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -890,7 +890,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1045,7 +1045,7 @@
      <property name="text">
       <string>Save Cam. Img.</string>
      </property>
-     <property name="tristate" stdset="0">
+     <property name="tristate">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1130,7 +1130,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>14</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1263,7 +1263,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1302,7 +1302,7 @@
      <property name="text">
       <string>Send</string>
      </property>
-     <property name="tristate" stdset="0">
+     <property name="tristate">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1329,7 +1329,7 @@
       <enum>Qt::WheelFocus</enum>
      </property>
      <property name="macro">
-      <string notr="true">P=$(W)</string>
+      <string notr="true">P=$(W), S=scan1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">scan.ui</string>
@@ -1347,7 +1347,7 @@
      <property name="text">
       <string>ImageJ</string>
      </property>
-     <property name="tristate" stdset="0">
+     <property name="tristate">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1373,7 +1373,7 @@
      <property name="text">
       <string>Live View</string>
      </property>
-     <property name="tristate" stdset="0">
+     <property name="tristate">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1476,7 +1476,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1562,7 +1562,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1648,7 +1648,7 @@
      <property name="text">
       <string>Incr.</string>
      </property>
-     <property name="tristate" stdset="0">
+     <property name="tristate">
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
@@ -1721,7 +1721,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1930,7 +1930,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2016,7 +2016,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2151,7 +2151,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>11</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2195,7 +2195,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>11</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2256,7 +2256,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>9</pointsize>
+        <pointsize>14</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -2378,7 +2378,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">

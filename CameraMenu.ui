@@ -281,7 +281,10 @@
       <string notr="true">nikonqt.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D800:, W=IOC:</string>
+      <string notr="true">P=D800:, W=SWEEP:</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Row</enum>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_8">
