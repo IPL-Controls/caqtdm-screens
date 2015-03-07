@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>221</width>
-    <height>590</height>
+    <height>578</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -57,9 +57,9 @@
     </widget>
    </item>
    <item>
-    <widget class="caRelatedDisplay" name="caRelatedDisplay_12">
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_15">
      <property name="label">
-      <string notr="true">-Rotating Anode TEST</string>
+      <string notr="true">-Rotating Anode Debug</string>
      </property>
      <property name="foreground">
       <color>
@@ -73,6 +73,42 @@
        <red>170</red>
        <green>170</green>
        <blue>170</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">$(M) (Debug)</string>
+     </property>
+     <property name="files">
+      <string notr="true">./cpi-debug.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=cpi</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_12">
+     <property name="label">
+      <string notr="true">-Rotating Anode </string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>73</red>
+       <green>170</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="labels">
