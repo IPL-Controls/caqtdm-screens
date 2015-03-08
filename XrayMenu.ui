@@ -203,10 +203,10 @@
       <string notr="true">CPI RANODE</string>
      </property>
      <property name="files">
-      <string notr="true">xray-1.1.ui</string>
+      <string notr="true">cpi2.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=srxr3</string>
+      <string notr="true">P=cpi</string>
      </property>
     </widget>
    </widget>
