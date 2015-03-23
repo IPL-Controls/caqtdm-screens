@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>218</width>
-    <height>377</height>
+    <height>522</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,7 +23,7 @@
       <x>-1</x>
       <y>0</y>
       <width>221</width>
-      <height>401</height>
+      <height>521</height>
      </rect>
     </property>
     <widget class="caLabel" name="calabel">
@@ -180,7 +180,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
+       <y>470</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -281,7 +281,133 @@
       <string notr="true">nikonqt.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D800:, W=IOC:</string>
+      <string notr="true">P=D800:, W=SWEEP:</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>197</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="label">
+      <string notr="true"/>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>28</red>
+       <green>54</green>
+       <blue>170</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">Nikon Qi2</string>
+     </property>
+     <property name="files">
+      <string notr="true">qi2.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=Qi2:</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>420</y>
+       <width>197</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="label">
+      <string notr="true"/>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>28</red>
+       <green>54</green>
+       <blue>170</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">Nikon Qi2 old</string>
+     </property>
+     <property name="files">
+      <string notr="true">Qi2qt.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=Qi2:</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>370</y>
+       <width>197</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="label">
+      <string notr="true"/>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>28</red>
+       <green>54</green>
+       <blue>170</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">Nikon Qi2 slim</string>
+     </property>
+     <property name="files">
+      <string notr="true">nikonqi2-slim.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=Qi2:,R=cam1:</string>
      </property>
     </widget>
    </widget>
