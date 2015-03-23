@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>218</width>
-    <height>222</height>
+    <height>319</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>ECS Menu</string>
+   <string>microCT Controller</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(69, 69, 71);</string>
@@ -23,7 +23,7 @@
       <x>-1</x>
       <y>0</y>
       <width>221</width>
-      <height>221</height>
+      <height>431</height>
      </rect>
     </property>
     <widget class="caLabel" name="calabel">
@@ -35,6 +35,11 @@
        <height>60</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
      <property name="frameShape">
       <enum>QFrame::Box</enum>
      </property>
@@ -45,7 +50,7 @@
       <number>4</number>
      </property>
      <property name="text">
-      <string>MENU</string>
+      <string>MICRO CT LAUNCHER</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -59,7 +64,7 @@
      </property>
      <property name="background">
       <color>
-       <red>170</red>
+       <red>255</red>
        <green>0</green>
        <blue>0</blue>
       </color>
@@ -86,26 +91,26 @@
      </property>
      <property name="background">
       <color>
-       <red>28</red>
-       <green>54</green>
-       <blue>170</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="labels">
-      <string notr="true">Camera </string>
+      <string notr="true">X-ray</string>
      </property>
      <property name="files">
-      <string notr="true">./nikoncaqt.ui</string>
+      <string notr="true">xray-1.1</string>
      </property>
      <property name="args">
-      <string notr="true">P=D700:, W=SWEEP:</string>
+      <string notr="true">P=srxr2</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_4">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>120</y>
+       <y>220</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -119,26 +124,26 @@
      </property>
      <property name="background">
       <color>
-       <red>28</red>
-       <green>54</green>
-       <blue>170</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="labels">
-      <string notr="true">Motors</string>
+      <string notr="true">SCAN</string>
      </property>
      <property name="files">
-      <string notr="true">./ECS/ECS_All;</string>
+      <string notr="true">microCT-scan.ui</string>
      </property>
      <property name="args">
-      <string notr="true"/>
+      <string notr="true">W=ampstep:</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_2">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>170</y>
+       <y>270</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -161,19 +166,91 @@
      </property>
      <property name="background">
       <color>
-       <red>28</red>
-       <green>54</green>
-       <blue>170</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="labels">
-      <string notr="true">IPL x-ray status</string>
+      <string notr="true">IPL X-RAY STATUS</string>
      </property>
      <property name="files">
-      <string notr="true">./xray-status-small.ui;</string>
+      <string notr="true">xray-status-small-1.2.ui</string>
      </property>
      <property name="args">
       <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>197</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="label">
+      <string notr="true"/>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">PHOSPHOR</string>
+     </property>
+     <property name="files">
+      <string notr="true">microCT-phosphor</string>
+     </property>
+     <property name="args">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>197</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="label">
+      <string notr="true"/>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">NIKON D700</string>
+     </property>
+     <property name="files">
+      <string notr="true">nikonqt.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=D700:, W=ampstep:</string>
      </property>
     </widget>
    </widget>

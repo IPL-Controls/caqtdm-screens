@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>310</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>microCT Controller</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(69, 69, 71);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="caFrame" name="caframe">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>0</y>
+      <width>311</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <widget class="caLabel" name="calabel_43">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>21</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_56">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>220</y>
+       <width>21</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_42">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>400</y>
+       <width>21</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_39">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>40</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>rz</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_41">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>220</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>rx</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_38">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>400</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ry</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>311</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth">
+      <number>4</number>
+     </property>
+     <property name="text">
+      <string>PHOSPHOR</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>194</red>
+       <green>194</green>
+       <blue>194</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=AER:,M=m18</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">NA</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>410</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=AER:,M=m19</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_4">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>50</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=NEW:,M=m25</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_5">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>230</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=NEW:,M=m26</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_6">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>410</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=AER:,M=m20</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">motor-1.2.ui</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caInclude</class>
+   <extends>QWidget</extends>
+   <header>caInclude</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

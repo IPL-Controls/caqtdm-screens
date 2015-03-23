@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>218</width>
-    <height>368</height>
+    <height>271</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Detector Controller</string>
+   <string>X-ray Controller</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(69, 69, 71);</string>
@@ -45,7 +45,7 @@
       <number>4</number>
      </property>
      <property name="text">
-      <string>DETECTORS</string>
+      <string>X-RAY</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -65,11 +65,11 @@
       </color>
      </property>
     </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay_3">
+    <widget class="caRelatedDisplay" name="carelateddisplay_5">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>70</y>
+       <y>170</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -92,88 +92,13 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">NIKON D3X</string>
+      <string notr="true">SRXR-3</string>
      </property>
      <property name="files">
-      <string notr="true">nikonqt.ui</string>
+      <string notr="true">xray-1.1.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D3X:, W=SWEEP:</string>
-     </property>
-    </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay_4">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>220</y>
-       <width>197</width>
-       <height>39</height>
-      </rect>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string notr="true">PI 4096</string>
-     </property>
-     <property name="files">
-      <string notr="true">PI4096qt.ui</string>
-     </property>
-     <property name="args">
-      <string notr="true">P=PI4096, R=cam1, W=SWEEP:</string>
-     </property>
-    </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay_2">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>270</y>
-       <width>197</width>
-       <height>39</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="label">
-      <string notr="true"/>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string notr="true">POINT GREY </string>
-     </property>
-     <property name="files">
-      <string notr="true">PointGreyqt.ui</string>
-     </property>
-     <property name="args">
-      <string notr="true">P=GS323S6M:, R=cam1:, W=SWEEP:</string>
+      <string notr="true">P=srxr3</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_6">
@@ -203,20 +128,20 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">NIKON D700</string>
+      <string notr="true">SRXR-2</string>
      </property>
      <property name="files">
-      <string notr="true">nikonqt.ui</string>
+      <string notr="true">xray-1.1.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D700:, W=SWEEP:</string>
+      <string notr="true">P=srxr2</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_7">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>170</y>
+       <y>70</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -239,29 +164,23 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">NIKON D800</string>
+      <string notr="true">SRXR</string>
      </property>
      <property name="files">
-      <string notr="true">nikonqt.ui</string>
+      <string notr="true">xray-1.1.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D800:, W=SWEEP:</string>
+      <string notr="true">P=srxr</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_8">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
+       <y>220</y>
        <width>197</width>
        <height>39</height>
       </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
      </property>
      <property name="label">
       <string notr="true"/>
@@ -281,13 +200,13 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">Nikon Qi2</string>
+      <string notr="true">CPI RANODE</string>
      </property>
      <property name="files">
-      <string notr="true">Qi2qt.ui</string>
+      <string notr="true">cpi2.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=Qi2:, W=SWEEP:</string>
+      <string notr="true">P=cpi</string>
      </property>
     </widget>
    </widget>
