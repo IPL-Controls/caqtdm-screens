@@ -185,7 +185,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -382,7 +382,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -422,7 +422,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -462,7 +462,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -496,7 +496,7 @@
       <rect>
        <x>130</x>
        <y>229</y>
-       <width>65</width>
+       <width>131</width>
        <height>30</height>
       </rect>
      </property>
@@ -613,7 +613,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>14</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -668,7 +668,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -844,7 +844,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -890,7 +890,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1130,7 +1130,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>14</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1263,7 +1263,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1332,7 +1332,7 @@
       <string notr="true">P=$(W), S=scan1</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">scan.ui</string>
+      <string notr="true">../scan/scan.ui</string>
      </property>
     </widget>
     <widget class="caToggleButton" name="catogglebutton_4">
@@ -1476,7 +1476,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1562,7 +1562,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1721,7 +1721,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1930,7 +1930,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2016,7 +2016,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2151,7 +2151,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2195,7 +2195,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2256,7 +2256,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>14</pointsize>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -2355,7 +2355,7 @@
       <string notr="true">$(M) (Debug)</string>
      </property>
      <property name="files">
-      <string notr="true">./nikon-ntt.ui</string>
+      <string notr="true">nikon-ntt.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=$(P)</string>
@@ -2378,7 +2378,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2528,45 +2528,6 @@
       <enum>caMessageButton::Static</enum>
      </property>
     </widget>
-    <widget class="caMenu" name="camenu_6">
-     <property name="geometry">
-      <rect>
-       <x>198</x>
-       <y>229</y>
-       <width>63</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="maxVisibleItems">
-      <number>40</number>
-     </property>
-     <property name="maxCount">
-      <number>40</number>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)ISO0</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMenu::Static</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>181</red>
-       <green>181</green>
-       <blue>181</blue>
-      </color>
-     </property>
-     <property name="labelDisplay">
-      <bool>false</bool>
-     </property>
-    </widget>
     <zorder>calabel</zorder>
     <zorder>cagraphics</zorder>
     <zorder>calabel_2</zorder>
@@ -2629,7 +2590,6 @@
     <zorder>calabel_20</zorder>
     <zorder>caMessageButton_14</zorder>
     <zorder>caMessageButton_16</zorder>
-    <zorder>camenu_6</zorder>
    </widget>
   </widget>
  </widget>

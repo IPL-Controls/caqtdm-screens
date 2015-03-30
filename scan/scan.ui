@@ -1134,7 +1134,7 @@
       <string>More</string>
      </property>
      <property name="files">
-      <string notr="true">ProgressBar.ui</string>
+      <string notr="true">../scan/ProgressBar.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=$(P), B=$(P)scanProgress:</string>
@@ -1177,7 +1177,7 @@
      <string>More</string>
     </property>
     <property name="files">
-     <string notr="true">scan_full.ui</string>
+     <string notr="true">../scan/scan_full.ui</string>
     </property>
     <property name="args">
      <string notr="true">P=$(P), S=$(S)</string>

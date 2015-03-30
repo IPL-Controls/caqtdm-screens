@@ -275,7 +275,7 @@
       <string notr="true">P=AER:,M=m18</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">motor-1.2.ui</string>
+      <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_2">
@@ -291,7 +291,7 @@
       <string notr="true">NA</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">motor-1.2.ui</string>
+      <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_3">
@@ -307,7 +307,7 @@
       <string notr="true">P=AER:,M=m19</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">motor-1.2.ui</string>
+      <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_4">
@@ -320,10 +320,10 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m25</string>
+      <string notr="true">P=IPL:NEWPORT:,M=m1</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">motor-1.2.ui</string>
+      <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_5">
@@ -336,10 +336,10 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m26</string>
+      <string notr="true">P=IPL:NEWPORT:,M=m2</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">motor-1.2.ui</string>
+      <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_6">
@@ -355,7 +355,7 @@
       <string notr="true">P=AER:,M=m20</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">motor-1.2.ui</string>
+      <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
    </widget>

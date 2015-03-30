@@ -39,7 +39,7 @@
       <string notr="true">P=$(W), S=scan1</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">scan.ui</string>
+      <string notr="true">../scan/scan.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_2">
@@ -55,7 +55,7 @@
       <string notr="true">P=$(W), S=scan2</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">scan.ui</string>
+      <string notr="true">../scan/scan.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_3">
@@ -71,7 +71,7 @@
       <string notr="true">P=$(W), S=scan3</string>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">scan.ui</string>
+      <string notr="true">../scan/scan.ui</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_7">

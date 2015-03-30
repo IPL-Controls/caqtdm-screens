@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>218</width>
-    <height>319</height>
+    <width>214</width>
+    <height>425</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -64,7 +64,7 @@
      </property>
      <property name="background">
       <color>
-       <red>255</red>
+       <red>170</red>
        <green>0</green>
        <blue>0</blue>
       </color>
@@ -92,8 +92,8 @@
      <property name="background">
       <color>
        <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
+       <green>85</green>
+       <blue>127</blue>
       </color>
      </property>
      <property name="labels">
@@ -103,7 +103,7 @@
       <string notr="true">xray-1.1</string>
      </property>
      <property name="args">
-      <string notr="true">P=srxr2</string>
+      <string notr="true">P=IPL:SRI:xray</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_4">
@@ -125,8 +125,8 @@
      <property name="background">
       <color>
        <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
+       <green>85</green>
+       <blue>127</blue>
       </color>
      </property>
      <property name="labels">
@@ -136,14 +136,14 @@
       <string notr="true">microCT-scan.ui</string>
      </property>
      <property name="args">
-      <string notr="true">W=ampstep:</string>
+      <string notr="true">W=IPL:SCAN-1:</string>
      </property>
     </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_2">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>270</y>
+       <y>370</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -167,8 +167,8 @@
      <property name="background">
       <color>
        <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
+       <green>85</green>
+       <blue>127</blue>
       </color>
      </property>
      <property name="labels">
@@ -203,8 +203,8 @@
      <property name="background">
       <color>
        <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
+       <green>85</green>
+       <blue>127</blue>
       </color>
      </property>
      <property name="labels">
@@ -239,18 +239,81 @@
      <property name="background">
       <color>
        <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
+       <green>85</green>
+       <blue>127</blue>
       </color>
      </property>
      <property name="labels">
-      <string notr="true">NIKON D700</string>
+      <string notr="true">DETECTOR</string>
      </property>
      <property name="files">
-      <string notr="true">nikonqt.ui</string>
+      <string notr="true">nikonqt-old.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=D700:, W=ampstep:</string>
+      <string notr="true">P=IPL:D700:cam1:, W=IPL:SCAN-1:</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>197</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>127</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">IOC ADMIN</string>
+     </property>
+     <property name="files">
+      <string notr="true">../ioc-admin/ioc_admin_menu.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="caScriptButton" name="cascriptbutton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>320</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="label">
+      <string notr="true">AD VIEWER</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>127</blue>
+      </color>
+     </property>
+     <property name="scriptCommand">
+      <string notr="true">ImageJ-win64.exe -run &quot;EPICS AD Viewer&quot;</string>
      </property>
     </widget>
    </widget>
@@ -261,6 +324,11 @@
    <class>caRelatedDisplay</class>
    <extends>QWidget</extends>
    <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caScriptButton</class>
+   <extends>QWidget</extends>
+   <header>caScriptButton</header>
   </customwidget>
   <customwidget>
    <class>caFrame</class>
