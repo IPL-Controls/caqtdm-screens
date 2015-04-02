@@ -683,7 +683,7 @@ border-radius: 2px;
       <string>EPICS shutter setup</string>
      </property>
      <property name="files">
-      <string>ADEpicsShutter.adl</string>
+      <string notr="true">../area-detector/ADEpicsShutter.adl</string>
      </property>
      <property name="args">
       <string>P=$(P),R=$(R)</string>
