@@ -99,10 +99,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">A!=0 || B!=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr2:FIRING.VAL</string>
+     <string notr="true">IPL:SRI:xray:FIRING.VAL</string>
     </property>
     <property name="channelB">
-     <string notr="true">srxr2:RDY.VAL</string>
+     <string notr="true">IPL:SRI:xray:RDY.VAL</string>
     </property>
    </widget>
    <widget class="caGraphics" name="cagraphics_3">
@@ -202,10 +202,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">A=0&amp;&amp;B=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr2:FIRING.VAL</string>
+     <string notr="true">IPL:SRI:xray:FIRING.VAL</string>
     </property>
     <property name="channelB">
-     <string notr="true">srxr2:RDY.VAL</string>
+     <string notr="true">IPL:SRI:xray:RDY.VAL</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_27">
@@ -302,7 +302,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::IfZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr2:RDY</string>
+     <string notr="true">IPL:SRI:xray:RDY</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_8">
@@ -862,7 +862,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::IfNotZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr2:RDY</string>
+     <string notr="true">IPL:SRI:xray:RDY</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_14">
@@ -1471,10 +1471,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">A=0 &amp;&amp; B=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr2:FIRING.VAL</string>
+     <string notr="true">IPL:SRI:xray:FIRING.VAL</string>
     </property>
     <property name="channelB">
-     <string notr="true">srxr2:RDY.VAL</string>
+     <string notr="true">IPL:SRI:xray:RDY.VAL</string>
     </property>
    </widget>
    <widget class="caGraphics" name="cagraphics_6">
@@ -6917,6 +6917,176 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>90</number>
     </property>
    </widget>
+   <widget class="caCircularGauge" name="cacirculargauge">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>640</y>
+      <width>111</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="minValue">
+     <double>0.000000000000000</double>
+    </property>
+    <property name="maxValue">
+     <double>100.000000000000000</double>
+    </property>
+    <property name="displayLimits">
+     <enum>EAbstractGauge::Channel_Limits</enum>
+    </property>
+    <property name="highError">
+     <double>0.000000000000000</double>
+    </property>
+    <property name="lowError">
+     <double>0.000000000000000</double>
+    </property>
+    <property name="lowWarning">
+     <double>0.000000000000000</double>
+    </property>
+    <property name="highWarning">
+     <double>75.000000000000000</double>
+    </property>
+    <property name="scaleEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="referenceEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="colorMode">
+     <enum>EAbstractGauge::GRADIENT</enum>
+    </property>
+    <property name="externalScale">
+     <bool>false</bool>
+    </property>
+    <property name="logarithmicScale">
+     <bool>false</bool>
+    </property>
+    <property name="valueFormat">
+     <string>%f</string>
+    </property>
+    <property name="numMajorTicks">
+     <number>10</number>
+    </property>
+    <property name="numMinorTicks">
+     <number>5</number>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">cpi:AnodeTubeHeat</string>
+    </property>
+    <property name="valueDisplayed">
+     <bool>false</bool>
+    </property>
+    <property name="label">
+     <string/>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_2">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>660</y>
+      <width>31</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0, 255); color: rgb(0, 255, 0, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">cpi:AnodeTubeHeat</string>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_28">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>610</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="text">
+     <string>ANODE HEAT</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>85</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>160</red>
+      <green>160</green>
+      <blue>164</blue>
+     </color>
+    </property>
+    <property name="visibility">
+     <enum>caLabel::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">srxr:FIRING.VAL</string>
+    </property>
+    <property name="channelB">
+     <string notr="true">srxr:RDY.VAL</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">cpiSync:RadPrepOut</string>
+    </property>
+   </widget>
    <zorder>cagraphics_2</zorder>
    <zorder>cagraphics_3</zorder>
    <zorder>cagraphics</zorder>
@@ -7061,6 +7231,9 @@ gridline-color: rgb(255, 255, 255);</string>
    <zorder>cagraphics_13</zorder>
    <zorder>cagraphics_14</zorder>
    <zorder>cagraphics_15</zorder>
+   <zorder>cacirculargauge</zorder>
+   <zorder>calabel_2</zorder>
+   <zorder>calabel_28</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -7091,6 +7264,11 @@ gridline-color: rgb(255, 255, 255);</string>
    <header>caLed</header>
   </customwidget>
   <customwidget>
+   <class>caCircularGauge</class>
+   <extends>QWidget</extends>
+   <header>caGauge</header>
+  </customwidget>
+  <customwidget>
    <class>caLineEdit</class>
    <extends>QLineEdit</extends>
    <header>caLineEdit</header>
@@ -7102,13 +7280,8 @@ gridline-color: rgb(255, 255, 255);</string>
   </customwidget>
   <customwidget>
    <class>caStripPlot</class>
-   <extends>QwtPlot</extends>
-   <header>caStripPlot</header>
-  </customwidget>
-  <customwidget>
-   <class>QwtPlot</class>
    <extends>QFrame</extends>
-   <header>qwt_plot.h</header>
+   <header>caStripPlot</header>
   </customwidget>
  </customwidgets>
  <resources/>
