@@ -247,7 +247,7 @@
       <string notr="true">DETECTOR</string>
      </property>
      <property name="files">
-      <string notr="true">nikonqt-v1.2.ui</string>
+      <string notr="true">../nikonqt-v1.2.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:</string>
