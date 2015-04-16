@@ -527,7 +527,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scan1.CPT</string>
+     <string notr="true">IPL:SCAN-1:scan1.CPT</string>
     </property>
     <property name="foreground">
      <color>
@@ -578,7 +578,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scan1.NPTS</string>
+     <string notr="true">IPL:SCAN-1:scan1.NPTS</string>
     </property>
     <property name="foreground">
      <color>
@@ -1028,7 +1028,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:percentDone</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:percentDone</string>
     </property>
     <property name="foreground">
      <color>
@@ -1144,7 +1144,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::IfZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:running</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:running</string>
     </property>
    </widget>
    <widget class="caLineEdit" name="caLineEdit_4">
@@ -1160,7 +1160,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:remainingTimeStr</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:remainingTimeStr</string>
     </property>
     <property name="foreground">
      <color>
@@ -1561,7 +1561,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <string notr="true">Current (uA)</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">srxr:GUA;srxr2:GUA</string>
+     <string notr="true">srxr:GUA;IPL:SRI:xray:GUA</string>
     </property>
     <property name="period">
      <double>60.000000000000000</double>
@@ -1781,7 +1781,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <string>!A</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:running</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:running</string>
     </property>
    </widget>
    <widget class="caLineEdit" name="caLineEdit_0">
@@ -1848,7 +1848,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:endingTimeStr</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:endingTimeStr</string>
     </property>
     <property name="foreground">
      <color>
@@ -1952,7 +1952,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>17</number>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:percentDone</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:percentDone</string>
     </property>
     <property name="direction">
      <enum>caThermo::Right</enum>
@@ -2000,7 +2000,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>17</number>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:percentDone</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:percentDone</string>
     </property>
     <property name="direction">
      <enum>caThermo::Right</enum>
@@ -2048,7 +2048,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>17</number>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:percentDone</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:percentDone</string>
     </property>
     <property name="direction">
      <enum>caThermo::Right</enum>
@@ -2396,7 +2396,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLabel" name="calabel_17">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>440</x>
       <y>470</y>
       <width>41</width>
       <height>31</height>
@@ -2434,7 +2434,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLabel" name="calabel_18">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>510</x>
       <y>470</y>
       <width>41</width>
       <height>31</height>
@@ -3062,7 +3062,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_12">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>500</x>
       <y>510</y>
       <width>71</width>
       <height>20</height>
@@ -3116,7 +3116,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_13">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>420</x>
       <y>510</y>
       <width>71</width>
       <height>20</height>
@@ -3428,7 +3428,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_17">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>500</x>
       <y>540</y>
       <width>71</width>
       <height>20</height>
@@ -3479,7 +3479,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_18">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>420</x>
       <y>540</y>
       <width>71</width>
       <height>20</height>
@@ -3815,7 +3815,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_26">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>420</x>
       <y>570</y>
       <width>71</width>
       <height>20</height>
@@ -3872,7 +3872,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_27">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>420</x>
       <y>600</y>
       <width>71</width>
       <height>20</height>
@@ -3929,7 +3929,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_28">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>420</x>
       <y>630</y>
       <width>71</width>
       <height>20</height>
@@ -3986,7 +3986,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_29">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>420</x>
       <y>660</y>
       <width>71</width>
       <height>20</height>
@@ -4043,7 +4043,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_30">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>500</x>
       <y>570</y>
       <width>71</width>
       <height>20</height>
@@ -4100,7 +4100,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_31">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>500</x>
       <y>600</y>
       <width>71</width>
       <height>20</height>
@@ -4157,7 +4157,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_32">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>500</x>
       <y>630</y>
       <width>71</width>
       <height>20</height>
@@ -4214,7 +4214,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLineEdit" name="caLineEdit_34">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>500</x>
       <y>660</y>
       <width>71</width>
       <height>20</height>
@@ -5202,9 +5202,9 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>690</y>
+      <y>700</y>
       <width>251</width>
-      <height>71</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="linestyle" stdset="0">
@@ -5221,7 +5221,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>1,0;249,31;0,68</string>
+     <string>1,0;249,23;0,48</string>
     </property>
     <property name="visibility">
      <enum>caPolyLine::Calc</enum>
@@ -6030,9 +6030,9 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>690</y>
+      <y>685</y>
       <width>10</width>
-      <height>70</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="foreground">
@@ -6066,9 +6066,9 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>370</x>
-      <y>690</y>
+      <y>685</y>
       <width>10</width>
-      <height>70</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="foreground">
@@ -6101,10 +6101,10 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caGraphics" name="caRectangle_9">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>690</y>
+      <x>520</x>
+      <y>685</y>
       <width>10</width>
-      <height>70</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="foreground">
@@ -6171,9 +6171,9 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>380</x>
-      <y>700</y>
+      <y>707</y>
       <width>71</width>
-      <height>31</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="linestyle" stdset="0">
@@ -6190,7 +6190,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>68,2;0,17</string>
+     <string>68,1;0,12</string>
     </property>
     <property name="visibility">
      <enum>caPolyLine::Calc</enum>
@@ -6215,9 +6215,9 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>380</x>
-      <y>728</y>
+      <y>725</y>
       <width>71</width>
-      <height>20</height>
+      <height>16</height>
      </rect>
     </property>
     <property name="linestyle" stdset="0">
@@ -6234,7 +6234,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>3,7;69,19</string>
+     <string>3,5;69,15</string>
     </property>
     <property name="visibility">
      <enum>caPolyLine::Calc</enum>
@@ -6297,9 +6297,9 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>690</y>
+      <y>700</y>
       <width>161</width>
-      <height>101</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="linestyle" stdset="0">
@@ -6316,7 +6316,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>148,1;1,20</string>
+     <string>148,1;1,12</string>
     </property>
     <property name="visibility">
      <enum>caPolyLine::Calc</enum>
@@ -6379,7 +6379,7 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>725</y>
+      <y>723</y>
       <width>151</width>
       <height>21</height>
      </rect>
@@ -6420,9 +6420,9 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>730</y>
+      <y>727</y>
       <width>151</width>
-      <height>41</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="linestyle" stdset="0">
@@ -6439,7 +6439,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>148,28;0,5</string>
+     <string>148,21;0,4</string>
     </property>
     <property name="visibility">
      <enum>caPolyLine::Calc</enum>
@@ -6816,10 +6816,10 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caGraphics" name="cagraphics_12">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>430</x>
       <y>680</y>
       <width>51</width>
-      <height>33</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="lineSize">
@@ -6842,62 +6842,10 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caGraphics" name="cagraphics_13">
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>732</y>
+      <x>430</x>
+      <y>733</y>
       <width>51</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="lineSize">
-     <number>8</number>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Line</enum>
-    </property>
-    <property name="tiltAngle">
-     <number>90</number>
-    </property>
-   </widget>
-   <widget class="caGraphics" name="cagraphics_14">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>685</y>
-      <width>51</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="lineSize">
-     <number>8</number>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Line</enum>
-    </property>
-    <property name="tiltAngle">
-     <number>90</number>
-    </property>
-   </widget>
-   <widget class="caGraphics" name="cagraphics_15">
-    <property name="geometry">
-     <rect>
-      <x>110</x>
-      <y>725</y>
-      <width>51</width>
-      <height>39</height>
+      <height>30</height>
      </rect>
     </property>
     <property name="lineSize">
@@ -6944,7 +6892,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <double>100.000000000000000</double>
     </property>
     <property name="displayLimits">
-     <enum>EAbstractGauge::Channel_Limits</enum>
+     <enum>EAbstractGauge::User_Limits</enum>
     </property>
     <property name="highError">
      <double>0.000000000000000</double>
@@ -6992,54 +6940,18 @@ gridline-color: rgb(255, 255, 255);</string>
      <string/>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_2">
-    <property name="geometry">
-     <rect>
-      <x>720</x>
-      <y>660</y>
-      <width>31</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0, 255); color: rgb(0, 255, 0, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">cpi:AnodeTubeHeat</string>
-    </property>
-   </widget>
    <widget class="caLabel" name="calabel_28">
     <property name="geometry">
      <rect>
       <x>680</x>
       <y>610</y>
-      <width>111</width>
+      <width>121</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -7052,7 +6964,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>2</number>
     </property>
     <property name="text">
-     <string>ANODE HEAT</string>
+     <string>ANODE HEAT (%)</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -7075,18 +6987,127 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true"/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
-     <string notr="true">cpiSync:RadPrepOut</string>
+     <string notr="true"/>
     </property>
    </widget>
+   <widget class="caLineEdit" name="caLineEdit_52">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>660</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">cpi:AnodeTubeHeat</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+    <property name="precision">
+     <number>0</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::Channel</enum>
+    </property>
+    <property name="limitsMode">
+     <enum>caLineEdit::Channel</enum>
+    </property>
+    <property name="fontScaleMode">
+     <enum>caLineEdit::Height</enum>
+    </property>
+    <property name="unitsEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::decimal</enum>
+    </property>
+   </widget>
+   <widget class="caGraphics" name="cagraphics_14">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>680</y>
+      <width>51</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="lineSize">
+     <number>8</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>85</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Line</enum>
+    </property>
+    <property name="tiltAngle">
+     <number>90</number>
+    </property>
+   </widget>
+   <widget class="caGraphics" name="cagraphics_15">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>730</y>
+      <width>51</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="lineSize">
+     <number>8</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>85</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Line</enum>
+    </property>
+    <property name="tiltAngle">
+     <number>90</number>
+    </property>
+   </widget>
+   <zorder>caRectangle_4</zorder>
+   <zorder>cagraphics_4</zorder>
+   <zorder>caRectangle_6</zorder>
    <zorder>cagraphics_2</zorder>
    <zorder>cagraphics_3</zorder>
    <zorder>cagraphics</zorder>
@@ -7098,7 +7119,6 @@ gridline-color: rgb(255, 255, 255);</string>
    <zorder>caFrame_33</zorder>
    <zorder>caFrame_30</zorder>
    <zorder>cagraphics_5</zorder>
-   <zorder>cagraphics_4</zorder>
    <zorder>calabel_26</zorder>
    <zorder>calabel_27</zorder>
    <zorder>calabel_8</zorder>
@@ -7113,9 +7133,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <zorder>calabel_4</zorder>
    <zorder>calabel_6</zorder>
    <zorder>calabel_5</zorder>
-   <zorder>caLineEdit_1</zorder>
    <zorder>caLabel_3</zorder>
-   <zorder>caLineEdit_4</zorder>
    <zorder>caLabel_4</zorder>
    <zorder>calabel_12</zorder>
    <zorder>caLineEdit_22</zorder>
@@ -7125,7 +7143,6 @@ gridline-color: rgb(255, 255, 255);</string>
    <zorder>castripplot</zorder>
    <zorder>caLabel_1</zorder>
    <zorder>caLabel_2</zorder>
-   <zorder>caLineEdit_3</zorder>
    <zorder>caFrame_5</zorder>
    <zorder>caFrame_3</zorder>
    <zorder>caThermo_0</zorder>
@@ -7195,8 +7212,6 @@ gridline-color: rgb(255, 255, 255);</string>
    <zorder>caLineEdit_50</zorder>
    <zorder>caLineEdit_51</zorder>
    <zorder>capolyline_6</zorder>
-   <zorder>caRectangle_4</zorder>
-   <zorder>caRectangle_6</zorder>
    <zorder>capolyline_8</zorder>
    <zorder>caRectangle_2</zorder>
    <zorder>caLineEdit_0</zorder>
@@ -7229,11 +7244,14 @@ gridline-color: rgb(255, 255, 255);</string>
    <zorder>caLabel_13</zorder>
    <zorder>cagraphics_12</zorder>
    <zorder>cagraphics_13</zorder>
+   <zorder>cacirculargauge</zorder>
+   <zorder>calabel_28</zorder>
+   <zorder>caLineEdit_52</zorder>
+   <zorder>caLineEdit_4</zorder>
+   <zorder>caLineEdit_3</zorder>
+   <zorder>caLineEdit_1</zorder>
    <zorder>cagraphics_14</zorder>
    <zorder>cagraphics_15</zorder>
-   <zorder>cacirculargauge</zorder>
-   <zorder>calabel_2</zorder>
-   <zorder>calabel_28</zorder>
   </widget>
  </widget>
  <customwidgets>
