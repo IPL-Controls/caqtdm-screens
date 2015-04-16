@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>288</width>
+    <width>291</width>
     <height>411</height>
    </rect>
   </property>
@@ -282,22 +282,25 @@
      <property name="foreground">
       <color>
        <red>0</red>
-       <green>255</green>
-       <blue>255</blue>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
       <color>
        <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
+       <green>255</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
      <property name="precision">
-      <number>0</number>
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="maxValue">
       <double>-2.000000000000000</double>
@@ -339,25 +342,21 @@
      <property name="channel" stdset="0">
       <string notr="true">$(P)VPP</string>
      </property>
-     <property name="foreground">
+     <property name="background">
       <color>
        <red>0</red>
        <green>255</green>
        <blue>255</blue>
       </color>
      </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
      <property name="precision">
-      <number>0</number>
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_9">
@@ -430,7 +429,47 @@
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)OFFSET</string>
+      <string notr="true">$(P)DCOFFSET</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="calineedit">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>80</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)WAVEFORM_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -449,50 +488,6 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="precision">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit">
-     <property name="geometry">
-      <rect>
-       <x>190</x>
-       <y>80</y>
-       <width>81</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)WAVEFORM_RBV</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>85</red>
-       <green>255</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>80</red>
-       <green>80</green>
-       <blue>80</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
      <property name="framePresent" stdset="0">
       <bool>true</bool>
      </property>
@@ -502,6 +497,12 @@
        <green>255</green>
        <blue>255</blue>
       </color>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::string</enum>
@@ -519,9 +520,9 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="alignment">
@@ -532,16 +533,16 @@
      </property>
      <property name="foreground">
       <color>
-       <red>85</red>
+       <red>0</red>
        <green>255</green>
-       <blue>0</blue>
+       <blue>255</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>80</red>
-       <green>80</green>
-       <blue>80</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -556,6 +557,12 @@
        <green>255</green>
        <blue>255</blue>
       </color>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="unitsEnabled">
       <bool>true</bool>
@@ -576,9 +583,9 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="alignment">
@@ -589,16 +596,16 @@
      </property>
      <property name="foreground">
       <color>
-       <red>85</red>
+       <red>0</red>
        <green>255</green>
-       <blue>0</blue>
+       <blue>255</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>80</red>
-       <green>80</green>
-       <blue>80</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -613,6 +620,12 @@
        <green>255</green>
        <blue>255</blue>
       </color>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="unitsEnabled">
       <bool>true</bool>
@@ -630,29 +643,29 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)OFFSET_RBV</string>
+      <string notr="true">$(P)DCOFFSET_RBV</string>
      </property>
      <property name="foreground">
       <color>
-       <red>85</red>
+       <red>0</red>
        <green>255</green>
-       <blue>0</blue>
+       <blue>255</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>80</red>
-       <green>80</green>
-       <blue>80</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -667,6 +680,12 @@
        <green>255</green>
        <blue>255</blue>
       </color>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="unitsEnabled">
       <bool>true</bool>
@@ -744,6 +763,46 @@
      <property name="channel" stdset="0">
       <string notr="true">$(P)PHASE</string>
      </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="calineedit_5">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>160</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)PHASE_RBV</string>
+     </property>
      <property name="foreground">
       <color>
        <red>0</red>
@@ -761,50 +820,6 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="precision">
-      <number>0</number>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="calineedit_5">
-     <property name="geometry">
-      <rect>
-       <x>190</x>
-       <y>160</y>
-       <width>81</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)PHASE_RBV</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>85</red>
-       <green>255</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>80</red>
-       <green>80</green>
-       <blue>80</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
      <property name="framePresent" stdset="0">
       <bool>true</bool>
      </property>
@@ -814,6 +829,12 @@
        <green>255</green>
        <blue>255</blue>
       </color>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="unitsEnabled">
       <bool>true</bool>
@@ -1087,7 +1108,7 @@
       <number>40</number>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)MTYPE</string>
+      <string notr="true">$(P)MODTYPE</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Default</enum>
@@ -1182,18 +1203,11 @@
      <property name="channel" stdset="0">
       <string notr="true">$(P)BURSTCT</string>
      </property>
-     <property name="foreground">
+     <property name="background">
       <color>
        <red>0</red>
        <green>255</green>
        <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -1432,7 +1446,7 @@
       <number>40</number>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)TSRC</string>
+      <string notr="true">$(P)TRIGSRC</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Default</enum>
