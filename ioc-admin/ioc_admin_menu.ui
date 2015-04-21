@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>679</width>
-    <height>382</height>
+    <height>423</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -128,7 +128,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -146,7 +146,7 @@
       <number>3</number>
      </property>
      <property name="text">
-      <string># RECORDS</string>
+      <string>RECORDS</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -284,7 +284,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>330</y>
+       <y>370</y>
        <width>661</width>
        <height>35</height>
       </rect>
@@ -466,7 +466,7 @@
        <x>5</x>
        <y>45</y>
        <width>671</width>
-       <height>331</height>
+       <height>371</height>
       </rect>
      </property>
      <property name="foreground">
@@ -477,7 +477,7 @@
       </color>
      </property>
      <property name="lineSize">
-      <number>2</number>
+      <number>3</number>
      </property>
      <property name="lineColor">
       <color>
@@ -485,6 +485,22 @@
        <green>0</green>
        <blue>255</blue>
       </color>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>330</y>
+       <width>661</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=IPL:OXFORD:xray</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
      </property>
     </widget>
     <zorder>cagraphics</zorder>
@@ -502,6 +518,7 @@
     <zorder>cainclude_8</zorder>
     <zorder>cainclude_9</zorder>
     <zorder>cainclude</zorder>
+    <zorder>cainclude_13</zorder>
    </widget>
   </widget>
  </widget>
