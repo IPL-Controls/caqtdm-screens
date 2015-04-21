@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>214</width>
-    <height>425</height>
+    <height>464</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,7 +23,7 @@
       <x>-1</x>
       <y>0</y>
       <width>221</width>
-      <height>431</height>
+      <height>521</height>
      </rect>
     </property>
     <widget class="caLabel" name="calabel">
@@ -74,7 +74,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>70</y>
+       <y>120</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -97,7 +97,7 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">X-ray</string>
+      <string notr="true">Fixed Anode X-ray</string>
      </property>
      <property name="files">
       <string notr="true">xray-1.1</string>
@@ -110,7 +110,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>220</y>
+       <y>270</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -143,7 +143,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>370</y>
+       <y>420</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -185,7 +185,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>120</y>
+       <y>170</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -221,7 +221,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>170</y>
+       <y>220</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -257,7 +257,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>270</y>
+       <y>320</y>
        <width>197</width>
        <height>39</height>
       </rect>
@@ -290,7 +290,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
+       <y>370</y>
        <width>221</width>
        <height>41</height>
       </rect>
@@ -314,6 +314,42 @@
      </property>
      <property name="scriptCommand">
       <string notr="true">ImageJ-win64.exe -run &quot;EPICS AD Viewer&quot;</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>197</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="label">
+      <string notr="true"/>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>127</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">Micro focus X-ray</string>
+     </property>
+     <property name="files">
+      <string notr="true">OX96000qt</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=IPL:OXFORD:xray:</string>
      </property>
     </widget>
    </widget>
