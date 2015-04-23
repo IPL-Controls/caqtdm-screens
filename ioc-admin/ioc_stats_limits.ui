@@ -6,14 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>350</width>
-    <height>250</height>
+    <width>341</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="styleSheet">
-   <string notr="true">
+   <string notr="true">QWidget#centralWidget {background-color: rgb(156, 156, 156);}
 
-QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
 
 </string>
   </property>
@@ -21,8 +20,8 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
    <widget class="caLabel" name="caLabel_0">
     <property name="geometry">
      <rect>
-      <x>7</x>
-      <y>8</y>
+      <x>20</x>
+      <y>70</y>
       <width>250</width>
       <height>25</height>
      </rect>
@@ -31,7 +30,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <enum>QFrame::NoFrame</enum>
     </property>
     <property name="text">
-     <string>IOC Alarm Limits $(ioc):</string>
+     <string> $(ioc):</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -54,44 +53,11 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      </color>
     </property>
    </widget>
-   <widget class="caGraphics" name="caRectangle_0">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>40</y>
-      <width>350</width>
-      <height>2</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caGraphics::Solid</enum>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caGraphics::Filled</enum>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Rectangle</enum>
-    </property>
-   </widget>
    <widget class="caLabel" name="caLabel_1">
     <property name="geometry">
      <rect>
-      <x>9</x>
-      <y>80</y>
+      <x>20</x>
+      <y>120</y>
       <width>89</width>
       <height>15</height>
      </rect>
@@ -111,7 +77,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -126,8 +92,8 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
    <widget class="caLabel" name="caLabel_2">
     <property name="geometry">
      <rect>
-      <x>9</x>
-      <y>110</y>
+      <x>20</x>
+      <y>150</y>
       <width>89</width>
       <height>15</height>
      </rect>
@@ -147,7 +113,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -162,8 +128,8 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
    <widget class="caLabel" name="caLabel_3">
     <property name="geometry">
      <rect>
-      <x>9</x>
-      <y>140</y>
+      <x>20</x>
+      <y>180</y>
       <width>89</width>
       <height>15</height>
      </rect>
@@ -183,7 +149,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -199,7 +165,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>195</y>
+      <y>240</y>
       <width>50</width>
       <height>15</height>
      </rect>
@@ -219,7 +185,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -235,7 +201,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>273</x>
-      <y>195</y>
+      <y>240</y>
       <width>50</width>
       <height>15</height>
      </rect>
@@ -255,7 +221,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -271,7 +237,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>125</x>
-      <y>53</y>
+      <y>100</y>
       <width>50</width>
       <height>15</height>
      </rect>
@@ -291,7 +257,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -307,7 +273,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>212</x>
-      <y>53</y>
+      <y>100</y>
       <width>50</width>
       <height>15</height>
      </rect>
@@ -327,7 +293,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -343,7 +309,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>275</x>
-      <y>53</y>
+      <y>100</y>
       <width>50</width>
       <height>15</height>
      </rect>
@@ -363,7 +329,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -379,13 +345,13 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>77</y>
+      <y>120</y>
       <width>100</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 255, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
@@ -397,7 +363,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -433,13 +399,13 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>107</y>
+      <y>150</y>
       <width>100</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 255, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
@@ -451,7 +417,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -487,13 +453,13 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>137</y>
+      <y>180</y>
       <width>100</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 255, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
@@ -505,7 +471,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -540,8 +506,8 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
    <widget class="caLabel" name="caLabel_9">
     <property name="geometry">
      <rect>
-      <x>9</x>
-      <y>223</y>
+      <x>20</x>
+      <y>260</y>
       <width>89</width>
       <height>15</height>
      </rect>
@@ -561,7 +527,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -577,13 +543,13 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>220</y>
+      <y>260</y>
       <width>100</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 255, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
@@ -595,7 +561,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -630,8 +596,8 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
    <widget class="caLabel" name="caLabel_10">
     <property name="geometry">
      <rect>
-      <x>9</x>
-      <y>170</y>
+      <x>20</x>
+      <y>210</y>
       <width>69</width>
       <height>15</height>
      </rect>
@@ -651,7 +617,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>255</green>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -667,13 +633,13 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>167</y>
+      <y>210</y>
       <width>100</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 255, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
@@ -685,7 +651,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -721,7 +687,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>77</y>
+      <y>120</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -733,7 +699,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -769,7 +735,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>271</x>
-      <y>77</y>
+      <y>120</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -781,7 +747,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -817,7 +783,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>107</y>
+      <y>150</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -829,7 +795,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -865,7 +831,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>271</x>
-      <y>107</y>
+      <y>150</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -877,7 +843,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -913,7 +879,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>271</x>
-      <y>137</y>
+      <y>180</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -925,7 +891,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -961,7 +927,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>167</y>
+      <y>210</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -973,7 +939,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -1009,7 +975,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>271</x>
-      <y>167</y>
+      <y>210</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -1021,7 +987,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -1057,7 +1023,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>210</x>
-      <y>219</y>
+      <y>260</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -1069,7 +1035,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -1105,7 +1071,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
     <property name="geometry">
      <rect>
       <x>271</x>
-      <y>219</y>
+      <y>260</y>
       <width>56</width>
       <height>20</height>
      </rect>
@@ -1117,7 +1083,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <color>
       <red>0</red>
       <green>255</green>
-      <blue>255</blue>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
@@ -1149,8 +1115,90 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
+   <widget class="caGraphics" name="cagraphics">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>321</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
+     </color>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Rectangle</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>321</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string>IOC ALARM LIMITS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <zorder>cagraphics</zorder>
    <zorder>caLabel_0</zorder>
-   <zorder>caRectangle_0</zorder>
    <zorder>caLabel_1</zorder>
    <zorder>caLabel_2</zorder>
    <zorder>caLabel_3</zorder>
@@ -1175,6 +1223,7 @@ QWidget#centralWidget {background: rgba(34, 49, 57, 255);}
    <zorder>caTextEntry_6</zorder>
    <zorder>caTextEntry_7</zorder>
    <zorder>caTextEntry_8</zorder>
+   <zorder>calabel</zorder>
   </widget>
  </widget>
  <customwidgets>

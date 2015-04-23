@@ -6,28 +6,36 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>665</width>
-    <height>37</height>
+    <width>720</width>
+    <height>36</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Single IOC Admin</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(105, 105, 105);</string>
+   </property>
    <widget class="caFrame" name="caframe">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>665</width>
+      <width>721</width>
       <height>241</height>
      </rect>
     </property>
     <property name="background">
      <color>
-      <red>34</red>
-      <green>49</green>
-      <blue>57</blue>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
      </color>
     </property>
     <property name="backgroundMode">
@@ -36,7 +44,7 @@
     <widget class="caMessageButton" name="caMessageButton_0">
      <property name="geometry">
       <rect>
-       <x>490</x>
+       <x>560</x>
        <y>5</y>
        <width>101</width>
        <height>30</height>
@@ -63,9 +71,9 @@
      </property>
      <property name="background">
       <color>
-       <red>0</red>
+       <red>255</red>
        <green>0</green>
-       <blue>255</blue>
+       <blue>0</blue>
       </color>
      </property>
      <property name="pressMessage">
@@ -120,9 +128,9 @@
     <widget class="caLineEdit" name="caLineEdit_4">
      <property name="geometry">
       <rect>
-       <x>380</x>
+       <x>430</x>
        <y>10</y>
-       <width>101</width>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
@@ -136,7 +144,7 @@
       <color>
        <red>0</red>
        <green>255</green>
-       <blue>255</blue>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -171,7 +179,7 @@
     <widget class="caLineEdit" name="caLineEdit_2">
      <property name="geometry">
       <rect>
-       <x>250</x>
+       <x>290</x>
        <y>10</y>
        <width>121</width>
        <height>21</height>
@@ -202,7 +210,7 @@
       <color>
        <red>0</red>
        <green>255</green>
-       <blue>255</blue>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -239,7 +247,7 @@
       <rect>
        <x>150</x>
        <y>10</y>
-       <width>91</width>
+       <width>121</width>
        <height>21</height>
       </rect>
      </property>
@@ -267,7 +275,7 @@
       <color>
        <red>0</red>
        <green>255</green>
-       <blue>255</blue>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -302,7 +310,7 @@
     <widget class="caRelatedDisplay" name="carelateddisplay">
      <property name="geometry">
       <rect>
-       <x>615</x>
+       <x>670</x>
        <y>10</y>
        <width>41</width>
        <height>21</height>
@@ -335,13 +343,13 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">More;Env;limits</string>
+      <string notr="true">ProcServ;More;Env;limits</string>
      </property>
      <property name="files">
-      <string notr="true">../ioc-admin/ioc_stats_soft.ui;../ioc-admin/ioc_stats_epics_env.ui;../ioc-admin/ioc_stats_limits.ui</string>
+      <string notr="true">../ioc-admin/procServ_control.ui;../ioc-admin/ioc_stats_soft.ui;../ioc-admin/ioc_stats_epics_env.ui;../ioc-admin/ioc_stats_limits.ui</string>
      </property>
      <property name="args">
-      <string notr="true">ioc=$(ioc);ioc=$(ioc);ioc=$(ioc)</string>
+      <string notr="true">ioc=$(ioc);ioc=$(ioc);ioc=$(ioc);ioc=$(ioc)</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
