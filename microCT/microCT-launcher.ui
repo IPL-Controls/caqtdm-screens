@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>214</width>
-    <height>464</height>
+    <width>219</width>
+    <height>423</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,7 +22,7 @@
      <rect>
       <x>-1</x>
       <y>0</y>
-      <width>221</width>
+      <width>231</width>
       <height>521</height>
      </rect>
     </property>
@@ -70,48 +70,12 @@
       </color>
      </property>
     </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay_3">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>120</y>
-       <width>197</width>
-       <height>39</height>
-      </rect>
-     </property>
-     <property name="label">
-      <string notr="true"/>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>85</green>
-       <blue>127</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string notr="true">Fixed Anode X-ray</string>
-     </property>
-     <property name="files">
-      <string notr="true">xray-1.1</string>
-     </property>
-     <property name="args">
-      <string notr="true">P=IPL:SRI:xray</string>
-     </property>
-    </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_4">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>270</y>
-       <width>197</width>
+       <y>220</y>
+       <width>201</width>
        <height>39</height>
       </rect>
      </property>
@@ -143,8 +107,8 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>420</y>
-       <width>197</width>
+       <y>370</y>
+       <width>201</width>
        <height>39</height>
       </rect>
      </property>
@@ -185,8 +149,8 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>170</y>
-       <width>197</width>
+       <y>120</y>
+       <width>201</width>
        <height>39</height>
       </rect>
      </property>
@@ -217,48 +181,12 @@
       <string notr="true"/>
      </property>
     </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay_7">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>220</y>
-       <width>197</width>
-       <height>39</height>
-      </rect>
-     </property>
-     <property name="label">
-      <string notr="true"/>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>85</green>
-       <blue>127</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string notr="true">DETECTOR</string>
-     </property>
-     <property name="files">
-      <string notr="true">../nikonqt-v1.2.ui</string>
-     </property>
-     <property name="args">
-      <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:</string>
-     </property>
-    </widget>
     <widget class="caRelatedDisplay" name="carelateddisplay_5">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>320</y>
-       <width>197</width>
+       <y>270</y>
+       <width>201</width>
        <height>39</height>
       </rect>
      </property>
@@ -290,8 +218,8 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>370</y>
-       <width>221</width>
+       <y>320</y>
+       <width>225</width>
        <height>41</height>
       </rect>
      </property>
@@ -316,17 +244,33 @@
       <string notr="true">ImageJ-win64.exe -run &quot;EPICS AD Viewer&quot;</string>
      </property>
     </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay_8">
+    <widget class="caRelatedDisplay" name="carelateddisplay">
      <property name="geometry">
       <rect>
        <x>10</x>
        <y>70</y>
-       <width>197</width>
-       <height>39</height>
+       <width>201</width>
+       <height>41</height>
       </rect>
      </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
      <property name="label">
-      <string notr="true"/>
+      <string notr="true">X-Ray</string>
      </property>
      <property name="foreground">
       <color>
@@ -343,13 +287,77 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">Micro focus X-ray</string>
+      <string notr="true">Micro focus X-ray;Fixed Anode X-ray</string>
      </property>
      <property name="files">
-      <string notr="true">OX96000qt</string>
+      <string notr="true">../OX96000qt;../xray-1.1</string>
      </property>
      <property name="args">
-      <string notr="true">P=IPL:OXFORD:xray:</string>
+      <string notr="true">P=IPL:OXFORD:xray:;P=IPL:SRI:xray</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="label">
+      <string notr="true">DETECTOR</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>85</green>
+       <blue>127</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">Nikon D800;Varian PaxScan 3024M</string>
+     </property>
+     <property name="files">
+      <string notr="true">../nikonqt-v1.2.ui;../varianqt.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:;P=IPL:VARIAN:cam1:, W=IPL:SCAN-1:</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
      </property>
     </widget>
    </widget>
