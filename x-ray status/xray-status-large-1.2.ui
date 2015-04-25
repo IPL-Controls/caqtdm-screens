@@ -199,13 +199,16 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A=0&amp;&amp;B=0</string>
+     <string notr="true">(A=0&amp;&amp;B=0) || C=2 || C=4</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">IPL:SRI:xray:FIRING.VAL</string>
     </property>
     <property name="channelB">
      <string notr="true">IPL:SRI:xray:RDY.VAL</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_27">
@@ -299,10 +302,16 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </color>
     </property>
     <property name="visibility">
-     <enum>caLabel::IfZero</enum>
+     <enum>caLabel::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">A=0 </string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">IPL:SRI:xray:RDY</string>
+    </property>
+    <property name="channelB">
+     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_8">
@@ -859,10 +868,16 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </color>
     </property>
     <property name="visibility">
-     <enum>caLabel::IfNotZero</enum>
+     <enum>caLabel::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">A != 0</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">IPL:SRI:xray:RDY</string>
+    </property>
+    <property name="channelB">
+     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_14">
@@ -1468,13 +1483,16 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A=0 &amp;&amp; B=0</string>
+     <string notr="true">(A=0&amp;&amp;B=0) || C=2 || C=4</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">IPL:SRI:xray:FIRING.VAL</string>
     </property>
     <property name="channelB">
      <string notr="true">IPL:SRI:xray:RDY.VAL</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
     </property>
    </widget>
    <widget class="caGraphics" name="cagraphics_6">
