@@ -57,7 +57,7 @@
       <enum>EPushButton::Height</enum>
      </property>
      <property name="channel" stdset="0">
-      <string>$(ioc):SysReset</string>
+      <string notr="true">$(ioc):RESTART</string>
      </property>
      <property name="label">
       <string notr="true">Reboot!</string>

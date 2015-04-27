@@ -2361,7 +2361,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <number>1</number>
     </property>
     <property name="text">
-     <string>IOC DIAGNOSTICS-$(ioc):</string>
+     <string>IOC DIAGNOSTICS - $(ioc):</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

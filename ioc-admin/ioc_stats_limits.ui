@@ -1088,6 +1088,11 @@
       <height>201</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
     <property name="foreground">
      <color>
       <red>105</red>
@@ -1123,7 +1128,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -1141,7 +1146,7 @@
      <number>1</number>
     </property>
     <property name="text">
-     <string>IOC ALARM LIMITS- $(ioc):</string>
+     <string>IOC ALARM LIMITS - $(ioc):</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
