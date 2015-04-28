@@ -351,7 +351,7 @@
       <string notr="true">../nikonqt-v1.2.ui;../varianqt.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:;P=IPL:VARIAN:cam1:, W=IPL:SCAN-1:</string>
+      <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:;P=IPL:VARIAN:,R=cam1:,W=IPL:SCAN-1:</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
