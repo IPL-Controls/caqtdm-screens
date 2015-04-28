@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1257</width>
+    <width>1255</width>
     <height>824</height>
    </rect>
   </property>
@@ -6009,10 +6009,10 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLabel" name="calabel">
     <property name="geometry">
      <rect>
-      <x>1050</x>
-      <y>70</y>
-      <width>191</width>
-      <height>141</height>
+      <x>1060</x>
+      <y>400</y>
+      <width>161</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -6560,10 +6560,10 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caLabel" name="calabel_23">
     <property name="geometry">
      <rect>
-      <x>1090</x>
-      <y>220</y>
-      <width>151</width>
-      <height>131</height>
+      <x>1060</x>
+      <y>280</y>
+      <width>111</width>
+      <height>101</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -7156,6 +7156,40 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>90</number>
     </property>
    </widget>
+   <widget class="caClock" name="caclock">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>70</y>
+      <width>251</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(255, 255, 255, 255), stop:0.2 rgba(255, 176, 176, 167), stop:0.3 rgba(255, 151, 151, 92), stop:0.4 rgba(255, 125, 125, 51), stop:0.5 rgba(255, 76, 76, 205), stop:0.52 rgba(255, 76, 76, 205), stop:0.6 rgba(255, 180, 180, 84), stop:1 rgba(255, 255, 255, 0));</string>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="baseColor">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="scaleDefaultColor">
+     <bool>false</bool>
+    </property>
+    <property name="scaleColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
    <zorder>cagraphics_4</zorder>
    <zorder>caRectangle_6</zorder>
    <zorder>caRectangle_4</zorder>
@@ -7303,6 +7337,7 @@ gridline-color: rgb(255, 255, 255);</string>
    <zorder>caLineEdit_1</zorder>
    <zorder>cagraphics_14</zorder>
    <zorder>cagraphics_15</zorder>
+   <zorder>caclock</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -7326,6 +7361,11 @@ gridline-color: rgb(255, 255, 255);</string>
    <class>caPolyLine</class>
    <extends>QWidget</extends>
    <header>caPolyLine</header>
+  </customwidget>
+  <customwidget>
+   <class>caClock</class>
+   <extends>QWidget</extends>
+   <header>caClock</header>
   </customwidget>
   <customwidget>
    <class>caLed</class>
