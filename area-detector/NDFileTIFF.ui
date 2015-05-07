@@ -1886,7 +1886,7 @@ border-radius: 2px;
      <string/>
     </property>
     <property name="filename" stdset="0">
-     <string>NDPluginBase.adl</string>
+     <string notr="true">../area-detector/NDPluginBase.adl</string>
     </property>
    </widget>
    <widget class="caFrame" name="caFrame_9">
