@@ -305,7 +305,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A=0 </string>
+     <string notr="true">A=0 || B==2</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">IPL:SRI:xray:RDY</string>
@@ -871,7 +871,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A != 0</string>
+     <string notr="true">A != 0 &amp;&amp; B !=2</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">IPL:SRI:xray:RDY</string>
@@ -6006,44 +6006,6 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caThermo::Channel</enum>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel">
-    <property name="geometry">
-     <rect>
-      <x>1060</x>
-      <y>400</y>
-      <width>161</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255, 255); color: rgb(0, 0, 0, 255);</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>0</number>
-    </property>
-    <property name="pixmap">
-     <pixmap>NHLBI-Logo.jpg</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caGraphics" name="caRectangle_7">
     <property name="geometry">
      <rect>
@@ -6555,44 +6517,6 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">srxr:FIRING.VAL</string>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_23">
-    <property name="geometry">
-     <rect>
-      <x>1060</x>
-      <y>280</y>
-      <width>111</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255, 255); color: rgb(0, 0, 0, 255);</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>0</number>
-    </property>
-    <property name="pixmap">
-     <pixmap>EPICS-Logo.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_24">
@@ -7304,7 +7228,6 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <zorder>caLineEdit_2</zorder>
    <zorder>cagraphics_7</zorder>
    <zorder>caThermo_30</zorder>
-   <zorder>calabel</zorder>
    <zorder>caRectangle_7</zorder>
    <zorder>caRectangle_8</zorder>
    <zorder>caRectangle_9</zorder>
@@ -7318,7 +7241,6 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <zorder>capolyline_15</zorder>
    <zorder>calabel_49</zorder>
    <zorder>calabel_50</zorder>
-   <zorder>calabel_23</zorder>
    <zorder>calabel_24</zorder>
    <zorder>cagraphics_8</zorder>
    <zorder>cagraphics_9</zorder>
