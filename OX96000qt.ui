@@ -306,7 +306,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -315,7 +315,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)STATUS_STRING</string>
+      <string notr="true">$(P)STATUS_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -424,7 +424,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)FAULT</string>
+      <string notr="true">$(P)FAULT_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -1133,7 +1133,7 @@
       </font>
      </property>
      <property name="text">
-      <string>TRIGGER</string>
+      <string>ON</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)FIRE</string>
