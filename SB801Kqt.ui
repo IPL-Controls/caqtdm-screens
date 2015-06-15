@@ -306,7 +306,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -531,7 +531,7 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="unitsEnabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -711,10 +711,10 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="unitsEnabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="formatType">
-      <enum>caLineEdit::decimal</enum>
+      <enum>caLineEdit::string</enum>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_19">
@@ -773,7 +773,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P):FIRING</string>
+      <string notr="true">$(P):FIRING_RBV</string>
      </property>
      <property name="falseColor">
       <color>
@@ -803,13 +803,13 @@
       </rect>
      </property>
      <property name="text">
-      <string>CLEAR</string>
+      <string>Clear Faults</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::Height</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P):FAULT_RESET</string>
+      <string notr="true">$(P)FAULT_RESET</string>
      </property>
      <property name="label">
       <string notr="true">Clear Faults</string>
@@ -876,47 +876,6 @@
       <string notr="true">$(P)FIRING_RBV</string>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_50">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>90</y>
-       <width>81</width>
-       <height>28</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>13</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>OFF</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>255</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caLabel::IfNotZero</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)FIRING_RBV</string>
-     </property>
-    </widget>
     <widget class="caLabel" name="calabel_14">
      <property name="geometry">
       <rect>
@@ -966,9 +925,9 @@
     <widget class="caLabel" name="calabel_46">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>250</x>
        <y>90</y>
-       <width>61</width>
+       <width>71</width>
        <height>28</height>
       </rect>
      </property>
@@ -1021,7 +980,6 @@
     <zorder>caled_8</zorder>
     <zorder>caMessageButton_16</zorder>
     <zorder>calabel_38</zorder>
-    <zorder>calabel_50</zorder>
     <zorder>calabel_14</zorder>
     <zorder>calabel_46</zorder>
    </widget>
