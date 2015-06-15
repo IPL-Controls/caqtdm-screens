@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -148,13 +148,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Micro focus X-ray;Fixed Anode X-ray</string>
+     <string notr="true">Micro focus X-ray;Fixed Anode X-ray-1;Fixed Anode X-ray-2</string>
     </property>
     <property name="files">
-     <string notr="true">../OX96000qt;../xray-1.1</string>
+     <string notr="true">../OX96000qt;../SB801Kqt;../SB801Kqt</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:OXFORD:xray:;P=IPL:SRI:xray</string>
+     <string notr="true">P=IPL:OXFORD:xray:;P=IPL:SRI:xray1:;P=IPL:SRI:xray2:</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -248,13 +248,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Nikon D800;Varian PaxScan 3024M</string>
+     <string notr="true">Nikon D800;Varian PaxScan 3024M; PI-4096</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v1.2.ui;../varianqt.ui</string>
+     <string notr="true">../nikonqt-v1.2.ui;../varianqt.ui;../PI4096qt</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:;P=IPL:VARIAN:,R=cam1:,W=IPL:SCAN-1:</string>
+     <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:;P=IPL:VARIAN:,R=cam1:,W=IPL:SCAN-1:;P=PI4096:,R=cam1:,W=IPL:SCAN-2:;</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
