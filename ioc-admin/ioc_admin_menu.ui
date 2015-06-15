@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>730</width>
-    <height>423</height>
+    <height>469</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -46,7 +46,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">ioc=IPL:SRI:xray</string>
+      <string notr="true">ioc=IPL:SRI:xray1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -94,7 +94,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">ioc=srxr3</string>
+      <string notr="true">ioc=IPL:SRI:xray2</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -170,7 +170,7 @@
        <x>5</x>
        <y>45</y>
        <width>721</width>
-       <height>371</height>
+       <height>411</height>
       </rect>
      </property>
      <property name="foreground">
@@ -440,6 +440,22 @@
       </color>
      </property>
     </widget>
+    <widget class="caInclude" name="cainclude_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>410</y>
+       <width>711</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=IPL:SCAN-2</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
     <zorder>cagraphics</zorder>
     <zorder>cainclude_2</zorder>
     <zorder>cainclude_10</zorder>
@@ -455,6 +471,7 @@
     <zorder>calabel_10</zorder>
     <zorder>calabel_11</zorder>
     <zorder>cainclude</zorder>
+    <zorder>cainclude_14</zorder>
    </widget>
   </widget>
  </widget>
