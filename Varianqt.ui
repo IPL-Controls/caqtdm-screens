@@ -1228,7 +1228,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)EXP_TIME</string>
+      <string notr="true">VarianSync:ExpTime</string>
      </property>
      <property name="foreground">
       <color>
@@ -1324,7 +1324,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)EXP_TIME</string>
+      <string notr="true">VarianSync:ExpTime</string>
      </property>
      <property name="foreground">
       <color>
@@ -2487,7 +2487,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)EXP_OK</string>
+      <string notr="true">VarianSync:ExpOk</string>
      </property>
      <property name="foreground">
       <color>
@@ -3123,7 +3123,7 @@
       <string>ON</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)DOC</string>
+      <string notr="true">VarianSync:DOC</string>
      </property>
      <property name="label">
       <string notr="true">ON</string>
@@ -3230,7 +3230,7 @@
       <enum>caGraphics::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)DOC</string>
+      <string notr="true">VarianSync:DOC</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -3602,7 +3602,7 @@
       <string>OFF</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)DOC</string>
+      <string notr="true">VarianSync:DOC</string>
      </property>
      <property name="label">
       <string notr="true">OFF</string>
@@ -4680,11 +4680,11 @@
        <x>420</x>
        <y>490</y>
        <width>111</width>
-       <height>25</height>
+       <height>21</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)XSYNC</string>
+      <string notr="true">VarianSync:XSYNC</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Static</enum>
