@@ -202,13 +202,13 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">(A=0&amp;&amp;B=0) || C=2 || C=4</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">IPL:SRI:xray:FIRING.VAL</string>
+     <string notr="true">IPL:SRI:xray1:FIRING_RBV.VAL</string>
     </property>
     <property name="channelB">
-     <string notr="true">IPL:SRI:xray:RDY.VAL</string>
+     <string notr="true">IPL:SRI:xray:READY_RBV.VAL</string>
     </property>
     <property name="channelC">
-     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
+     <string notr="true">IPL:OXFORD:xray:STATUS_RBV</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_27">
@@ -308,10 +308,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">A=0 || B==2</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">IPL:SRI:xray:RDY</string>
+     <string notr="true">IPL:SRI:xray1:READY_RBV</string>
     </property>
     <property name="channelB">
-     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
+     <string notr="true">IPL:OXFORD:xray:STATUS_RBV</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_8">
@@ -874,10 +874,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">A != 0 &amp;&amp; B !=2</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">IPL:SRI:xray:RDY</string>
+     <string notr="true">IPL:SRI:xray1:READY_RBV</string>
     </property>
     <property name="channelB">
-     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
+     <string notr="true">IPL:OXFORD:xray:STATUS_RBV</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_14">
@@ -1486,13 +1486,13 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">(A=0&amp;&amp;B=0) || C=2 || C=4</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">IPL:SRI:xray:FIRING.VAL</string>
+     <string notr="true">IPL:SRI:xray1:FIRING_RBV.VAL</string>
     </property>
     <property name="channelB">
-     <string notr="true">IPL:SRI:xray:RDY.VAL</string>
+     <string notr="true">IPL:SRI:xray1:READY_RBV.VAL</string>
     </property>
     <property name="channelC">
-     <string notr="true">IPL:OXFORD:xray:STATUS_STRING</string>
+     <string notr="true">IPL:OXFORD:xray:STATUS_RBV</string>
     </property>
    </widget>
    <widget class="caGraphics" name="cagraphics_6">
@@ -1579,7 +1579,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <string notr="true">Current (uA)</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">srxr:GUA;IPL:SRI:xray:GUA</string>
+     <string notr="true">IPL:SRI:xray2:UA_RBV;IPL:SRI:xray1:UA_RBV</string>
     </property>
     <property name="period">
      <double>60.000000000000000</double>
@@ -1942,10 +1942,10 @@ gridline-color: rgb(255, 255, 255);</string>
      <string>!A &amp;&amp; !B</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">ampstep:scanProgress:paused</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:paused</string>
     </property>
     <property name="channelB">
-     <string notr="true">ampstep:scanProgress:running</string>
+     <string notr="true">IPL:SCAN-1:scanProgress:running</string>
     </property>
    </widget>
    <widget class="caThermo" name="caThermo_0">
@@ -5650,10 +5650,10 @@ gridline-color: rgb(255, 255, 255);</string>
       <string>!A &amp;&amp; !B</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">ampstep:scanProgress:paused</string>
+      <string notr="true">IOC:scanProgress:paused</string>
      </property>
      <property name="channelB">
-      <string notr="true">ampstep:scanProgress:running</string>
+      <string notr="true">IOC:scanProgress:running</string>
      </property>
      <widget class="caGraphics" name="caRectangle_34">
       <property name="geometry">
