@@ -205,7 +205,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">IPL:SRI:xray1:FIRING_RBV.VAL</string>
     </property>
     <property name="channelB">
-     <string notr="true">IPL:SRI:xray:READY_RBV.VAL</string>
+     <string notr="true">IPL:SRI:xray1:READY_RBV.VAL</string>
     </property>
     <property name="channelC">
      <string notr="true">IPL:OXFORD:xray:STATUS_RBV</string>
@@ -5717,7 +5717,7 @@ gridline-color: rgb(255, 255, 255);</string>
        <number>20</number>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">ampstep:scanProgress:percentDone</string>
+       <string notr="true">IOC:scanProgress:percentDone</string>
       </property>
       <property name="direction">
        <enum>caThermo::Right</enum>
