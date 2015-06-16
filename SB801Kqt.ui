@@ -838,7 +838,7 @@
     <widget class="caLabel" name="calabel_38">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>240</x>
        <y>90</y>
        <width>81</width>
        <height>28</height>
@@ -925,7 +925,7 @@
     <widget class="caLabel" name="calabel_46">
      <property name="geometry">
       <rect>
-       <x>250</x>
+       <x>240</x>
        <y>90</y>
        <width>71</width>
        <height>28</height>
@@ -957,10 +957,33 @@
       </color>
      </property>
      <property name="visibility">
-      <enum>caLabel::IfZero</enum>
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A=0 &amp;&amp; B!=0</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)READY_RBV</string>
+     </property>
+     <property name="channelB">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_3">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>95</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
      </property>
     </widget>
     <zorder>cagraphics_2</zorder>
@@ -979,8 +1002,9 @@
     <zorder>calabel_19</zorder>
     <zorder>caled_8</zorder>
     <zorder>caMessageButton_16</zorder>
-    <zorder>calabel_38</zorder>
     <zorder>calabel_14</zorder>
+    <zorder>calabel_3</zorder>
+    <zorder>calabel_38</zorder>
     <zorder>calabel_46</zorder>
    </widget>
   </widget>
