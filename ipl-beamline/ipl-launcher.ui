@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>11</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -143,12 +143,12 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Micro focus X-ray;Fixed Anode X-ray-1;Fixed Anode X-ray-2</string>
+     <string notr="true">IPL:OXFORD:xray;IPL:SRI:xray1;IPL:SRi:xray2</string>
     </property>
     <property name="files">
      <string notr="true">../OX96000qt;../SB801Kqt;../SB801Kqt</string>
@@ -190,8 +190,8 @@
     </property>
     <property name="background">
      <color>
-      <red>255</red>
-      <green>85</green>
+      <red>170</red>
+      <green>0</green>
       <blue>0</blue>
      </color>
     </property>
@@ -243,12 +243,12 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Nikon D800;Varian PaxScan 3024M; PI-4096</string>
+     <string notr="true">IPL:D800:cam1;IPL:VARIAN:cam1; PI4096:cam1</string>
     </property>
     <property name="files">
      <string notr="true">../nikonqt-v1.2.ui;../varianqt.ui;../PI4096qt</string>
@@ -282,8 +282,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
@@ -318,15 +318,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
      <string notr="true">PHOSPHOR</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-phosphor</string>
+     <string notr="true">../microCT/microCT-phosphor</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -354,15 +354,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
      <string notr="true">SAMPLE</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">../microCT/microCT-sample</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -406,8 +406,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
