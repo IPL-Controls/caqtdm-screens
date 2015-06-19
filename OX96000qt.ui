@@ -44,7 +44,8 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <family>Yu Mincho Demibold</family>
+       <pointsize>13</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
