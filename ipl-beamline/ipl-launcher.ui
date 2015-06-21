@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>12</pointsize>
+      <pointsize>13</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -143,8 +143,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
+      <green>85</green>
+      <blue>127</blue>
      </color>
     </property>
     <property name="labels">
@@ -196,7 +196,7 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL X-RAY STATUS</string>
+     <string notr="true">X-RAY STATUS</string>
     </property>
     <property name="files">
      <string notr="true">../x-ray status/xray-status-small-1.2.ui</string>
@@ -243,8 +243,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
+      <green>85</green>
+      <blue>127</blue>
      </color>
     </property>
     <property name="labels">
@@ -282,8 +282,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
+      <green>85</green>
+      <blue>127</blue>
      </color>
     </property>
     <property name="labels">
@@ -318,8 +318,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
+      <green>85</green>
+      <blue>127</blue>
      </color>
     </property>
     <property name="labels">
@@ -354,8 +354,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
+      <green>85</green>
+      <blue>127</blue>
      </color>
     </property>
     <property name="labels">
@@ -406,8 +406,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
+      <green>85</green>
+      <blue>127</blue>
      </color>
     </property>
     <property name="labels">
