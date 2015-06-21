@@ -63,7 +63,7 @@
       <number>1</number>
      </property>
      <property name="text">
-      <string>SRI SB-80-1K XRAY</string>
+      <string>SRI SB-80-1K X-RAY</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -165,7 +165,7 @@
     <widget class="caMessageButton" name="camessagebutton_3">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>160</y>
        <width>81</width>
        <height>31</height>
@@ -265,6 +265,11 @@
        <height>31</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>STATUS</string>
      </property>
@@ -363,19 +368,19 @@
       <rect>
        <x>20</x>
        <y>200</y>
-       <width>111</width>
+       <width>121</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string>Voltage (kV)</string>
+      <string>VOLTAGE (kVp)</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -407,7 +412,7 @@
     <widget class="caTextEntry" name="catextentry_4">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>200</y>
        <width>81</width>
        <height>31</height>
@@ -416,7 +421,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>14</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -447,9 +452,9 @@
      </property>
      <property name="foreground">
       <color>
-       <red>85</red>
+       <red>0</red>
        <green>0</green>
-       <blue>255</blue>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -543,19 +548,19 @@
       <rect>
        <x>20</x>
        <y>240</y>
-       <width>111</width>
+       <width>121</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string>Current (uA)</string>
+      <string>CURRENT (uA)</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -587,7 +592,7 @@
     <widget class="caTextEntry" name="catextentry_5">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>240</y>
        <width>81</width>
        <height>31</height>
@@ -596,7 +601,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>14</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -627,9 +632,9 @@
      </property>
      <property name="foreground">
       <color>
-       <red>85</red>
+       <red>0</red>
        <green>0</green>
-       <blue>255</blue>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -729,7 +734,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -797,14 +802,14 @@
     <widget class="caMessageButton" name="caMessageButton_16">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>130</y>
        <width>81</width>
        <height>21</height>
       </rect>
      </property>
      <property name="text">
-      <string>Clear Faults</string>
+      <string>CLEAR FAULT</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::Height</enum>
@@ -839,9 +844,9 @@
     <widget class="caLabel" name="calabel_38">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>90</y>
-       <width>191</width>
+       <width>181</width>
        <height>41</height>
       </rect>
      </property>
@@ -888,7 +893,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -926,9 +931,9 @@
     <widget class="caLabel" name="calabel_46">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>90</y>
-       <width>191</width>
+       <width>181</width>
        <height>41</height>
       </rect>
      </property>
@@ -973,9 +978,9 @@
     <widget class="caLabel" name="calabel_3">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>95</y>
-       <width>191</width>
+       <width>181</width>
        <height>31</height>
       </rect>
      </property>
@@ -990,9 +995,9 @@
     <widget class="caLabel" name="calabel_52">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>140</x>
        <y>90</y>
-       <width>191</width>
+       <width>181</width>
        <height>41</height>
       </rect>
      </property>

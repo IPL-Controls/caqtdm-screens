@@ -3758,6 +3758,9 @@
        <blue>0</blue>
       </color>
      </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Dash</enum>
+     </property>
      <property name="lineSize">
       <number>2</number>
      </property>
