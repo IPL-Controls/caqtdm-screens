@@ -267,7 +267,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -421,7 +421,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>14</pointsize>
+       <pointsize>13</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -601,7 +601,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>14</pointsize>
+       <pointsize>13</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -734,7 +734,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -779,7 +779,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P):FIRING_RBV</string>
+      <string notr="true">$(P)FIRING_RBV</string>
      </property>
      <property name="falseColor">
       <color>
@@ -809,7 +809,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>CLEAR FAULT</string>
+      <string>Clear Faults</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::Height</enum>
@@ -893,7 +893,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
