@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>253</width>
-    <height>362</height>
+    <height>322</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -23,7 +23,7 @@
       <x>10</x>
       <y>60</y>
       <width>231</width>
-      <height>291</height>
+      <height>251</height>
      </rect>
     </property>
     <property name="font">
@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>13</pointsize>
+      <pointsize>18</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -148,13 +148,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:OXFORD:xray;IPL:SRI:xray1;IPL:SRI:xray2</string>
+     <string notr="true">IPL-2:SRI:xray</string>
     </property>
     <property name="files">
-     <string notr="true">../OX96000qt;../SB801Kqt;../SB801Kqt</string>
+     <string notr="true">../SB801Kqt</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:OXFORD:xray:;P=IPL:SRI:xray1:;P=IPL:SRI:xray2:</string>
+     <string notr="true">P=IPL-2:SRI:xray:</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -167,7 +167,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>310</y>
+      <y>270</y>
       <width>211</width>
       <height>31</height>
      </rect>
@@ -267,7 +267,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>270</y>
+      <y>230</y>
       <width>211</width>
       <height>31</height>
      </rect>
@@ -323,46 +323,10 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">PHOSPHOR</string>
+     <string notr="true">GRID/SAMPLE</string>
     </property>
     <property name="files">
-     <string notr="true">../microCT/microCT-phosphor</string>
-    </property>
-    <property name="args">
-     <string notr="true"/>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_7">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>230</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">SAMPLE</string>
-    </property>
-    <property name="files">
-     <string notr="true">../microCT/microCT-sample</string>
+     <string notr="true">ipl-grid</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -411,13 +375,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:SCAN-1;IPL:SCAN-2</string>
+     <string notr="true">IPL-1:SCAN</string>
     </property>
     <property name="files">
-     <string notr="true">ipl-scan.ui;ipl-scan.ui</string>
+     <string notr="true">ipl-scan.ui</string>
     </property>
     <property name="args">
-     <string notr="true">W=IPL:SCAN-1:;W=IPL:SCAN-2:</string>
+     <string notr="true">W=IPL-2:SCAN:</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>

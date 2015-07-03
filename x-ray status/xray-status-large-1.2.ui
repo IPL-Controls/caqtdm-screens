@@ -144,7 +144,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">A!=0 &amp;&amp; B=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true">IPL-2:SRI:xray:FIRING_RBV</string>
     </property>
     <property name="channelB">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -164,7 +164,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>20</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -222,7 +222,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -258,10 +258,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true">IPL-2:SRI:xray:FIRING_RBV</string>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -278,7 +278,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="text">
@@ -325,7 +325,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>23</pointsize>
      </font>
     </property>
     <property name="text">
@@ -361,7 +361,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">cpi:GeneratorStatus.STAT</string>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY</string>
+     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_9">
@@ -375,7 +375,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -410,7 +410,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -496,7 +496,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -633,7 +633,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -668,7 +668,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="styleSheet">
@@ -718,7 +718,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>17</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -765,7 +765,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>17</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -844,7 +844,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>19</pointsize>
+      <pointsize>24</pointsize>
      </font>
     </property>
     <property name="text">
@@ -891,7 +891,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>19</pointsize>
+      <pointsize>24</pointsize>
      </font>
     </property>
     <property name="text">
@@ -927,7 +927,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">cpi:GeneratorStatus.STAT</string>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY</string>
+     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_5">
@@ -941,7 +941,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -988,7 +988,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="autoFillBackground">
@@ -1534,10 +1534,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true">IPL-2:SRI:xray:FIRING_RBV</string>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -1579,7 +1579,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <string notr="true">Current (uA)</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">IPL:SRI:xray2:UA_RBV;IPL:SRI:xray1:UA_RBV</string>
+     <string notr="true">IPL:SRI:xray2:UA_RBV;IPL-2:SRI:xray:UA_RBV</string>
     </property>
     <property name="period">
      <double>60.000000000000000</double>
@@ -2355,7 +2355,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2422,7 +2422,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2460,7 +2460,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2498,7 +2498,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2536,7 +2536,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2574,7 +2574,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2606,7 +2606,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2638,7 +2638,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2676,7 +2676,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2717,7 +2717,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2749,7 +2749,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>11</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2781,7 +2781,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>11</pointsize>
+      <pointsize>14</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2900,7 +2900,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6448,7 +6448,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6489,7 +6489,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6530,7 +6530,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -6902,7 +6902,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -6962,7 +6962,7 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>14</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -7080,7 +7080,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>90</number>
     </property>
    </widget>
-   <widget class="caClock" name="caclock">
+   <widget class="caClock" name="caclock" native="true">
     <property name="geometry">
      <rect>
       <x>1030</x>
@@ -7093,20 +7093,20 @@ gridline-color: rgb(255, 255, 255);</string>
      <string notr="true">background-color: rgb(255, 255, 255);
 background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(255, 255, 255, 255), stop:0.2 rgba(255, 176, 176, 167), stop:0.3 rgba(255, 151, 151, 92), stop:0.4 rgba(255, 125, 125, 51), stop:0.5 rgba(255, 76, 76, 205), stop:0.52 rgba(255, 76, 76, 205), stop:0.6 rgba(255, 180, 180, 84), stop:1 rgba(255, 255, 255, 0));</string>
     </property>
-    <property name="lineWidth">
+    <property name="lineWidth" stdset="0">
      <number>2</number>
     </property>
-    <property name="baseColor">
+    <property name="baseColor" stdset="0">
      <color>
       <red>255</red>
       <green>0</green>
       <blue>0</blue>
      </color>
     </property>
-    <property name="scaleDefaultColor">
+    <property name="scaleDefaultColor" stdset="0">
      <bool>false</bool>
     </property>
-    <property name="scaleColor">
+    <property name="scaleColor" stdset="0">
      <color>
       <red>0</red>
       <green>0</green>
@@ -7285,11 +7285,6 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <header>caPolyLine</header>
   </customwidget>
   <customwidget>
-   <class>caClock</class>
-   <extends>QWidget</extends>
-   <header>caClock</header>
-  </customwidget>
-  <customwidget>
    <class>caLed</class>
    <extends>QWidget</extends>
    <header>caLed</header>
@@ -7313,6 +7308,11 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <class>caStripPlot</class>
    <extends>QFrame</extends>
    <header>caStripPlot</header>
+  </customwidget>
+  <customwidget>
+   <class>caClock</class>
+   <extends>QWidget</extends>
+   <header>caClock</header>
   </customwidget>
  </customwidgets>
  <resources/>

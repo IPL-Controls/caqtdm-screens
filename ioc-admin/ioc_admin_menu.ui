@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>730</width>
-    <height>469</height>
+    <height>549</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -94,7 +94,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">ioc=IPL:SRI:xray2</string>
+      <string notr="true">ioc=IPL-2:SRI:xray</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -170,7 +170,7 @@
        <x>5</x>
        <y>45</y>
        <width>721</width>
-       <height>411</height>
+       <height>491</height>
       </rect>
      </property>
      <property name="foreground">
@@ -221,7 +221,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -267,7 +267,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -313,7 +313,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -359,7 +359,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -405,7 +405,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -450,7 +450,39 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">ioc=IPL:SCAN-2</string>
+      <string notr="true">ioc=IPL-2:SCAN</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_15">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>450</y>
+       <width>711</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=IPL-2:NEWPORT</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>490</y>
+       <width>711</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=IPL-2:PI4096:cam1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -472,6 +504,8 @@
     <zorder>calabel_11</zorder>
     <zorder>cainclude</zorder>
     <zorder>cainclude_14</zorder>
+    <zorder>cainclude_15</zorder>
+    <zorder>cainclude_16</zorder>
    </widget>
   </widget>
  </widget>
