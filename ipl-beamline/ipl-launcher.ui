@@ -131,7 +131,7 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="label">
-     <string notr="true">X-RAY</string>
+     <string notr="true">-  X-RAY</string>
     </property>
     <property name="foreground">
      <color>
@@ -148,7 +148,7 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:OXFORD:xray;IPL:SRI:xray1;IPL:SRi:xray2</string>
+     <string notr="true">IPL:OXFORD:xray;IPL:SRI:xray1;IPL:SRI:xray2</string>
     </property>
     <property name="files">
      <string notr="true">../OX96000qt;../SB801Kqt;../SB801Kqt</string>
@@ -231,7 +231,7 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="label">
-     <string notr="true">DETECTOR</string>
+     <string notr="true">-   DETECTOR</string>
     </property>
     <property name="foreground">
      <color>
@@ -394,7 +394,7 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="label">
-     <string notr="true">SCAN</string>
+     <string notr="true">-  SCAN</string>
     </property>
     <property name="foreground">
      <color>
