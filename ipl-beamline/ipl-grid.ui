@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>310</width>
-    <height>234</height>
+    <width>341</width>
+    <height>610</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>microCT Controller</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(69, 69, 71);</string>
+   <string notr="true">background-color: rgb(156, 156, 156);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="caFrame" name="caframe">
@@ -22,26 +22,29 @@
      <rect>
       <x>-1</x>
       <y>0</y>
-      <width>311</width>
-      <height>591</height>
+      <width>591</width>
+      <height>811</height>
      </rect>
     </property>
     <widget class="caLabel" name="calabel_39">
      <property name="geometry">
       <rect>
-       <x>150</x>
-       <y>40</y>
+       <x>180</x>
+       <y>430</y>
        <width>31</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
       <string>rz</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="foreground">
       <color>
@@ -61,19 +64,22 @@
     <widget class="caLabel" name="calabel_41">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>40</y>
+       <x>180</x>
+       <y>70</y>
        <width>31</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
       <string>rx</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="foreground">
       <color>
@@ -90,31 +96,69 @@
       </color>
      </property>
     </widget>
+    <widget class="caInclude" name="cainclude_4">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>430</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m6</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_5">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>70</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m4</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor-1.2.ui</string>
+     </property>
+    </widget>
     <widget class="caLabel" name="calabel">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>311</width>
+       <x>10</x>
+       <y>10</y>
+       <width>321</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>14</pointsize>
+       <family>Yu Mincho Demibold</family>
+       <pointsize>13</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
       </font>
      </property>
      <property name="frameShape">
-      <enum>QFrame::Box</enum>
+      <enum>QFrame::WinPanel</enum>
      </property>
      <property name="frameShadow">
-      <enum>QFrame::Sunken</enum>
+      <enum>QFrame::Raised</enum>
      </property>
      <property name="lineWidth">
-      <number>4</number>
+      <number>1</number>
+     </property>
+     <property name="midLineWidth">
+      <number>1</number>
      </property>
      <property name="text">
-      <string>X-RAY GRID</string>
+      <string>GENERIC STAGES</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -128,33 +172,66 @@
      </property>
      <property name="background">
       <color>
-       <red>194</red>
-       <green>194</green>
-       <blue>194</blue>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
       </color>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_4">
+    <widget class="caGraphics" name="cagraphics_2">
      <property name="geometry">
       <rect>
-       <x>190</x>
-       <y>50</y>
+       <x>10</x>
+       <y>60</y>
+       <width>321</width>
+       <height>541</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineSize">
+      <number>2</number>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_6">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>250</y>
        <width>111</width>
        <height>161</height>
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=IPL-2:NEWPORT:,M=m2</string>
+      <string notr="true">P=IPL-2:NEWPORT:,M=m5</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_5">
+    <widget class="caInclude" name="cainclude_7">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>50</y>
+       <x>50</x>
+       <y>70</y>
        <width>111</width>
        <height>161</height>
       </rect>
@@ -166,7 +243,195 @@
       <string notr="true">../motor/motor-1.2.ui</string>
      </property>
     </widget>
+    <widget class="caInclude" name="cainclude_8">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>250</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m2</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_9">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>430</y>
+       <width>111</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m3</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor-1.2.ui</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_42">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>x</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_43">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>250</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>y</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_44">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>430</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>z</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_45">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>250</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>15</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>ry</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>214</red>
+       <green>214</green>
+       <blue>214</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <zorder>cagraphics_2</zorder>
+    <zorder>calabel_39</zorder>
+    <zorder>calabel_41</zorder>
+    <zorder>cainclude_4</zorder>
+    <zorder>cainclude_5</zorder>
+    <zorder>calabel</zorder>
+    <zorder>cainclude_6</zorder>
+    <zorder>cainclude_7</zorder>
+    <zorder>cainclude_8</zorder>
+    <zorder>cainclude_9</zorder>
+    <zorder>calabel_42</zorder>
+    <zorder>calabel_43</zorder>
+    <zorder>calabel_44</zorder>
+    <zorder>calabel_45</zorder>
    </widget>
+   <zorder>caframe</zorder>
+   <zorder>cagraphics_2</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -180,6 +445,11 @@
    <class>caLabel</class>
    <extends>QLabel</extends>
    <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caGraphics</class>
+   <extends>QWidget</extends>
+   <header>caGraphics</header>
   </customwidget>
   <customwidget>
    <class>caInclude</class>

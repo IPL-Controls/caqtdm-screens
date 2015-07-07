@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>18</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -251,10 +251,10 @@
      <string notr="true">IPL:D800:cam1;IPL:VARIAN:cam1; PI4096:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v1.2.ui;../varianqt.ui;../PI4096qt</string>
+     <string notr="true">../nikonqt-v1.2.ui;../PI4096qt</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:D800:cam1:, W=IPL:SCAN-1:;P=IPL:VARIAN:,R=cam1:,W=IPL:SCAN-1:;P=PI4096:,R=cam1:,W=IPL:SCAN-2:;</string>
+     <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
