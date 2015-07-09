@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>11</pointsize>
+      <pointsize>18</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -381,7 +381,7 @@
      <string notr="true">ipl-scan.ui</string>
     </property>
     <property name="args">
-     <string notr="true">W=IPL-2:SCAN:</string>
+     <string notr="true">W=IPL-2:SCAN:, CONFIG=scan</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>

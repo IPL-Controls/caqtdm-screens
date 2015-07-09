@@ -46,7 +46,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=$(W), S=scan1</string>
+      <string notr="true">P=$(W), S=scan1, CONFIG=$(CONFIG)</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan-v2.ui</string>
@@ -62,7 +62,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=$(W), S=scan2</string>
+      <string notr="true">P=$(W), S=scan2, CONFIG=$(CONFIG)</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan-v2.ui</string>
@@ -78,7 +78,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=$(W), S=scan3</string>
+      <string notr="true">P=$(W), S=scan3, CONFIG=$(CONFIG)</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan-v2.ui</string>
@@ -96,7 +96,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>11</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -179,7 +179,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>11</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -229,7 +229,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>11</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>

@@ -556,7 +556,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="text">
@@ -604,7 +604,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1099,7 +1099,7 @@
       <string notr="true">../autosave/configMenu_small.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=$(P)</string>
+      <string notr="true">P=$(P),CONFIG=$(CONFIG)</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::Menu</enum>
