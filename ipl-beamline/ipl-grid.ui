@@ -30,7 +30,7 @@
      <property name="geometry">
       <rect>
        <x>180</x>
-       <y>410</y>
+       <y>420</y>
        <width>31</width>
        <height>31</height>
       </rect>
@@ -41,16 +41,16 @@
       </font>
      </property>
      <property name="text">
-      <string>rz</string>
+      <string>Rz</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="foreground">
       <color>
-       <red>214</red>
-       <green>214</green>
-       <blue>214</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -65,7 +65,7 @@
      <property name="geometry">
       <rect>
        <x>180</x>
-       <y>70</y>
+       <y>60</y>
        <width>31</width>
        <height>31</height>
       </rect>
@@ -76,16 +76,16 @@
       </font>
      </property>
      <property name="text">
-      <string>rx</string>
+      <string>Rx</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="foreground">
       <color>
-       <red>214</red>
-       <green>214</green>
-       <blue>214</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -158,7 +158,7 @@
       <number>1</number>
      </property>
      <property name="text">
-      <string>GENERIC STAGES</string>
+      <string>GRID STAGES</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -279,7 +279,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>70</y>
+       <y>60</y>
        <width>31</width>
        <height>31</height>
       </rect>
@@ -297,9 +297,9 @@
      </property>
      <property name="foreground">
       <color>
-       <red>214</red>
-       <green>214</green>
-       <blue>214</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -332,9 +332,9 @@
      </property>
      <property name="foreground">
       <color>
-       <red>214</red>
-       <green>214</green>
-       <blue>214</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -349,7 +349,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>410</y>
+       <y>420</y>
        <width>31</width>
        <height>31</height>
       </rect>
@@ -367,9 +367,9 @@
      </property>
      <property name="foreground">
       <color>
-       <red>214</red>
-       <green>214</green>
-       <blue>214</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -395,16 +395,16 @@
       </font>
      </property>
      <property name="text">
-      <string>ry</string>
+      <string>Ry</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="foreground">
       <color>
-       <red>214</red>
-       <green>214</green>
-       <blue>214</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
@@ -420,7 +420,7 @@
       <rect>
        <x>50</x>
        <y>610</y>
-       <width>271</width>
+       <width>121</width>
        <height>51</height>
       </rect>
      </property>
@@ -434,10 +434,186 @@
       <string notr="true">../motor/motor_all_torque.ui</string>
      </property>
     </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>640</y>
+       <width>81</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="label">
+      <string notr="true">-SAVE CONFIG</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>51</red>
+       <green>153</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true"/>
+     </property>
+     <property name="files">
+      <string notr="true"/>
+     </property>
+     <property name="args">
+      <string notr="true"/>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>610</y>
+       <width>121</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(105, 105, 105);</string>
+     </property>
+     <property name="text">
+      <string>LOCK/UNLOCK</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_11">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>430</y>
+       <width>117</width>
+       <height>173</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m3</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor_all_lock.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_12">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>430</y>
+       <width>117</width>
+       <height>173</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m6</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor_all_lock.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_13">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>250</y>
+       <width>117</width>
+       <height>173</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m2</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor_all_lock.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_14">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>250</y>
+       <width>117</width>
+       <height>173</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m5</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor_all_lock.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_15">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>70</y>
+       <width>117</width>
+       <height>173</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m1</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor_all_lock.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_16">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>70</y>
+       <width>117</width>
+       <height>173</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">P=IPL-2:NEWPORT:,M=m4</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../motor/motor_all_lock.ui</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
+    <zorder>cainclude_12</zorder>
+    <zorder>cainclude_11</zorder>
+    <zorder>cainclude_14</zorder>
+    <zorder>cainclude_13</zorder>
+    <zorder>cainclude_15</zorder>
+    <zorder>cainclude_16</zorder>
+    <zorder>cainclude_4</zorder>
     <zorder>calabel_39</zorder>
     <zorder>calabel_41</zorder>
-    <zorder>cainclude_4</zorder>
     <zorder>cainclude_5</zorder>
     <zorder>calabel</zorder>
     <zorder>cainclude_6</zorder>
@@ -449,10 +625,22 @@
     <zorder>calabel_44</zorder>
     <zorder>calabel_45</zorder>
     <zorder>cainclude_10</zorder>
+    <zorder>carelateddisplay</zorder>
+    <zorder>catogglebutton</zorder>
    </widget>
   </widget>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caToggleButton</class>
+   <extends>QCheckBox</extends>
+   <header>caToggleButton</header>
+  </customwidget>
   <customwidget>
    <class>caFrame</class>
    <extends>QFrame</extends>
@@ -476,5 +664,102 @@
   </customwidget>
  </customwidgets>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>catogglebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cainclude_4</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>210</x>
+     <y>623</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>268</x>
+     <y>483</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>catogglebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cainclude_9</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>114</x>
+     <y>594</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>catogglebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cainclude_6</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>222</x>
+     <y>624</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>251</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>catogglebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cainclude_8</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>226</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>125</x>
+     <y>408</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>catogglebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cainclude_5</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>213</x>
+     <y>611</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>230</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>catogglebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>cainclude_7</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>218</x>
+     <y>619</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>127</x>
+     <y>229</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

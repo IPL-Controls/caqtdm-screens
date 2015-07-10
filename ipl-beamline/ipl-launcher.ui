@@ -248,10 +248,10 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:D800:cam1;IPL:VARIAN:cam1; PI4096:cam1</string>
+     <string notr="true">IPL:D800:cam1;PI4096:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v1.2.ui;../PI4096qt</string>
+     <string notr="true">../nikonqt-v2.ui;../PI4096qt</string>
     </property>
     <property name="args">
      <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;</string>
