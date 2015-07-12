@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>120</width>
-    <height>178</height>
+    <width>117</width>
+    <height>175</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -67,7 +67,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>7</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -116,7 +116,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>7</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -191,7 +191,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>5</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -229,7 +229,7 @@
     <widget class="caLabel" name="calabel">
      <property name="geometry">
       <rect>
-       <x>36</x>
+       <x>33</x>
        <y>90</y>
        <width>51</width>
        <height>16</height>
@@ -237,7 +237,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>7</pointsize>
       </font>
      </property>
      <property name="text">
@@ -279,7 +279,7 @@
        <x>3</x>
        <y>150</y>
        <width>16</width>
-       <height>21</height>
+       <height>19</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -290,7 +290,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="iconSize">
@@ -310,6 +310,13 @@
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(M).CNEN</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
+      </color>
      </property>
     </widget>
     <widget class="caLineEdit" name="calineedit">
@@ -485,7 +492,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>4</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -521,7 +528,7 @@
      <property name="geometry">
       <rect>
        <x>37</x>
-       <y>90</y>
+       <y>92</y>
        <width>41</width>
        <height>13</height>
       </rect>
@@ -565,7 +572,7 @@
        <x>23</x>
        <y>150</y>
        <width>91</width>
-       <height>20</height>
+       <height>18</height>
       </rect>
      </property>
      <property name="text">
@@ -622,9 +629,9 @@
      </property>
      <property name="background">
       <color>
-       <red>0</red>
-       <green>85</green>
-       <blue>127</blue>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
       </color>
      </property>
      <property name="releaseMessage">
@@ -667,9 +674,9 @@
      </property>
      <property name="background">
       <color>
-       <red>0</red>
-       <green>85</green>
-       <blue>127</blue>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
       </color>
      </property>
      <property name="releaseMessage">
@@ -770,9 +777,9 @@
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>1</y>
+       <y>2</y>
        <width>117</width>
-       <height>172</height>
+       <height>171</height>
       </rect>
      </property>
      <property name="foreground">
@@ -789,7 +796,7 @@
       <enum>caGraphics::Filled</enum>
      </property>
      <property name="lineSize">
-      <number>2</number>
+      <number>3</number>
      </property>
      <property name="lineColor">
       <color>

@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>360</width>
-    <height>90</height>
+    <height>91</height>
    </rect>
   </property>
   <property name="styleSheet">
-   <string>
+   <string notr="true">
 
-QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
+QWidget#centralWidget {background: rgba(105, 105, 105, 255);}
 
 </string>
   </property>
@@ -26,6 +26,13 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       <width>354</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="background">
+     <color>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
+     </color>
     </property>
     <widget class="caLabel" name="caLabel_0">
      <property name="geometry">
@@ -40,7 +47,7 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="text">
-      <string>end</string>
+      <string>END</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -85,7 +92,7 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="text">
-      <string>end</string>
+      <string>END</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -126,6 +133,9 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
        <height>18</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(105, 105, 105, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(52, 52, 52, 255) rgba(158, 158, 158, 255)  rgba(158, 158, 158, 255) rgba(52, 52, 52, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
@@ -135,15 +145,15 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
      <property name="foreground">
       <color>
        <red>0</red>
-       <green>0</green>
+       <green>255</green>
        <blue>0</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>218</red>
-       <green>218</green>
-       <blue>218</blue>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -211,6 +221,9 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       <height>14</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(105, 105, 105, 255); color: rgb(10, 0, 184, 255);</string>
+    </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
     </property>
@@ -231,10 +244,10 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
      </color>
     </property>
     <property name="background">
-     <color alpha="0">
-      <red>10</red>
-      <green>0</green>
-      <blue>184</blue>
+     <color>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
      </color>
     </property>
    </widget>
@@ -247,6 +260,9 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       <height>18</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(105, 105, 105, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(52, 52, 52, 255) rgba(158, 158, 158, 255)  rgba(158, 158, 158, 255) rgba(52, 52, 52, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+    </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
@@ -256,15 +272,15 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>255</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>218</red>
-      <green>218</green>
-      <blue>218</blue>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -313,7 +329,7 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>255</green>
       <blue>0</blue>
      </color>
     </property>
@@ -353,7 +369,7 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="text">
-      <string>total time</string>
+      <string>TOTAL TIME</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -400,9 +416,9 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
      </property>
      <property name="background">
       <color>
-       <red>218</red>
-       <green>218</green>
-       <blue>218</blue>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -751,30 +767,17 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       </color>
      </property>
     </widget>
-   </widget>
-   <widget class="caFrame" name="caFrame_5">
-    <property name="geometry">
-     <rect>
-      <x>3</x>
-      <y>49</y>
-      <width>257</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="visibility">
-     <enum>caFrame::IfNotZero</enum>
-    </property>
-    <property name="channel" stdset="0">
-     <string>$(B)running</string>
-    </property>
     <widget class="caLineEdit" name="caLineEdit_3">
      <property name="geometry">
       <rect>
-       <x>125</x>
-       <y>0</y>
-       <width>130</width>
+       <x>130</x>
+       <y>30</y>
+       <width>131</width>
        <height>18</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(105, 105, 105, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(52, 52, 52, 255) rgba(158, 158, 158, 255)  rgba(158, 158, 158, 255) rgba(52, 52, 52, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -785,15 +788,15 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
      <property name="foreground">
       <color>
        <red>0</red>
-       <green>0</green>
+       <green>255</green>
        <blue>0</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>218</red>
-       <green>218</green>
-       <blue>218</blue>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
       </color>
      </property>
      <property name="colorMode">
@@ -818,50 +821,73 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
       <enum>caLineEdit::string</enum>
      </property>
     </widget>
-    <widget class="caLabel" name="caLabel_5">
+    <widget class="caFrame" name="caFrame_5">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>0</y>
-       <width>120</width>
-       <height>18</height>
+       <y>30</y>
+       <width>257</width>
+       <height>20</height>
       </rect>
      </property>
-     <property name="frameShape">
-      <enum>QFrame::NoFrame</enum>
-     </property>
-     <property name="text">
-      <string>remaining time</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="fontScaleMode">
-      <enum>ESimpleLabel::Height</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>51</red>
-       <green>153</green>
-       <blue>0</blue>
-      </color>
-     </property>
      <property name="background">
-      <color alpha="0">
-       <red>51</red>
-       <green>153</green>
-       <blue>0</blue>
+      <color>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
       </color>
      </property>
      <property name="visibility">
-      <enum>caLabel::Calc</enum>
-     </property>
-     <property name="visibilityCalc">
-      <string>A</string>
+      <enum>caFrame::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
       <string>$(B)running</string>
      </property>
+     <widget class="caLabel" name="caLabel_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>120</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>remaining time</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <property name="fontScaleMode">
+       <enum>ESimpleLabel::Height</enum>
+      </property>
+      <property name="foreground">
+       <color>
+        <red>51</red>
+        <green>153</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="background">
+       <color alpha="0">
+        <red>51</red>
+        <green>153</green>
+        <blue>0</blue>
+       </color>
+      </property>
+      <property name="visibility">
+       <enum>caLabel::Calc</enum>
+      </property>
+      <property name="visibilityCalc">
+       <string>A</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string>$(B)running</string>
+      </property>
+     </widget>
     </widget>
    </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
@@ -885,9 +911,9 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
     </property>
     <property name="background">
      <color>
-      <red>187</red>
-      <green>187</green>
-      <blue>187</blue>
+      <red>47</red>
+      <green>140</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
@@ -914,7 +940,6 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
    <zorder>caFrame_2</zorder>
    <zorder>caFrame_3</zorder>
    <zorder>caFrame_4</zorder>
-   <zorder>caFrame_5</zorder>
    <zorder>caLineEdit_1</zorder>
    <zorder>caRelatedDisplay_0</zorder>
   </widget>

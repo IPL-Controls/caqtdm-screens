@@ -318,7 +318,7 @@
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>15</y>
+       <y>13</y>
        <width>81</width>
        <height>15</height>
       </rect>
@@ -353,7 +353,7 @@
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>60</y>
+       <y>58</y>
        <width>31</width>
        <height>20</height>
       </rect>
@@ -404,7 +404,7 @@
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>80</y>
+       <y>78</y>
        <width>31</width>
        <height>20</height>
       </rect>
@@ -455,7 +455,7 @@
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>100</y>
+       <y>98</y>
        <width>31</width>
        <height>20</height>
       </rect>
@@ -556,7 +556,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -604,7 +604,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -734,7 +734,7 @@
       </rect>
      </property>
      <property name="label">
-      <string notr="true">-Progress</string>
+      <string notr="true">-PROGRESS</string>
      </property>
      <property name="foreground">
       <color>
@@ -950,7 +950,7 @@
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>2</y>
+       <y>0</y>
        <width>81</width>
        <height>13</height>
       </rect>
@@ -980,7 +980,7 @@
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>65</y>
+       <y>61</y>
        <width>51</width>
        <height>16</height>
       </rect>
@@ -1010,7 +1010,7 @@
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>85</y>
+       <y>81</y>
        <width>41</width>
        <height>16</height>
       </rect>
@@ -1040,7 +1040,7 @@
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>100</y>
+       <y>98</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -1112,13 +1112,13 @@
      <property name="geometry">
       <rect>
        <x>5</x>
-       <y>170</y>
-       <width>51</width>
+       <y>168</y>
+       <width>71</width>
        <height>16</height>
       </rect>
      </property>
      <property name="text">
-      <string>SCAN CT</string>
+      <string>SCAN COUNT</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1142,7 +1142,7 @@
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>32</y>
+       <y>30</y>
        <width>81</width>
        <height>13</height>
       </rect>
@@ -1178,7 +1178,7 @@
      <property name="geometry">
       <rect>
        <x>160</x>
-       <y>45</y>
+       <y>43</y>
        <width>81</width>
        <height>15</height>
       </rect>
@@ -1209,6 +1209,51 @@
       </color>
      </property>
     </widget>
+    <widget class="caLabel" name="caLabel_24">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>22</y>
+       <width>51</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::Height</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>222</red>
+       <green>19</green>
+       <blue>9</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string>A&gt;1</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(S).P1NV</string>
+     </property>
+    </widget>
    </widget>
    <widget class="caRelatedDisplay" name="caRelatedDisplay_3">
     <property name="geometry">
@@ -1220,7 +1265,7 @@
      </rect>
     </property>
     <property name="label">
-     <string notr="true">-Configure</string>
+     <string notr="true">-CONFIGURE</string>
     </property>
     <property name="foreground">
      <color>

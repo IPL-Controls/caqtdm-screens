@@ -1026,7 +1026,7 @@ QWidget#centralWidget {background: rgba(218, 218, 218, 255);}
      <string>Less</string>
     </property>
     <property name="files">
-     <string>ProgressBar.adl</string>
+     <string notr="true">../scan/ProgressBar.adl</string>
     </property>
     <property name="args">
      <string>B=$(B), P=$(P)</string>
