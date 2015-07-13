@@ -106,7 +106,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m12</string>
+      <string notr="true">P=NEW:,M=m106</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -122,7 +122,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m15</string>
+      <string notr="true">P=NEW:,M=m104</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -140,7 +140,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>13</pointsize>
+       <pointsize>15</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -221,7 +221,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m14</string>
+      <string notr="true">P=NEW:,M=m105</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -237,7 +237,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=DMC01:,M=A</string>
+      <string notr="true">P=DMC01:,M=B</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -253,7 +253,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=DMC01:,M=B</string>
+      <string notr="true">P=DMC01:,M=A</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>

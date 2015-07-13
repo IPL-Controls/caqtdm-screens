@@ -620,7 +620,7 @@ border-radius: 2px;
      <string/>
     </property>
     <property name="filename" stdset="0">
-     <string>ADPlugins.ui</string>
+     <string notr="true">../area-detector/ADPlugins.ui</string>
     </property>
    </widget>
    <widget class="caFrame" name="caFrame_5">
@@ -721,7 +721,7 @@ border-radius: 2px;
      <string/>
     </property>
     <property name="filename" stdset="0">
-     <string>ADShutter.ui</string>
+     <string notr="true">../area-detector/ADShutter.ui</string>
     </property>
    </widget>
    <widget class="caInclude" name="caInclude_8">
@@ -737,7 +737,7 @@ border-radius: 2px;
      <string/>
     </property>
     <property name="filename" stdset="0">
-     <string>ADBuffers.ui</string>
+     <string notr="true">../area-detector/ADBuffers.ui</string>
     </property>
    </widget>
    <widget class="caFrame" name="caFrame_15">
@@ -1257,17 +1257,6 @@ border-radius: 2px;
       <enum>caMessageButton::Static</enum>
      </property>
     </widget>
-    <zorder>caRectangle_7</zorder>
-    <zorder>caLabel_19</zorder>
-    <zorder>caLabel_20</zorder>
-    <zorder>caMenu_4</zorder>
-    <zorder>caLineEdit_11</zorder>
-    <zorder>caFrame_19</zorder>
-    <zorder>caTextEntry_3</zorder>
-    <zorder>caLabel_25</zorder>
-    <zorder>caLineEdit_15</zorder>
-    <zorder>caFrame_22</zorder>
-    <zorder>caMessageButton_3</zorder>
    </widget>
    <widget class="caFrame" name="caFrame_22">
     <property name="geometry">

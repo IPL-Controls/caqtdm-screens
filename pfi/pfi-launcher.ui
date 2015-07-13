@@ -105,64 +105,6 @@
      </color>
     </property>
    </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>60</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>11</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
-    </property>
-    <property name="label">
-     <string notr="true">-  X-RAY</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">IPL-2:SRI:xray</string>
-    </property>
-    <property name="files">
-     <string notr="true">../SB801Kqt</string>
-    </property>
-    <property name="args">
-     <string notr="true">P=IPL-2:SRI:xray:</string>
-    </property>
-    <property name="fontScaleMode">
-     <enum>EPushButton::WidthAndHeight</enum>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-   </widget>
    <widget class="caRelatedDisplay" name="carelateddisplay_2">
     <property name="geometry">
      <rect>
@@ -248,13 +190,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:D800:cam1;PI4096:cam1</string>
+     <string notr="true">IPL:D800:cam1;Qi2:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v2.ui;../PI4096qt</string>
+     <string notr="true">../nikonqt-v2.ui;../nikonqi2-slim</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;</string>
+     <string notr="true">P=IPL:D800:cam1:, W=IOC:;P=Qi2:, R=cam1:, W=IOC:;</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -600,7 +542,7 @@
      <string notr="true">s0</string>
     </property>
     <property name="files">
-     <string notr="true">ipl-grid</string>
+     <string notr="true">pfi-s0</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -640,6 +582,64 @@
     </property>
     <property name="args">
      <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">-   X-RAY</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">FIXED ANODE-SRI;ROTATING ANODE-CPI</string>
+    </property>
+    <property name="files">
+     <string notr="true">../SB801Kqt;../cpi-new.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=srxr;P=cpi</string>
+    </property>
+    <property name="fontScaleMode">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
     </property>
    </widget>
   </widget>
