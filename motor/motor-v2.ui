@@ -428,8 +428,8 @@
       <rect>
        <x>3</x>
        <y>130</y>
-       <width>51</width>
-       <height>20</height>
+       <width>56</width>
+       <height>19</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -719,8 +719,8 @@
      </property>
      <property name="background">
       <color>
-       <red>255</red>
-       <green>85</green>
+       <red>51</red>
+       <green>153</green>
        <blue>0</blue>
       </color>
      </property>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>253</width>
-    <height>601</height>
+    <width>208</width>
+    <height>579</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -21,9 +21,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>60</y>
-      <width>231</width>
-      <height>531</height>
+      <y>50</y>
+      <width>191</width>
+      <height>521</height>
      </rect>
     </property>
     <property name="font">
@@ -59,15 +59,15 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
-      <width>231</width>
+      <y>5</y>
+      <width>191</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -85,7 +85,7 @@
      <number>1</number>
     </property>
     <property name="text">
-     <string>BEAMLINE LAUNCHER</string>
+     <string>GBH-PFI LAUNCHER</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -109,8 +109,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>70</y>
-      <width>211</width>
+      <y>60</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -131,7 +131,7 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="label">
-     <string notr="true">X-Ray</string>
+     <string notr="true">-  X-RAY</string>
     </property>
     <property name="foreground">
      <color>
@@ -143,76 +143,18 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">Micro focus X-ray;Fixed Anode X-ray</string>
-    </property>
-    <property name="files">
-     <string notr="true">../OX96000qt;../xray-1.1</string>
-    </property>
-    <property name="args">
-     <string notr="true">P=IPL:OXFORD:xray:;P=IPL:SRI:xray</string>
-    </property>
-    <property name="fontScaleMode">
-     <enum>EPushButton::WidthAndHeight</enum>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>110</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>11</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
-    </property>
-    <property name="label">
-     <string notr="true">DETECTOR</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
+      <green>0</green>
       <blue>255</blue>
      </color>
     </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
-     </color>
-    </property>
     <property name="labels">
-     <string notr="true">Nikon D800;Varian PaxScan 3024M</string>
+     <string notr="true">IPL-2:SRI:xray</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt.ui;../varianqt.ui</string>
+     <string notr="true">../SB801Kqt</string>
     </property>
     <property name="args">
-     <string notr="true">P=, W=IOC:;P=IPL:VARIAN:,R=cam1:,W=IOC</string>
+     <string notr="true">P=IPL-2:SRI:xray:</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -225,9 +167,9 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>550</y>
-      <width>211</width>
-      <height>31</height>
+      <y>540</y>
+      <width>171</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -248,27 +190,85 @@
     </property>
     <property name="background">
      <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL X-RAY STATUS</string>
+     <string notr="true">X-RAY STATUS</string>
     </property>
     <property name="files">
-     <string notr="true">xray-status-small-1.2.ui</string>
+     <string notr="true">../x-ray status/xray-status-small-1.2.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">-   DETECTOR</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">IPL:D800:cam1;PI4096:cam1</string>
+    </property>
+    <property name="files">
+     <string notr="true">../nikonqt-v2.ui;../PI4096qt</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;</string>
+    </property>
+    <property name="fontScaleMode">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
     </property>
    </widget>
    <widget class="caRelatedDisplay" name="carelateddisplay_5">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>510</y>
-      <width>211</width>
+      <y>500</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -282,8 +282,8 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
@@ -296,45 +296,12 @@
      <string notr="true"/>
     </property>
    </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_4">
+   <widget class="caRelatedDisplay" name="carelateddisplay_6">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>470</y>
-      <width>211</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">SCAN</string>
-    </property>
-    <property name="files">
-     <string notr="true">microCT-scan.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true">W=IPL:SCAN-1:</string>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_7">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>150</y>
-      <width>211</width>
+      <y>260</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -351,15 +318,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">COMBINED</string>
+     <string notr="true">g0</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">pfi-g0.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -369,15 +336,68 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>190</y>
-      <width>211</width>
+      <y>460</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
     <property name="font">
      <font>
-      <pointsize>5</pointsize>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">-  SCAN</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true">pfi-scan.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">W=IOC:, CONFIG=scan</string>
+    </property>
+    <property name="fontScaleMode">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
     </property>
     <property name="label">
      <string notr="true"/>
@@ -392,15 +412,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SOURCE SLIT</string>
+     <string notr="true">g1</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">pfi-g1.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -410,8 +430,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>230</y>
-      <width>211</width>
+      <y>340</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -428,15 +448,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">S0</string>
+     <string notr="true">SAMPLE</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">pfi-sample</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -446,8 +466,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>270</y>
-      <width>211</width>
+      <y>380</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -464,15 +484,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">G0</string>
+     <string notr="true">g2</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">pfi-g2.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -482,8 +502,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>310</y>
-      <width>211</width>
+      <y>420</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -500,15 +520,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">G1</string>
+     <string notr="true">s2</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">pfi-s2.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -518,8 +538,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>390</y>
-      <width>211</width>
+      <y>180</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -536,15 +556,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">G2</string>
+     <string notr="true">ss</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">pfi-ss.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -554,8 +574,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>430</y>
-      <width>211</width>
+      <y>220</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -572,15 +592,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">S2</string>
+     <string notr="true">s0</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">ipl-grid</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -590,8 +610,8 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>350</y>
-      <width>211</width>
+      <y>140</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
@@ -608,15 +628,15 @@
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>127</blue>
+      <green>0</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SAMPLE</string>
+     <string notr="true">COMBINED</string>
     </property>
     <property name="files">
-     <string notr="true">microCT-sample</string>
+     <string notr="true">pfi-combined</string>
     </property>
     <property name="args">
      <string notr="true"/>
