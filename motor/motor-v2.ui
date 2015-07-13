@@ -97,8 +97,8 @@
      <property name="background">
       <color>
        <red>0</red>
-       <green>85</green>
-       <blue>0</blue>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="pressMessage">
@@ -143,8 +143,8 @@
      <property name="background">
       <color>
        <red>0</red>
-       <green>85</green>
-       <blue>0</blue>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="pressMessage">
@@ -214,7 +214,7 @@
      </property>
      <property name="background">
       <color>
-       <red>255</red>
+       <red>170</red>
        <green>0</green>
        <blue>0</blue>
       </color>
@@ -460,9 +460,9 @@
      </property>
      <property name="background">
       <color>
-       <red>51</red>
-       <green>153</green>
-       <blue>0</blue>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="labels">
@@ -629,9 +629,9 @@
      </property>
      <property name="background">
       <color>
-       <red>105</red>
-       <green>105</green>
-       <blue>105</blue>
+       <red>161</red>
+       <green>161</green>
+       <blue>161</blue>
       </color>
      </property>
      <property name="releaseMessage">
@@ -674,9 +674,9 @@
      </property>
      <property name="background">
       <color>
-       <red>105</red>
-       <green>105</green>
-       <blue>105</blue>
+       <red>161</red>
+       <green>161</green>
+       <blue>161</blue>
       </color>
      </property>
      <property name="releaseMessage">
@@ -719,9 +719,9 @@
      </property>
      <property name="background">
       <color>
-       <red>51</red>
-       <green>153</green>
-       <blue>0</blue>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="pressMessage">
