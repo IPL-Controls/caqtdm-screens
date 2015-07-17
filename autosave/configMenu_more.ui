@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>240</width>
-    <height>620</height>
+    <width>311</width>
+    <height>737</height>
    </rect>
   </property>
   <property name="styleSheet">
-   <string>
+   <string notr="true">
 
-QWidget#centralWidget {background: rgba(200, 200, 200, 255);}
+QWidget#centralWidget {background-color: rgb(156, 156, 156);}
 QPushButton::menu-indicator {image: url(none.png); width: 0}
 
 </string>
@@ -58,9 +58,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_0">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>290</y>
-      <width>240</width>
+      <x>20</x>
+      <y>340</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -74,9 +74,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_1">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>110</y>
-      <width>240</width>
+      <x>20</x>
+      <y>140</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -90,9 +90,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_2">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>155</y>
-      <width>240</width>
+      <x>20</x>
+      <y>190</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -106,9 +106,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_3">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>200</y>
-      <width>240</width>
+      <x>20</x>
+      <y>240</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -122,9 +122,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_4">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>245</y>
-      <width>240</width>
+      <x>20</x>
+      <y>290</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -138,9 +138,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_5">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>515</y>
-      <width>240</width>
+      <x>20</x>
+      <y>590</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -154,9 +154,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_6">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>335</y>
-      <width>240</width>
+      <x>20</x>
+      <y>390</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -170,9 +170,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_7">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>380</y>
-      <width>240</width>
+      <x>20</x>
+      <y>440</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -186,9 +186,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_8">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>425</y>
-      <width>240</width>
+      <x>20</x>
+      <y>490</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -202,9 +202,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_9">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>470</y>
-      <width>240</width>
+      <x>20</x>
+      <y>540</y>
+      <width>271</width>
       <height>43</height>
      </rect>
     </property>
@@ -218,8 +218,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
     <property name="geometry">
      <rect>
-      <x>185</x>
-      <y>600</y>
+      <x>240</x>
+      <y>695</y>
       <width>50</width>
       <height>20</height>
      </rect>
@@ -236,9 +236,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="background">
      <color>
-      <red>51</red>
-      <green>153</green>
-      <blue>0</blue>
+      <red>0</red>
+      <green>170</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
@@ -260,8 +260,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLabel" name="caLabel_1">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>565</y>
+      <x>20</x>
+      <y>640</y>
       <width>100</width>
       <height>14</height>
      </rect>
@@ -296,8 +296,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caMenu" name="caMenu_0">
     <property name="geometry">
      <rect>
-      <x>95</x>
-      <y>560</y>
+      <x>130</x>
+      <y>640</y>
       <width>50</width>
       <height>20</height>
      </rect>
@@ -326,10 +326,10 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caInclude" name="caInclude_10">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>240</width>
-      <height>95</height>
+      <x>15</x>
+      <y>10</y>
+      <width>281</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="macro">
@@ -342,8 +342,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLineEdit" name="caLineEdit_0">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>600</y>
+      <x>20</x>
+      <y>700</y>
       <width>100</width>
       <height>15</height>
      </rect>
@@ -393,9 +393,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caMessageButton" name="caMessageButton_0">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>580</y>
-      <width>230</width>
+      <x>20</x>
+      <y>670</y>
+      <width>271</width>
       <height>20</height>
      </rect>
     </property>
@@ -417,8 +417,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="background">
      <color>
-      <red>115</red>
-      <green>223</green>
+      <red>0</red>
+      <green>170</green>
       <blue>255</blue>
      </color>
     </property>
@@ -429,6 +429,45 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <enum>caMessageButton::Static</enum>
     </property>
    </widget>
+   <widget class="caGraphics" name="cagraphics">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>291</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
+     </color>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Rectangle</enum>
+    </property>
+   </widget>
+   <zorder>cagraphics</zorder>
    <zorder>caLabel_0</zorder>
    <zorder>caInclude_0</zorder>
    <zorder>caInclude_1</zorder>
@@ -468,6 +507,11 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <class>caLabel</class>
    <extends>QLabel</extends>
    <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caGraphics</class>
+   <extends>QWidget</extends>
+   <header>caGraphics</header>
   </customwidget>
   <customwidget>
    <class>caInclude</class>

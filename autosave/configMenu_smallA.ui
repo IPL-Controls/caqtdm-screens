@@ -6,14 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>240</width>
-    <height>160</height>
+    <width>281</width>
+    <height>188</height>
    </rect>
   </property>
   <property name="styleSheet">
-   <string>
+   <string notr="true">
 
-QWidget#centralWidget {background: rgba(200, 200, 200, 255);}
+QWidget#centralWidget {background-color: rgb(105, 105, 105);}
+
 QPushButton::menu-indicator {image: url(none.png); width: 0}
 
 </string>
@@ -22,9 +23,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caMenu" name="caMenu_0">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>120</y>
-      <width>230</width>
+      <x>9</x>
+      <y>130</y>
+      <width>261</width>
       <height>20</height>
      </rect>
     </property>
@@ -52,8 +53,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
     <property name="geometry">
      <rect>
-      <x>185</x>
-      <y>140</y>
+      <x>220</x>
+      <y>160</y>
       <width>50</width>
       <height>20</height>
      </rect>
@@ -70,9 +71,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="background">
      <color>
-      <red>51</red>
-      <green>153</green>
-      <blue>0</blue>
+      <red>0</red>
+      <green>170</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
@@ -94,8 +95,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
     <property name="geometry">
      <rect>
-      <x>25</x>
-      <y>140</y>
+      <x>60</x>
+      <y>160</y>
       <width>150</width>
       <height>20</height>
      </rect>
@@ -112,9 +113,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="background">
      <color>
-      <red>51</red>
-      <green>153</green>
-      <blue>0</blue>
+      <red>0</red>
+      <green>170</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="labels">
@@ -138,8 +139,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>240</width>
-      <height>95</height>
+      <width>291</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="macro">
@@ -152,8 +153,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
    <widget class="caLabel" name="caLabel_0">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>100</y>
+      <x>20</x>
+      <y>110</y>
       <width>240</width>
       <height>20</height>
      </rect>
