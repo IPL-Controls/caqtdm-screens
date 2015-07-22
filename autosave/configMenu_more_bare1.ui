@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>240</width>
-    <height>43</height>
+    <width>275</width>
+    <height>50</height>
    </rect>
   </property>
   <property name="styleSheet">
-   <string>
+   <string notr="true">
 
-QWidget#centralWidget {background: rgba(200, 200, 200, 255);}
+QWidget#centralWidget {background-color: rgb(105, 105, 105);}
 QPushButton::menu-indicator {image: url(none.png); width: 0}
 
 </string>
@@ -24,7 +24,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>45</x>
       <y>0</y>
-      <width>150</width>
+      <width>175</width>
       <height>20</height>
      </rect>
     </property>
@@ -95,8 +95,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>0</blue>
+      <green>170</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="pressMessage">
@@ -111,7 +111,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>5</x>
       <y>20</y>
-      <width>230</width>
+      <width>261</width>
       <height>20</height>
      </rect>
     </property>
@@ -127,9 +127,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>199</red>
+      <green>199</green>
+      <blue>199</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -159,7 +159,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <rect>
       <x>200</x>
       <y>0</y>
-      <width>37</width>
+      <width>131</width>
       <height>22</height>
      </rect>
     </property>
@@ -172,7 +172,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <widget class="caMessageButton" name="caMessageButton_1">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>30</x>
        <y>0</y>
        <width>35</width>
        <height>20</height>
@@ -197,8 +197,8 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <property name="background">
       <color>
        <red>0</red>
-       <green>85</green>
-       <blue>0</blue>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="pressMessage">
@@ -213,9 +213,9 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>41</y>
-      <width>238</width>
-      <height>2</height>
+      <y>35</y>
+      <width>271</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="foreground">
@@ -239,7 +239,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>1,1;237,1</string>
+     <string>1,8;270,8</string>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caPolyLine::Filled</enum>

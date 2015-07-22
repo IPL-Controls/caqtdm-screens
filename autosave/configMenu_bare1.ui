@@ -6,16 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>240</width>
-    <height>32</height>
+    <width>272</width>
+    <height>21</height>
    </rect>
   </property>
   <property name="autoFillBackground">
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">QPushButton::menu-indicator {image: url(none.png); width: 0}
-background-color: rgb(105, 105, 105);
+   <string notr="true">background-color: rgb(105, 105, 105);
 
 
 </string>
@@ -26,7 +25,7 @@ background-color: rgb(105, 105, 105);
      <rect>
       <x>45</x>
       <y>0</y>
-      <width>150</width>
+      <width>178</width>
       <height>20</height>
      </rect>
     </property>
@@ -97,8 +96,8 @@ background-color: rgb(105, 105, 105);
     <property name="background">
      <color>
       <red>0</red>
-      <green>85</green>
-      <blue>0</blue>
+      <green>170</green>
+      <blue>255</blue>
      </color>
     </property>
     <property name="pressMessage">
@@ -113,7 +112,7 @@ background-color: rgb(105, 105, 105);
      <rect>
       <x>200</x>
       <y>0</y>
-      <width>37</width>
+      <width>71</width>
       <height>22</height>
      </rect>
     </property>
@@ -133,7 +132,7 @@ background-color: rgb(105, 105, 105);
     <widget class="caMessageButton" name="caMessageButton_1">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>30</x>
        <y>0</y>
        <width>35</width>
        <height>20</height>
@@ -158,8 +157,8 @@ background-color: rgb(105, 105, 105);
      <property name="background">
       <color>
        <red>0</red>
-       <green>85</green>
-       <blue>0</blue>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
      <property name="pressMessage">
