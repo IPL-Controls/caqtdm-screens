@@ -140,7 +140,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>13</pointsize>
+       <pointsize>15</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -435,64 +435,6 @@
       <string notr="true">../motor/motor_all_torque.ui</string>
      </property>
     </widget>
-    <widget class="caRelatedDisplay" name="carelateddisplay">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>620</y>
-       <width>117</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="layoutDirection">
-      <enum>Qt::LeftToRight</enum>
-     </property>
-     <property name="label">
-      <string notr="true">-SAVE CONFIG</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>51</red>
-       <green>153</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string notr="true"/>
-     </property>
-     <property name="files">
-      <string notr="true"/>
-     </property>
-     <property name="args">
-      <string notr="true"/>
-     </property>
-     <property name="fontScaleMode">
-      <enum>EPushButton::WidthAndHeight</enum>
-     </property>
-     <property name="stackingMode" stdset="0">
-      <enum>caRowColMenu::Menu</enum>
-     </property>
-    </widget>
     <widget class="caMessageButton" name="camessagebutton">
      <property name="geometry">
       <rect>
@@ -676,7 +618,6 @@
     <zorder>calabel_44</zorder>
     <zorder>calabel_45</zorder>
     <zorder>cainclude_10</zorder>
-    <zorder>carelateddisplay</zorder>
     <zorder>camessagebutton</zorder>
     <zorder>camessagebutton_2</zorder>
     <zorder>calabel_2</zorder>
@@ -695,11 +636,6 @@
   </widget>
  </widget>
  <customwidgets>
-  <customwidget>
-   <class>caRelatedDisplay</class>
-   <extends>QWidget</extends>
-   <header>caRelatedDisplay</header>
-  </customwidget>
   <customwidget>
    <class>caMessageButton</class>
    <extends>QPushButton</extends>

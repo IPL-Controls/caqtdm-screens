@@ -2562,11 +2562,14 @@
       <height>421</height>
      </rect>
     </property>
+    <property name="linestyle" stdset="0">
+     <enum>caGraphics::BigDash</enum>
+    </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Outline</enum>
     </property>
     <property name="lineSize">
-     <number>5</number>
+     <number>10</number>
     </property>
     <property name="lineColor">
      <color>
@@ -2579,13 +2582,13 @@
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A+B!=0</string>
+     <string notr="true">A!=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:Error</string>
+     <string notr="true">cpi:ErrorLatching</string>
     </property>
     <property name="channelB">
-     <string notr="true">cpi:ErrorLatching</string>
+     <string notr="true"/>
     </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
@@ -4306,81 +4309,6 @@
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_90">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>340</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Workstation Functional</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>180</red>
-      <green>180</green>
-      <blue>180</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_41">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>340</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>123</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">$(P):WorkstationFunctional</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>195</red>
-      <green>195</green>
-      <blue>195</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>58</red>
-      <green>58</green>
-      <blue>58</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>0</number>
-    </property>
-    <property name="fontScaleMode">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
    <widget class="caLabel" name="calabel_91">
     <property name="geometry">
      <rect>
@@ -4456,124 +4384,6 @@
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
-   <widget class="caLineEdit" name="caLineEdit_43">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>370</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>123</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">$(P):Tomo</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>195</red>
-      <green>195</green>
-      <blue>195</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>58</red>
-      <green>58</green>
-      <blue>58</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>0</number>
-    </property>
-    <property name="fontScaleMode">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_92">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>370</y>
-      <width>101</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Tomo</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>180</red>
-      <green>180</green>
-      <blue>180</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_37">
-    <property name="geometry">
-     <rect>
-      <x>484</x>
-      <y>400</y>
-      <width>86</width>
-      <height>38</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Tomo</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>180</red>
-      <green>180</green>
-      <blue>180</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caMenu" name="camenu_3">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>400</y>
-      <width>87</width>
-      <height>38</height>
-     </rect>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">$(P):Tomo</string>
-    </property>
-   </widget>
    <zorder>caframe_5</zorder>
    <zorder>caframe</zorder>
    <zorder>cagraphics</zorder>
@@ -4614,14 +4424,8 @@
    <zorder>caLineEdit_36</zorder>
    <zorder>calabel_89</zorder>
    <zorder>caLineEdit_38</zorder>
-   <zorder>calabel_90</zorder>
-   <zorder>caLineEdit_41</zorder>
    <zorder>calabel_91</zorder>
    <zorder>caLineEdit_42</zorder>
-   <zorder>caLineEdit_43</zorder>
-   <zorder>calabel_92</zorder>
-   <zorder>calabel_37</zorder>
-   <zorder>camenu_3</zorder>
   </widget>
  </widget>
  <customwidgets>
