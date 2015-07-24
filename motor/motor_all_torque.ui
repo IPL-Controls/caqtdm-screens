@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>124</width>
-    <height>26</height>
+    <width>149</width>
+    <height>30</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -41,7 +41,7 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>117</width>
+       <width>131</width>
        <height>21</height>
       </rect>
      </property>
@@ -315,6 +315,41 @@
       <string notr="true">$(P)$(M6).CNEN</string>
      </property>
     </widget>
+    <widget class="caMessageButton" name="camessagebutton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TORQUE OFF</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </widget>
+    <zorder>camessagebutton</zorder>
+    <zorder>caMessageButton_19</zorder>
+    <zorder>catogglebutton</zorder>
+    <zorder>catogglebutton_2</zorder>
+    <zorder>catogglebutton_3</zorder>
+    <zorder>catogglebutton_4</zorder>
+    <zorder>catogglebutton_5</zorder>
+    <zorder>catogglebutton_6</zorder>
    </widget>
   </widget>
  </widget>
@@ -431,6 +466,166 @@
     <hint type="destinationlabel">
      <x>6</x>
      <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>caMessageButton_19</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>caMessageButton_19</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>109</x>
+     <y>15</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>90</x>
+     <y>18</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>caMessageButton_19</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>camessagebutton</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>33</x>
+     <y>12</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>82</x>
+     <y>87</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>caMessageButton_19</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>80</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>36</x>
+     <y>15</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>catogglebutton</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>10</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>43</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>catogglebutton_3</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>6</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>26</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>catogglebutton_5</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>0</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>48</x>
+     <y>39</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>catogglebutton_6</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>27</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>54</x>
+     <y>64</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>catogglebutton_4</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>45</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>27</x>
+     <y>52</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>catogglebutton_2</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>12</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>67</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>camessagebutton</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>117</x>
+     <y>82</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>122</x>
+     <y>84</y>
     </hint>
    </hints>
   </connection>

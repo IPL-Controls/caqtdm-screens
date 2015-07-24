@@ -428,7 +428,7 @@
       <string notr="true">background-color: rgb(105, 105, 105);</string>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M1=m7,M2=m8,M3=m9,M4=m10,M5=m11,M6=m12</string>
+      <string notr="true">P=KOZ:,M1=m13,M2=m14,M3=m15,M4=m16,M5=m17,M6=m18</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor_all_torque.ui</string>
@@ -608,6 +608,54 @@
       </color>
      </property>
     </widget>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>620</y>
+       <width>115</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="label">
+      <string notr="true">-SAVE CONFIG</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string>More</string>
+     </property>
+     <property name="files">
+      <string notr="true">../autosave/configMenu_small.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=KOZ:,CONFIG=g2</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>calabel_39</zorder>
     <zorder>calabel_41</zorder>
@@ -631,10 +679,16 @@
     <zorder>cainclude_8</zorder>
     <zorder>cainclude_9</zorder>
     <zorder>cainclude_4</zorder>
+    <zorder>caRelatedDisplay_4</zorder>
    </widget>
   </widget>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
   <customwidget>
    <class>caMessageButton</class>
    <extends>QPushButton</extends>

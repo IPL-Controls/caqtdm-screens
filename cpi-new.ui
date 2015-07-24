@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>461</width>
+    <width>725</width>
     <height>844</height>
    </rect>
   </property>
@@ -1670,14 +1670,14 @@
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,2,2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
       <property name="horizontalSpacing">
        <number>0</number>
       </property>
       <property name="verticalSpacing">
        <number>2</number>
-      </property>
-      <property name="leftMargin">
-       <number>0</number>
       </property>
       <item row="1" column="0">
        <widget class="caLabel" name="calabel_39">
@@ -1979,14 +1979,14 @@
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout_6" rowstretch="1,1,1,1" columnstretch="1,1">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
       <property name="horizontalSpacing">
        <number>0</number>
       </property>
       <property name="verticalSpacing">
        <number>2</number>
-      </property>
-      <property name="leftMargin">
-       <number>0</number>
       </property>
       <item row="3" column="1">
        <widget class="caLineEdit" name="caLineEdit_35">
@@ -4384,6 +4384,54 @@
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_4">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>729</y>
+      <width>160</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="label">
+     <string notr="true">-SAVE CONFIG</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>170</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>More</string>
+    </property>
+    <property name="files">
+     <string notr="true">../autosave/configMenu_small.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=cpi:,CONFIG=xray</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false</string>
+    </property>
+   </widget>
    <zorder>caframe_5</zorder>
    <zorder>caframe</zorder>
    <zorder>cagraphics</zorder>
@@ -4426,6 +4474,7 @@
    <zorder>caLineEdit_38</zorder>
    <zorder>calabel_91</zorder>
    <zorder>caLineEdit_42</zorder>
+   <zorder>caRelatedDisplay_4</zorder>
   </widget>
  </widget>
  <customwidgets>

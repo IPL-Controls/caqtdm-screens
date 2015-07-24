@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>730</width>
-    <height>663</height>
+    <width>809</width>
+    <height>263</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,7 +22,7 @@
      <rect>
       <x>-1</x>
       <y>0</y>
-      <width>731</width>
+      <width>831</width>
       <height>731</height>
      </rect>
     </property>
@@ -36,141 +36,13 @@
     <property name="backgroundMode">
      <enum>caFrame::Outline</enum>
     </property>
-    <widget class="caInclude" name="cainclude">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>50</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:SRI:xray1</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_2">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>90</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:AGILENT:dcps</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_7">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>130</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:NEWPORT</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_8">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>370</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL-2:SRI:xray</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_9">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>170</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:SCAN-1</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_10">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>250</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:D700:cam1</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_11">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>290</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:SRS:awg</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_12">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>210</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:D800:cam1</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
     <widget class="caGraphics" name="cagraphics">
      <property name="geometry">
       <rect>
        <x>5</x>
        <y>45</y>
-       <width>721</width>
-       <height>611</height>
+       <width>801</width>
+       <height>211</height>
       </rect>
      </property>
      <property name="foreground">
@@ -192,22 +64,6 @@
        <green>0</green>
        <blue>0</blue>
       </color>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_13">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>330</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL:OXFORD:xray</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_7">
@@ -259,7 +115,7 @@
     <widget class="caLabel" name="calabel_8">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>290</x>
        <y>10</y>
        <width>121</width>
        <height>31</height>
@@ -305,7 +161,7 @@
     <widget class="caLabel" name="calabel_9">
      <property name="geometry">
       <rect>
-       <x>300</x>
+       <x>420</x>
        <y>10</y>
        <width>121</width>
        <height>31</height>
@@ -351,7 +207,7 @@
     <widget class="caLabel" name="calabel_10">
      <property name="geometry">
       <rect>
-       <x>440</x>
+       <x>550</x>
        <y>10</y>
        <width>111</width>
        <height>31</height>
@@ -397,9 +253,9 @@
     <widget class="caLabel" name="calabel_11">
      <property name="geometry">
       <rect>
-       <x>570</x>
+       <x>670</x>
        <y>10</y>
-       <width>101</width>
+       <width>81</width>
        <height>31</height>
       </rect>
      </property>
@@ -440,60 +296,12 @@
       </color>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_14">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>410</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL-2:SCAN</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_15">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>450</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL-2:NEWPORT</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_16">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>490</y>
-       <width>711</width>
-       <height>35</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=IPL-2:PI4096:cam1</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
     <widget class="caInclude" name="cainclude_17">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>530</y>
-       <width>711</width>
+       <y>50</y>
+       <width>791</width>
        <height>35</height>
       </rect>
      </property>
@@ -508,8 +316,8 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>570</y>
-       <width>711</width>
+       <y>90</y>
+       <width>791</width>
        <height>35</height>
       </rect>
      </property>
@@ -524,8 +332,8 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>610</y>
-       <width>711</width>
+       <y>130</y>
+       <width>791</width>
        <height>35</height>
       </rect>
      </property>
@@ -536,27 +344,84 @@
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
      </property>
     </widget>
-    <zorder>cagraphics</zorder>
-    <zorder>cainclude_2</zorder>
-    <zorder>cainclude_10</zorder>
-    <zorder>cainclude_11</zorder>
-    <zorder>cainclude_12</zorder>
-    <zorder>cainclude_7</zorder>
-    <zorder>cainclude_8</zorder>
-    <zorder>cainclude_9</zorder>
-    <zorder>cainclude_13</zorder>
-    <zorder>calabel_7</zorder>
-    <zorder>calabel_8</zorder>
-    <zorder>calabel_9</zorder>
-    <zorder>calabel_10</zorder>
-    <zorder>calabel_11</zorder>
-    <zorder>cainclude</zorder>
-    <zorder>cainclude_14</zorder>
-    <zorder>cainclude_15</zorder>
-    <zorder>cainclude_16</zorder>
-    <zorder>cainclude_17</zorder>
-    <zorder>cainclude_18</zorder>
-    <zorder>cainclude_19</zorder>
+    <widget class="caInclude" name="cainclude_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>791</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=KOZ</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_12">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>10</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>DESCRIPTION</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_21">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>210</y>
+       <width>791</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=NEW</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>
