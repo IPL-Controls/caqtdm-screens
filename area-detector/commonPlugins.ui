@@ -5902,7 +5902,7 @@ border-radius: 2px;
      <string>image1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDStdArrays.adl</string>
+     <string notr="true">../area-detector/NDStdArrays.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=image1:</string>
@@ -5995,7 +5995,7 @@ border-radius: 2px;
      <string>Proc1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDProcess.adl</string>
+     <string notr="true">../area-detector/NDProcess.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Proc1:</string>
@@ -6088,7 +6088,7 @@ border-radius: 2px;
      <string>Trans1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDTransform.adl</string>
+     <string notr="true">../area-detector/NDTransform.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Trans1:</string>
@@ -6181,7 +6181,7 @@ border-radius: 2px;
      <string>CC1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDColorConvert.adl</string>
+     <string notr="true">../area-detector/NDColorConvert.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=CC1:</string>
@@ -6274,7 +6274,7 @@ border-radius: 2px;
      <string>CC2:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDColorConvert.adl</string>
+     <string notr="true">../area-detector/NDColorConvert.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=CC2:</string>
@@ -6367,7 +6367,7 @@ border-radius: 2px;
      <string>Over1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDOverlay.adl</string>
+     <string notr="true">../area-detector/NDOverlay.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Over1:</string>
@@ -6460,7 +6460,7 @@ border-radius: 2px;
      <string>ROI1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDROI.adl</string>
+     <string notr="true">../area-detector/NDROI.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=ROI1:</string>
@@ -6553,7 +6553,7 @@ border-radius: 2px;
      <string>ROI2:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDROI.adl</string>
+     <string notr="true">../area-detector/NDROI.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=ROI2:</string>
@@ -6646,7 +6646,7 @@ border-radius: 2px;
      <string>ROI3:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDROI.adl</string>
+     <string notr="true">../area-detector/NDROI.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=ROI3:</string>
@@ -6739,7 +6739,7 @@ border-radius: 2px;
      <string>ROI4:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDROI.adl</string>
+     <string notr="true">../area-detector/NDROI.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=ROI4:</string>
@@ -6832,7 +6832,7 @@ border-radius: 2px;
      <string>Stats1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDStats.adl</string>
+     <string notr="true">../area-detector/NDStats.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Stats1:</string>
@@ -6925,7 +6925,7 @@ border-radius: 2px;
      <string>Stats2:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDStats.adl</string>
+     <string notr="true">../area-detector/NDStats.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Stats2:</string>
@@ -7018,7 +7018,7 @@ border-radius: 2px;
      <string>Stats3:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDStats.adl</string>
+     <string notr="true">../area-detector/NDStats.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Stats3:</string>
@@ -7111,7 +7111,7 @@ border-radius: 2px;
      <string>Stats4:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDStats.adl</string>
+     <string notr="true">../area-detector/NDStats.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Stats4:</string>
@@ -7204,7 +7204,7 @@ border-radius: 2px;
      <string>Stats5:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDStats.adl</string>
+     <string notr="true">../area-detector/NDStats.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Stats5:</string>
@@ -7297,7 +7297,7 @@ border-radius: 2px;
      <string>netCDF1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDFileNetCDF.adl</string>
+     <string notr="true">../area-detector/NDFileNetCDF.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=netCDF1:</string>
@@ -7390,7 +7390,7 @@ border-radius: 2px;
      <string>TIFF1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDFileTIFF.adl</string>
+     <string notr="true">../area-detector/NDFileTIFF.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=TIFF1:</string>
@@ -7483,7 +7483,7 @@ border-radius: 2px;
      <string>JPEG1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDFileJPEG.adl</string>
+     <string notr="true">../area-detector/NDFileJPEG.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=JPEG1:</string>
@@ -7576,7 +7576,7 @@ border-radius: 2px;
      <string>Nexus1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDFileNexus.adl</string>
+     <string notr="true">../area-detector/NDFileNexus.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Nexus1:</string>
@@ -7669,7 +7669,7 @@ border-radius: 2px;
      <string>Magick1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDFileMagick.adl</string>
+     <string notr="true">../area-detector/NDFileMagick.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=Magick1:</string>
@@ -7762,7 +7762,7 @@ border-radius: 2px;
      <string>HDF1:</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/NDFileHDF5.adl</string>
+     <string notr="true">../area-detector/NDFileHDF5.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),R=HDF1:</string>

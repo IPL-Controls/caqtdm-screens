@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1070</width>
-    <height>417</height>
+    <height>555</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -1878,15 +1878,15 @@ border-radius: 2px;
      <rect>
       <x>5</x>
       <y>40</y>
-      <width>380</width>
-      <height>505</height>
+      <width>382</width>
+      <height>507</height>
      </rect>
     </property>
     <property name="macro">
      <string/>
     </property>
     <property name="filename" stdset="0">
-     <string notr="true">../area-detector/NDPluginBase.adl</string>
+     <string>NDPluginBase.ui</string>
     </property>
    </widget>
    <widget class="caFrame" name="caFrame_9">
