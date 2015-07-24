@@ -8476,7 +8476,7 @@
       <string>More</string>
      </property>
      <property name="files">
-      <string notr="true">../asynRecord.ui</string>
+      <string notr="true">../asyn/asynRecord.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=$(P)$(R),R=AsynIO</string>
@@ -8627,7 +8627,6 @@
     <zorder>caframe_15</zorder>
     <zorder>Asyn</zorder>
     <zorder>camenu_3</zorder>
-    <zorder>calabel_137</zorder>
    </widget>
   </widget>
  </widget>
