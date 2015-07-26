@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>730</width>
-    <height>549</height>
+    <height>602</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,7 +23,7 @@
       <x>-1</x>
       <y>0</y>
       <width>731</width>
-      <height>611</height>
+      <height>781</height>
      </rect>
     </property>
     <property name="background">
@@ -170,7 +170,7 @@
        <x>5</x>
        <y>45</y>
        <width>721</width>
-       <height>491</height>
+       <height>551</height>
       </rect>
      </property>
      <property name="foreground">
@@ -221,7 +221,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -267,7 +267,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -313,7 +313,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -359,7 +359,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -405,7 +405,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -488,6 +488,22 @@
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
      </property>
     </widget>
+    <widget class="caInclude" name="cainclude_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>530</y>
+       <width>711</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=13SIM1</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
     <zorder>cagraphics</zorder>
     <zorder>cainclude_2</zorder>
     <zorder>cainclude_10</zorder>
@@ -506,6 +522,7 @@
     <zorder>cainclude_14</zorder>
     <zorder>cainclude_15</zorder>
     <zorder>cainclude_16</zorder>
+    <zorder>cainclude_17</zorder>
    </widget>
   </widget>
  </widget>
