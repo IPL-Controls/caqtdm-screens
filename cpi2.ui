@@ -2536,11 +2536,14 @@
       <height>421</height>
      </rect>
     </property>
+    <property name="linestyle" stdset="0">
+     <enum>caGraphics::Dash</enum>
+    </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Outline</enum>
     </property>
     <property name="lineSize">
-     <number>5</number>
+     <number>8</number>
     </property>
     <property name="lineColor">
      <color>
@@ -2553,13 +2556,13 @@
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A+B!=0</string>
+     <string notr="true">A!=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:Error</string>
+     <string notr="true">cpi:ErrorLatching</string>
     </property>
     <property name="channelB">
-     <string notr="true">cpi:ErrorLatching</string>
+     <string notr="true"/>
     </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
@@ -3521,7 +3524,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>

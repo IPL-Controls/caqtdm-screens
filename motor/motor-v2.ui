@@ -466,13 +466,13 @@
       </color>
      </property>
      <property name="labels">
-      <string notr="true">More;Setup;All;Setup Scan Parameters</string>
+      <string notr="true">More;All</string>
      </property>
      <property name="files">
-      <string notr="true">../motor/motorx_more.ui;../motor/motorx_setup.ui;../motor/motorx_all.ui;../scan/scanParms.ui</string>
+      <string notr="true">../motor/motorx_more.ui;../motor/motorx_all.ui;</string>
      </property>
      <property name="args">
-      <string notr="true">P=$(P),M=$(M);P=$(P),M=$(M);P=$(P),M=$(M);P=$(P),M=$(M);</string>
+      <string notr="true">P=$(P),M=$(M);P=$(P),M=$(M);</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>

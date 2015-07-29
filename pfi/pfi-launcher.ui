@@ -232,7 +232,7 @@
      <string notr="true">IOC ADMIN</string>
     </property>
     <property name="files">
-     <string notr="true">../ioc-admin/ioc_admin_menu.ui</string>
+     <string notr="true">pfi-admin_menu.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -633,7 +633,7 @@
      <string notr="true">../SB801Kqt;../cpi-new.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=srxr;P=cpi</string>
+     <string notr="true">P=srxr:;P=cpi</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
