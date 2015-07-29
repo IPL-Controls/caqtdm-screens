@@ -712,7 +712,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <enum>QAbstractItemView::NoSelection</enum>
     </property>
     <property name="textElideMode">
-     <enum>Qt::ElideMiddle</enum>
+     <enum>Qt::ElideLeft</enum>
     </property>
     <property name="showGrid">
      <bool>false</bool>
