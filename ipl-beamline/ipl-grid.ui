@@ -480,10 +480,10 @@
       <string notr="true"/>
      </property>
      <property name="files">
-      <string notr="true"/>
+      <string notr="true">../autosave/configMenu_small</string>
      </property>
      <property name="args">
-      <string notr="true"/>
+      <string notr="true">P=$(P),CONFIG=motor</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
