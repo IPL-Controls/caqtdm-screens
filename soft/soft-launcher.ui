@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>202</width>
-    <height>322</height>
+    <height>238</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -23,7 +23,7 @@
       <x>10</x>
       <y>60</y>
       <width>182</width>
-      <height>251</height>
+      <height>171</height>
      </rect>
     </property>
     <property name="font">
@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -85,7 +85,7 @@
      <number>1</number>
     </property>
     <property name="text">
-     <string>IPL LAUNCHER</string>
+     <string>SOFT IOC LAUNCHER</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -105,111 +105,11 @@
      </color>
     </property>
    </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>161</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="sizePolicy">
-     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-      <horstretch>0</horstretch>
-      <verstretch>0</verstretch>
-     </sizepolicy>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>11</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
-    </property>
-    <property name="label">
-     <string notr="true">-  X-RAY</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">IPL-2:SRI:xray</string>
-    </property>
-    <property name="files">
-     <string notr="true">../SB801Kqt</string>
-    </property>
-    <property name="args">
-     <string notr="true">P=IPL-2:SRI:xray:</string>
-    </property>
-    <property name="fontScaleMode">
-     <enum>EPushButton::WidthAndHeight</enum>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>270</y>
-      <width>161</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="label">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">X-RAY STATUS</string>
-    </property>
-    <property name="files">
-     <string notr="true">../x-ray status/xray-status-small-1.2.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true"/>
-    </property>
-   </widget>
    <widget class="caRelatedDisplay" name="carelateddisplay_3">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>110</y>
+      <y>70</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -248,13 +148,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:D800:cam1;PI4096:cam1;13SIM1:cam1</string>
+     <string notr="true">13SIM1:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v2.ui;../PI4096qt;../area-detector/simDetector.ui</string>
+     <string notr="true">../area-detector/simDetector.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;P=13SIM1:,R=cam1:
+     <string notr="true">P=13SIM1:,R=cam1:
 </string>
     </property>
     <property name="fontScaleMode">
@@ -268,7 +168,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>230</y>
+      <y>190</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -301,7 +201,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>150</y>
+      <y>110</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -324,10 +224,10 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">g1</string>
+     <string notr="true">POSITIONERS</string>
     </property>
     <property name="files">
-     <string notr="true">ipl-grid</string>
+     <string notr="true">soft-motor</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -337,7 +237,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>190</y>
+      <y>150</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -379,7 +279,7 @@
      <string notr="true">IPL-1:SCAN</string>
     </property>
     <property name="files">
-     <string notr="true">ipl-scan.ui</string>
+     <string notr="true">soft-scan.ui</string>
     </property>
     <property name="args">
      <string notr="true">W=IPL-2:SCAN:, CONFIG=scan</string>
