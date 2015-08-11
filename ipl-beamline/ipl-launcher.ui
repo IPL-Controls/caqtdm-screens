@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>202</width>
-    <height>322</height>
+    <height>358</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -23,7 +23,7 @@
       <x>10</x>
       <y>60</y>
       <width>182</width>
-      <height>251</height>
+      <height>291</height>
      </rect>
     </property>
     <property name="font">
@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>12</pointsize>
+      <pointsize>17</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -167,7 +167,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>270</y>
+      <y>310</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -248,13 +248,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:D800:cam1;PI4096:cam1;13SIM1:cam1</string>
+     <string notr="true">IPL:D800:cam1;PI4096:cam1;IPL:D3X:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v2.ui;../PI4096qt;../area-detector/simDetector.ui</string>
+     <string notr="true">../nikonqt-v2.ui;../PI4096qt;../nikonqt-v2.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;P=13SIM1:,R=cam1:
+     <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;P=IPL:D3X:cam1:,W=IPL-2:SCAN:
 </string>
     </property>
     <property name="fontScaleMode">
@@ -268,7 +268,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>230</y>
+      <y>270</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -301,7 +301,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>150</y>
+      <y>190</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -327,7 +327,7 @@
      <string notr="true">g1</string>
     </property>
     <property name="files">
-     <string notr="true">ipl-grid</string>
+     <string notr="true">ipl-g1</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -337,7 +337,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>190</y>
+      <y>230</y>
       <width>161</width>
       <height>31</height>
      </rect>
@@ -389,6 +389,42 @@
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">g0</string>
+    </property>
+    <property name="files">
+     <string notr="true">ipl-g0</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
     </property>
    </widget>
   </widget>

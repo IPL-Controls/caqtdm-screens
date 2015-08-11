@@ -88,7 +88,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>370</y>
+       <y>410</y>
        <width>801</width>
        <height>35</height>
       </rect>
@@ -120,7 +120,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>250</y>
+       <y>290</y>
        <width>801</width>
        <height>35</height>
       </rect>
@@ -136,7 +136,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>290</y>
+       <y>330</y>
        <width>801</width>
        <height>35</height>
       </rect>
@@ -198,7 +198,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>330</y>
+       <y>370</y>
        <width>801</width>
        <height>35</height>
       </rect>
@@ -221,7 +221,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -267,7 +267,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -313,7 +313,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -359,7 +359,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -405,7 +405,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -444,7 +444,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>410</y>
+       <y>450</y>
        <width>801</width>
        <height>35</height>
       </rect>
@@ -460,7 +460,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>450</y>
+       <y>490</y>
        <width>801</width>
        <height>35</height>
       </rect>
@@ -476,7 +476,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>490</y>
+       <y>530</y>
        <width>801</width>
        <height>35</height>
       </rect>
@@ -492,13 +492,13 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>530</y>
+       <y>250</y>
        <width>801</width>
        <height>35</height>
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">ioc=13SIM1</string>
+      <string notr="true">ioc=IPL:D3X:cam1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -515,7 +515,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -561,7 +561,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
