@@ -4,10 +4,10 @@
 <widget class="QMainWindow" name="MainWindow">
     <property name="geometry">
         <rect>
-            <x>1095</x>
-            <y>344</y>
-            <width>400</width>
-            <height>300</height>
+            <x>200</x>
+            <y>105</y>
+            <width>485</width>
+            <height>90</height>
         </rect>
     </property>
     <property name="styleSheet">
@@ -107,152 +107,154 @@ border-radius: 2px;
 </string>
     </property>
     <widget class="QWidget" name="centralWidget">
-        <widget class="caCartesianPlot" name="caCartesianPlot_0">
-            <property name="geometry">
-                <rect>
-                    <x>0</x>
-                    <y>30</y>
-                    <width>400</width>
-                    <height>270</height>
-                </rect>
-            </property>
-            <property name="Title">
-                <string>$(TITLE)</string>
-            </property>
-            <property name="TitleX">
-                <string>$(XLABEL)</string>
-            </property>
-            <property name="TitleY">
-                <string>$(YLABEL)</string>
-            </property>
-            <property name="scaleColor">
-                <color alpha="255">
-                    <red>0</red>
-                    <green>0</green>
-                    <blue>0</blue>
-                </color>
-            </property>
-            <property name="foreground">
-                <color alpha="255">
-                    <red>115</red>
-                    <green>223</green>
-                    <blue>255</blue>
-                </color>
-            </property>
-            <property name="background">
-                <color alpha="255">
-                    <red>115</red>
-                    <green>223</green>
-                    <blue>255</blue>
-                </color>
-            </property>
-            <property name="color_1">
-                <color alpha="255">
-                    <red>0</red>
-                    <green>0</green>
-                    <blue>0</blue>
-                </color>
-            </property>
-            <property name="channels_1">
-                <string>;$(P)$(R)$(DATA)</string>
-            </property>
-            <property name="Style_1">
-                <enum>caCartesianPlot::Dots</enum>
-            </property>
-            <property name="Style_2">
-                <enum>caCartesianPlot::Dots</enum>
-            </property>
-            <property name="Style_3">
-                <enum>caCartesianPlot::Dots</enum>
-            </property>
-            <property name="symbol_1">
-                <enum>caCartesianPlot::NoSymbol</enum>
-            </property>
-            <property name="symbol_2">
-                <enum>caCartesianPlot::Rect</enum>
-            </property>
-            <property name="symbol_3">
-                <enum>caCartesianPlot::Triangle</enum>
-            </property>
-            <property name="XaxisScaling">
-                <enum>caCartesianPlot::Channel</enum>
-            </property>
-            <property name="YaxisScaling">
-                <enum>caCartesianPlot::Channel</enum>
-            </property>
-        </widget>
-        <widget class="caGraphics" name="caRectangle_0">
-            <property name="form">
-                <enum>caGraphics::Rectangle</enum>
-            </property>
-            <property name="geometry">
-                <rect>
-                    <x>0</x>
-                    <y>0</y>
-                    <width>400</width>
-                    <height>26</height>
-                </rect>
-            </property>
-            <property name="foreground">
-                <color alpha="255">
-                    <red>218</red>
-                    <green>218</green>
-                    <blue>218</blue>
-                </color>
-            </property>
-            <property name="fillstyle">
-                <enum>Filled</enum>
-            </property>
-            <property name="lineColor">
-                <color alpha="255">
-                    <red>218</red>
-                    <green>218</green>
-                    <blue>218</blue>
-                </color>
-            </property>
-            <property name="linestyle">
-                <enum>Solid</enum>
-            </property>
-        </widget>
         <widget class="caLabel" name="caLabel_0">
             <property name="frameShape">
                 <enum>QFrame::NoFrame</enum>
             </property>
             <property name="foreground">
                 <color alpha="255">
-                    <red>10</red>
+                    <red>0</red>
                     <green>0</green>
-                    <blue>184</blue>
+                    <blue>0</blue>
                 </color>
             </property>
             <property name="background">
                 <color alpha="0">
-                    <red>10</red>
+                    <red>0</red>
                     <green>0</green>
-                    <blue>184</blue>
+                    <blue>0</blue>
                 </color>
             </property>
             <property name="text">
-                <string>$(P)$(R) $(TITLE)</string>
+                <string>Explanation of CreateDirectory value N</string>
             </property>
             <property name="fontScaleMode">
                 <enum>ESimpleLabel::WidthAndHeight</enum>
             </property>
+            <property name="geometry">
+                <rect>
+                    <x>52</x>
+                    <y>5</y>
+                    <width>456</width>
+                    <height>20</height>
+                </rect>
+            </property>
             <property name="alignment">
-                <set>Qt::AlignAbsolute|Qt::AlignHCenter|Qt::AlignVCenter</set>
+                <set>Qt::AlignAbsolute|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+        </widget>
+        <widget class="caLabel" name="caLabel_1">
+            <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>N = 0: No directories will be created</string>
+            </property>
+            <property name="fontScaleMode">
+                <enum>ESimpleLabel::WidthAndHeight</enum>
             </property>
             <property name="geometry">
                 <rect>
-                    <x>92</x>
-                    <y>1</y>
-                    <width>255</width>
-                    <height>25</height>
+                    <x>5</x>
+                    <y>33</y>
+                    <width>310</width>
+                    <height>14</height>
                 </rect>
             </property>
+            <property name="alignment">
+                <set>Qt::AlignAbsolute|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
         </widget>
-        <zorder>caRectangle_0</zorder>
+        <widget class="caLabel" name="caLabel_2">
+            <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>N &lt; 0: Up to abs(N) new directory levels will be created</string>
+            </property>
+            <property name="fontScaleMode">
+                <enum>ESimpleLabel::WidthAndHeight</enum>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>52</y>
+                    <width>470</width>
+                    <height>14</height>
+                </rect>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignAbsolute|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+        </widget>
+        <widget class="caLabel" name="caLabel_3">
+            <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>N &gt; 0: N directories from the top level specified must already exist</string>
+            </property>
+            <property name="fontScaleMode">
+                <enum>ESimpleLabel::WidthAndHeight</enum>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>5</x>
+                    <y>71</y>
+                    <width>571</width>
+                    <height>14</height>
+                </rect>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignAbsolute|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+        </widget>
         <zorder>caLabel_0</zorder>
-        <zorder>caCartesianPlot_0</zorder>
+        <zorder>caLabel_1</zorder>
+        <zorder>caLabel_2</zorder>
+        <zorder>caLabel_3</zorder>
     </widget>
 </widget>
 </ui>
