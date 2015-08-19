@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>823</width>
+    <height>184</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>IOC Controller</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(156, 156, 156);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="caFrame" name="caframe">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>0</y>
+      <width>831</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="background">
+     <color>
+      <red>156</red>
+      <green>156</green>
+      <blue>156</blue>
+     </color>
+    </property>
+    <property name="backgroundMode">
+     <enum>caFrame::Outline</enum>
+    </property>
+    <widget class="caGraphics" name="cagraphics">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>45</y>
+       <width>811</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
+      </color>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineSize">
+      <number>3</number>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>PV</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_8">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>HOST</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_9">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>10</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>UP TIME</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_10">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>10</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string># RECORDS</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_11">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>10</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>REBOOT</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_17">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>801</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=SIM:DET</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_18">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>801</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=SIM:MOTOR</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>801</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=SIM:SCAN</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_12">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>10</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>DESCRIPTION</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_13">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>10</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>MORE</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caFrame</class>
+   <extends>QFrame</extends>
+   <header>caFrame</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caGraphics</class>
+   <extends>QWidget</extends>
+   <header>caGraphics</header>
+  </customwidget>
+  <customwidget>
+   <class>caInclude</class>
+   <extends>QWidget</extends>
+   <header>caInclude</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

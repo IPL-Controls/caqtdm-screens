@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>8</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -154,7 +154,7 @@
      <string notr="true">../area-detector/simDetector.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=13SIM1:,R=cam1:
+     <string notr="true">P=SIM:DET:,R=cam1:
 </string>
     </property>
     <property name="fontScaleMode">
@@ -191,7 +191,7 @@
      <string notr="true">IOC ADMIN</string>
     </property>
     <property name="files">
-     <string notr="true">../ioc-admin/ioc_admin_menu.ui</string>
+     <string notr="true">soft-admin_menu.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -282,7 +282,7 @@
      <string notr="true">soft-scan.ui</string>
     </property>
     <property name="args">
-     <string notr="true">W=IPL-2:SCAN:, CONFIG=scan</string>
+     <string notr="true">W=SIM:SCAN:, CONFIG=scan</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
