@@ -647,7 +647,7 @@
       <string notr="true">../autosave/configMenu_small.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=NEW:,CONFIG=all</string>
+      <string notr="true">P=NEW:,CONFIG=ss</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::Menu</enum>
