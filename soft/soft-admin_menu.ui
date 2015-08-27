@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>823</width>
-    <height>184</height>
+    <height>218</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -42,7 +42,7 @@
        <x>5</x>
        <y>45</y>
        <width>811</width>
-       <height>131</height>
+       <height>171</height>
       </rect>
      </property>
      <property name="foreground">
@@ -434,6 +434,22 @@
        <green>209</green>
        <blue>239</blue>
       </color>
+     </property>
+    </widget>
+    <widget class="caInclude" name="cainclude_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>801</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="macro">
+      <string notr="true">ioc=SIM:Qi2</string>
+     </property>
+     <property name="filename" stdset="0">
+      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
      </property>
     </widget>
    </widget>
