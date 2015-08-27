@@ -191,6 +191,54 @@
       </color>
      </property>
     </widget>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_4">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>651</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="label">
+      <string notr="true">-SAVE CONFIG</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string>More</string>
+     </property>
+     <property name="files">
+      <string notr="true">../autosave/configMenu_small.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=KOZ:,CONFIG=all</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
     <zorder>calabel_6</zorder>
     <zorder>cainclude</zorder>
     <zorder>cainclude_2</zorder>
@@ -201,10 +249,16 @@
     <zorder>cainclude_7</zorder>
     <zorder>camessagebutton</zorder>
     <zorder>camessagebutton_2</zorder>
+    <zorder>caRelatedDisplay_4</zorder>
    </widget>
   </widget>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
   <customwidget>
    <class>caMessageButton</class>
    <extends>QPushButton</extends>

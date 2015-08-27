@@ -10,6 +10,9 @@
     <height>459</height>
    </rect>
   </property>
+  <property name="focusPolicy">
+   <enum>Qt::NoFocus</enum>
+  </property>
   <property name="styleSheet">
    <string notr="true">QWidget#centralWidget {background-color: rgb(156, 156, 156);}
 
