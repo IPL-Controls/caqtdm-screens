@@ -141,10 +141,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caGraphics::StaticV</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A!=0 &amp;&amp; B=0</string>
+     <string notr="true">B=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">IPL-2:SRI:xray:FIRING_RBV</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -164,7 +164,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -222,7 +222,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -255,13 +255,13 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">IPL-2:SRI:xray:FIRING_RBV</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -278,7 +278,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>22</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -325,7 +325,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>23</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
@@ -355,13 +355,13 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">B=0 || A!=10</string>
+     <string notr="true">A!=10</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">cpi:GeneratorStatus.STAT</string>
     </property>
     <property name="channelB">
-     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
+     <string notr="true"/>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_9">
@@ -375,7 +375,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -410,7 +410,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -496,7 +496,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -633,7 +633,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -668,11 +668,11 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(160, 160, 164, 0); color: rgb(85, 170, 255, 255);</string>
+     <string notr="true">background-color: rgba(160, 160, 164, 0); color: rgba(85, 170, 255, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
@@ -718,7 +718,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>17</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -765,7 +765,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>17</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -844,7 +844,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>19</pointsize>
      </font>
     </property>
     <property name="text">
@@ -891,7 +891,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>24</pointsize>
+      <pointsize>19</pointsize>
      </font>
     </property>
     <property name="text">
@@ -921,13 +921,13 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"> A=10 &amp;&amp; B=1</string>
+     <string notr="true"> A=10</string>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">cpi:GeneratorStatus.STAT</string>
     </property>
     <property name="channelB">
-     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
+     <string notr="true"/>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_5">
@@ -941,7 +941,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -988,14 +988,14 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(69, 69, 71, 0); color: rgb(0, 0, 0, 255);</string>
+     <string notr="true">background-color: rgba(69, 69, 71, 0); color: rgba(0, 0, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
@@ -1127,7 +1127,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -1223,7 +1223,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -1531,13 +1531,13 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">IPL-2:SRI:xray:FIRING_RBV</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">IPL-2:SRI:xray:READY_RBV</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -1716,7 +1716,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -1764,7 +1764,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -2355,7 +2355,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2395,7 +2395,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <bool>false</bool>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true">cpiSync:RadPrepOut</string>
     </property>
     <property name="falseColor">
      <color>
@@ -2405,10 +2405,10 @@ gridline-color: rgb(255, 255, 255);</string>
      </color>
     </property>
     <property name="trueValue">
-     <string>0</string>
+     <string>1</string>
     </property>
     <property name="falseValue">
-     <string>1</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_17">
@@ -2422,7 +2422,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2460,7 +2460,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2498,7 +2498,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2536,7 +2536,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2574,7 +2574,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2606,7 +2606,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2638,7 +2638,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2676,7 +2676,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>16</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2717,7 +2717,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2749,7 +2749,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2781,7 +2781,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2900,7 +2900,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -2988,10 +2988,10 @@ gridline-color: rgb(255, 255, 255);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="placeholderText">
-     <string>N/A</string>
+     <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">KOZ:m20</string>
     </property>
     <property name="foreground">
      <color>
@@ -3257,8 +3257,11 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
+    <property name="placeholderText">
+     <string>N/A</string>
+    </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m3.RBV</string>
+     <string notr="true"/>
     </property>
     <property name="foreground">
      <color>
@@ -3357,7 +3360,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m99.RBV</string>
+     <string notr="true">KOZ:m19.RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -3510,7 +3513,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m1.RBV</string>
+     <string notr="true">TL:m2.RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -3564,7 +3567,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m17.RBV</string>
+     <string notr="true">TL:m1.RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -4653,10 +4656,10 @@ gridline-color: rgb(255, 255, 255);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="placeholderText">
-     <string>N/A</string>
+     <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">NEW:m106.RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -5000,8 +5003,11 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
+    <property name="placeholderText">
+     <string>N/A</string>
+    </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m8.RBV</string>
+     <string notr="true"/>
     </property>
     <property name="foreground">
      <color>
@@ -5117,8 +5123,11 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
+    <property name="placeholderText">
+     <string>N/A</string>
+    </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m7.RBV</string>
+     <string notr="true"/>
     </property>
     <property name="foreground">
      <color>
@@ -5245,13 +5254,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -5293,10 +5302,10 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caGraphics::StaticV</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
      <string notr="true"/>
@@ -5385,13 +5394,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6176,13 +6185,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6220,13 +6229,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6261,13 +6270,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6302,13 +6311,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6343,13 +6352,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6384,13 +6393,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6425,13 +6434,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caPolyLine::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6448,7 +6457,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>15</pointsize>
+      <pointsize>12</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6472,10 +6481,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
+    </property>
+    <property name="channelC">
+     <string notr="true">cpiSync:RadPrepOut</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_50">
@@ -6489,7 +6501,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>15</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6513,10 +6525,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
+    </property>
+    <property name="channelC">
+     <string notr="true">cpiSync:RadPrepOut</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_24">
@@ -6530,7 +6545,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -6731,13 +6746,13 @@ gridline-color: rgb(255, 255, 255);</string>
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">(A=0&amp;&amp;B=0) || C=1</string>
+     <string notr="true">C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">srxr:FIRING.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelB">
-     <string notr="true">srxr:RDY.VAL</string>
+     <string notr="true"/>
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
@@ -6902,7 +6917,7 @@ gridline-color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -6962,7 +6977,7 @@ gridline-color: rgb(255, 255, 255);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>14</pointsize>
+      <pointsize>11</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -7080,7 +7095,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <number>90</number>
     </property>
    </widget>
-   <widget class="caClock" name="caclock" native="true">
+   <widget class="caClock" name="caclock">
     <property name="geometry">
      <rect>
       <x>1030</x>
@@ -7093,20 +7108,20 @@ gridline-color: rgb(255, 255, 255);</string>
      <string notr="true">background-color: rgb(255, 255, 255);
 background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 255, 255, 255), stop:0.1 rgba(255, 255, 255, 255), stop:0.2 rgba(255, 176, 176, 167), stop:0.3 rgba(255, 151, 151, 92), stop:0.4 rgba(255, 125, 125, 51), stop:0.5 rgba(255, 76, 76, 205), stop:0.52 rgba(255, 76, 76, 205), stop:0.6 rgba(255, 180, 180, 84), stop:1 rgba(255, 255, 255, 0));</string>
     </property>
-    <property name="lineWidth" stdset="0">
+    <property name="lineWidth">
      <number>2</number>
     </property>
-    <property name="baseColor" stdset="0">
+    <property name="baseColor">
      <color>
       <red>255</red>
       <green>0</green>
       <blue>0</blue>
      </color>
     </property>
-    <property name="scaleDefaultColor" stdset="0">
+    <property name="scaleDefaultColor">
      <bool>false</bool>
     </property>
-    <property name="scaleColor" stdset="0">
+    <property name="scaleColor">
      <color>
       <red>0</red>
       <green>0</green>
@@ -7285,6 +7300,11 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <header>caPolyLine</header>
   </customwidget>
   <customwidget>
+   <class>caClock</class>
+   <extends>QWidget</extends>
+   <header>caClock</header>
+  </customwidget>
+  <customwidget>
    <class>caLed</class>
    <extends>QWidget</extends>
    <header>caLed</header>
@@ -7308,11 +7328,6 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <class>caStripPlot</class>
    <extends>QFrame</extends>
    <header>caStripPlot</header>
-  </customwidget>
-  <customwidget>
-   <class>caClock</class>
-   <extends>QWidget</extends>
-   <header>caClock</header>
   </customwidget>
  </customwidgets>
  <resources/>
