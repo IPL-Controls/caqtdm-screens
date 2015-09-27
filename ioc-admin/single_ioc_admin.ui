@@ -397,7 +397,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(ioc):ENGINEER</string>
+      <string notr="true">$(ioc):DESCRIPTION</string>
      </property>
      <property name="foreground">
       <color>

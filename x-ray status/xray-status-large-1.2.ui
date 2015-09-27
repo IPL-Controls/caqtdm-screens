@@ -355,10 +355,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A!=10</string>
+     <string notr="true">A!=0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:GeneratorStatus.STAT</string>
+     <string notr="true">cpi:GeneratorStatus</string>
     </property>
     <property name="channelB">
      <string notr="true"/>
@@ -672,7 +672,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(160, 160, 164, 0); color: rgba(85, 170, 255, 255);</string>
+     <string notr="true">background-color: rgb(160, 160, 164, 0); color: rgb(85, 170, 255, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
@@ -921,10 +921,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"> A=10</string>
+     <string notr="true"> A==0</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:GeneratorStatus.STAT</string>
+     <string notr="true">cpi:GeneratorStatus</string>
     </property>
     <property name="channelB">
      <string notr="true"/>
@@ -995,7 +995,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(69, 69, 71, 0); color: rgba(0, 0, 0, 255);</string>
+     <string notr="true">background-color: rgb(69, 69, 71, 0); color: rgb(0, 0, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::Box</enum>
@@ -1127,7 +1127,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -1223,7 +1223,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -1716,7 +1716,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -1764,7 +1764,7 @@ gridline-color: rgb(255, 255, 255);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(85, 255, 0, 255);</string>
+     <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(85, 255, 0, 255);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -7098,10 +7098,10 @@ gridline-color: rgb(255, 255, 255);</string>
    <widget class="caClock" name="caclock">
     <property name="geometry">
      <rect>
-      <x>1030</x>
+      <x>1090</x>
       <y>70</y>
-      <width>251</width>
-      <height>181</height>
+      <width>191</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -7127,6 +7127,22 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
       <green>0</green>
       <blue>0</blue>
      </color>
+    </property>
+   </widget>
+   <widget class="caImage" name="caimage">
+    <property name="geometry">
+     <rect>
+      <x>1140</x>
+      <y>220</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">EPICS-Logo.png</string>
     </property>
    </widget>
    <zorder>cagraphics_4</zorder>
@@ -7275,6 +7291,7 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <zorder>cagraphics_14</zorder>
    <zorder>cagraphics_15</zorder>
    <zorder>caclock</zorder>
+   <zorder>caimage</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -7298,6 +7315,11 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <class>caPolyLine</class>
    <extends>QWidget</extends>
    <header>caPolyLine</header>
+  </customwidget>
+  <customwidget>
+   <class>caImage</class>
+   <extends>QWidget</extends>
+   <header>caImage</header>
   </customwidget>
   <customwidget>
    <class>caClock</class>
