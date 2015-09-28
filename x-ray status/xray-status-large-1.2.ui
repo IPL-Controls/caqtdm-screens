@@ -355,10 +355,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A!=10</string>
+     <string notr="true">A=2||A=3||A=4</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:GeneratorStatus.STAT</string>
+     <string notr="true">cpi:GeneratorStatus</string>
     </property>
     <property name="channelB">
      <string notr="true"/>
@@ -884,7 +884,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     <property name="geometry">
      <rect>
       <x>820</x>
-      <y>640</y>
+      <y>610</y>
       <width>291</width>
       <height>41</height>
      </rect>
@@ -921,10 +921,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"> A=10</string>
+     <string notr="true"> A=0 || A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:GeneratorStatus.STAT</string>
+     <string notr="true">cpi:GeneratorStatus</string>
     </property>
     <property name="channelB">
      <string notr="true"/>
@@ -4659,7 +4659,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m106.RBV</string>
+     <string notr="true">NEW:m18.RBV</string>
     </property>
     <property name="foreground">
      <color>
