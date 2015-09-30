@@ -141,7 +141,7 @@
      <string notr="true">X-RAY STATUS</string>
     </property>
     <property name="files">
-     <string notr="true">../x-ray status/xray-status-small-1.2.ui</string>
+     <string notr="true">../x-ray status/xray-status-large-1.2.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
