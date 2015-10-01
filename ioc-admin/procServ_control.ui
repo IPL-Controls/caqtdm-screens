@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>844</width>
-    <height>495</height>
+    <width>649</width>
+    <height>439</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -105,7 +105,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="minValue">
      <double>0.000000000000000</double>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -156,7 +156,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="minValue">
      <double>0.000000000000000</double>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -204,13 +204,13 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>5</y>
-      <width>831</width>
+      <width>631</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -253,7 +253,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>50</y>
-      <width>831</width>
+      <width>631</width>
       <height>101</height>
      </rect>
     </property>
@@ -286,8 +286,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>160</y>
-      <width>831</width>
-      <height>331</height>
+      <width>631</width>
+      <height>271</height>
      </rect>
     </property>
     <property name="foreground">
@@ -319,13 +319,13 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>20</x>
       <y>55</y>
-      <width>811</width>
+      <width>611</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>10</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -363,7 +363,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caLabel" name="caLabel_30">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>352</x>
       <y>95</y>
       <width>121</width>
       <height>21</height>
@@ -399,7 +399,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caLineEdit" name="caLineEdit_2">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>490</x>
       <y>95</y>
       <width>41</width>
       <height>20</height>
@@ -440,7 +440,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="minValue">
      <double>0.000000000000000</double>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -450,11 +450,14 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caToggleButton" name="catogglebutton">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>330</x>
       <y>120</y>
-      <width>191</width>
+      <width>181</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
     </property>
     <property name="text">
      <string>SHOW IOC OUTPUT</string>
@@ -481,7 +484,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caToggleButton" name="catogglebutton_2">
     <property name="geometry">
      <rect>
-      <x>560</x>
+      <x>330</x>
       <y>95</y>
       <width>21</width>
       <height>21</height>
@@ -494,10 +497,10 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caMessageButton" name="caMessageButton_0">
     <property name="geometry">
      <rect>
-      <x>740</x>
-      <y>90</y>
+      <x>540</x>
+      <y>120</y>
       <width>91</width>
-      <height>30</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -536,10 +539,10 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caMessageButton" name="caMessageButton_1">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>90</y>
+      <x>540</x>
+      <y>95</y>
       <width>91</width>
-      <height>30</height>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
@@ -578,7 +581,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caTextEntry" name="catextentry">
     <property name="geometry">
      <rect>
-      <x>590</x>
+      <x>380</x>
       <y>170</y>
       <width>241</width>
       <height>31</height>
@@ -607,19 +610,22 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="colorMode">
      <enum>caLineEdit::Static</enum>
     </property>
+    <property name="elevation">
+     <enum>caTextEntry::as_is</enum>
+    </property>
    </widget>
    <widget class="QTextBrowser" name="textBrowser">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>170</y>
-      <width>811</width>
-      <height>311</height>
+      <width>611</width>
+      <height>251</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="styleSheet">
