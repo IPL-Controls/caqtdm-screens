@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>659</width>
-    <height>36</height>
+    <width>644</width>
+    <height>39</height>
    </rect>
   </property>
   <property name="font">
@@ -44,7 +44,7 @@
     <widget class="caMessageButton" name="caMessageButton_0">
      <property name="geometry">
       <rect>
-       <x>510</x>
+       <x>500</x>
        <y>5</y>
        <width>81</width>
        <height>30</height>
@@ -52,7 +52,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -138,7 +138,7 @@
     <widget class="caLineEdit" name="caLineEdit_2">
      <property name="geometry">
       <rect>
-       <x>380</x>
+       <x>370</x>
        <y>10</y>
        <width>121</width>
        <height>21</height>
@@ -153,7 +153,7 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>8</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="echoMode">
@@ -204,7 +204,7 @@
     <widget class="caLineEdit" name="caLineEdit_7">
      <property name="geometry">
       <rect>
-       <x>250</x>
+       <x>240</x>
        <y>10</y>
        <width>121</width>
        <height>21</height>
@@ -219,7 +219,7 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>6</pointsize>
+       <pointsize>10</pointsize>
        <stylestrategy>PreferDefault</stylestrategy>
        <kerning>false</kerning>
       </font>
@@ -269,7 +269,7 @@
     <widget class="caRelatedDisplay" name="carelateddisplay">
      <property name="geometry">
       <rect>
-       <x>600</x>
+       <x>590</x>
        <y>10</y>
        <width>51</width>
        <height>21</height>
@@ -327,7 +327,7 @@
     <widget class="caLineEdit" name="caLineEdit_8">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>120</x>
        <y>10</y>
        <width>111</width>
        <height>21</height>
@@ -342,21 +342,20 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>6</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);font: 6pt &quot;MS Shell Dlg 2&quot;;} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} 
-</string>
+      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(ioc):ENGINEER</string>
+      <string notr="true">$(ioc):DESCRIPTION</string>
      </property>
      <property name="foreground">
       <color>

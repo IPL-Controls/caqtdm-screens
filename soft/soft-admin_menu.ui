@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>823</width>
-    <height>218</height>
+    <width>1013</width>
+    <height>220</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,7 +22,7 @@
      <rect>
       <x>-1</x>
       <y>0</y>
-      <width>831</width>
+      <width>1511</width>
       <height>731</height>
      </rect>
     </property>
@@ -41,7 +41,7 @@
       <rect>
        <x>5</x>
        <y>45</y>
-       <width>811</width>
+       <width>1001</width>
        <height>171</height>
       </rect>
      </property>
@@ -71,13 +71,13 @@
       <rect>
        <x>10</x>
        <y>10</y>
-       <width>151</width>
+       <width>111</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -115,7 +115,7 @@
     <widget class="caLabel" name="calabel_8">
      <property name="geometry">
       <rect>
-       <x>290</x>
+       <x>250</x>
        <y>10</y>
        <width>121</width>
        <height>31</height>
@@ -123,7 +123,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -161,7 +161,7 @@
     <widget class="caLabel" name="calabel_9">
      <property name="geometry">
       <rect>
-       <x>420</x>
+       <x>380</x>
        <y>10</y>
        <width>121</width>
        <height>31</height>
@@ -169,7 +169,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -204,56 +204,10 @@
       </color>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_10">
-     <property name="geometry">
-      <rect>
-       <x>550</x>
-       <y>10</y>
-       <width>111</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>13</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::WinPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-     <property name="lineWidth">
-      <number>5</number>
-     </property>
-     <property name="text">
-      <string># RECORDS</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>169</red>
-       <green>209</green>
-       <blue>239</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caLabel" name="calabel_11">
      <property name="geometry">
       <rect>
-       <x>670</x>
+       <x>510</x>
        <y>10</y>
        <width>81</width>
        <height>31</height>
@@ -261,7 +215,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -301,7 +255,7 @@
       <rect>
        <x>10</x>
        <y>50</y>
-       <width>801</width>
+       <width>641</width>
        <height>35</height>
       </rect>
      </property>
@@ -317,7 +271,7 @@
       <rect>
        <x>10</x>
        <y>90</y>
-       <width>801</width>
+       <width>641</width>
        <height>35</height>
       </rect>
      </property>
@@ -333,7 +287,7 @@
       <rect>
        <x>10</x>
        <y>130</y>
-       <width>801</width>
+       <width>641</width>
        <height>35</height>
       </rect>
      </property>
@@ -347,7 +301,7 @@
     <widget class="caLabel" name="calabel_12">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>130</x>
        <y>10</y>
        <width>111</width>
        <height>31</height>
@@ -355,7 +309,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -393,7 +347,7 @@
     <widget class="caLabel" name="calabel_13">
      <property name="geometry">
       <rect>
-       <x>760</x>
+       <x>600</x>
        <y>10</y>
        <width>51</width>
        <height>31</height>
@@ -401,7 +355,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -441,7 +395,7 @@
       <rect>
        <x>10</x>
        <y>170</y>
-       <width>801</width>
+       <width>641</width>
        <height>35</height>
       </rect>
      </property>
@@ -452,10 +406,142 @@
       <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
      </property>
     </widget>
+    <widget class="caLabel" name="calabel_14">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>10</y>
+       <width>341</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>PFI LOG</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="camessagebutton">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>14</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RELOAD LOG</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>655</x>
+       <y>50</y>
+       <width>345</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(0, 255, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>0</number>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustToContents</enum>
+     </property>
+     <property name="autoFormatting">
+      <set>QTextEdit::AutoNone</set>
+     </property>
+     <property name="lineWrapColumnOrWidth">
+      <number>0</number>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="tabStopWidth">
+      <number>100</number>
+     </property>
+     <property name="source">
+      <url>
+       <string>file:///C:/Epics/sim_iocs.log</string>
+      </url>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>
  <customwidgets>
+  <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
+  </customwidget>
   <customwidget>
    <class>caFrame</class>
    <extends>QFrame</extends>
@@ -479,5 +565,22 @@
   </customwidget>
  </customwidgets>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked()</signal>
+   <receiver>textBrowser</receiver>
+   <slot>reload()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>909</x>
+     <y>28</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>903</x>
+     <y>96</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
