@@ -489,7 +489,7 @@ font: 7pt &quot;MS Shell Dlg 2&quot;;</string>
       <rect>
        <x>675</x>
        <y>5</y>
-       <width>201</width>
+       <width>221</width>
        <height>31</height>
       </rect>
      </property>
@@ -530,26 +530,10 @@ font: 7pt &quot;MS Shell Dlg 2&quot;;</string>
       </color>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_23">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>285</y>
-       <width>661</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">ioc=srxr</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-     </property>
-    </widget>
     <widget class="caMessageButton" name="camessagebutton">
      <property name="geometry">
       <rect>
-       <x>889</x>
+       <x>900</x>
        <y>10</y>
        <width>101</width>
        <height>22</height>
