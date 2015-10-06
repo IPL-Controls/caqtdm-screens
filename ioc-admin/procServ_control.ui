@@ -106,7 +106,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <double>0.000000000000000</double>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -157,7 +157,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <double>0.000000000000000</double>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -441,7 +441,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <double>0.000000000000000</double>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -642,7 +642,7 @@ color: rgb(0, 255, 0);</string>
      <number>3</number>
     </property>
     <property name="verticalScrollBarPolicy">
-     <enum>Qt::ScrollBarAlwaysOn</enum>
+     <enum>Qt::ScrollBarAsNeeded</enum>
     </property>
     <property name="horizontalScrollBarPolicy">
      <enum>Qt::ScrollBarAsNeeded</enum>

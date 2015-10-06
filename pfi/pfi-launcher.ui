@@ -190,13 +190,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL:D800:cam1;Qi2:cam1</string>
+     <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v2.ui;../nikonqi2-slim</string>
+     <string notr="true">../nikonqi2-slim</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:D800:cam1:, W=IOC:;P=Qi2:, R=cam1:, W=IOC:;</string>
+     <string notr="true">P=Qi2:, R=cam1:, W=IOC:;</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -627,13 +627,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">FIXED ANODE-SRI;ROTATING ANODE-CPI</string>
+     <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">../SB801Kqt;../cpi-new.ui</string>
+     <string notr="true">../cpi-new.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=srxr:;P=cpi</string>
+     <string notr="true">P=cpi</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
