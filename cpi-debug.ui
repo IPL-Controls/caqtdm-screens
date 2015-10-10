@@ -651,14 +651,14 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,0,0">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
      <property name="horizontalSpacing">
       <number>0</number>
      </property>
      <property name="verticalSpacing">
       <number>2</number>
-     </property>
-     <property name="leftMargin">
-      <number>0</number>
      </property>
      <item row="1" column="0">
       <widget class="caLabel" name="calabel_39">
@@ -715,7 +715,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -792,7 +792,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -862,7 +862,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -932,7 +932,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1026,7 +1026,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1065,7 +1065,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1318,7 +1318,7 @@
        <property name="colorMode">
         <enum>caLineEdit::Static</enum>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1544,7 +1544,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1773,7 +1773,7 @@
        <property name="precisionMode">
         <enum>caLineEdit::User</enum>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1793,14 +1793,14 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_4" columnstretch="2,2,2,2">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
      <property name="horizontalSpacing">
       <number>0</number>
      </property>
      <property name="verticalSpacing">
       <number>2</number>
-     </property>
-     <property name="leftMargin">
-      <number>0</number>
      </property>
      <item row="1" column="2">
       <widget class="caLabel" name="calabel_42">
@@ -1881,7 +1881,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1920,7 +1920,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -1959,7 +1959,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2070,7 +2070,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2109,7 +2109,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2148,7 +2148,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2214,7 +2214,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2316,7 +2316,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2379,7 +2379,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2454,7 +2454,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2577,14 +2577,14 @@
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_6" rowstretch="1,1,1,1" columnstretch="1,1">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
      <property name="horizontalSpacing">
       <number>0</number>
      </property>
      <property name="verticalSpacing">
       <number>2</number>
-     </property>
-     <property name="leftMargin">
-      <number>0</number>
      </property>
      <item row="3" column="1">
       <widget class="caLineEdit" name="caLineEdit_35">
@@ -2617,7 +2617,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2704,7 +2704,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2743,7 +2743,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2782,7 +2782,7 @@
        <property name="precision">
         <number>0</number>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -3335,7 +3335,7 @@
     <property name="precisionMode">
      <enum>caLineEdit::Channel</enum>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -3410,7 +3410,7 @@
     <property name="precision">
      <number>0</number>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -3552,7 +3552,7 @@
     <property name="precision">
      <number>0</number>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -3589,8 +3589,11 @@
     <property name="YAxisType" stdset="0">
      <enum>caStripPlot::linear</enum>
     </property>
+    <property name="YAxisScaling" stdset="0">
+     <enum>caStripPlot::autoScale</enum>
+    </property>
     <property name="YaxisLimitsMax_1">
-     <double>1.000000000000000</double>
+     <double>100.000000000000000</double>
     </property>
     <property name="YaxisScalingMax_1" stdset="0">
      <enum>caStripPlot::User</enum>
@@ -3606,7 +3609,7 @@
      </color>
     </property>
     <property name="YaxisLimitsMax_2">
-     <double>1.000000000000000</double>
+     <double>100.000000000000000</double>
     </property>
     <property name="YaxisScalingMax_2" stdset="0">
      <enum>caStripPlot::User</enum>
@@ -3625,7 +3628,7 @@
      </color>
     </property>
     <property name="YaxisLimitsMax_3">
-     <double>1.000000000000000</double>
+     <double>100.000000000000000</double>
     </property>
     <property name="YaxisScalingMax_3" stdset="0">
      <enum>caStripPlot::User</enum>
@@ -3644,7 +3647,7 @@
      </color>
     </property>
     <property name="YaxisLimitsMax_4">
-     <double>13.000000000000000</double>
+     <double>100.000000000000000</double>
     </property>
     <property name="YaxisScalingMax_4" stdset="0">
      <enum>caStripPlot::User</enum>
@@ -3684,7 +3687,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -3759,13 +3762,8 @@
   </customwidget>
   <customwidget>
    <class>caStripPlot</class>
-   <extends>QwtPlot</extends>
-   <header>caStripPlot</header>
-  </customwidget>
-  <customwidget>
-   <class>QwtPlot</class>
    <extends>QFrame</extends>
-   <header>qwt_plot.h</header>
+   <header>caStripPlot</header>
   </customwidget>
  </customwidgets>
  <resources/>
