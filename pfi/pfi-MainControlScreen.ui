@@ -20,7 +20,7 @@
    <enum>QTabWidget::Triangular</enum>
   </property>
   <property name="currentIndex">
-   <number>1</number>
+   <number>0</number>
   </property>
   <property name="elideMode">
    <enum>Qt::ElideNone</enum>
@@ -65,7 +65,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>13</pointsize>
+       <pointsize>15</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1620,13 +1620,13 @@
       <rect>
        <x>460</x>
        <y>231</y>
-       <width>131</width>
+       <width>101</width>
        <height>30</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2311,13 +2311,13 @@
       <rect>
        <x>460</x>
        <y>190</y>
-       <width>130</width>
+       <width>101</width>
        <height>30</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2469,13 +2469,13 @@
       <rect>
        <x>460</x>
        <y>150</y>
-       <width>131</width>
+       <width>101</width>
        <height>30</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2746,7 +2746,7 @@
       <string notr="true">DETECTOR</string>
      </property>
      <property name="files">
-      <string notr="true">../area-detector/KsCam.ui</string>
+      <string notr="true">../nikonqi2-slim.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=Qi2:,R=cam1:</string>
@@ -3397,6 +3397,12 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
+     </property>
      <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
@@ -3444,6 +3450,12 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>2</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
@@ -3819,7 +3831,7 @@ P=IOC:,CONFIG=scan;</string>
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">PFI:RAD_STATUS_FLAG</string>
+      <string notr="true">PFI:STATUS</string>
      </property>
      <property name="foreground">
       <color>
@@ -4019,7 +4031,7 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_79">
      <property name="geometry">
       <rect>
-       <x>595</x>
+       <x>590</x>
        <y>140</y>
        <width>121</width>
        <height>21</height>
@@ -5424,6 +5436,67 @@ P=IOC:,CONFIG=scan;</string>
       <string>false;false;</string>
      </property>
     </widget>
+    <widget class="caToggleButton" name="catogglebutton_7">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>242</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(169, 209, 239, 25);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">PFI:START_REFERENCE</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_92">
+     <property name="geometry">
+      <rect>
+       <x>565</x>
+       <y>221</y>
+       <width>31</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>REF</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_8</zorder>
     <zorder>cagraphics_4</zorder>
@@ -5557,6 +5630,8 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>caMenu_8</zorder>
     <zorder>caMenu_9</zorder>
     <zorder>carelateddisplay_10</zorder>
+    <zorder>catogglebutton_7</zorder>
+    <zorder>calabel_92</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -5611,7 +5686,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>13</pointsize>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -6099,9 +6174,9 @@ P=IOC:,CONFIG=scan;</string>
     </property>
     <property name="background">
      <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
      </color>
     </property>
    </widget>
@@ -6156,41 +6231,6 @@ P=IOC:,CONFIG=scan;</string>
     </property>
     <property name="text">
      <string>SIGMA</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_55">
-    <property name="geometry">
-     <rect>
-      <x>25</x>
-      <y>70</y>
-      <width>131</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SCAN PROGRESS</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -6653,8 +6693,8 @@ color: rgb(0, 0, 0);</string>
    <widget class="caLabel" name="calabel_58">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>380</y>
+      <x>25</x>
+      <y>70</y>
       <width>111</width>
       <height>21</height>
      </rect>
@@ -6688,9 +6728,9 @@ color: rgb(0, 0, 0);</string>
    <widget class="caThermo" name="cathermo">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>380</y>
-      <width>257</width>
+      <x>163</x>
+      <y>70</y>
+      <width>221</width>
       <height>41</height>
      </rect>
     </property>
@@ -6755,8 +6795,8 @@ color: rgb(0, 0, 0);</string>
    <widget class="caLabel" name="calabel_59">
     <property name="geometry">
      <rect>
-      <x>75</x>
-      <y>565</y>
+      <x>100</x>
+      <y>568</y>
       <width>111</width>
       <height>21</height>
      </rect>
@@ -7757,9 +7797,9 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caThermo" name="cathermo_2">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>70</y>
-      <width>225</width>
+      <x>184</x>
+      <y>390</y>
+      <width>201</width>
       <height>41</height>
      </rect>
     </property>
@@ -7901,9 +7941,9 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caRelatedDisplay" name="carelateddisplay_5">
     <property name="geometry">
      <rect>
-      <x>75</x>
-      <y>590</y>
-      <width>101</width>
+      <x>190</x>
+      <y>600</y>
+      <width>91</width>
       <height>21</height>
      </rect>
     </property>
@@ -8077,10 +8117,10 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_6">
     <property name="geometry">
      <rect>
-      <x>25</x>
-      <y>475</y>
-      <width>21</width>
-      <height>31</height>
+      <x>35</x>
+      <y>390</y>
+      <width>41</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="foreground">
@@ -8122,9 +8162,9 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_15">
     <property name="geometry">
      <rect>
-      <x>67</x>
+      <x>25</x>
       <y>460</y>
-      <width>41</width>
+      <width>51</width>
       <height>61</height>
      </rect>
     </property>
@@ -8141,6 +8181,13 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="lineSize">
      <number>2</number>
     </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
     </property>
@@ -8148,10 +8195,10 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_17">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>455</y>
-      <width>81</width>
-      <height>71</height>
+      <x>82</x>
+      <y>445</y>
+      <width>111</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="foreground">
@@ -8166,6 +8213,13 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="lineSize">
      <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
     </property>
     <property name="form">
      <enum>caGraphics::Triangle</enum>
@@ -8177,9 +8231,9 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_18">
     <property name="geometry">
      <rect>
-      <x>212</x>
+      <x>200</x>
       <y>460</y>
-      <width>49</width>
+      <width>51</width>
       <height>61</height>
      </rect>
     </property>
@@ -8196,6 +8250,13 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="lineSize">
      <number>2</number>
     </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
     <property name="form">
      <enum>caGraphics::Rectangle</enum>
     </property>
@@ -8203,10 +8264,10 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_20">
     <property name="geometry">
      <rect>
-      <x>273</x>
-      <y>455</y>
-      <width>81</width>
-      <height>71</height>
+      <x>270</x>
+      <y>445</y>
+      <width>101</width>
+      <height>91</height>
      </rect>
     </property>
     <property name="foreground">
@@ -8222,68 +8283,18 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="lineSize">
      <number>2</number>
     </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
     <property name="form">
      <enum>caGraphics::Triangle</enum>
     </property>
     <property name="tiltAngle">
      <number>90</number>
-    </property>
-   </widget>
-   <widget class="caGraphics" name="cagraphics_30">
-    <property name="geometry">
-     <rect>
-      <x>45</x>
-      <y>480</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>170</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caGraphics::Filled</enum>
-    </property>
-    <property name="lineSize">
-     <number>1</number>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>170</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="visibility">
-     <enum>caGraphics::Calc</enum>
-    </property>
-    <property name="visibilityCalc">
-     <string notr="true"/>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="channelB">
-     <string notr="true"/>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Arrow</enum>
-    </property>
-    <property name="arrowSize">
-     <number>15</number>
-    </property>
-    <property name="arrowMode">
-     <enum>caGraphics::Single</enum>
-    </property>
-    <property name="tiltAngle">
-     <number>180</number>
     </property>
    </widget>
    <widget class="caToggleButton" name="catogglebutton_8">
@@ -8390,163 +8401,52 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      </color>
     </property>
    </widget>
-   <widget class="caGraphics" name="cagraphics_31">
-    <property name="geometry">
-     <rect>
-      <x>190</x>
-      <y>480</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>170</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caGraphics::Filled</enum>
-    </property>
-    <property name="lineSize">
-     <number>1</number>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>170</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="visibility">
-     <enum>caGraphics::Calc</enum>
-    </property>
-    <property name="visibilityCalc">
-     <string notr="true"/>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="channelB">
-     <string notr="true"/>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Arrow</enum>
-    </property>
-    <property name="arrowSize">
-     <number>15</number>
-    </property>
-    <property name="arrowMode">
-     <enum>caGraphics::Single</enum>
-    </property>
-    <property name="tiltAngle">
-     <number>180</number>
-    </property>
-   </widget>
-   <widget class="caGraphics" name="cagraphics_32">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>523</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>170</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
-    </property>
-    <property name="fillstyle" stdset="0">
-     <enum>caGraphics::Filled</enum>
-    </property>
-    <property name="lineSize">
-     <number>1</number>
-    </property>
-    <property name="lineColor">
-     <color>
-      <red>170</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="visibility">
-     <enum>caGraphics::Calc</enum>
-    </property>
-    <property name="visibilityCalc">
-     <string notr="true"/>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="channelB">
-     <string notr="true"/>
-    </property>
-    <property name="form">
-     <enum>caGraphics::Arrow</enum>
-    </property>
-    <property name="arrowSize">
-     <number>15</number>
-    </property>
-    <property name="arrowMode">
-     <enum>caGraphics::Single</enum>
-    </property>
-    <property name="tiltAngle">
-     <number>270</number>
-    </property>
-   </widget>
    <widget class="caGraphics" name="cagraphics_34">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>250</x>
       <y>480</y>
-      <width>21</width>
+      <width>31</width>
       <height>21</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
+     <enum>caGraphics::Solid</enum>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=1 &amp;&amp; B&gt;C</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.EXSC</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.NPTS</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan1.CPT</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8564,17 +8464,17 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_35">
     <property name="geometry">
      <rect>
-      <x>273</x>
-      <y>430</y>
+      <x>270</x>
+      <y>420</y>
       <width>21</width>
       <height>31</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="fillstyle" stdset="0">
@@ -8585,22 +8485,25 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=B &amp;&amp; C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.NPTS</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.CPT</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan2.EXSC</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8618,46 +8521,49 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_36">
     <property name="geometry">
      <rect>
-      <x>139</x>
-      <y>430</y>
-      <width>141</width>
+      <x>50</x>
+      <y>415</y>
+      <width>231</width>
       <height>21</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
+     <enum>caGraphics::Solid</enum>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=B &amp;&amp; C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.NPTS</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.CPT</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan2.EXSC</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8675,46 +8581,52 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_37">
     <property name="geometry">
      <rect>
-      <x>107</x>
+      <x>75</x>
       <y>480</y>
-      <width>21</width>
+      <width>25</width>
       <height>21</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
+     <enum>caGraphics::Solid</enum>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A&gt;B &amp;&amp; C=1 &amp;&amp;D!=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan2.NPTS</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan2.CPT</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan2.EXSC</string>
+    </property>
+    <property name="channelD">
+     <string notr="true">IOC:scan1.EXSC</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8732,43 +8644,46 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_38">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>437</y>
-      <width>21</width>
-      <height>20</height>
+      <x>32</x>
+      <y>425</y>
+      <width>41</width>
+      <height>35</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=B &amp;&amp; C=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.NPTS</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.CPT</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan2.EXSC</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8783,136 +8698,10 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <number>270</number>
     </property>
    </widget>
-   <widget class="caLabelVertical" name="calabelvertical">
-    <property name="geometry">
-     <rect>
-      <x>74</x>
-      <y>460</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabelVertical" name="calabelvertical_2">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>460</y>
-      <width>31</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabelVertical" name="calabelvertical_3">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>497</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string notr="true">i=</string>
-    </property>
-    <property name="direction">
-     <enum>caLabelVertical::Up</enum>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabelVertical" name="calabelvertical_4">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>497</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string notr="true">j=</string>
-    </property>
-    <property name="direction">
-     <enum>caLabelVertical::Up</enum>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabelVertical" name="calabelvertical_5">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>495</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string notr="true">i&lt;</string>
-    </property>
-    <property name="direction">
-     <enum>caLabelVertical::Up</enum>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabelVertical" name="calabelvertical_7">
-    <property name="geometry">
-     <rect>
-      <x>280</x>
-      <y>495</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string notr="true">j&lt;</string>
-    </property>
-    <property name="direction">
-     <enum>caLabelVertical::Up</enum>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caGraphics" name="cagraphics_39">
     <property name="geometry">
      <rect>
-      <x>342</x>
+      <x>360</x>
       <y>480</y>
       <width>21</width>
       <height>21</height>
@@ -8920,9 +8709,9 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
@@ -8936,22 +8725,25 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=1 &amp;&amp; B&gt;C</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.EXSC</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.NPTS</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan1.CPT</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8969,46 +8761,49 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_33">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>360</x>
       <y>490</y>
       <width>41</width>
-      <height>41</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
+     <enum>caGraphics::Solid</enum>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=1 &amp;&amp; B&gt;C</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.EXSC</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.NPTS</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan1.CPT</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -9027,45 +8822,48 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>520</y>
-      <width>121</width>
+      <y>530</y>
+      <width>141</width>
       <height>21</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
+     <enum>caGraphics::Solid</enum>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=1 &amp;&amp; B&gt;C</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.EXSC</string>
     </property>
     <property name="channelB">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.NPTS</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan1.CPT</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -9083,31 +8881,324 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <widget class="caGraphics" name="cagraphics_41">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>530</y>
-      <width>41</width>
-      <height>41</height>
+      <x>225</x>
+      <y>540</y>
+      <width>31</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
+     <enum>caGraphics::Solid</enum>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="visibility">
+     <enum>caGraphics::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">A=1 &amp;&amp; B&gt;C</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">IOC:scan1.EXSC</string>
+    </property>
+    <property name="channelB">
+     <string notr="true">IOC:scan1.NPTS</string>
+    </property>
+    <property name="channelC">
+     <string notr="true">IOC:scan1.CPT</string>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Arrow</enum>
+    </property>
+    <property name="arrowSize">
+     <number>15</number>
+    </property>
+    <property name="arrowMode">
+     <enum>caGraphics::Single</enum>
+    </property>
+    <property name="tiltAngle">
+     <number>270</number>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="calineedit">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>495</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(255, 170, 127, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(127, 85, 63, 255) rgba(255, 255, 255, 255)  rgba(255, 255, 255, 255) rgba(127, 85, 63, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">IOC:scan1.NPTS</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>170</green>
+      <blue>127</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="calineedit_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>495</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(255, 170, 127, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(127, 85, 63, 255) rgba(255, 255, 255, 255)  rgba(255, 255, 255, 255) rgba(127, 85, 63, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">IOC:scan2.NPTS</string>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>170</green>
+      <blue>127</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="calineedit_3">
+    <property name="geometry">
+     <rect>
+      <x>145</x>
+      <y>482</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(255, 170, 255, 0); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(127, 85, 127, 0) rgba(255, 255, 255, 0)  rgba(255, 255, 255, 0) rgba(127, 85, 127, 0);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">IOC:scan2.CPT</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>170</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="calineedit_4">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>480</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(255, 170, 255, 0); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(127, 85, 127, 0) rgba(255, 255, 255, 0)  rgba(255, 255, 255, 0) rgba(127, 85, 127, 0);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">IOC:scan1.CPT</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>170</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>465</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>NPTS 2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>170</green>
+      <blue>127</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_4">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>465</y>
+      <width>41</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>NPTS 1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>170</green>
+      <blue>127</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_5">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>477</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>NPTS 2 &gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>170</green>
+      <blue>127</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_6">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>475</y>
+      <width>51</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>NPTS 1 &gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>170</green>
+      <blue>127</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caGraphics" name="cagraphics_10">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>390</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
       <green>0</green>
       <blue>0</blue>
      </color>
@@ -9116,12 +9207,123 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A!=1&amp;&amp;B!=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.EXSC</string>
     </property>
     <property name="channelB">
+     <string notr="true">IOC:scan2.EXSC</string>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Circle</enum>
+    </property>
+   </widget>
+   <widget class="caGraphics" name="cagraphics_42">
+    <property name="geometry">
+     <rect>
+      <x>75</x>
+      <y>390</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caGraphics::Solid</enum>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="visibility">
+     <enum>caGraphics::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">A=1</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">IOC:scan1.EXSC</string>
+    </property>
+    <property name="channelB">
+     <string notr="true">IOC:scan2.EXSC</string>
+    </property>
+    <property name="channelC">
+     <string notr="true"/>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Arrow</enum>
+    </property>
+    <property name="arrowSize">
+     <number>15</number>
+    </property>
+    <property name="arrowMode">
+     <enum>caGraphics::Single</enum>
+    </property>
+    <property name="tiltAngle">
+     <number>180</number>
+    </property>
+   </widget>
+   <widget class="caGraphics" name="cagraphics_43">
+    <property name="geometry">
+     <rect>
+      <x>133</x>
+      <y>400</y>
+      <width>81</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caGraphics::Solid</enum>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="visibility">
+     <enum>caGraphics::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">A=1</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">IOC:scan1.EXSC</string>
+    </property>
+    <property name="channelB">
+     <string notr="true">IOC:scan2.EXSC</string>
+    </property>
+    <property name="channelC">
      <string notr="true"/>
     </property>
     <property name="form">
@@ -9137,48 +9339,54 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <number>270</number>
     </property>
    </widget>
-   <widget class="caGraphics" name="cagraphics_42">
+   <widget class="caGraphics" name="cagraphics_32">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>520</y>
-      <width>111</width>
-      <height>41</height>
+      <x>170</x>
+      <y>480</y>
+      <width>31</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="foreground">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="linestyle" stdset="0">
-     <enum>caGraphics::Dash</enum>
+     <enum>caGraphics::Solid</enum>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caGraphics::Filled</enum>
     </property>
     <property name="lineSize">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="lineColor">
      <color>
-      <red>170</red>
+      <red>0</red>
       <green>0</green>
-      <blue>0</blue>
+      <blue>255</blue>
      </color>
     </property>
     <property name="visibility">
      <enum>caGraphics::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"/>
+     <string notr="true">A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true"/>
+     <string notr="true">IOC:scan1.EXSC</string>
     </property>
     <property name="channelB">
+     <string notr="true"/>
+    </property>
+    <property name="channelC">
+     <string notr="true"/>
+    </property>
+    <property name="channelD">
      <string notr="true"/>
     </property>
     <property name="form">
@@ -9192,6 +9400,51 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="tiltAngle">
      <number>180</number>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="caLineEdit_46">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>70</y>
+      <width>31</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>123</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">cpi:AnodeTubeHeat</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+    <property name="precision">
+     <number>0</number>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::Height</enum>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
    <zorder>caFrame_2</zorder>
@@ -9211,7 +9464,6 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <zorder>calabel_49</zorder>
    <zorder>calabel_50</zorder>
    <zorder>calabel_51</zorder>
-   <zorder>calabel_55</zorder>
    <zorder>caLineEdit_31</zorder>
    <zorder>caLineEdit_32</zorder>
    <zorder>calabel_57</zorder>
@@ -9253,29 +9505,32 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <zorder>cagraphics_17</zorder>
    <zorder>cagraphics_18</zorder>
    <zorder>cagraphics_20</zorder>
-   <zorder>cagraphics_30</zorder>
    <zorder>catogglebutton_8</zorder>
    <zorder>catogglebutton_9</zorder>
    <zorder>catogglebutton_10</zorder>
    <zorder>catogglebutton_11</zorder>
-   <zorder>cagraphics_31</zorder>
-   <zorder>cagraphics_32</zorder>
    <zorder>cagraphics_34</zorder>
    <zorder>cagraphics_35</zorder>
    <zorder>cagraphics_36</zorder>
    <zorder>cagraphics_37</zorder>
    <zorder>cagraphics_38</zorder>
-   <zorder>calabelvertical</zorder>
-   <zorder>calabelvertical_2</zorder>
-   <zorder>calabelvertical_3</zorder>
-   <zorder>calabelvertical_4</zorder>
-   <zorder>calabelvertical_5</zorder>
-   <zorder>calabelvertical_7</zorder>
    <zorder>cagraphics_39</zorder>
    <zorder>cagraphics_33</zorder>
    <zorder>cagraphics_40</zorder>
    <zorder>cagraphics_41</zorder>
+   <zorder>calineedit</zorder>
+   <zorder>calineedit_2</zorder>
+   <zorder>calineedit_3</zorder>
+   <zorder>calineedit_4</zorder>
+   <zorder>calabel_3</zorder>
+   <zorder>calabel_4</zorder>
+   <zorder>calabel_5</zorder>
+   <zorder>calabel_6</zorder>
+   <zorder>cagraphics_10</zorder>
    <zorder>cagraphics_42</zorder>
+   <zorder>cagraphics_43</zorder>
+   <zorder>cagraphics_32</zorder>
+   <zorder>caLineEdit_46</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -9314,11 +9569,6 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <class>caLabel</class>
    <extends>QLabel</extends>
    <header>caLabel</header>
-  </customwidget>
-  <customwidget>
-   <class>caLabelVertical</class>
-   <extends>QWidget</extends>
-   <header>caLabelVertical</header>
   </customwidget>
   <customwidget>
    <class>caGraphics</class>
