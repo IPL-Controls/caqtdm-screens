@@ -1241,7 +1241,7 @@
       </font>
      </property>
      <property name="text">
-      <string>-</string>
+      <string>-5</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -1250,7 +1250,7 @@
       <string notr="true">cpi:MSIncrement</string>
      </property>
      <property name="label">
-      <string notr="true">-</string>
+      <string notr="true">-5</string>
      </property>
      <property name="foreground">
       <color>
@@ -1270,7 +1270,7 @@
       <string notr="true"/>
      </property>
      <property name="pressMessage">
-      <string>1</string>
+      <string notr="true">0</string>
      </property>
      <property name="colorMode">
       <enum>caMessageButton::Static</enum>
@@ -1291,7 +1291,7 @@
       </font>
      </property>
      <property name="text">
-      <string>+</string>
+      <string>+5</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -1300,7 +1300,7 @@
       <string notr="true">cpi:MSIncrement</string>
      </property>
      <property name="label">
-      <string notr="true">+</string>
+      <string notr="true">+5</string>
      </property>
      <property name="foreground">
       <color>
@@ -1320,7 +1320,7 @@
       <string notr="true"/>
      </property>
      <property name="pressMessage">
-      <string notr="true">2</string>
+      <string notr="true">3</string>
      </property>
      <property name="colorMode">
       <enum>caMessageButton::Static</enum>
@@ -2329,7 +2329,7 @@
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">PFI:START_DARK</string>
+      <string notr="true">PFI:START_OFFSET</string>
      </property>
      <property name="label">
       <string notr="true">DARK MODE</string>
@@ -2362,7 +2362,7 @@
      <property name="geometry">
       <rect>
        <x>600</x>
-       <y>295</y>
+       <y>300</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -2394,10 +2394,10 @@
       </color>
      </property>
      <property name="releaseMessage">
-      <string notr="true">0</string>
+      <string notr="true"/>
      </property>
      <property name="pressMessage">
-      <string notr="true">0</string>
+      <string notr="true">1</string>
      </property>
      <property name="colorMode">
       <enum>caMessageButton::Static</enum>
@@ -2707,7 +2707,7 @@
      </property>
      <property name="background">
       <color>
-       <red>255</red>
+       <red>171</red>
        <green>0</green>
        <blue>0</blue>
       </color>
@@ -3821,7 +3821,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5497,14 +5497,54 @@ P=IOC:,CONFIG=scan;</string>
       </color>
      </property>
     </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_11">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>75</y>
+       <width>51</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="55">
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">HELP</string>
+     </property>
+     <property name="files">
+      <string notr="true">pfi-help.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true"/>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::RowColumn</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false;false;</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_8</zorder>
+    <zorder>cagraphics</zorder>
+    <zorder>caMessageButton_20</zorder>
     <zorder>cagraphics_4</zorder>
     <zorder>cagraphics_7</zorder>
     <zorder>label_4</zorder>
     <zorder>cagraphics_12</zorder>
     <zorder>label_10</zorder>
-    <zorder>cagraphics</zorder>
     <zorder>calabel</zorder>
     <zorder>cagraphics_3</zorder>
     <zorder>label</zorder>
@@ -5555,7 +5595,6 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>calabel_54</zorder>
     <zorder>calabel_56</zorder>
     <zorder>caMessageButton_19</zorder>
-    <zorder>caMessageButton_20</zorder>
     <zorder>cagraphics_9</zorder>
     <zorder>label_9</zorder>
     <zorder>caMessageButton_21</zorder>
@@ -5632,6 +5671,7 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>carelateddisplay_10</zorder>
     <zorder>catogglebutton_7</zorder>
     <zorder>calabel_92</zorder>
+    <zorder>carelateddisplay_11</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -6262,7 +6302,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6310,7 +6350,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6939,7 +6979,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -6987,7 +7027,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -7089,7 +7129,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -7207,7 +7247,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -7342,7 +7382,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -7417,7 +7457,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>7</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -7501,7 +7541,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -7619,7 +7659,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -7667,7 +7707,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <enum>caLineEdit::User</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
+     <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
      <enum>caLineEdit::decimal</enum>
@@ -7867,7 +7907,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8034,7 +8074,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
