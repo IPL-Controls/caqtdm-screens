@@ -65,7 +65,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>13</pointsize>
+       <pointsize>15</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -2295,7 +2295,7 @@
       </font>
      </property>
      <property name="text">
-      <string>ACQUIRE OFFSET FRAME</string>
+      <string>DARK MODE</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -2462,7 +2462,7 @@
       <string notr="true">cpiSync:NikonSingleExposeSeq</string>
      </property>
      <property name="label">
-      <string notr="true">1 EXPOSURE</string>
+      <string notr="true">SINGLE EXPOSURE</string>
      </property>
      <property name="foreground">
       <color>
@@ -5473,41 +5473,6 @@ P=IOC:,CONFIG=scan;</string>
       <string notr="true"/>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_93">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>530</y>
-       <width>81</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>SETTINGS:</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>160</red>
-       <green>160</green>
-       <blue>164</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caGraphics" name="cagraphics_19">
      <property name="geometry">
       <rect>
@@ -5545,6 +5510,45 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true"/>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_11">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>10</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="55">
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">?</string>
+     </property>
+     <property name="files">
+      <string notr="true">pfi-help.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true"/>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::RowColumn</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false;false;</string>
      </property>
     </widget>
     <zorder>cagraphics_2</zorder>
@@ -5682,7 +5686,7 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>carelateddisplay_10</zorder>
     <zorder>catogglebutton_7</zorder>
     <zorder>calabel_92</zorder>
-    <zorder>calabel_93</zorder>
+    <zorder>carelateddisplay_11</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -5737,7 +5741,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>13</pointsize>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -6313,7 +6317,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6361,7 +6365,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7918,7 +7922,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8085,7 +8089,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
