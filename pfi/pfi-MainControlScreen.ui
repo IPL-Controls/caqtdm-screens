@@ -2295,7 +2295,7 @@
       </font>
      </property>
      <property name="text">
-      <string>DARK MODE</string>
+      <string>ACQUIRE OFFSET</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -2304,7 +2304,7 @@
       <string notr="true">PFI:START_OFFSET</string>
      </property>
      <property name="label">
-      <string notr="true">DARK MODE</string>
+      <string notr="true">ACQUIRE OFFSET</string>
      </property>
      <property name="foreground">
       <color>
@@ -3793,7 +3793,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3803,7 +3803,7 @@ P=IOC:,CONFIG=scan;</string>
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">PFI:STATUS</string>
+      <string notr="true">PFI:STATUS_STRING</string>
      </property>
      <property name="foreground">
       <color>
@@ -5539,7 +5539,7 @@ P=IOC:,CONFIG=scan;</string>
       <string notr="true">?</string>
      </property>
      <property name="files">
-      <string notr="true">pfi-help.ui</string>
+      <string notr="true"/>
      </property>
      <property name="args">
       <string notr="true"/>
@@ -6237,7 +6237,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6285,7 +6285,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7392,7 +7392,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -7842,7 +7842,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8009,7 +8009,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>11</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
