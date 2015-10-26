@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>743</width>
-    <height>671</height>
+    <width>746</width>
+    <height>675</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -988,7 +988,7 @@
       <rect>
        <x>100</x>
        <y>140</y>
-       <width>34</width>
+       <width>31</width>
        <height>20</height>
       </rect>
      </property>
@@ -3793,7 +3793,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5551,6 +5551,45 @@ P=IOC:,CONFIG=scan;</string>
       <string>false;false;</string>
      </property>
     </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_12">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="55">
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">PFI SETTINGS</string>
+     </property>
+     <property name="files">
+      <string notr="true">pfi-settings.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=PFI:</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::RowColumn</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false;false;</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_8</zorder>
     <zorder>cagraphics</zorder>
@@ -5687,6 +5726,7 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>catogglebutton_7</zorder>
     <zorder>calabel_92</zorder>
     <zorder>carelateddisplay_11</zorder>
+    <zorder>carelateddisplay_12</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -6237,7 +6277,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6285,7 +6325,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7392,7 +7432,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>7</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -7842,7 +7882,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8009,7 +8049,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>11</pointsize>
      </font>
     </property>
     <property name="text">
