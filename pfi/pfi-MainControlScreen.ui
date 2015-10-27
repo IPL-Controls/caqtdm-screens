@@ -65,7 +65,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -256,7 +256,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -291,7 +291,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -423,7 +423,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -468,7 +468,7 @@
      <property name="precision">
       <number>0</number>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -486,7 +486,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -522,7 +522,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -557,7 +557,7 @@
      <property name="precision">
       <number>0</number>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -733,7 +733,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -779,7 +779,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -825,7 +825,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -994,7 +994,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1044,7 +1044,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1121,7 +1121,7 @@
      <property name="precision">
       <number>0</number>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -1139,7 +1139,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1174,7 +1174,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1209,7 +1209,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1259,7 +1259,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1336,7 +1336,7 @@
      <property name="precision">
       <number>0</number>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -1354,7 +1354,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1389,7 +1389,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1439,7 +1439,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1519,7 +1519,7 @@
      <property name="precisionMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -1598,7 +1598,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1746,7 +1746,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1794,7 +1794,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1836,7 +1836,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -1881,7 +1881,7 @@
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -1941,7 +1941,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1976,7 +1976,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2041,7 +2041,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2127,7 +2127,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2173,7 +2173,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2219,7 +2219,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2254,7 +2254,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2289,7 +2289,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>14</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2447,7 +2447,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>14</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2500,7 +2500,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2532,7 +2532,7 @@
      <property name="precision">
       <number>0</number>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -2574,7 +2574,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2592,7 +2592,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2647,7 +2647,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2866,7 +2866,7 @@ P=KOZ:,CONFIG=g1;
 P=KOZ:,CONFIG=g2;
 P=IOC:,CONFIG=scan;</string>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="stackingMode" stdset="0">
@@ -2958,7 +2958,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2990,7 +2990,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="precision">
       <number>0</number>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -3008,7 +3008,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -3135,7 +3135,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3375,7 +3375,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3429,7 +3429,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3447,7 +3447,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>8</pointsize>
        <underline>true</underline>
       </font>
      </property>
@@ -3483,7 +3483,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3518,7 +3518,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3709,7 +3709,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3774,7 +3774,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -3793,7 +3793,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>13</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3825,7 +3825,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -3916,7 +3916,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -3958,7 +3958,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -3976,7 +3976,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -4011,7 +4011,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>9</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -4096,7 +4096,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4114,7 +4114,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>8</pointsize>
        <underline>true</underline>
       </font>
      </property>
@@ -4180,7 +4180,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4228,7 +4228,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4276,7 +4276,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4324,7 +4324,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4378,7 +4378,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4432,7 +4432,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4480,7 +4480,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4528,7 +4528,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4576,7 +4576,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4624,7 +4624,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4975,7 +4975,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -5026,7 +5026,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode" stdset="0">
+     <property name="fontScaleMode">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -5410,7 +5410,7 @@ P=IOC:,CONFIG=scan;</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5539,7 +5539,7 @@ P=IOC:,CONFIG=scan;</string>
       <string notr="true">?</string>
      </property>
      <property name="files">
-      <string notr="true"/>
+      <string notr="true">pfi-help.ui</string>
      </property>
      <property name="args">
       <string notr="true"/>
@@ -6053,7 +6053,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -6108,7 +6108,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::Height</enum>
     </property>
     <property name="formatType">
@@ -6153,7 +6153,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -6306,7 +6306,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="colorMode">
      <enum>caLineEdit::Alarm_Static</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -6354,7 +6354,7 @@ P=IOC:,CONFIG=scan;</string>
     <property name="colorMode">
      <enum>caLineEdit::Alarm_Static</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -6953,7 +6953,7 @@ color: rgb(0, 0, 0);</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7001,7 +7001,7 @@ color: rgb(0, 0, 0);</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7103,7 +7103,7 @@ color: rgb(0, 0, 0);</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7221,7 +7221,7 @@ color: rgb(0, 0, 0);</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7356,7 +7356,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7432,7 +7432,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>6</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -7467,7 +7467,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7515,7 +7515,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7633,7 +7633,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7681,7 +7681,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -7911,7 +7911,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="colorMode">
      <enum>caLineEdit::Static</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -8087,7 +8087,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="limitsMode">
      <enum>caLineEdit::Channel</enum>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -9455,7 +9455,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="precision">
      <number>0</number>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
@@ -9784,7 +9784,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     <property name="precision">
      <number>0</number>
     </property>
-    <property name="fontScaleMode" stdset="0">
+    <property name="fontScaleMode">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
