@@ -787,7 +787,7 @@
       <enum>Qt::WheelFocus</enum>
      </property>
      <property name="macro">
-      <string notr="true">P=$(W), S=scan1</string>
+      <string notr="true">P=SIM:SCAN:, S=scan1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan.ui</string>
@@ -834,7 +834,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -960,7 +960,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1109,7 +1109,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -1197,7 +1197,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -1239,7 +1239,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -1327,7 +1327,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -1415,7 +1415,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -1457,7 +1457,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -1481,7 +1481,7 @@
       <string notr="true">qi2.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=Qi2:</string>
+      <string notr="true">P=SIM:Qi2:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
@@ -1531,7 +1531,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1576,7 +1576,7 @@
      <property name="precisionMode">
       <enum>caLineEdit::User</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1624,7 +1624,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1666,7 +1666,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1708,7 +1708,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1726,7 +1726,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>5</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1790,7 +1790,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1912,7 +1912,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1990,7 +1990,7 @@
       <string notr="true">../area-detector/KsCam.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=Qi2:,R=cam1:</string>
+      <string notr="true">P=SIM:Qi2:,R=cam1:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
@@ -2052,7 +2052,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2140,7 +2140,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2239,7 +2239,7 @@
        <property name="colorMode">
         <enum>caLineEdit::Static</enum>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2327,7 +2327,7 @@
        <property name="colorMode">
         <enum>caLineEdit::Static</enum>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2664,7 +2664,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2752,7 +2752,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2840,7 +2840,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">

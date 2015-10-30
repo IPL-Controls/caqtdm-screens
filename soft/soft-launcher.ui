@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>202</width>
-    <height>238</height>
+    <height>239</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>12</pointsize>
+      <pointsize>9</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -151,13 +151,12 @@
      <string notr="true">SIM:DET:cam1;SIM:Qi2:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/simDetector.ui;../area-detector/KsCam.ui</string>
+     <string notr="true">../area-detector/simDetector.ui;nikonqi2-slim.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=SIM:DET:,R=cam1:;P=SIM:Qi2:,R=cam1:
-</string>
+     <string notr="true">P=SIM:DET:,R=cam1:;P=SIM:Qi2:,R=cam1:;</string>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
@@ -276,7 +275,7 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL-1:SCAN</string>
+     <string notr="true"/>
     </property>
     <property name="files">
      <string notr="true">soft-scan.ui</string>
@@ -284,7 +283,7 @@
     <property name="args">
      <string notr="true">W=SIM:SCAN:, CONFIG=scan</string>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
