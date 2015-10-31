@@ -485,7 +485,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>Common plugins</string>
     </property>
     <property name="files">
-     <string notr="true">commonPlugins_ag.ui</string>
+     <string notr="true">commonPlugins.ui</string>
     </property>
     <property name="args">
      <string>P=$(P)</string>
