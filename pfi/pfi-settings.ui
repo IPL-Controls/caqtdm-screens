@@ -385,7 +385,7 @@
      <set>Qt::AlignCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)SINE_PHOSPHOR</string>
+     <string notr="true">$(P)CAM_PIXEL_SIZE</string>
     </property>
     <property name="foreground">
      <color>
