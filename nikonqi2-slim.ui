@@ -787,7 +787,7 @@
       <enum>Qt::WheelFocus</enum>
      </property>
      <property name="macro">
-      <string notr="true">P=SIM:SCAN:, S=scan1</string>
+      <string notr="true">P=IOC:, S=scan1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan.ui</string>
@@ -1990,7 +1990,7 @@
       <string notr="true">../area-detector/KsCam.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=SIM:Qi2:,R=cam1:</string>
+      <string notr="true">P=Qi2:,R=cam1:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
