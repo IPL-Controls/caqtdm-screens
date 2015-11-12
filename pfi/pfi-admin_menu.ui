@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>816</width>
-    <height>371</height>
+    <height>365</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>40</y>
       <width>801</width>
-      <height>301</height>
+      <height>291</height>
      </rect>
     </property>
     <property name="foreground">
@@ -386,7 +386,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>90</y>
+      <y>290</y>
       <width>711</width>
       <height>35</height>
      </rect>
@@ -402,7 +402,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>130</y>
+      <y>90</y>
       <width>711</width>
       <height>35</height>
      </rect>
@@ -418,7 +418,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>170</y>
+      <y>130</y>
       <width>711</width>
       <height>35</height>
      </rect>
@@ -434,7 +434,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>210</y>
+      <y>170</y>
       <width>711</width>
       <height>41</height>
      </rect>
@@ -466,7 +466,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>290</y>
+      <y>210</y>
       <width>711</width>
       <height>41</height>
      </rect>
@@ -575,8 +575,8 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <rect>
       <x>730</x>
       <y>60</y>
-      <width>65</width>
-      <height>20</height>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="label">
@@ -610,9 +610,9 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>100</y>
-      <width>65</width>
-      <height>20</height>
+      <y>300</y>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="background">
@@ -636,9 +636,9 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>140</y>
-      <width>65</width>
-      <height>20</height>
+      <y>100</y>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="label">
@@ -672,9 +672,9 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>180</y>
-      <width>65</width>
-      <height>20</height>
+      <y>140</y>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="label">
@@ -708,9 +708,9 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>220</y>
-      <width>65</width>
-      <height>20</height>
+      <y>180</y>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="label">
@@ -745,8 +745,8 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <rect>
       <x>730</x>
       <y>260</y>
-      <width>65</width>
-      <height>20</height>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="label">
@@ -780,9 +780,9 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>730</x>
-      <y>300</y>
-      <width>65</width>
-      <height>20</height>
+      <y>220</y>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="label">
@@ -823,7 +823,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>34</y>
       <width>801</width>
-      <height>305</height>
+      <height>301</height>
      </rect>
     </property>
     <property name="font">
