@@ -644,7 +644,7 @@
       <string>More</string>
      </property>
      <property name="files">
-      <string notr="true">../autosave/configMenu_small.ui</string>
+      <string notr="true">../autosave/configMenu.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=KOZ:,CONFIG=samp</string>
