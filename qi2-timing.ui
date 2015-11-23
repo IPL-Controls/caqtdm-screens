@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1577</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <widget class="QWidget" name="tab">
+   <attribute name="title">
+    <string>Tab 1</string>
+   </attribute>
+   <widget class="caStripPlot" name="castripplot">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>1361</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="channels" stdset="0">
+     <string notr="true">cpiSync:Qi2TriggerReady;cpiSync:NikonTrigger;cpiSync:Qi2Exposing</string>
+    </property>
+    <property name="units">
+     <enum>caStripPlot::Millisecond</enum>
+    </property>
+    <property name="period">
+     <double>500.000000000000000</double>
+    </property>
+    <property name="refreshRate" stdset="0">
+     <enum>caStripPlot::High</enum>
+    </property>
+    <property name="YaxisLimitsMax_1">
+     <double>1.000000000000000</double>
+    </property>
+    <property name="YaxisLimitsMin_1">
+     <double>0.000000000000000</double>
+    </property>
+    <property name="YaxisScalingMax_1" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+    <property name="YaxisScalingMin_1" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+    <property name="YaxisLimitsMax_2">
+     <double>2.000000000000000</double>
+    </property>
+    <property name="YaxisLimitsMin_2">
+     <double>1.000000000000000</double>
+    </property>
+    <property name="YaxisScalingMax_2" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+    <property name="YaxisScalingMin_2" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+    <property name="YaxisLimitsMax_3">
+     <double>3.000000000000000</double>
+    </property>
+    <property name="YaxisLimitsMin_3">
+     <double>2.000000000000000</double>
+    </property>
+    <property name="YaxisScalingMax_3" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+    <property name="YaxisScalingMin_3" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+    <property name="YaxisLimitsMax_4">
+     <double>2.000000000000000</double>
+    </property>
+    <property name="YaxisLimitsMin_4">
+     <double>-0.500000000000000</double>
+    </property>
+    <property name="YaxisScalingMax_4" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+    <property name="YaxisScalingMin_4" stdset="0">
+     <enum>caStripPlot::User</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>520</y>
+      <width>113</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab">
+   <attribute name="title">
+    <string>Tab 2</string>
+   </attribute>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caStripPlot</class>
+   <extends>QFrame</extends>
+   <header>caStripPlot</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
