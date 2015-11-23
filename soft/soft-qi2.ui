@@ -787,7 +787,7 @@
       <enum>Qt::WheelFocus</enum>
      </property>
      <property name="macro">
-      <string notr="true">P=IOC:, S=scan1</string>
+      <string notr="true">P=SIM:SCAN:, S=scan1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan.ui</string>
@@ -1025,12 +1025,12 @@
       <font>
        <family>Lucida Sans Typewriter</family>
        <pointsize>9</pointsize>
-       <weight>75</weight>
-       <bold>true</bold>
+       <weight>50</weight>
+       <bold>false</bold>
       </font>
      </property>
      <property name="alignment">
-      <set>Qt::AlignCenter</set>
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(R)Model_RBV</string>
@@ -1240,7 +1240,7 @@
        <enum>caLineEdit::Static</enum>
       </property>
       <property name="fontScaleMode" stdset="0">
-       <enum>caLineEdit::Height</enum>
+       <enum>caLineEdit::WidthAndHeight</enum>
       </property>
       <property name="formatType">
        <enum>caLineEdit::decimal</enum>
@@ -1458,7 +1458,7 @@
        <enum>caLineEdit::Static</enum>
       </property>
       <property name="fontScaleMode" stdset="0">
-       <enum>caLineEdit::Height</enum>
+       <enum>caLineEdit::WidthAndHeight</enum>
       </property>
       <property name="formatType">
        <enum>caLineEdit::decimal</enum>
@@ -1481,7 +1481,7 @@
       <string notr="true">qi2.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=Qi2:</string>
+      <string notr="true">P=SIM:Qi2:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
@@ -1577,7 +1577,7 @@
       <enum>caLineEdit::User</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -1667,7 +1667,7 @@
       <enum>caLineEdit::Static</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -1709,7 +1709,7 @@
       <enum>caLineEdit::Static</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -1791,7 +1791,7 @@
       <enum>caLineEdit::Static</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -1800,9 +1800,9 @@
     <widget class="caLabel" name="calabel_21">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>120</x>
        <y>100</y>
-       <width>81</width>
+       <width>141</width>
        <height>21</height>
       </rect>
      </property>
@@ -1817,23 +1817,23 @@
       <string>$(P)$(R)</string>
      </property>
      <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="fontScaleMode">
       <enum>ESimpleLabel::WidthAndHeight</enum>
      </property>
      <property name="foreground">
       <color>
-       <red>176</red>
-       <green>176</green>
-       <blue>176</blue>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="background">
       <color>
-       <red>69</red>
-       <green>69</green>
-       <blue>71</blue>
+       <red>85</red>
+       <green>170</green>
+       <blue>255</blue>
       </color>
      </property>
     </widget>
@@ -1913,7 +1913,7 @@
       <enum>caLineEdit::Static</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -1990,7 +1990,7 @@
       <string notr="true">../area-detector/KsCam.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=Qi2:,R=cam1:</string>
+      <string notr="true">P=SIM:Qi2:,R=cam1:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
