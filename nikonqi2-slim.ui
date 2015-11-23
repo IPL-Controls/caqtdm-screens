@@ -1481,7 +1481,7 @@
       <string notr="true">qi2.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=SIM:Qi2:</string>
+      <string notr="true">P=Qi2:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
