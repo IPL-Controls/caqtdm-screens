@@ -4063,6 +4063,7 @@
     </color>
    </property>
   </widget>
+  <zorder>cagraphics_12</zorder>
   <zorder>cagraphics_8</zorder>
   <zorder>cagraphics_11</zorder>
   <zorder>cagraphics_9</zorder>
@@ -4138,7 +4139,6 @@
   <zorder>calabel_17</zorder>
   <zorder>caLineEdit_66</zorder>
   <zorder>caMessageButton_35</zorder>
-  <zorder>cagraphics_12</zorder>
  </widget>
  <customwidgets>
   <customwidget>
