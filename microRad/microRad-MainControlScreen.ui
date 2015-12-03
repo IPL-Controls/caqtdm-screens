@@ -6379,7 +6379,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -6478,7 +6478,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -6517,7 +6517,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -6556,7 +6556,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -6637,7 +6637,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -6838,7 +6838,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -6988,7 +6988,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -8201,7 +8201,7 @@
       <enum>caFrame::Calc</enum>
      </property>
      <property name="visibilityCalc">
-      <string notr="true">(A==0)  &amp;&amp; (B==0)</string>
+      <string notr="true">((A==0)  &amp;&amp; (B==0) ) || (A==2)</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(R)VarianConfig</string>
@@ -8627,6 +8627,7 @@
     <zorder>caframe_15</zorder>
     <zorder>Asyn</zorder>
     <zorder>camenu_3</zorder>
+    <zorder>caframe_12</zorder>
    </widget>
   </widget>
  </widget>
