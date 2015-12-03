@@ -2734,29 +2734,6 @@
      <enum>caMessageButton::Static</enum>
     </property>
    </widget>
-   <widget class="caToggleButton" name="catogglebutton_3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>660</y>
-      <width>161</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Nikon Expose</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">cpiSync:NikonTrigger</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>173</red>
-      <green>173</green>
-      <blue>173</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caLabel" name="calabel_74">
     <property name="geometry">
      <rect>
@@ -2816,29 +2793,6 @@
       <blue>138</blue>
      </color>
     </property>
-    <widget class="caToggleButton" name="catogglebutton_6">
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>160</y>
-       <width>131</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Photospot</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">cpiSync:PhotospotIn</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>173</red>
-       <green>173</green>
-       <blue>173</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caToggleButton" name="catogglebutton_5">
      <property name="geometry">
       <rect>
@@ -2853,6 +2807,52 @@
      </property>
      <property name="channel" stdset="0">
       <string notr="true">cpiSync:FluoroIn</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>173</red>
+       <green>173</green>
+       <blue>173</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>160</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nikon Expose</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">cpiSync:NikonTrigger</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>173</red>
+       <green>173</green>
+       <blue>173</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Photospot</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">cpiSync:PhotospotIn</string>
      </property>
      <property name="foreground">
       <color>
@@ -3760,6 +3760,88 @@
       <string notr="true">cpiSync:ExposeOut</string>
      </property>
     </widget>
+    <widget class="caLineEdit" name="caLineEdit_41">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>200</y>
+       <width>119</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">cpiSync:GenDelay</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>195</red>
+       <green>195</green>
+       <blue>195</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>58</red>
+       <green>58</green>
+       <blue>58</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>0</number>
+     </property>
+     <property name="fontScaleMode" stdset="0">
+      <enum>caLineEdit::Height</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_84">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>200</y>
+       <width>201</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Qi2 to Gen Delay</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>176</red>
+       <green>176</green>
+       <blue>176</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
     <zorder>calabel_96</zorder>
     <zorder>calabel_83</zorder>
     <zorder>calabel_80</zorder>
@@ -3776,6 +3858,8 @@
     <zorder>caLineEdit_40</zorder>
     <zorder>calabel_76</zorder>
     <zorder>calabel_95</zorder>
+    <zorder>caLineEdit_41</zorder>
+    <zorder>calabel_84</zorder>
    </widget>
    <widget class="caLabel" name="calabel_78">
     <property name="geometry">
@@ -3879,7 +3963,6 @@
    <zorder>caframe_4</zorder>
    <zorder>caLineEdit_39</zorder>
    <zorder>caMessageButton_38</zorder>
-   <zorder>catogglebutton_3</zorder>
    <zorder>calabel_74</zorder>
    <zorder>calabel_75</zorder>
    <zorder>tabWidget</zorder>

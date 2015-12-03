@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>816</width>
-    <height>365</height>
+    <height>413</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>40</y>
       <width>801</width>
-      <height>291</height>
+      <height>341</height>
      </rect>
     </property>
     <property name="foreground">
@@ -386,7 +386,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>290</y>
+      <y>330</y>
       <width>711</width>
       <height>35</height>
      </rect>
@@ -600,7 +600,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">putty -telnet 192.168.1.119 2000</string>
+     <string notr="true">putty -telnet 192.168.1.112 2000</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -614,6 +614,16 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <width>71</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2006</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
     </property>
     <property name="background">
      <color>
@@ -629,7 +639,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true"/>
+     <string notr="true">putty -telnet localhost 2006</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_3">
@@ -665,7 +675,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.119 2001</string>
+     <string notr="true">putty -telnet 192.168.1.112 2001</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_4">
@@ -701,7 +711,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.119 2002</string>
+     <string notr="true">putty -telnet 192.168.1.112 2002</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_5">
@@ -737,7 +747,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.119 2003</string>
+     <string notr="true">putty -telnet 192.168.1.112 2003</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_6">
@@ -809,7 +819,49 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.119 2004</string>
+     <string notr="true">putty -telnet 192.168.1.112 2004</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_24">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=TL</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_8">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>340</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true"/>
     </property>
    </widget>
   </widget>
@@ -823,7 +875,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>34</y>
       <width>801</width>
-      <height>301</height>
+      <height>351</height>
      </rect>
     </property>
     <property name="font">
