@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>456</width>
-    <height>869</height>
+    <width>442</width>
+    <height>853</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -455,9 +455,9 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>22</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <pointsize>20</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="frameShape">
@@ -467,7 +467,7 @@
        <number>0</number>
       </property>
       <property name="text">
-       <string>Nikon Qi2 Full Settings</string>
+       <string>NIKON QI2 FULL SETTINGS</string>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -496,12 +496,12 @@
       <property name="font">
        <font>
         <pointsize>9</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Device Info</string>
+       <string>DEVICE INFORMATION</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -524,14 +524,14 @@
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout_4" columnstretch="2,2,2,2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
       <property name="horizontalSpacing">
        <number>4</number>
       </property>
       <property name="verticalSpacing">
        <number>2</number>
-      </property>
-      <property name="leftMargin">
-       <number>0</number>
       </property>
       <item row="1" column="0">
        <widget class="caLabel" name="calabel_38">
@@ -563,10 +563,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Manufacturer_RBV</string>
+         <string notr="true">$(P)cam1:Manufacturer_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -588,8 +588,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -653,10 +653,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:DriverVersion</string>
+         <string notr="true">$(P)cam1:DriverVersion</string>
         </property>
         <property name="foreground">
          <color>
@@ -678,8 +678,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -692,10 +692,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Model_RBV</string>
+         <string notr="true">$(P)cam1:Model_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -717,8 +717,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -731,10 +731,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Fx3Version</string>
+         <string notr="true">$(P)cam1:Fx3Version</string>
         </property>
         <property name="foreground">
          <color>
@@ -756,8 +756,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -821,10 +821,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:NikonFrameRate</string>
+         <string notr="true">$(P)cam1:NikonFrameRate</string>
         </property>
         <property name="foreground">
          <color>
@@ -846,8 +846,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -860,10 +860,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:FgpaVersion</string>
+         <string notr="true">$(P)cam1:FgpaVersion</string>
         </property>
         <property name="foreground">
          <color>
@@ -885,8 +885,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -950,10 +950,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:FirmwareVersion</string>
+         <string notr="true">$(P)cam1:FirmwareVersion</string>
         </property>
         <property name="foreground">
          <color>
@@ -975,8 +975,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1016,10 +1016,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:UsbVersion</string>
+         <string notr="true">$(P)cam1:UsbVersion</string>
         </property>
         <property name="foreground">
          <color>
@@ -1041,8 +1041,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1082,10 +1082,10 @@
          <string>123</string>
         </property>
         <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:SDKVersion</string>
+         <string notr="true">$(P)cam1:SDKVersion</string>
         </property>
         <property name="foreground">
          <color>
@@ -1107,8 +1107,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1121,13 +1121,13 @@
      <widget class="caLabel" name="calabel_83">
       <property name="font">
        <font>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <pointsize>9</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Image/Exposure Settings</string>
+       <string>IMAGE/EXPOSURE SETTINGS</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -1150,14 +1150,14 @@
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout_7" columnstretch="2,2,2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
       <property name="horizontalSpacing">
        <number>0</number>
       </property>
       <property name="verticalSpacing">
        <number>2</number>
-      </property>
-      <property name="leftMargin">
-       <number>0</number>
       </property>
       <item row="3" column="2">
        <widget class="caLineEdit" name="caLineEdit_50">
@@ -1168,7 +1168,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ROIX_RBV</string>
+         <string notr="true">$(P)cam1:ROIX_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1190,8 +1190,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1207,7 +1207,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Format_RBV</string>
+         <string notr="true">$(P)cam1:Format_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1229,8 +1229,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1252,7 +1252,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ROIY</string>
+         <string notr="true">$(P)cam1:ROIY</string>
         </property>
         <property name="foreground">
          <color>
@@ -1271,7 +1271,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -1306,7 +1306,7 @@
       <item row="2" column="1">
        <widget class="caMenu" name="camenu_13">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Format</string>
+         <string notr="true">$(P)cam1:Format</string>
         </property>
        </widget>
       </item>
@@ -1349,7 +1349,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ROIX</string>
+         <string notr="true">$(P)cam1:ROIX</string>
         </property>
         <property name="foreground">
          <color>
@@ -1368,7 +1368,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -1409,7 +1409,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ROIY_RBV</string>
+         <string notr="true">$(P)cam1:ROIY_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1431,8 +1431,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1482,7 +1482,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:AcquireTime_RBV</string>
+         <string notr="true">$(P)cam1:AcquireTime_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1501,8 +1501,8 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1558,7 +1558,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Gain</string>
+         <string notr="true">$(P)cam1:Gain</string>
         </property>
         <property name="foreground">
          <color>
@@ -1577,7 +1577,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -1594,7 +1594,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Gain_RBV</string>
+         <string notr="true">$(P)cam1:Gain_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1616,8 +1616,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1639,7 +1639,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:AcquireTime</string>
+         <string notr="true">$(P)cam1:AcquireTime</string>
         </property>
         <property name="foreground">
          <color>
@@ -1658,7 +1658,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -1673,12 +1673,12 @@
       <property name="font">
        <font>
         <pointsize>9</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Signal Settings</string>
+       <string>SIGNAL SETTINGS</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -1701,26 +1701,26 @@
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout_3" columnstretch="2,2,2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
       <property name="horizontalSpacing">
        <number>0</number>
       </property>
       <property name="verticalSpacing">
        <number>2</number>
       </property>
-      <property name="leftMargin">
-       <number>0</number>
-      </property>
       <item row="3" column="1">
        <widget class="caMenu" name="camenu_20">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureOutput</string>
+         <string notr="true">$(P)cam1:ExposureOutput</string>
         </property>
        </widget>
       </item>
       <item row="2" column="1">
        <widget class="caMenu" name="camenu_19">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:SignalDeviceCapture</string>
+         <string notr="true">$(P)cam1:SignalDeviceCapture</string>
         </property>
        </widget>
       </item>
@@ -1781,7 +1781,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:SignalExposureEnd_RBV</string>
+         <string notr="true">$(P)cam1:SignalExposureEnd_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1803,8 +1803,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1814,7 +1814,7 @@
       <item row="1" column="1">
        <widget class="caMenu" name="camenu_17">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:TriggerReady</string>
+         <string notr="true">$(P)cam1:TriggerReady</string>
         </property>
        </widget>
       </item>
@@ -1851,7 +1851,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:TriggerReady_RBV</string>
+         <string notr="true">$(P)cam1:TriggerReady_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1873,8 +1873,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1883,8 +1883,14 @@
       </item>
       <item row="0" column="1">
        <widget class="caMenu" name="camenu_16">
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="sizeAdjustPolicy">
+         <enum>QComboBox::AdjustToContents</enum>
+        </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:SignalExposureEnd</string>
+         <string notr="true">$(P)cam1:SignalExposureEnd</string>
         </property>
        </widget>
       </item>
@@ -1897,7 +1903,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:SignalDeviceCapture_RBV</string>
+         <string notr="true">$(P)cam1:SignalDeviceCapture_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1919,8 +1925,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1936,7 +1942,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureOutput_RBV</string>
+         <string notr="true">$(P)cam1:ExposureOutput_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -1958,8 +1964,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -1996,13 +2002,13 @@
      <widget class="caLabel" name="calabel_76">
       <property name="font">
        <font>
-        <pointsize>9</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <pointsize>8</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Auto Exposure Settings</string>
+       <string>AUTO EXPOSURE SETTINGS</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -2088,7 +2094,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Brightness_RBV</string>
+         <string notr="true">$(P)cam1:Brightness_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2110,8 +2116,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2133,7 +2139,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Brightness</string>
+         <string notr="true">$(P)cam1:Brightness</string>
         </property>
         <property name="foreground">
          <color>
@@ -2152,7 +2158,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2193,7 +2199,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:GainLimit_RBV</string>
+         <string notr="true">$(P)cam1:GainLimit_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2215,8 +2221,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2238,7 +2244,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:GainLimit</string>
+         <string notr="true">$(P)cam1:GainLimit</string>
         </property>
         <property name="foreground">
          <color>
@@ -2257,7 +2263,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2268,7 +2274,7 @@
       <item row="1" column="1">
        <widget class="caMenu" name="camenu_22">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringMode</string>
+         <string notr="true">$(P)cam1:MeteringMode</string>
         </property>
        </widget>
       </item>
@@ -2311,7 +2317,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureTimeLimit</string>
+         <string notr="true">$(P)cam1:ExposureTimeLimit</string>
         </property>
         <property name="foreground">
          <color>
@@ -2330,7 +2336,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2371,7 +2377,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureTimeLimit_RBV</string>
+         <string notr="true">$(P)cam1:ExposureTimeLimit_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2393,8 +2399,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2434,7 +2440,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaHeight_RBV</string>
+         <string notr="true">$(P)cam1:MeteringAreaHeight_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2456,8 +2462,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2473,7 +2479,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringMode_RBV</string>
+         <string notr="true">$(P)cam1:MeteringMode_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2495,8 +2501,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2542,7 +2548,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaLeft</string>
+         <string notr="true">$(P)cam1:MeteringAreaLeft</string>
         </property>
         <property name="foreground">
          <color>
@@ -2561,7 +2567,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2608,7 +2614,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaHeight</string>
+         <string notr="true">$(P)cam1:MeteringAreaHeight</string>
         </property>
         <property name="foreground">
          <color>
@@ -2627,7 +2633,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2644,7 +2650,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaWidth_RBV</string>
+         <string notr="true">$(P)cam1:MeteringAreaWidth_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2666,8 +2672,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2683,7 +2689,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaTop_RBV</string>
+         <string notr="true">$(P)cam1:MeteringAreaTop_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2705,8 +2711,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2722,7 +2728,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaLeft_RBV</string>
+         <string notr="true">$(P)cam1:MeteringAreaLeft_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2744,8 +2750,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2791,7 +2797,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaWidth</string>
+         <string notr="true">$(P)cam1:MeteringAreaWidth</string>
         </property>
         <property name="foreground">
          <color>
@@ -2810,7 +2816,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2833,7 +2839,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:MeteringAreaTop</string>
+         <string notr="true">$(P)cam1:MeteringAreaTop</string>
         </property>
         <property name="foreground">
          <color>
@@ -2852,7 +2858,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2869,7 +2875,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureMode_RBV</string>
+         <string notr="true">$(P)cam1:ExposureMode_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2891,8 +2897,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2902,7 +2908,7 @@
       <item row="0" column="1">
        <widget class="caMenu" name="camenu_12">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureMode</string>
+         <string notr="true">$(P)cam1:ExposureMode</string>
         </property>
        </widget>
       </item>
@@ -2933,7 +2939,7 @@
       <item row="2" column="1">
        <widget class="caMenu" name="camenu_15">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:CaptureMode</string>
+         <string notr="true">$(P)cam1:CaptureMode</string>
         </property>
        </widget>
       </item>
@@ -2946,7 +2952,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:CaptureMode_RBV</string>
+         <string notr="true">$(P)cam1:CaptureMode_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -2968,8 +2974,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -2982,13 +2988,13 @@
      <widget class="caLabel" name="calabel_82">
       <property name="font">
        <font>
-        <pointsize>10</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <pointsize>9</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Trigger Settings</string>
+       <string>TRIGGER SETTINGS</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -3011,14 +3017,14 @@
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout_6" columnstretch="2,2,2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
       <property name="horizontalSpacing">
        <number>0</number>
       </property>
       <property name="verticalSpacing">
        <number>2</number>
-      </property>
-      <property name="leftMargin">
-       <number>0</number>
       </property>
       <item row="3" column="0">
        <widget class="caLabel" name="calabel_87">
@@ -3059,7 +3065,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:TriggerFrameCt</string>
+         <string notr="true">$(P)cam1:TriggerFrameCt</string>
         </property>
         <property name="foreground">
          <color>
@@ -3078,7 +3084,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -3101,7 +3107,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:TriggerDelay</string>
+         <string notr="true">$(P)cam1:TriggerDelay</string>
         </property>
         <property name="foreground">
          <color>
@@ -3120,7 +3126,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -3137,7 +3143,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:NikonTriggerMode_RBV</string>
+         <string notr="true">$(P)cam1:NikonTriggerMode_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -3159,8 +3165,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -3200,7 +3206,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:TriggerDelay_RBV</string>
+         <string notr="true">$(P)cam1:TriggerDelay_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -3222,8 +3228,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -3233,7 +3239,7 @@
       <item row="0" column="1">
        <widget class="caMenu" name="camenu_23">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:NikonTriggerMode</string>
+         <string notr="true">$(P)cam1:NikonTriggerMode</string>
         </property>
        </widget>
       </item>
@@ -3270,7 +3276,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:TriggerFrameCt_RBV</string>
+         <string notr="true">$(P)cam1:TriggerFrameCt_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -3292,8 +3298,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -3327,7 +3333,7 @@
       <item row="3" column="1">
        <widget class="caMessageButton" name="camessagebutton_3">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:SoftTrigger</string>
+         <string notr="true">$(P)cam1:SoftTrigger</string>
         </property>
         <property name="label">
          <string notr="true">SoftTrigger</string>
@@ -3340,7 +3346,7 @@
       <item row="3" column="2">
        <widget class="caMessageButton" name="camessagebutton_4">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:TriggerCancel</string>
+         <string notr="true">$(P)cam1:TriggerCancel</string>
         </property>
         <property name="label">
          <string notr="true">TriggerCancel</string>
@@ -3356,13 +3362,13 @@
      <widget class="caLabel" name="calabel_85">
       <property name="font">
        <font>
-        <pointsize>9</pointsize>
-        <weight>75</weight>
-        <bold>true</bold>
+        <pointsize>8</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
        </font>
       </property>
       <property name="text">
-       <string>Image Processing</string>
+       <string>IMAGE PROCESSING</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -3418,7 +3424,7 @@
       <item row="0" column="1">
        <widget class="caMenu" name="camenu_14">
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureBias</string>
+         <string notr="true">$(P)cam1:ExposureBias</string>
         </property>
        </widget>
       </item>
@@ -3431,7 +3437,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:ExposureBias_RBV</string>
+         <string notr="true">$(P)cam1:ExposureBias_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -3453,8 +3459,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>
@@ -3500,7 +3506,7 @@
          <set>Qt::AlignCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Brightness</string>
+         <string notr="true">$(P)cam1:Brightness</string>
         </property>
         <property name="foreground">
          <color>
@@ -3519,7 +3525,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -3536,7 +3542,7 @@
          <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
         </property>
         <property name="channel" stdset="0">
-         <string notr="true">Qi2:cam1:Brightness_RBV</string>
+         <string notr="true">$(P)cam1:Brightness_RBV</string>
         </property>
         <property name="foreground">
          <color>
@@ -3558,8 +3564,8 @@
         <property name="precision">
          <number>0</number>
         </property>
-        <property name="fontScaleMode">
-         <enum>caLineEdit::Height</enum>
+        <property name="fontScaleMode" stdset="0">
+         <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
          <enum>caLineEdit::decimal</enum>

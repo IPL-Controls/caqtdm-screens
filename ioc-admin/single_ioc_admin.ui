@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>815</width>
-    <height>37</height>
+    <width>718</width>
+    <height>42</height>
    </rect>
   </property>
   <property name="font">
@@ -44,23 +44,28 @@
     <widget class="caMessageButton" name="caMessageButton_0">
      <property name="geometry">
       <rect>
-       <x>660</x>
+       <x>550</x>
        <y>5</y>
        <width>81</width>
        <height>30</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
      <property name="text">
-      <string>Reboot!</string>
+      <string>REBOOT!</string>
      </property>
      <property name="fontScaleMode">
-      <enum>EPushButton::Height</enum>
+      <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(ioc):RESTART</string>
      </property>
      <property name="label">
-      <string notr="true">Reboot!</string>
+      <string notr="true">REBOOT!</string>
      </property>
      <property name="foreground">
       <color>
@@ -88,13 +93,13 @@
       <rect>
        <x>3</x>
        <y>10</y>
-       <width>131</width>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="frameShape">
@@ -130,68 +135,17 @@
       <string notr="true"/>
      </property>
     </widget>
-    <widget class="caLineEdit" name="caLineEdit_4">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>10</y>
-       <width>111</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string>$(ioc):RECORD_CNT</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>255</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="precisionMode">
-      <enum>caLineEdit::Channel</enum>
-     </property>
-     <property name="limitsMode">
-      <enum>caLineEdit::Channel</enum>
-     </property>
-     <property name="maxValue">
-      <double>1.000000000000000</double>
-     </property>
-     <property name="minValue">
-      <double>0.000000000000000</double>
-     </property>
-     <property name="fontScaleMode">
-      <enum>caLineEdit::Height</enum>
-     </property>
-     <property name="formatType">
-      <enum>caLineEdit::decimal</enum>
-     </property>
-    </widget>
     <widget class="caLineEdit" name="caLineEdit_2">
      <property name="geometry">
       <rect>
-       <x>410</x>
+       <x>420</x>
        <y>10</y>
        <width>121</width>
        <height>21</height>
       </rect>
      </property>
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
@@ -199,8 +153,14 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     </property>
+     <property name="inputMethodHints">
+      <set>Qt::ImhMultiLine</set>
      </property>
      <property name="echoMode">
       <enum>QLineEdit::Normal</enum>
@@ -241,7 +201,7 @@
       <double>0.000000000000000</double>
      </property>
      <property name="fontScaleMode">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -250,14 +210,14 @@
     <widget class="caLineEdit" name="caLineEdit_7">
      <property name="geometry">
       <rect>
-       <x>280</x>
+       <x>290</x>
        <y>10</y>
        <width>121</width>
        <height>21</height>
       </rect>
      </property>
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
@@ -265,7 +225,7 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <stylestrategy>PreferDefault</stylestrategy>
        <kerning>false</kerning>
       </font>
@@ -306,7 +266,7 @@
       <double>0.000000000000000</double>
      </property>
      <property name="fontScaleMode">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -315,10 +275,10 @@
     <widget class="caRelatedDisplay" name="carelateddisplay">
      <property name="geometry">
       <rect>
-       <x>750</x>
-       <y>10</y>
-       <width>51</width>
-       <height>21</height>
+       <x>640</x>
+       <y>7</y>
+       <width>71</width>
+       <height>25</height>
       </rect>
      </property>
      <property name="sizePolicy">
@@ -338,7 +298,7 @@
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="label">
-      <string notr="true">-</string>
+      <string notr="true">-MORE</string>
      </property>
      <property name="foreground">
       <color>
@@ -373,14 +333,14 @@
     <widget class="caLineEdit" name="caLineEdit_8">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>170</x>
        <y>10</y>
        <width>111</width>
        <height>21</height>
       </rect>
      </property>
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
@@ -388,16 +348,20 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>10</pointsize>
-       <stylestrategy>PreferDefault</stylestrategy>
-       <kerning>false</kerning>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
       </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(ioc):ENGINEER</string>
+      <string notr="true">$(ioc):IOCNAME</string>
      </property>
      <property name="foreground">
       <color>
@@ -416,6 +380,9 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="framePresent" stdset="0">
+      <bool>false</bool>
+     </property>
      <property name="precisionMode">
       <enum>caLineEdit::Channel</enum>
      </property>
@@ -429,7 +396,79 @@
       <double>0.000000000000000</double>
      </property>
      <property name="fontScaleMode">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_9">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(0, 0, 0, 255); color: rgba(0, 255, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(ioc):PORT_NO</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="framePresent" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="maxValue">
+      <double>1.000000000000000</double>
+     </property>
+     <property name="minValue">
+      <double>0.000000000000000</double>
+     </property>
+     <property name="fontScaleMode">
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>

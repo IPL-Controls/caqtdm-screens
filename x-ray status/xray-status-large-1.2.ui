@@ -355,10 +355,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true">A!=10</string>
+     <string notr="true">A=2||A=3||A=4</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:GeneratorStatus.STAT</string>
+     <string notr="true">cpi:GeneratorStatus</string>
     </property>
     <property name="channelB">
      <string notr="true"/>
@@ -921,10 +921,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLabel::Calc</enum>
     </property>
     <property name="visibilityCalc">
-     <string notr="true"> A=10</string>
+     <string notr="true"> A=0 || A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:GeneratorStatus.STAT</string>
+     <string notr="true">cpi:GeneratorStatus</string>
     </property>
     <property name="channelB">
      <string notr="true"/>
@@ -1541,139 +1541,6 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="channelC">
      <string notr="true">cpiSync:RadPrepOut</string>
-    </property>
-   </widget>
-   <widget class="caStripPlot" name="castripplot">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>70</y>
-      <width>631</width>
-      <height>311</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Blackadder ITC</family>
-      <pointsize>20</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0);
-
-color: rgb(255, 255, 255);
-gridline-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">X-ray Current</string>
-    </property>
-    <property name="TitleX">
-     <string notr="true">Time (hh:mm:ss)</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">Current (uA)</string>
-    </property>
-    <property name="channels" stdset="0">
-     <string notr="true">IPL:SRI:xray2:UA_RBV;IPL-2:SRI:xray:UA_RBV</string>
-    </property>
-    <property name="period">
-     <double>60.000000000000000</double>
-    </property>
-    <property name="YaxisLimitsMax_1">
-     <double>1100.000000000000000</double>
-    </property>
-    <property name="YaxisScalingMax_1" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="YaxisScalingMin_1" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="YaxisLimitsMax_2">
-     <double>1100.000000000000000</double>
-    </property>
-    <property name="YaxisScalingMax_2" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="YaxisScalingMin_2" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="Style_2">
-     <enum>caStripPlot::Lines</enum>
-    </property>
-    <property name="color_2">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="YaxisLimitsMax_3">
-     <double>1100.000000000000000</double>
-    </property>
-    <property name="YaxisScalingMax_3" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="YaxisScalingMin_3" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="color_3">
-     <color>
-      <red>0</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="YaxisLimitsMax_4">
-     <double>1100.000000000000000</double>
-    </property>
-    <property name="YaxisScalingMax_4" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="YaxisScalingMin_4" stdset="0">
-     <enum>caStripPlot::User</enum>
-    </property>
-    <property name="color_4">
-     <color>
-      <red>170</red>
-      <green>170</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="grid">
-     <bool>true</bool>
-    </property>
-    <property name="gridColor">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
     </property>
    </widget>
    <widget class="caPolyLine" name="capolyline">
@@ -4659,7 +4526,7 @@ gridline-color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">NEW:m106.RBV</string>
+     <string notr="true">NEW:m18.RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7129,6 +6996,92 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
      </color>
     </property>
    </widget>
+   <widget class="caCartesianPlot" name="cacartesianplot">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>631</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+
+color: rgb(255, 255, 255);
+gridline-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="Title" stdset="0">
+     <string notr="true">CPI FOCAL SPOT DRIFT </string>
+    </property>
+    <property name="TitleX">
+     <string notr="true">Time point </string>
+    </property>
+    <property name="TitleY">
+     <string notr="true">Intensity (A.U)</string>
+    </property>
+    <property name="channels_1" stdset="0">
+     <string notr="true">;Qi2:Stats1:TSMeanValue</string>
+    </property>
+    <property name="Style_1">
+     <enum>caCartesianPlot::ThinLines</enum>
+    </property>
+    <property name="symbol_1">
+     <enum>caCartesianPlot::Diamond</enum>
+    </property>
+    <property name="color_1">
+     <color>
+      <red>0</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="plotMode">
+     <enum>caCartesianPlot::PlotLastNPoints</enum>
+    </property>
+    <property name="eraseMode">
+     <enum>caCartesianPlot::ifzero</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="scaleColor">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="grid">
+     <bool>true</bool>
+    </property>
+    <property name="XaxisScaling" stdset="0">
+     <enum>caCartesianPlot::Channel</enum>
+    </property>
+    <property name="YaxisScaling" stdset="0">
+     <enum>caCartesianPlot::Channel</enum>
+    </property>
+   </widget>
    <zorder>cagraphics_4</zorder>
    <zorder>caRectangle_6</zorder>
    <zorder>caRectangle_4</zorder>
@@ -7164,7 +7117,6 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <zorder>calabel_13</zorder>
    <zorder>calabel_14</zorder>
    <zorder>calabel_7</zorder>
-   <zorder>castripplot</zorder>
    <zorder>caLabel_1</zorder>
    <zorder>caLabel_2</zorder>
    <zorder>caFrame_5</zorder>
@@ -7275,6 +7227,7 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <zorder>cagraphics_14</zorder>
    <zorder>cagraphics_15</zorder>
    <zorder>caclock</zorder>
+   <zorder>cacartesianplot</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -7325,9 +7278,9 @@ background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5
    <header>caThermo</header>
   </customwidget>
   <customwidget>
-   <class>caStripPlot</class>
+   <class>caCartesianPlot</class>
    <extends>QFrame</extends>
-   <header>caStripPlot</header>
+   <header>caCartesianPlot</header>
   </customwidget>
  </customwidgets>
  <resources/>

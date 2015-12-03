@@ -109,7 +109,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -157,7 +157,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -205,7 +205,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -253,7 +253,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -307,7 +307,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -393,7 +393,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -444,7 +444,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -495,7 +495,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -537,7 +537,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -585,7 +585,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -633,7 +633,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1102,7 +1102,7 @@
       <string>More</string>
      </property>
      <property name="files">
-      <string notr="true">../autosave/configMenu_small.ui</string>
+      <string notr="true">../autosave/configMenu.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=$(P),CONFIG=$(CONFIG)</string>

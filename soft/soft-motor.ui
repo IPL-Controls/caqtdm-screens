@@ -37,7 +37,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -72,7 +72,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -140,7 +140,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -286,7 +286,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -321,7 +321,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -356,7 +356,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -391,7 +391,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>18</pointsize>
+       <pointsize>15</pointsize>
       </font>
      </property>
      <property name="text">
@@ -428,7 +428,7 @@
       <string notr="true">background-color: rgb(105, 105, 105);</string>
      </property>
      <property name="macro">
-      <string notr="true">P=IPL-2:NEWPORT:,M1=m1,M2=m2,M3=m3,M4=m4,M5=m5,M6=m6</string>
+      <string notr="true">P=SIM:MOTOR:,M1=m1,M2=m2,M3=m3,M4=m4,M5=m5,M6=m6</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor_all_torque.ui</string>
@@ -480,12 +480,12 @@
       <string notr="true"/>
      </property>
      <property name="files">
-      <string notr="true">../autosave/configMenu_small</string>
+      <string notr="true">../autosave/configMenu</string>
      </property>
      <property name="args">
       <string notr="true">P=$(P),CONFIG=motor</string>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="stackingMode" stdset="0">
