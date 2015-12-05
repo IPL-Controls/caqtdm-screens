@@ -52,7 +52,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -93,13 +93,13 @@
       <rect>
        <x>3</x>
        <y>10</y>
-       <width>111</width>
+       <width>101</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="frameShape">
@@ -112,7 +112,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
      </property>
      <property name="fontScaleMode">
-      <enum>ESimpleLabel::Height</enum>
+      <enum>ESimpleLabel::WidthAndHeight</enum>
      </property>
      <property name="foreground">
       <color>
@@ -153,7 +153,7 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -200,7 +200,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -225,7 +225,7 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <stylestrategy>PreferDefault</stylestrategy>
        <kerning>false</kerning>
       </font>
@@ -265,7 +265,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -323,7 +323,7 @@
      <property name="args">
       <string notr="true">ioc=$(ioc);ioc=$(ioc);ioc=$(ioc);ioc=$(ioc)</string>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="stackingMode" stdset="0">
@@ -348,7 +348,7 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
@@ -395,7 +395,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -420,7 +420,7 @@
      <property name="font">
       <font>
        <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
@@ -467,7 +467,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">

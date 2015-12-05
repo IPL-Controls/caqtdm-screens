@@ -257,7 +257,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -305,7 +305,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -353,7 +353,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -449,7 +449,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -755,7 +755,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -803,7 +803,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -890,7 +890,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1154,7 +1154,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1205,7 +1205,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1256,7 +1256,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1326,7 +1326,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1520,7 +1520,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1607,7 +1607,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1655,7 +1655,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1741,7 +1741,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2030,7 +2030,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2118,7 +2118,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2445,7 +2445,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2533,7 +2533,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -2679,7 +2679,7 @@
        <property name="colorMode">
         <enum>caLineEdit::Static</enum>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2767,7 +2767,7 @@
        <property name="colorMode">
         <enum>caLineEdit::Static</enum>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::Height</enum>
        </property>
        <property name="formatType">
@@ -2827,7 +2827,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2915,7 +2915,7 @@
         <property name="colorMode">
          <enum>caLineEdit::Static</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -2966,7 +2966,7 @@
         <property name="limitsMode">
          <enum>caLineEdit::Channel</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -3017,7 +3017,7 @@
         <property name="limitsMode">
          <enum>caLineEdit::Channel</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -3091,7 +3091,7 @@
         <property name="limitsMode">
          <enum>caLineEdit::Channel</enum>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::Height</enum>
         </property>
         <property name="formatType">
@@ -3337,7 +3337,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3394,7 +3394,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3451,7 +3451,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3499,7 +3499,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3818,7 +3818,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -4451,7 +4451,7 @@
       <property name="limitsMode">
        <enum>caLineEdit::Channel</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -4502,7 +4502,7 @@
       <property name="limitsMode">
        <enum>caLineEdit::Channel</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -5751,7 +5751,7 @@
       <property name="limitsMode">
        <enum>caLineEdit::Channel</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -5802,7 +5802,7 @@
       <property name="limitsMode">
        <enum>caLineEdit::Channel</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -5853,7 +5853,7 @@
       <property name="limitsMode">
        <enum>caLineEdit::Channel</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -5904,7 +5904,7 @@
       <property name="limitsMode">
        <enum>caLineEdit::Channel</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -6737,7 +6737,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -6911,7 +6911,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -7058,7 +7058,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -7115,7 +7115,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -7407,7 +7407,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=AER:,M=m18</string>
+      <string notr="true">P=IPL:AERO:,M=m18</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-1.2.ui</string>
@@ -7455,7 +7455,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=AER:,M=m19</string>
+      <string notr="true">P=IPL:AERO:,M=m19</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-1.2.ui</string>
@@ -7471,7 +7471,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=AER:,M=m20</string>
+      <string notr="true">P=IPL:AERO:,M=m20</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-1.2.ui</string>
@@ -7766,7 +7766,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -7878,10 +7878,10 @@
       <string notr="true">((A=0)&amp;&amp;(B=0))</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">AER:m20.DMOV</string>
+      <string notr="true">IPL:AERO:m20.DMOV</string>
      </property>
      <property name="channelB">
-      <string notr="true">AER:m20.STAT</string>
+      <string notr="true">IPL:AERO:m20.STAT</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_98">
@@ -7954,7 +7954,7 @@
       <enum>QwtDial::RotateNeedle</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">AER:m20.RBV</string>
+      <string notr="true">IPL:AER0:m20.RBV</string>
      </property>
      <property name="maxValue">
       <double>30.000000000000000</double>
@@ -8022,7 +8022,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -8092,7 +8092,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -8180,7 +8180,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -8244,7 +8244,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -8332,7 +8332,7 @@
       <property name="colorMode">
        <enum>caLineEdit::Static</enum>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::Height</enum>
       </property>
       <property name="formatType">
@@ -8627,7 +8627,6 @@
     <zorder>caframe_15</zorder>
     <zorder>Asyn</zorder>
     <zorder>camenu_3</zorder>
-    <zorder>caframe_12</zorder>
    </widget>
   </widget>
  </widget>

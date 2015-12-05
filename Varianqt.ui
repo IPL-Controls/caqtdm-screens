@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>NIKON CONTROL</string>
+   <string>VARIAN PAXSCAN 3024M CONTROL</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="caFrame" name="caframe">
@@ -641,7 +641,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -689,7 +689,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -737,7 +737,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -833,7 +833,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -1199,7 +1199,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1247,7 +1247,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1295,7 +1295,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1352,7 +1352,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1469,7 +1469,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1526,7 +1526,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1685,7 +1685,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1772,7 +1772,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -1890,7 +1890,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2029,7 +2029,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2110,7 +2110,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2191,7 +2191,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2337,7 +2337,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2388,7 +2388,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2515,7 +2515,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2555,7 +2555,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -2931,7 +2931,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -2982,7 +2982,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3033,7 +3033,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3103,7 +3103,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3412,7 +3412,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3499,7 +3499,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3547,7 +3547,7 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -3855,7 +3855,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -4083,7 +4083,7 @@
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -4100,7 +4100,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">QPushButton{ background-color: rgba(115, 223, 255, 255); color: rgb(0, 0, 0); border-color: rgb(76, 149, 170);border-radius: 1px; padding: 0px; border-width: 3px;border-style: outset; margin:0px;}QPushButton:hover {background-color: rgb(166, 235, 255);}  QPushButton:pressed {background-color: rgb(76, 149, 170)};</string>
+      <string notr="true">QPushButton{ background-color: rgba(115, 223, 255, 255); color: rgba(0, 0, 0, 255); border-color: rgba(76, 149, 170, 255);border-radius: 1px; padding: 0px; border-width: 3px;border-style: outset; margin:0px;}QPushButton:disabled { color: rgba(160, 160, 164, 255);}QPushButton:hover {background-color: rgba(166, 235, 255, 255);}  QPushButton:pressed {background-color: rgba(76, 149, 170, 255)};</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -4142,7 +4142,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">QPushButton{ background-color: rgba(115, 223, 255, 255); color: rgb(0, 0, 0); border-color: rgb(76, 149, 170);border-radius: 1px; padding: 0px; border-width: 3px;border-style: outset; margin:0px;}QPushButton:hover {background-color: rgb(166, 235, 255);}  QPushButton:pressed {background-color: rgb(76, 149, 170)};</string>
+      <string notr="true">QPushButton{ background-color: rgba(115, 223, 255, 255); color: rgba(0, 0, 0, 255); border-color: rgba(76, 149, 170, 255);border-radius: 1px; padding: 0px; border-width: 3px;border-style: outset; margin:0px;}QPushButton:disabled { color: rgba(160, 160, 164, 255);}QPushButton:hover {background-color: rgba(166, 235, 255, 255);}  QPushButton:pressed {background-color: rgba(76, 149, 170, 255)};</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -4256,7 +4256,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -4368,7 +4368,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -4425,7 +4425,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
@@ -4442,7 +4442,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -4551,7 +4551,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0, 0); color: rgb(160, 160, 164, 255);</string>
+      <string notr="true">background-color: rgba(0, 0, 0, 0); color: rgba(160, 160, 164, 255);</string>
      </property>
      <property name="frameShape">
       <enum>QFrame::NoFrame</enum>
@@ -4630,7 +4630,7 @@
      <property name="limitsMode">
       <enum>caLineEdit::Channel</enum>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::Height</enum>
      </property>
      <property name="formatType">
