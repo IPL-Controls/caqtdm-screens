@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>282</width>
+    <height>187</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+
+QWidget#centralWidget {background-color: rgb(105, 105, 105);}
+
+QPushButton::menu-indicator {image: url(none.png); width: 0}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="caMenu" name="caMenu_0">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>261</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="channel" stdset="0">
+     <string>$(P)$(CONFIG)Menu</string>
+    </property>
+    <property name="colorMode">
+     <enum>caMenu::Static</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>200</red>
+      <green>200</green>
+      <blue>200</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_0">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>160</y>
+      <width>50</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string>-More</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>170</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>Less</string>
+    </property>
+    <property name="files">
+     <string notr="true">../autosave/configMenu.adl</string>
+    </property>
+    <property name="args">
+     <string>P=$(P),CONFIG=$(CONFIG)</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>true</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>160</y>
+      <width>150</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string>-Refresh menu choices</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>170</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string>refresh</string>
+    </property>
+    <property name="files">
+     <string notr="true">../autosave/configMenu_smallA.adl</string>
+    </property>
+    <property name="args">
+     <string>P=$(P),CONFIG=$(CONFIG)</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>true</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="caInclude_0">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>291</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string>P=$(P),CONFIG=$(CONFIG)</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../autosave/configMenuHead_bare.adl</string>
+    </property>
+   </widget>
+   <widget class="caLabel" name="caLabel_0">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>240</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>Load config by name:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="fontScaleMode">
+     <enum>ESimpleLabel::WidthAndHeight</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
+   <zorder>caInclude_0</zorder>
+   <zorder>caLabel_0</zorder>
+   <zorder>caMenu_0</zorder>
+   <zorder>caRelatedDisplay_0</zorder>
+   <zorder>caRelatedDisplay_1</zorder>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caMenu</class>
+   <extends>QComboBox</extends>
+   <header>caMenu</header>
+  </customwidget>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caInclude</class>
+   <extends>QWidget</extends>
+   <header>caInclude</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

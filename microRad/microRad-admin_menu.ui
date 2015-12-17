@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>814</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="windowOpacity">
+   <double>0.500000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(156, 156, 156);
+color: rgb(0, 0, 255);
+border-bottom-color: rgb(0, 0, 0);</string>
+  </property>
+  <property name="tabPosition">
+   <enum>QTabWidget::North</enum>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>25</width>
+    <height>25</height>
+   </size>
+  </property>
+  <property name="elideMode">
+   <enum>Qt::ElideNone</enum>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="movable">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="STATUS">
+   <attribute name="title">
+    <string>STATUS</string>
+   </attribute>
+   <widget class="caGraphics" name="cagraphics">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>40</y>
+      <width>801</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
+     </color>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>3</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>PREFIX</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_12">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>5</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>IOC DESC</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_8">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>5</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>HOST</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_9">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>5</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>UP TIME</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_11">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>5</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>REBOOT</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_13">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>5</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>MORE</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=IPL:SRI:xray1</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=IPL:AGILENT:dcps</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=IPL:SCAN-1</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=IPL:AERO</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_13">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=IPL:OXFORD:xray</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>60</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2000</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true">putty -telnet 192.168.1.110 2000</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_3">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>100</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2001</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.110 2001</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_4">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>140</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2002</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.110 2002</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_5">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>180</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2003</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.110 2003</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_7">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>220</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2004</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.110 2004</string>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_10">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>5</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>PORT</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=IPL:VARIAN</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_8">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>260</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2005</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet localhost 2005</string>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_14">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>5</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="text">
+     <string>TELNET</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="LOG">
+   <attribute name="title">
+    <string>LOG</string>
+   </attribute>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>30</y>
+      <width>801</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+selection-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+    <property name="autoFormatting">
+     <set>QTextEdit::AutoNone</set>
+    </property>
+    <property name="undoRedoEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="lineWrapColumnOrWidth">
+     <number>0</number>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="tabStopWidth">
+     <number>100</number>
+    </property>
+    <property name="source">
+     <url>
+      <string>file:///C:/Epics/rad_iocs.log</string>
+     </url>
+    </property>
+   </widget>
+   <widget class="caMessageButton" name="camessagebutton">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>5</y>
+      <width>105</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RELOAD LOG</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caShellCommand</class>
+   <extends>QWidget</extends>
+   <header>caShellCommand</header>
+  </customwidget>
+  <customwidget>
+   <class>caMessageButton</class>
+   <extends>QPushButton</extends>
+   <header>caMessageButton</header>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caGraphics</class>
+   <extends>QWidget</extends>
+   <header>caGraphics</header>
+  </customwidget>
+  <customwidget>
+   <class>caInclude</class>
+   <extends>QWidget</extends>
+   <header>caInclude</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>camessagebutton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>textBrowser_2</receiver>
+   <slot>reload()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>581</x>
+     <y>32</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>68</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
