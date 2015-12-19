@@ -96,7 +96,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -142,7 +142,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -188,7 +188,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -234,7 +234,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -280,7 +280,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -326,7 +326,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -489,7 +489,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -535,7 +535,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -847,6 +847,16 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <height>21</height>
      </rect>
     </property>
+    <property name="label">
+     <string notr="true">2007</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
     <property name="background">
      <color>
       <red>16</red>
@@ -861,7 +871,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true"/>
+     <string notr="true">putty -telnet localhost 2007</string>
     </property>
    </widget>
   </widget>
