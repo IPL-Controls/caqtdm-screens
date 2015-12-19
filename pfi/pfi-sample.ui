@@ -106,7 +106,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m18</string>
+      <string notr="true">P=NEW:,M=m19</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
