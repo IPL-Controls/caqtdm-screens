@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>208</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralWidget {background-color: rgb(156, 156, 156);}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="caGraphics" name="cagraphics">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>191</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>105</red>
+      <green>105</green>
+      <blue>105</blue>
+     </color>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Rectangle</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>5</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yu Mincho Demibold</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>1</number>
+    </property>
+    <property name="text">
+     <string>VPFI LAUNCHER</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>169</red>
+      <green>209</green>
+      <blue>239</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>500</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>255</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">X-RAY STATUS</string>
+    </property>
+    <property name="files">
+     <string notr="true">../x-ray status/xray-status-large-1.2.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">-   DETECTOR</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true">../nikonqi2-slim</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:, R=cam1:, W=IOC:;</string>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>460</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">IOC ADMIN</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-admin_menu.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">g0</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-g0.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>420</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">-  SCAN</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-scan.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">W=VPFI:SCAN:, CONFIG=scan</string>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">g1</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-g1.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">SAMPLE</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-sample</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">g2</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-g2.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">ss</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-ss.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_14">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">COMBINED</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-combined</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">-   X-RAY</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true">../SB801Kqt.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:SRI:xray:</string>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_16">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">CONTROL SCREEN</string>
+    </property>
+    <property name="files">
+     <string notr="true">vpfi-MainControlScreen.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>caRelatedDisplay</class>
+   <extends>QWidget</extends>
+   <header>caRelatedDisplay</header>
+  </customwidget>
+  <customwidget>
+   <class>caLabel</class>
+   <extends>QLabel</extends>
+   <header>caLabel</header>
+  </customwidget>
+  <customwidget>
+   <class>caGraphics</class>
+   <extends>QWidget</extends>
+   <header>caGraphics</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
