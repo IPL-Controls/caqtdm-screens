@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Motot Controller</string>
+   <string>Motor Controller</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(156, 156, 156);</string>
@@ -37,7 +37,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -72,7 +72,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -106,7 +106,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M=m6</string>
+      <string notr="true">P=VPFI:KOHZU:,M=m6</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -122,7 +122,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M=m4</string>
+      <string notr="true">P=VPFI:KOHZU:,M=m4</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -140,7 +140,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -221,7 +221,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M=m5</string>
+      <string notr="true">P=VPFI:KOHZU:,M=m5</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -237,7 +237,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M=m1</string>
+      <string notr="true">P=VPFI:KOHZU:,M=m1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -253,7 +253,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M=m2</string>
+      <string notr="true">P=VPFI:KOHZU:,M=m2</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -269,7 +269,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M=m3</string>
+      <string notr="true">P=VPFI:KOHZU:,M=m3</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -286,7 +286,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -321,7 +321,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -356,7 +356,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -391,7 +391,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -428,7 +428,7 @@
       <string notr="true">background-color: rgb(105, 105, 105);</string>
      </property>
      <property name="macro">
-      <string notr="true">P=KOZ:,M1=m1,M2=m2,M3=m3,M4=m4,M5=m5,M6=m6</string>
+      <string notr="true">P=VPFI:KOHZU:,M1=m1,M2=m2,M3=m3,M4=m4,M5=m5,M6=m6</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor_all_torque.ui</string>
@@ -647,7 +647,7 @@
       <string notr="true">../autosave/configMenu.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=KOZ:,CONFIG=g0</string>
+      <string notr="true">P=VPFI:KOHZU:,CONFIG=g0</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::Menu</enum>
