@@ -312,7 +312,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>14</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1428,6 +1428,8 @@
       <string notr="true">$(P)FIRING_RBV</string>
      </property>
     </widget>
+    <zorder>cagraphics_4</zorder>
+    <zorder>cagraphics_5</zorder>
     <zorder>cagraphics_2</zorder>
     <zorder>calabel</zorder>
     <zorder>calabel_2</zorder>
@@ -1458,8 +1460,6 @@
     <zorder>caled_14</zorder>
     <zorder>calabel_13</zorder>
     <zorder>calabel_15</zorder>
-    <zorder>cagraphics_4</zorder>
-    <zorder>cagraphics_5</zorder>
    </widget>
   </widget>
  </widget>
