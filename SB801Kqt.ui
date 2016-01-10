@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>340</width>
-    <height>271</height>
+    <width>289</width>
+    <height>267</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,14 +38,14 @@
       <rect>
        <x>10</x>
        <y>5</y>
-       <width>321</width>
+       <width>271</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>13</pointsize>
+       <pointsize>18</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -88,13 +88,13 @@
       <rect>
        <x>20</x>
        <y>55</y>
-       <width>301</width>
+       <width>251</width>
        <height>25</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -134,7 +134,7 @@
       <rect>
        <x>10</x>
        <y>50</y>
-       <width>321</width>
+       <width>271</width>
        <height>211</height>
       </rect>
      </property>
@@ -165,9 +165,9 @@
     <widget class="caMessageButton" name="camessagebutton_3">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>145</y>
-       <width>81</width>
+       <width>71</width>
        <height>31</height>
       </rect>
      </property>
@@ -212,7 +212,7 @@
     <widget class="caMessageButton" name="camessagebutton_4">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>190</x>
        <y>145</y>
        <width>81</width>
        <height>31</height>
@@ -267,7 +267,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -303,7 +303,7 @@
     <widget class="caLineEdit" name="calineedit_3">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>190</x>
        <y>120</y>
        <width>81</width>
        <height>21</height>
@@ -312,7 +312,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>13</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -367,20 +367,21 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>180</y>
-       <width>121</width>
+       <y>175</y>
+       <width>71</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
+       <kerning>true</kerning>
       </font>
      </property>
      <property name="text">
-      <string>VOLTAGE (kVp)</string>
+      <string>VOLTAGE</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -412,16 +413,16 @@
     <widget class="caTextEntry" name="catextentry_4">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>180</y>
-       <width>81</width>
+       <width>71</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>17</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -483,7 +484,7 @@
     <widget class="caLineEdit" name="calineedit_4">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>190</x>
        <y>180</y>
        <width>81</width>
        <height>31</height>
@@ -492,7 +493,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>16</pointsize>
+       <pointsize>20</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -537,7 +538,7 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="unitsEnabled">
-      <bool>false</bool>
+      <bool>true</bool>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -548,19 +549,19 @@
       <rect>
        <x>20</x>
        <y>210</y>
-       <width>121</width>
+       <width>71</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string>CURRENT (uA)</string>
+      <string>CURRENT</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -592,16 +593,16 @@
     <widget class="caTextEntry" name="catextentry_5">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>215</y>
-       <width>81</width>
+       <width>71</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>17</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -663,7 +664,7 @@
     <widget class="caLineEdit" name="calineedit_5">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>190</x>
        <y>215</y>
        <width>81</width>
        <height>31</height>
@@ -672,7 +673,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>16</pointsize>
+       <pointsize>20</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -720,7 +721,7 @@
       <bool>false</bool>
      </property>
      <property name="formatType">
-      <enum>caLineEdit::string</enum>
+      <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_19">
@@ -728,13 +729,13 @@
       <rect>
        <x>20</x>
        <y>150</y>
-       <width>81</width>
+       <width>80</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -772,10 +773,10 @@
     <widget class="caLed" name="caled_8">
      <property name="geometry">
       <rect>
-       <x>90</x>
-       <y>80</y>
+       <x>30</x>
+       <y>52</y>
        <width>31</width>
-       <height>41</height>
+       <height>31</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
@@ -802,9 +803,9 @@
     <widget class="caMessageButton" name="caMessageButton_16">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>120</y>
-       <width>81</width>
+       <width>71</width>
        <height>21</height>
       </rect>
      </property>
@@ -844,15 +845,15 @@
     <widget class="caLabel" name="calabel_38">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>80</y>
-       <width>181</width>
+       <width>171</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>19</pointsize>
+       <pointsize>24</pointsize>
       </font>
      </property>
      <property name="text">
@@ -893,7 +894,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -931,15 +932,15 @@
     <widget class="caLabel" name="calabel_46">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>80</y>
-       <width>181</width>
+       <width>171</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>19</pointsize>
+       <pointsize>24</pointsize>
       </font>
      </property>
      <property name="text">
@@ -978,9 +979,9 @@
     <widget class="caLabel" name="calabel_3">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>85</y>
-       <width>181</width>
+       <width>171</width>
        <height>31</height>
       </rect>
      </property>
@@ -995,15 +996,15 @@
     <widget class="caLabel" name="calabel_52">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>100</x>
        <y>80</y>
-       <width>181</width>
+       <width>171</width>
        <height>41</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>19</pointsize>
+       <pointsize>24</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1039,7 +1040,7 @@
     <widget class="caLabel" name="calabel_32">
      <property name="geometry">
       <rect>
-       <x>240</x>
+       <x>190</x>
        <y>120</y>
        <width>81</width>
        <height>21</height>
@@ -1047,7 +1048,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1077,6 +1078,358 @@
       <string notr="true">$(P)FAULT_RBV</string>
      </property>
     </widget>
+    <widget class="caLed" name="caled_9">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>52</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+     <property name="falseColor">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>189</red>
+       <green>189</green>
+       <blue>189</blue>
+      </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled_10">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>52</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+     <property name="falseColor">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>189</red>
+       <green>189</green>
+       <blue>189</blue>
+      </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled_11">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>52</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+     <property name="falseColor">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>189</red>
+       <green>189</green>
+       <blue>189</blue>
+      </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled_12">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>52</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+     <property name="falseColor">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>189</red>
+       <green>189</green>
+       <blue>189</blue>
+      </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled_13">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>270</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+     <property name="falseColor">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>189</red>
+       <green>189</green>
+       <blue>189</blue>
+      </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="caLed" name="caled_14">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>52</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+     <property name="falseColor">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="trueColor">
+      <color>
+       <red>189</red>
+       <green>189</green>
+       <blue>189</blue>
+      </color>
+     </property>
+     <property name="bitNr" stdset="0">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_13">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>235</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>(uA)</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_15">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>200</y>
+       <width>31</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>(kVp)</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::PlainText</enum>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="fontScaleMode">
+      <enum>ESimpleLabel::WidthAndHeight</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="cagraphics_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>271</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color alpha="50">
+       <red>0</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineSize">
+      <number>2</number>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caGraphics::IfNotZero</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)READY_RBV</string>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="cagraphics_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>271</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color alpha="50">
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="linestyle" stdset="0">
+      <enum>caGraphics::Solid</enum>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineSize">
+      <number>2</number>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caGraphics::IfZero</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)FIRING_RBV</string>
+     </property>
+    </widget>
+    <zorder>cagraphics_4</zorder>
+    <zorder>cagraphics_5</zorder>
     <zorder>cagraphics_2</zorder>
     <zorder>calabel</zorder>
     <zorder>calabel_2</zorder>
@@ -1099,6 +1452,14 @@
     <zorder>calabel_46</zorder>
     <zorder>calabel_52</zorder>
     <zorder>calabel_32</zorder>
+    <zorder>caled_9</zorder>
+    <zorder>caled_10</zorder>
+    <zorder>caled_11</zorder>
+    <zorder>caled_12</zorder>
+    <zorder>caled_13</zorder>
+    <zorder>caled_14</zorder>
+    <zorder>calabel_13</zorder>
+    <zorder>calabel_15</zorder>
    </widget>
   </widget>
  </widget>

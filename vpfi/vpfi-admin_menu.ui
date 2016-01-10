@@ -584,7 +584,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">putty -telnet 192.168.1.112 2000</string>
+     <string notr="true">putty -telnet 192.168.1.113 2000</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -623,7 +623,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.112 2001</string>
+     <string notr="true">putty -telnet 192.168.1.113 2001</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_4">
@@ -659,7 +659,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.112 2002</string>
+     <string notr="true">putty -telnet 192.168.1.113 2002</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_5">
@@ -695,7 +695,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.112 2003</string>
+     <string notr="true">putty -telnet 192.168.1.113 2003</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_6">
@@ -767,7 +767,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.112 2004</string>
+     <string notr="true">putty -telnet 192.168.1.113 2004</string>
     </property>
    </widget>
   </widget>
