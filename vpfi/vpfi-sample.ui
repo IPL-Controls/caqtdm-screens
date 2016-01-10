@@ -37,7 +37,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -72,7 +72,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -106,7 +106,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m19</string>
+      <string notr="true">P=NEW:,M=m18</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -140,7 +140,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>15</pointsize>
+       <pointsize>16</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -286,7 +286,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -321,7 +321,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -356,7 +356,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
@@ -391,7 +391,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>15</pointsize>
+       <pointsize>18</pointsize>
       </font>
      </property>
      <property name="text">
