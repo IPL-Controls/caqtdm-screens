@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>2170</width>
+    <width>1557</width>
     <height>675</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Motot Controller</string>
+   <string>Motor Controller</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(156, 156, 156);</string>
@@ -36,7 +36,7 @@
       </rect>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">pfi-ss.ui</string>
+      <string notr="true">vpfi-ss.ui</string>
      </property>
     </widget>
     <widget class="caInclude" name="cainclude_2">
@@ -49,10 +49,10 @@
       </rect>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">pfi-g0.ui</string>
+      <string notr="true">vpfi-g0.ui</string>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_3">
+    <widget class="caInclude" name="cainclude_4">
      <property name="geometry">
       <rect>
        <x>620</x>
@@ -62,10 +62,10 @@
       </rect>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">pfi-s0.ui</string>
+      <string notr="true">vpfi-g1.ui</string>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_4">
+    <widget class="caInclude" name="cainclude_5">
      <property name="geometry">
       <rect>
        <x>930</x>
@@ -75,10 +75,10 @@
       </rect>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">pfi-g1.ui</string>
+      <string notr="true">vpfi-sample.ui</string>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_5">
+    <widget class="caInclude" name="cainclude_6">
      <property name="geometry">
       <rect>
        <x>1240</x>
@@ -88,33 +88,7 @@
       </rect>
      </property>
      <property name="filename" stdset="0">
-      <string notr="true">pfi-sample.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_6">
-     <property name="geometry">
-      <rect>
-       <x>1550</x>
-       <y>0</y>
-       <width>311</width>
-       <height>651</height>
-      </rect>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">pfi-g2.ui</string>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_7">
-     <property name="geometry">
-      <rect>
-       <x>1860</x>
-       <y>0</y>
-       <width>311</width>
-       <height>651</height>
-      </rect>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">pfi-s2.ui</string>
+      <string notr="true">vpfi-g2.ui</string>
      </property>
     </widget>
     <widget class="caMessageButton" name="camessagebutton">
@@ -176,8 +150,8 @@
       <rect>
        <x>0</x>
        <y>-8</y>
-       <width>2181</width>
-       <height>655</height>
+       <width>1551</width>
+       <height>660</height>
       </rect>
      </property>
      <property name="focusPolicy">
@@ -230,7 +204,7 @@
       <string notr="true">../autosave/configMenu_small.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=KOZ:,CONFIG=all</string>
+      <string notr="true">P=VPFI:KOHZU:,CONFIG=all</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::Menu</enum>
@@ -242,11 +216,9 @@
     <zorder>calabel_6</zorder>
     <zorder>cainclude</zorder>
     <zorder>cainclude_2</zorder>
-    <zorder>cainclude_3</zorder>
     <zorder>cainclude_4</zorder>
     <zorder>cainclude_5</zorder>
     <zorder>cainclude_6</zorder>
-    <zorder>cainclude_7</zorder>
     <zorder>camessagebutton</zorder>
     <zorder>camessagebutton_2</zorder>
     <zorder>caRelatedDisplay_4</zorder>

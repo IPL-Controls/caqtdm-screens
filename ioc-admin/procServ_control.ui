@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>649</width>
-    <height>439</height>
+    <width>619</width>
+    <height>430</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -38,7 +38,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="fontScaleMode">
-     <enum>ESimpleLabel::Height</enum>
+     <enum>ESimpleLabel::WidthAndHeight</enum>
     </property>
     <property name="foreground">
      <color>
@@ -69,6 +69,12 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
       <horstretch>0</horstretch>
       <verstretch>0</verstretch>
      </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Sans Typewriter</family>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -182,7 +188,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="fontScaleMode">
-     <enum>ESimpleLabel::Height</enum>
+     <enum>ESimpleLabel::WidthAndHeight</enum>
     </property>
     <property name="foreground">
      <color>
@@ -204,13 +210,13 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>5</y>
-      <width>631</width>
+      <width>601</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>18</pointsize>
+      <pointsize>15</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -253,7 +259,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>50</y>
-      <width>631</width>
+      <width>601</width>
       <height>101</height>
      </rect>
     </property>
@@ -286,8 +292,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>160</y>
-      <width>631</width>
-      <height>271</height>
+      <width>601</width>
+      <height>261</height>
      </rect>
     </property>
     <property name="foreground">
@@ -319,13 +325,13 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>20</x>
       <y>55</y>
-      <width>611</width>
+      <width>581</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>13</pointsize>
+      <pointsize>10</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -363,11 +369,16 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caLabel" name="caLabel_30">
     <property name="geometry">
      <rect>
-      <x>352</x>
+      <x>345</x>
       <y>95</y>
-      <width>121</width>
+      <width>131</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="frameShape">
      <enum>QFrame::NoFrame</enum>
@@ -379,7 +390,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="fontScaleMode">
-     <enum>ESimpleLabel::Height</enum>
+     <enum>ESimpleLabel::WidthAndHeight</enum>
     </property>
     <property name="foreground">
      <color>
@@ -399,7 +410,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caLineEdit" name="caLineEdit_2">
     <property name="geometry">
      <rect>
-      <x>490</x>
+      <x>465</x>
       <y>95</y>
       <width>41</width>
       <height>20</height>
@@ -450,11 +461,16 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caToggleButton" name="catogglebutton">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>325</x>
       <y>120</y>
       <width>181</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
     </property>
     <property name="layoutDirection">
      <enum>Qt::LeftToRight</enum>
@@ -484,7 +500,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caToggleButton" name="catogglebutton_2">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>325</x>
       <y>95</y>
       <width>21</width>
       <height>21</height>
@@ -497,7 +513,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caMessageButton" name="caMessageButton_0">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>510</x>
       <y>120</y>
       <width>91</width>
       <height>21</height>
@@ -507,7 +523,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <string>STOP</string>
     </property>
     <property name="fontScaleMode">
-     <enum>EPushButton::Height</enum>
+     <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">$(ioc):STOP</string>
@@ -539,7 +555,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caMessageButton" name="caMessageButton_1">
     <property name="geometry">
      <rect>
-      <x>540</x>
+      <x>510</x>
       <y>95</y>
       <width>91</width>
       <height>21</height>
@@ -549,7 +565,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <string>START</string>
     </property>
     <property name="fontScaleMode">
-     <enum>EPushButton::Height</enum>
+     <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="channel" stdset="0">
      <string notr="true">$(ioc):START</string>
@@ -581,7 +597,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caTextEntry" name="catextentry">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>350</x>
       <y>170</y>
       <width>241</width>
       <height>31</height>
@@ -619,8 +635,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>20</x>
       <y>170</y>
-      <width>611</width>
-      <height>251</height>
+      <width>581</width>
+      <height>241</height>
      </rect>
     </property>
     <property name="font">
@@ -648,7 +664,7 @@ color: rgb(0, 255, 0);</string>
      <enum>Qt::ScrollBarAsNeeded</enum>
     </property>
     <property name="sizeAdjustPolicy">
-     <enum>QAbstractScrollArea::AdjustToContents</enum>
+     <enum>QAbstractScrollArea::AdjustIgnored</enum>
     </property>
     <property name="lineWrapColumnOrWidth">
      <number>0</number>
