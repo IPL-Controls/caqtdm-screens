@@ -1630,7 +1630,7 @@
       </color>
      </property>
      <property name="releaseMessage">
-      <string notr="true">1</string>
+      <string notr="true"/>
      </property>
      <property name="pressMessage">
       <string>1</string>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>371</width>
-    <height>418</height>
+    <width>419</width>
+    <height>372</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -24,7 +24,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>5</y>
-      <width>351</width>
+      <width>401</width>
       <height>31</height>
      </rect>
     </property>
@@ -73,8 +73,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>40</y>
-      <width>351</width>
-      <height>371</height>
+      <width>401</width>
+      <height>321</height>
      </rect>
     </property>
     <property name="foreground">
@@ -142,8 +142,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>20</x>
       <y>50</y>
-      <width>331</width>
-      <height>351</height>
+      <width>381</width>
+      <height>301</height>
      </rect>
     </property>
     <property name="font">
