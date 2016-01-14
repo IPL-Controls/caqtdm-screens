@@ -106,7 +106,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m2</string>
+      <string notr="true">P=VPFI:NEWPORT:,M=m6</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -122,7 +122,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m10</string>
+      <string notr="true">P=VPFI:NEWPORT:,M=m4</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -221,7 +221,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m9</string>
+      <string notr="true">P=VPFI:NEWPORT:,M=m5</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -237,7 +237,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m6</string>
+      <string notr="true">P=VPFI:NEWPORT:,M=m1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -253,7 +253,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m100</string>
+      <string notr="true">P=VPFI:NEWPORT:,M=m2</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -269,7 +269,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=TL:,M=m1</string>
+      <string notr="true">P=VPFI:NEWPORT:,M=m3</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -428,7 +428,7 @@
       <string notr="true">background-color: rgb(105, 105, 105);</string>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M1=m6,M2=m17,M3=m10,M4=m9,M5=m2</string>
+      <string notr="true">P=VPFI:NEWPORT:,M1=m1,M2=m2,M3=m3,M4=m4,M5=m5,M6=m6</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor_all_torque.ui</string>
@@ -647,7 +647,7 @@
       <string notr="true">../autosave/configMenu.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=NEW:,CONFIG=ss</string>
+      <string notr="true">P=VPFI:NEWPORT:,CONFIG=ss</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::Menu</enum>
