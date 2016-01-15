@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>814</width>
-    <height>330</height>
+    <height>403</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>40</y>
       <width>801</width>
-      <height>251</height>
+      <height>331</height>
      </rect>
     </property>
     <property name="foreground">
@@ -371,7 +371,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=IPL:SRI:xray1</string>
+     <string notr="true">ioc=RAD:SRI:xray</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -381,13 +381,13 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>210</y>
+      <y>250</y>
       <width>711</width>
       <height>35</height>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=IPL:AGILENT:dcps</string>
+     <string notr="true">ioc=RAD:AGILENT:dcps</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -403,7 +403,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=IPL:SCAN-1</string>
+     <string notr="true">ioc=RAD:SCAN</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -419,7 +419,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=IPL:AERO</string>
+     <string notr="true">ioc=RAD:AERO</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -435,7 +435,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=IPL:OXFORD:xray</string>
+     <string notr="true">ioc=RAD:OXFORD:xray</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -671,13 +671,13 @@ border-bottom-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>250</y>
+      <y>290</y>
       <width>711</width>
       <height>35</height>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=IPL:VARIAN</string>
+     <string notr="true">ioc=RAD:VARIAN</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -765,6 +765,110 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </color>
     </property>
    </widget>
+   <widget class="caInclude" name="cainclude_15">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=RAD:VarianSync</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_9">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>300</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2006</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet localhost 2006</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>210</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=RAD:NEWPORT</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_10">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>340</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2007</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet localhost 2007</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QWidget" name="LOG">
    <attribute name="title">
@@ -776,7 +880,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>30</y>
       <width>801</width>
-      <height>271</height>
+      <height>341</height>
      </rect>
     </property>
     <property name="font">

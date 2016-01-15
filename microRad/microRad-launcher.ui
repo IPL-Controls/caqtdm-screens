@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>208</width>
-    <height>260</height>
+    <width>207</width>
+    <height>308</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -23,7 +23,7 @@
       <x>10</x>
       <y>50</y>
       <width>191</width>
-      <height>201</height>
+      <height>251</height>
      </rect>
     </property>
     <property name="font">
@@ -112,9 +112,9 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>220</y>
+      <y>260</y>
       <width>171</width>
-      <height>21</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -154,7 +154,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>140</y>
+      <y>180</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -193,13 +193,14 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true"/>
+     <string notr="true">RAD:VARIAN:cam1;IPL:D3X:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../Varianqt.ui</string>
+     <string notr="true">../Varianqt.ui;../nikonqt-v2.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:VARIAN:, R=cam1:, W=IPL:SCAN-1:;</string>
+     <string notr="true">P=RAD:VARIAN:, R=cam1:, W=RAD:SCAN:;P=IPL:D3X:cam1:,W=RAD
+:SCAN:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -212,7 +213,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>180</y>
+      <y>220</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -245,7 +246,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>100</y>
+      <y>140</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -290,7 +291,7 @@
      <string notr="true">../OX96000qt;../xray-1.1</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:OXFORD:xray:;P=IPL:SRI:xray</string>
+     <string notr="true">P=RAD:OXFORD:xray:;P=RAD:SRI:xray</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -332,7 +333,43 @@
      <string notr="true">microRad-MainControlScreen.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL:VARIAN:,R=cam1:,W=IPL:SCAN-1:</string>
+     <string notr="true">P=RAD:VARIAN:,R=cam1:,W=RAD:SCAN:</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_18">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">SAMPLE</string>
+    </property>
+    <property name="files">
+     <string notr="true">microRad-sample-2</string>
+    </property>
+    <property name="args">
+     <string notr="true"/>
     </property>
    </widget>
   </widget>
