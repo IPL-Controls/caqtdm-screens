@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>816</width>
-    <height>331</height>
+    <height>410</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>40</y>
       <width>801</width>
-      <height>261</height>
+      <height>341</height>
      </rect>
     </property>
     <property name="foreground">
@@ -584,7 +584,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">putty -telnet 192.168.1.113 2000</string>
+     <string notr="true">putty -telnet localhost 2000</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -623,7 +623,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.113 2001</string>
+     <string notr="true">putty -telnet localhost 2001</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_4">
@@ -659,7 +659,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.113 2002</string>
+     <string notr="true">putty -telnet localhost 2002</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_5">
@@ -695,7 +695,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.113 2003</string>
+     <string notr="true">putty -telnet localhost 2003</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_6">
@@ -731,7 +731,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet localhost 2005</string>
+     <string notr="true">putty -telnet 192.168.1.102 2005</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_7">
@@ -767,89 +767,36 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.113 2004</string>
+     <string notr="true">putty -telnet localhost 2004</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QWidget" name="LOG">
-   <attribute name="title">
-    <string>LOG</string>
-   </attribute>
-   <widget class="QTextBrowser" name="textBrowser_2">
+   <widget class="caInclude" name="cainclude_24">
     <property name="geometry">
      <rect>
-      <x>5</x>
-      <y>34</y>
-      <width>801</width>
-      <height>271</height>
+      <x>10</x>
+      <y>290</y>
+      <width>711</width>
+      <height>41</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>8</pointsize>
-     </font>
+    <property name="macro">
+     <string notr="true">ioc=VPFI:VARIAN</string>
     </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 0);
-selection-color: rgb(255, 255, 255);
-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhMultiLine</set>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>1</number>
-    </property>
-    <property name="verticalScrollBarPolicy">
-     <enum>Qt::ScrollBarAsNeeded</enum>
-    </property>
-    <property name="horizontalScrollBarPolicy">
-     <enum>Qt::ScrollBarAlwaysOff</enum>
-    </property>
-    <property name="sizeAdjustPolicy">
-     <enum>QAbstractScrollArea::AdjustToContents</enum>
-    </property>
-    <property name="autoFormatting">
-     <set>QTextEdit::AutoNone</set>
-    </property>
-    <property name="undoRedoEnabled">
-     <bool>true</bool>
-    </property>
-    <property name="lineWrapColumnOrWidth">
-     <number>0</number>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-    <property name="tabStopWidth">
-     <number>100</number>
-    </property>
-    <property name="source">
-     <url>
-      <string>file:///C:/Epics/pfi_iocs.log</string>
-     </url>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
     </property>
    </widget>
-   <widget class="caMessageButton" name="camessagebutton">
+   <widget class="caShellCommand" name="cashellcommand_8">
     <property name="geometry">
      <rect>
-      <x>700</x>
-      <y>5</y>
-      <width>105</width>
-      <height>22</height>
+      <x>730</x>
+      <y>300</y>
+      <width>71</width>
+      <height>21</height>
      </rect>
     </property>
-    <property name="text">
-     <string>RELOAD LOG</string>
+    <property name="label">
+     <string notr="true">2006</string>
     </property>
     <property name="foreground">
      <color>
@@ -860,10 +807,71 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="background">
      <color>
-      <red>0</red>
-      <green>0</green>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.102 2006</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_25">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>330</y>
+      <width>711</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=VPFI:VarianSync</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_9">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>340</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2007</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
       <blue>255</blue>
      </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.102 2006</string>
     </property>
    </widget>
   </widget>
@@ -873,11 +881,6 @@ color: rgb(255, 255, 255);</string>
    <class>caShellCommand</class>
    <extends>QWidget</extends>
    <header>caShellCommand</header>
-  </customwidget>
-  <customwidget>
-   <class>caMessageButton</class>
-   <extends>QPushButton</extends>
-   <header>caMessageButton</header>
   </customwidget>
   <customwidget>
    <class>caLabel</class>
@@ -896,22 +899,5 @@ color: rgb(255, 255, 255);</string>
   </customwidget>
  </customwidgets>
  <resources/>
- <connections>
-  <connection>
-   <sender>camessagebutton</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>textBrowser_2</receiver>
-   <slot>reload()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>581</x>
-     <y>32</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>563</x>
-     <y>68</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

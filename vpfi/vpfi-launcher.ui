@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -190,13 +190,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true"/>
+     <string notr="true">Nikon Qi2;Varian PaxScan 3024M</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqi2-slim</string>
+     <string notr="true">../nikonqi2-slim;../Varianqt-v3</string>
     </property>
     <property name="args">
-     <string notr="true">P=VPFI:Qi2:, R=cam1:, W=IOC:;</string>
+     <string notr="true">P=VPFI:Qi2:, R=cam1:, W=VPFI:SCAN:;P=VPFI:VARIAN:, R=cam1:, W=VPFI:SCAN:;</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
