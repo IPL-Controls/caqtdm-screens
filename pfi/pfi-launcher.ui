@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Yu Mincho Demibold</family>
-      <pointsize>10</pointsize>
+      <pointsize>12</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -627,13 +627,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true"/>
+     <string notr="true">cpi;PFI:OXFORD:xray</string>
     </property>
     <property name="files">
-     <string notr="true">../cpi-new.ui</string>
+     <string notr="true">../cpi-new.ui;../OX96000qt.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=cpi</string>
+     <string notr="true">P=cpi;P=PFI:OXFORD:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
