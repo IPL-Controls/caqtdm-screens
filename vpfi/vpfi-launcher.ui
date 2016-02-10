@@ -555,13 +555,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true"/>
+     <string notr="true">SRI;OXFORD</string>
     </property>
     <property name="files">
-     <string notr="true">../SB801Kqt.ui</string>
+     <string notr="true">../SB801Kqt.ui;../OX96000qt.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=VPFI:SRI:xray:</string>
+     <string notr="true">P=VPFI:SRI:xray:;P=VPFI:OXFORD:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
