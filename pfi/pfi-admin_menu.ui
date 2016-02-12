@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>816</width>
-    <height>413</height>
+    <width>818</width>
+    <height>454</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>40</y>
       <width>801</width>
-      <height>341</height>
+      <height>381</height>
      </rect>
     </property>
     <property name="foreground">
@@ -872,6 +872,58 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="args">
      <string notr="true">putty -telnet localhost 2007</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_25">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>711</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=PFI:OXFORD:xray</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_9">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>380</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">2008</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.112 2008</string>
     </property>
    </widget>
   </widget>
