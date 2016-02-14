@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>202</width>
-    <height>281</height>
+    <height>321</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -23,7 +23,7 @@
       <x>10</x>
       <y>60</y>
       <width>182</width>
-      <height>211</height>
+      <height>251</height>
      </rect>
     </property>
     <property name="font">
@@ -321,6 +321,39 @@
     </property>
     <property name="args">
      <string notr="true">P=SIM:SEQ:</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">TIMER</string>
+    </property>
+    <property name="files">
+     <string notr="true">../std/countDownTimer.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=SIM:SCAN:,N=1</string>
     </property>
    </widget>
   </widget>
