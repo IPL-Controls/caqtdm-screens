@@ -3110,45 +3110,6 @@
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caMessageButton" name="camessagebutton_4">
-     <property name="geometry">
-      <rect>
-       <x>105</x>
-       <y>755</y>
-       <width>71</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>ON</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">VarianSync:DOC</string>
-     </property>
-     <property name="label">
-      <string notr="true">ON</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true">1</string>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">1</string>
-     </property>
-    </widget>
     <widget class="caMenu" name="camenu">
      <property name="geometry">
       <rect>
@@ -3200,8 +3161,8 @@
     <widget class="caGraphics" name="caRectangle_8">
      <property name="geometry">
       <rect>
-       <x>100</x>
-       <y>750</y>
+       <x>90</x>
+       <y>760</y>
        <width>161</width>
        <height>31</height>
       </rect>
@@ -3587,45 +3548,6 @@
        <green>160</green>
        <blue>164</blue>
       </color>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="camessagebutton_5">
-     <property name="geometry">
-      <rect>
-       <x>185</x>
-       <y>755</y>
-       <width>71</width>
-       <height>22</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>OFF</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">VarianSync:DOC</string>
-     </property>
-     <property name="label">
-      <string notr="true">OFF</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>85</red>
-       <green>170</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true">0</string>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">0</string>
      </property>
     </widget>
     <widget class="caMessageButton" name="caMessageButton_14">
@@ -4789,7 +4711,6 @@
     <zorder>caLineEdit_14</zorder>
     <zorder>camenu_2</zorder>
     <zorder>caLineEdit_30</zorder>
-    <zorder>camessagebutton_4</zorder>
     <zorder>camenu</zorder>
     <zorder>calabel_39</zorder>
     <zorder>calabel_37</zorder>
@@ -4801,7 +4722,6 @@
     <zorder>caLineEdit_29</zorder>
     <zorder>caTextEntry_17</zorder>
     <zorder>calabel_13</zorder>
-    <zorder>camessagebutton_5</zorder>
     <zorder>caMessageButton_14</zorder>
     <zorder>caMessageButton_15</zorder>
     <zorder>calabel_58</zorder>
