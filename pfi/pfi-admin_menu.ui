@@ -580,7 +580,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2000</string>
+     <string notr="true">-2000</string>
     </property>
     <property name="foreground">
      <color>
@@ -616,7 +616,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2006</string>
+     <string notr="true">-2006</string>
     </property>
     <property name="foreground">
      <color>
@@ -652,7 +652,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2001</string>
+     <string notr="true">-2001</string>
     </property>
     <property name="foreground">
      <color>
@@ -688,7 +688,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2002</string>
+     <string notr="true">-2002</string>
     </property>
     <property name="foreground">
      <color>
@@ -724,7 +724,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2003</string>
+     <string notr="true">-2003</string>
     </property>
     <property name="foreground">
      <color>
@@ -760,7 +760,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2005</string>
+     <string notr="true">-2005</string>
     </property>
     <property name="foreground">
      <color>
@@ -796,7 +796,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2004</string>
+     <string notr="true">-2004</string>
     </property>
     <property name="foreground">
      <color>
@@ -848,7 +848,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2007</string>
+     <string notr="true">-2007</string>
     </property>
     <property name="foreground">
      <color>
@@ -884,7 +884,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=PFI:OXFORD:xray</string>
+     <string notr="true">ioc=OXFORD:xray</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -900,7 +900,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2008</string>
+     <string notr="true">-2008</string>
     </property>
     <property name="foreground">
      <color>
