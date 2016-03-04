@@ -570,7 +570,7 @@
        <x>450</x>
        <y>60</y>
        <width>271</width>
-       <height>271</height>
+       <height>381</height>
       </rect>
      </property>
      <property name="font">
@@ -847,50 +847,6 @@
        <green>160</green>
        <blue>164</blue>
       </color>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>460</x>
-       <y>415</y>
-       <width>111</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="autoFillBackground">
-      <bool>false</bool>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(169, 209, 239, 50);</string>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::Box</enum>
-     </property>
-     <property name="lineWidth">
-      <number>2</number>
-     </property>
-     <property name="text">
-      <string>G2 POSITIONING</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-    </widget>
-    <widget class="caInclude" name="cainclude_10">
-     <property name="geometry">
-      <rect>
-       <x>457</x>
-       <y>450</y>
-       <width>117</width>
-       <height>173</height>
-      </rect>
-     </property>
-     <property name="macro">
-      <string notr="true">P=KOZ:,M=m15</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../motor/motor-v2.ui</string>
      </property>
     </widget>
     <widget class="caMessageButton" name="caMessageButton_29">
@@ -1672,39 +1628,6 @@
       </color>
      </property>
     </widget>
-    <widget class="caGraphics" name="cagraphics_13">
-     <property name="geometry">
-      <rect>
-       <x>450</x>
-       <y>410</y>
-       <width>131</width>
-       <height>221</height>
-      </rect>
-     </property>
-     <property name="foreground">
-      <color alpha="50">
-       <red>169</red>
-       <green>209</green>
-       <blue>239</blue>
-      </color>
-     </property>
-     <property name="linestyle" stdset="0">
-      <enum>caGraphics::Solid</enum>
-     </property>
-     <property name="fillstyle" stdset="0">
-      <enum>caGraphics::Filled</enum>
-     </property>
-     <property name="lineSize">
-      <number>2</number>
-     </property>
-     <property name="lineColor">
-      <color>
-       <red>169</red>
-       <green>209</green>
-       <blue>239</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="caTextEntry_21">
      <property name="geometry">
       <rect>
@@ -2208,41 +2131,6 @@
       </color>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_54">
-     <property name="geometry">
-      <rect>
-       <x>510</x>
-       <y>430</y>
-       <width>16</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>y</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>160</red>
-       <green>160</green>
-       <blue>164</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caLabel" name="calabel_56">
      <property name="geometry">
       <rect>
@@ -2334,7 +2222,7 @@
      <property name="geometry">
       <rect>
        <x>600</x>
-       <y>290</y>
+       <y>405</y>
        <width>111</width>
        <height>31</height>
       </rect>
@@ -2378,10 +2266,10 @@
     <widget class="caGraphics" name="cagraphics_9">
      <property name="geometry">
       <rect>
-       <x>590</x>
-       <y>350</y>
-       <width>131</width>
-       <height>281</height>
+       <x>450</x>
+       <y>470</y>
+       <width>271</width>
+       <height>161</height>
       </rect>
      </property>
      <property name="foreground">
@@ -2411,9 +2299,9 @@
     <widget class="QLabel" name="label_9">
      <property name="geometry">
       <rect>
-       <x>595</x>
-       <y>355</y>
-       <width>121</width>
+       <x>460</x>
+       <y>475</y>
+       <width>251</width>
        <height>25</height>
       </rect>
      </property>
@@ -2440,7 +2328,7 @@
      <property name="geometry">
       <rect>
        <x>460</x>
-       <y>230</y>
+       <y>340</y>
        <width>251</width>
        <height>30</height>
       </rect>
@@ -2453,7 +2341,7 @@
       </font>
      </property>
      <property name="text">
-      <string>SINGLE EXPOSURE</string>
+      <string>Qi2-CPI SINGLE EXPOSE</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -2585,7 +2473,7 @@
      <property name="geometry">
       <rect>
        <x>470</x>
-       <y>270</y>
+       <y>385</y>
        <width>81</width>
        <height>21</height>
       </rect>
@@ -2640,7 +2528,7 @@
      <property name="geometry">
       <rect>
        <x>470</x>
-       <y>295</y>
+       <y>410</y>
        <width>81</width>
        <height>21</height>
       </rect>
@@ -2775,7 +2663,7 @@
        <x>450</x>
        <y>60</y>
        <width>271</width>
-       <height>271</height>
+       <height>381</height>
       </rect>
      </property>
      <property name="foreground">
@@ -2814,9 +2702,9 @@
     <widget class="caRelatedDisplay" name="carelateddisplay_15">
      <property name="geometry">
       <rect>
-       <x>445</x>
-       <y>360</y>
-       <width>135</width>
+       <x>450</x>
+       <y>445</y>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
@@ -3145,9 +3033,9 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caRelatedDisplay" name="carelateddisplay_4">
      <property name="geometry">
       <rect>
-       <x>630</x>
-       <y>358</y>
-       <width>51</width>
+       <x>550</x>
+       <y>477</y>
+       <width>71</width>
        <height>20</height>
       </rect>
      </property>
@@ -3331,8 +3219,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_72">
      <property name="geometry">
       <rect>
-       <x>590</x>
-       <y>380</y>
+       <x>450</x>
+       <y>500</y>
        <width>131</width>
        <height>15</height>
       </rect>
@@ -3367,8 +3255,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caRelatedDisplay" name="carelateddisplay_6">
      <property name="geometry">
       <rect>
-       <x>480</x>
-       <y>385</y>
+       <x>610</x>
+       <y>445</y>
        <width>31</width>
        <height>21</height>
       </rect>
@@ -3406,8 +3294,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caRelatedDisplay" name="carelateddisplay_7">
      <property name="geometry">
       <rect>
-       <x>515</x>
-       <y>385</y>
+       <x>650</x>
+       <y>445</y>
        <width>31</width>
        <height>21</height>
       </rect>
@@ -3445,8 +3333,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caRelatedDisplay" name="carelateddisplay_8">
      <property name="geometry">
       <rect>
-       <x>550</x>
-       <y>385</y>
+       <x>690</x>
+       <y>445</y>
        <width>31</width>
        <height>21</height>
       </rect>
@@ -3484,8 +3372,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caRelatedDisplay" name="carelateddisplay_9">
      <property name="geometry">
       <rect>
-       <x>445</x>
-       <y>385</y>
+       <x>570</x>
+       <y>445</y>
        <width>31</width>
        <height>21</height>
       </rect>
@@ -3523,19 +3411,19 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_77">
      <property name="geometry">
       <rect>
-       <x>465</x>
-       <y>200</y>
+       <x>470</x>
+       <y>280</y>
        <width>131</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="text">
-      <string># OFFSET FRAMES?</string>
+      <string># FRAMES?</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -3558,9 +3446,9 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caTextEntry" name="caTextEntry_3">
      <property name="geometry">
       <rect>
-       <x>600</x>
-       <y>200</y>
-       <width>41</width>
+       <x>570</x>
+       <y>280</y>
+       <width>51</width>
        <height>20</height>
       </rect>
      </property>
@@ -3658,9 +3546,9 @@ P=IOC:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>460</x>
-       <y>263</y>
-       <width>101</width>
-       <height>60</height>
+       <y>380</y>
+       <width>100</width>
+       <height>55</height>
       </rect>
      </property>
      <property name="foreground">
@@ -3707,7 +3595,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>600</x>
-       <y>265</y>
+       <y>380</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -3748,9 +3636,9 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLineEdit" name="caLineEdit_44">
      <property name="geometry">
       <rect>
-       <x>660</x>
-       <y>200</y>
-       <width>41</width>
+       <x>630</x>
+       <y>280</y>
+       <width>71</width>
        <height>20</height>
       </rect>
      </property>
@@ -3825,7 +3713,7 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caToggleButton" name="catogglebutton_6">
      <property name="geometry">
       <rect>
-       <x>600</x>
+       <x>605</x>
        <y>175</y>
        <width>21</width>
        <height>20</height>
@@ -3929,8 +3817,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caTextEntry" name="caTextEntry_20">
      <property name="geometry">
       <rect>
-       <x>645</x>
-       <y>425</y>
+       <x>510</x>
+       <y>550</y>
        <width>71</width>
        <height>16</height>
       </rect>
@@ -3977,8 +3865,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caTextEntry" name="caTextEntry_25">
      <property name="geometry">
       <rect>
-       <x>635</x>
-       <y>445</y>
+       <x>510</x>
+       <y>570</y>
        <width>81</width>
        <height>16</height>
       </rect>
@@ -4121,8 +4009,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caTextEntry" name="caTextEntry_6">
      <property name="geometry">
       <rect>
-       <x>635</x>
-       <y>465</y>
+       <x>490</x>
+       <y>590</y>
        <width>31</width>
        <height>16</height>
       </rect>
@@ -4325,8 +4213,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caTextEntry" name="caTextEntry_30">
      <property name="geometry">
       <rect>
-       <x>635</x>
-       <y>485</y>
+       <x>490</x>
+       <y>610</y>
        <width>31</width>
        <height>16</height>
       </rect>
@@ -4373,8 +4261,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caTextEntry" name="caTextEntry_31">
      <property name="geometry">
       <rect>
-       <x>685</x>
-       <y>485</y>
+       <x>550</x>
+       <y>610</y>
        <width>31</width>
        <height>16</height>
       </rect>
@@ -4421,8 +4309,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_75">
      <property name="geometry">
       <rect>
-       <x>595</x>
-       <y>485</y>
+       <x>460</x>
+       <y>610</y>
        <width>31</width>
        <height>16</height>
       </rect>
@@ -4511,8 +4399,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_83">
      <property name="geometry">
       <rect>
-       <x>670</x>
-       <y>485</y>
+       <x>530</x>
+       <y>610</y>
        <width>21</width>
        <height>16</height>
       </rect>
@@ -4541,8 +4429,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_84">
      <property name="geometry">
       <rect>
-       <x>595</x>
-       <y>465</y>
+       <x>460</x>
+       <y>590</y>
        <width>21</width>
        <height>16</height>
       </rect>
@@ -4636,8 +4524,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_87">
      <property name="geometry">
       <rect>
-       <x>595</x>
-       <y>445</y>
+       <x>460</x>
+       <y>570</y>
        <width>31</width>
        <height>16</height>
       </rect>
@@ -4671,8 +4559,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_88">
      <property name="geometry">
       <rect>
-       <x>595</x>
-       <y>425</y>
+       <x>460</x>
+       <y>550</y>
        <width>51</width>
        <height>16</height>
       </rect>
@@ -4792,8 +4680,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caTextEntry" name="caTextEntry_13">
      <property name="geometry">
       <rect>
-       <x>685</x>
-       <y>465</y>
+       <x>550</x>
+       <y>590</y>
        <width>31</width>
        <height>16</height>
       </rect>
@@ -4873,8 +4761,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_91">
      <property name="geometry">
       <rect>
-       <x>670</x>
-       <y>465</y>
+       <x>530</x>
+       <y>590</y>
        <width>21</width>
        <height>16</height>
       </rect>
@@ -4987,8 +4875,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caMessageButton" name="caMessageButton_28">
      <property name="geometry">
       <rect>
-       <x>595</x>
-       <y>400</y>
+       <x>460</x>
+       <y>520</y>
        <width>51</width>
        <height>21</height>
       </rect>
@@ -5030,7 +4918,7 @@ P=IOC:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>565</x>
-       <y>265</y>
+       <y>380</y>
        <width>31</width>
        <height>21</height>
       </rect>
@@ -5068,8 +4956,8 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caMenu" name="caMenu_8">
      <property name="geometry">
       <rect>
-       <x>650</x>
-       <y>400</y>
+       <x>520</x>
+       <y>520</y>
        <width>65</width>
        <height>16</height>
       </rect>
@@ -5186,7 +5074,7 @@ P=IOC:,CONFIG=scan;</string>
        <x>460</x>
        <y>115</y>
        <width>251</width>
-       <height>111</height>
+       <height>191</height>
       </rect>
      </property>
      <property name="foreground">
@@ -5300,9 +5188,9 @@ P=IOC:,CONFIG=scan;</string>
     <widget class="caRelatedDisplay" name="carelateddisplay_12">
      <property name="geometry">
       <rect>
-       <x>445</x>
-       <y>335</y>
-       <width>135</width>
+       <x>30</x>
+       <y>20</y>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
@@ -5723,6 +5611,212 @@ P=IOC:,CONFIG=scan;</string>
       </color>
      </property>
     </widget>
+    <widget class="caMessageButton" name="caMessageButton_39">
+     <property name="geometry">
+      <rect>
+       <x>465</x>
+       <y>200</y>
+       <width>241</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ACQUIRE FLAT</string>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">Qi2:START_FLAT</string>
+     </property>
+     <property name="label">
+      <string notr="true">ACQUIRE FLAT</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="releaseMessage">
+      <string notr="true">0</string>
+     </property>
+     <property name="pressMessage">
+      <string>1</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMessageButton::Static</enum>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_49">
+     <property name="geometry">
+      <rect>
+       <x>465</x>
+       <y>232</y>
+       <width>241</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">Qi2:FLAT_STATUS</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode" stdset="0">
+      <enum>caLineEdit::WidthAndHeight</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_7">
+     <property name="geometry">
+      <rect>
+       <x>605</x>
+       <y>255</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(169, 209, 239, 25);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">Qi2:Proc1:EnableFlatField</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>169</red>
+       <green>209</green>
+       <blue>239</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_51">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>255</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">Qi2:Proc1:EnableFlatField_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="fontScaleMode" stdset="0">
+      <enum>caLineEdit::WidthAndHeight</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_80">
+     <property name="geometry">
+      <rect>
+       <x>465</x>
+       <y>255</y>
+       <width>141</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>USE FLAT FRAME:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_8</zorder>
     <zorder>cagraphics</zorder>
@@ -5768,9 +5862,6 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>catextentry_4</zorder>
     <zorder>calabel_13</zorder>
     <zorder>calabel_14</zorder>
-    <zorder>cagraphics_13</zorder>
-    <zorder>cainclude_10</zorder>
-    <zorder>label_6</zorder>
     <zorder>caTextEntry_21</zorder>
     <zorder>caTextEntry_22</zorder>
     <zorder>caLineEdit_23</zorder>
@@ -5781,7 +5872,6 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>catogglebutton_5</zorder>
     <zorder>calabel_16</zorder>
     <zorder>calabel_17</zorder>
-    <zorder>calabel_54</zorder>
     <zorder>calabel_56</zorder>
     <zorder>caMessageButton_19</zorder>
     <zorder>cagraphics_9</zorder>
@@ -5862,6 +5952,11 @@ P=IOC:,CONFIG=scan;</string>
     <zorder>calabel_73</zorder>
     <zorder>calabel_38</zorder>
     <zorder>calabel_71</zorder>
+    <zorder>caMessageButton_39</zorder>
+    <zorder>caLineEdit_49</zorder>
+    <zorder>catogglebutton_7</zorder>
+    <zorder>caLineEdit_51</zorder>
+    <zorder>calabel_80</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">

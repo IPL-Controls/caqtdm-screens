@@ -627,13 +627,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">cpi;PFI:OXFORD:xray</string>
+     <string notr="true">cpi;OXFORD:xray</string>
     </property>
     <property name="files">
      <string notr="true">../cpi-new.ui;../OX96000qt.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=cpi;P=PFI:OXFORD:xray:</string>
+     <string notr="true">P=cpi;P=OXFORD:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
