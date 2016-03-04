@@ -66,10 +66,10 @@
     </property>
     <property name="font">
      <font>
-      <family>Yu Mincho Demibold</family>
-      <pointsize>12</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -85,7 +85,7 @@
      <number>1</number>
     </property>
     <property name="text">
-     <string>GBH-PFI LAUNCHER</string>
+     <string>HPFI LAUNCHER</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

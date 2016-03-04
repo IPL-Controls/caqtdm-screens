@@ -745,9 +745,9 @@
      </property>
      <property name="background">
       <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>255</blue>
+       <red>16</red>
+       <green>147</green>
+       <blue>239</blue>
       </color>
      </property>
      <property name="labels">
@@ -1070,7 +1070,7 @@
      <property name="geometry">
       <rect>
        <x>170</x>
-       <y>205</y>
+       <y>210</y>
        <width>71</width>
        <height>20</height>
       </rect>
@@ -1093,9 +1093,9 @@
      </property>
      <property name="background">
       <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>255</blue>
+       <red>16</red>
+       <green>147</green>
+       <blue>239</blue>
       </color>
      </property>
      <property name="labels">
@@ -1265,7 +1265,7 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>185</y>
+      <y>187</y>
       <width>71</width>
       <height>20</height>
      </rect>
@@ -1282,9 +1282,9 @@
     </property>
     <property name="background">
      <color>
-      <red>0</red>
-      <green>170</green>
-      <blue>255</blue>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
      </color>
     </property>
     <property name="labels">

@@ -309,9 +309,9 @@
      </property>
      <property name="background">
       <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>255</blue>
+       <red>16</red>
+       <green>147</green>
+       <blue>239</blue>
       </color>
      </property>
      <property name="labels">

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1557</width>
+    <width>1245</width>
     <height>675</height>
    </rect>
   </property>
@@ -26,23 +26,10 @@
       <height>811</height>
      </rect>
     </property>
-    <widget class="caInclude" name="cainclude">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>311</width>
-       <height>651</height>
-      </rect>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">vpfi-ss.ui</string>
-     </property>
-    </widget>
     <widget class="caInclude" name="cainclude_2">
      <property name="geometry">
       <rect>
-       <x>310</x>
+       <x>0</x>
        <y>0</y>
        <width>311</width>
        <height>651</height>
@@ -55,7 +42,7 @@
     <widget class="caInclude" name="cainclude_4">
      <property name="geometry">
       <rect>
-       <x>620</x>
+       <x>310</x>
        <y>0</y>
        <width>311</width>
        <height>651</height>
@@ -68,7 +55,7 @@
     <widget class="caInclude" name="cainclude_5">
      <property name="geometry">
       <rect>
-       <x>930</x>
+       <x>620</x>
        <y>0</y>
        <width>311</width>
        <height>651</height>
@@ -81,7 +68,7 @@
     <widget class="caInclude" name="cainclude_6">
      <property name="geometry">
       <rect>
-       <x>1240</x>
+       <x>930</x>
        <y>0</y>
        <width>311</width>
        <height>651</height>
@@ -150,8 +137,8 @@
       <rect>
        <x>0</x>
        <y>-8</y>
-       <width>1551</width>
-       <height>660</height>
+       <width>1241</width>
+       <height>654</height>
       </rect>
      </property>
      <property name="focusPolicy">
@@ -201,7 +188,7 @@
       <string>More</string>
      </property>
      <property name="files">
-      <string notr="true">../autosave/configMenu_small.ui</string>
+      <string notr="true">../autosave/configMenu.ui</string>
      </property>
      <property name="args">
       <string notr="true">P=VPFI:KOHZU:,CONFIG=all</string>
@@ -214,7 +201,6 @@
      </property>
     </widget>
     <zorder>calabel_6</zorder>
-    <zorder>cainclude</zorder>
     <zorder>cainclude_2</zorder>
     <zorder>cainclude_4</zorder>
     <zorder>cainclude_5</zorder>

@@ -661,7 +661,7 @@ QPushButton::menu-indicator {image: url(none.png); width: 0}
      <string>Count Details;Parse Details;Reset Details;Trigger Details;StartReset Details;CountReset Details;Stop/Start Details</string>
     </property>
     <property name="files">
-     <string>yyCalcoutRecord_full.adl;yyTransform_full.adl;yyCalcoutRecord_full.adl;yyCalcoutRecord_full.adl;yyCalcoutRecord_full.adl;yyCalcoutRecord_full.adl;yyCalcoutRecord_full.adl</string>
+     <string notr="true">../calc/yyCalcoutRecord_full.ui;../calc/yyTransform_full.ui;../calc/yyCalcoutRecord_full.ui;../calc/yyCalcoutRecord_full.ui;../calc/yyCalcoutRecord_full.ui;../calc/yyCalcoutRecord_full.ui;../calc/yyCalcoutRecord_full.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),C=cdt$(N):count;P=$(P),T=cdt$(N):parse;P=$(P),C=cdt$(N):reset;P=$(P),C=cdt$(N):trigger;P=$(P),C=cdt$(N):startReset;P=$(P),C=cdt$(N):countReset;P=$(P),C=cdt$(N):stopStart</string>
