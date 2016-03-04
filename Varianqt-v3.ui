@@ -2616,9 +2616,9 @@
      </property>
      <property name="falseColor">
       <color>
-       <red>161</red>
-       <green>165</green>
-       <blue>161</blue>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
       </color>
      </property>
      <property name="trueColor">
@@ -2978,12 +2978,12 @@
       <rect>
        <x>159</x>
        <y>489</y>
-       <width>51</width>
+       <width>41</width>
        <height>61</height>
       </rect>
      </property>
      <property name="xyPairs" stdset="0">
-      <string>6,11;32,34</string>
+      <string>5,11;26,34</string>
      </property>
     </widget>
     <widget class="caLineEdit" name="caLineEdit_53">

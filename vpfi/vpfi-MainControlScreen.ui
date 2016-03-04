@@ -5236,7 +5236,7 @@ P=IOC:,CONFIG=scan;</string>
       <string notr="true">pfi-settings.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=PFI:</string>
+      <string notr="true">P=VPFI:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
