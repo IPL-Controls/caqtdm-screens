@@ -66,10 +66,10 @@
     </property>
     <property name="font">
      <font>
-      <family>Yu Mincho Demibold</family>
-      <pointsize>17</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -148,61 +148,19 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL-2:SRI:xray</string>
+     <string notr="true">IPL:SRI:xray</string>
     </property>
     <property name="files">
      <string notr="true">../SB801Kqt</string>
     </property>
     <property name="args">
-     <string notr="true">P=IPL-2:SRI:xray:</string>
+     <string notr="true">P=IPL:SRI:xray:</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_2">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>310</y>
-      <width>161</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="label">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">X-RAY STATUS</string>
-    </property>
-    <property name="files">
-     <string notr="true">../x-ray status/xray-status-small-1.2.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true"/>
     </property>
    </widget>
    <widget class="caRelatedDisplay" name="carelateddisplay_3">
@@ -291,7 +249,7 @@
      <string notr="true">IOC ADMIN</string>
     </property>
     <property name="files">
-     <string notr="true">../ioc-admin/ioc_admin_menu.ui</string>
+     <string notr="true">ipl-admin_menu.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -376,13 +334,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">IPL-1:SCAN</string>
+     <string notr="true">IPL:SCAN</string>
     </property>
     <property name="files">
      <string notr="true">ipl-scan.ui</string>
     </property>
     <property name="args">
-     <string notr="true">W=IPL-2:SCAN:, CONFIG=scan</string>
+     <string notr="true">W=IPL:SCAN:, CONFIG=scan</string>
     </property>
     <property name="fontScaleMode">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -425,6 +383,64 @@
     </property>
     <property name="args">
      <string notr="true"/>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>310</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">- AWG</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">P=IPL:SRS:awg:</string>
+    </property>
+    <property name="files">
+     <string notr="true">../DS345qt.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=IPL:SRS:awg:</string>
+    </property>
+    <property name="fontScaleMode">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
     </property>
    </widget>
   </widget>
