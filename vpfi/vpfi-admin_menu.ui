@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>816</width>
-    <height>375</height>
+    <width>814</width>
+    <height>373</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -568,7 +568,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">putty -telnet 192.168.1.113 2000</string>
+     <string notr="true">putty -telnet 192.168.1.114 2000</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -607,7 +607,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.113 2001</string>
+     <string notr="true">putty -telnet 192.168.1.114 2001</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_4">
@@ -643,7 +643,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.113 2002</string>
+     <string notr="true">putty -telnet 192.168.1.114 2002</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_6">
@@ -651,42 +651,6 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <rect>
       <x>730</x>
       <y>220</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-2005</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>16</red>
-      <green>147</green>
-      <blue>239</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true"/>
-    </property>
-    <property name="args">
-     <string notr="true">putty -telnet localhost 2005</string>
-    </property>
-   </widget>
-   <widget class="caShellCommand" name="cashellcommand_7">
-    <property name="geometry">
-     <rect>
-      <x>730</x>
-      <y>180</y>
       <width>71</width>
       <height>21</height>
      </rect>
@@ -715,7 +679,43 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.113 2004</string>
+     <string notr="true">putty -telnet 192.168.1.102 2004</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_7">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>180</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-2003</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.114 2003</string>
     </property>
    </widget>
    <widget class="caInclude" name="cainclude_24">
