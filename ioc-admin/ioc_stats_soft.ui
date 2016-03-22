@@ -30,7 +30,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -71,7 +71,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -112,7 +112,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -153,7 +153,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -194,7 +194,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -235,7 +235,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -276,7 +276,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -317,7 +317,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -358,7 +358,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -399,7 +399,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -440,7 +440,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -482,7 +482,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -539,7 +539,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -596,7 +596,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -653,7 +653,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -710,7 +710,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -767,7 +767,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -824,7 +824,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -881,7 +881,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -938,7 +938,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -995,7 +995,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -1052,7 +1052,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -1108,7 +1108,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1149,7 +1149,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1190,7 +1190,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1232,7 +1232,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -1492,7 +1492,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1533,7 +1533,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1574,7 +1574,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1615,7 +1615,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1697,7 +1697,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1738,7 +1738,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1779,7 +1779,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1820,7 +1820,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1862,7 +1862,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -1919,7 +1919,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -1976,7 +1976,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2033,7 +2033,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2090,7 +2090,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2147,7 +2147,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2203,7 +2203,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2245,7 +2245,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2301,7 +2301,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2343,7 +2343,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2399,7 +2399,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2440,7 +2440,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2482,7 +2482,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2568,7 +2568,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>9</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2609,9 +2609,10 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
+      <family>Times New Roman</family>
       <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -2724,7 +2725,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -2766,7 +2767,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -2823,7 +2824,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="alignment">
