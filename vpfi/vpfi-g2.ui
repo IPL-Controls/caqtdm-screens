@@ -415,25 +415,6 @@
       </color>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_10">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>595</y>
-       <width>117</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(105, 105, 105);</string>
-     </property>
-     <property name="macro">
-      <string notr="true">P=VPFI:KOHZU:,M1=m13,M2=m14,M3=m15,M4=m16,M5=m17,M6=m18</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../motor/motor_all_torque.ui</string>
-     </property>
-    </widget>
     <widget class="caMessageButton" name="camessagebutton">
      <property name="geometry">
       <rect>
@@ -612,8 +593,8 @@
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>620</y>
-       <width>115</width>
+       <y>600</y>
+       <width>118</width>
        <height>20</height>
       </rect>
      </property>
@@ -664,7 +645,6 @@
     <zorder>calabel_43</zorder>
     <zorder>calabel_44</zorder>
     <zorder>calabel_45</zorder>
-    <zorder>cainclude_10</zorder>
     <zorder>camessagebutton</zorder>
     <zorder>camessagebutton_2</zorder>
     <zorder>calabel_2</zorder>
