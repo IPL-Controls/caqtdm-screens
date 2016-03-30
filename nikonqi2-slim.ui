@@ -284,7 +284,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -324,7 +324,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -364,7 +364,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -404,7 +404,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>7</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -519,7 +519,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -565,7 +565,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -787,7 +787,7 @@
       <enum>Qt::WheelFocus</enum>
      </property>
      <property name="macro">
-      <string notr="true">P=IOC:, S=scan1</string>
+      <string notr="true">P=$(W), S=scan1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan.ui</string>
@@ -852,7 +852,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1024,7 +1024,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>9</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1127,7 +1127,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>10</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -1257,7 +1257,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>10</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -1345,7 +1345,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>10</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -1481,7 +1481,7 @@
       <string notr="true">qi2.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=Qi2:</string>
+      <string notr="true">P=$(P)</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
@@ -1726,7 +1726,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>6</pointsize>
+       <pointsize>5</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1808,7 +1808,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1848,7 +1848,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1930,7 +1930,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>7</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -1990,7 +1990,7 @@
       <string notr="true">../area-detector/KsCam.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=Qi2:,R=cam1:</string>
+      <string notr="true">P=$(P),R=cam1:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
@@ -2070,7 +2070,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>10</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -2257,7 +2257,7 @@
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>10</pointsize>
          <weight>50</weight>
          <bold>false</bold>
         </font>
@@ -2682,7 +2682,7 @@
       </property>
       <property name="font">
        <font>
-        <pointsize>12</pointsize>
+        <pointsize>10</pointsize>
         <weight>50</weight>
         <bold>false</bold>
        </font>
@@ -2858,7 +2858,7 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>12</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2897,7 +2897,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>NOVA</string>
+      <string>Soft Trigger</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">cpiSync:Qi2NovaSync</string>
