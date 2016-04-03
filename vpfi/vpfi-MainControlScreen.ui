@@ -5857,10 +5857,10 @@ P=IOC:,CONFIG=scan;</string>
     </property>
     <property name="font">
      <font>
-      <family>Yu Mincho Demibold</family>
+      <family>Times New Roman</family>
       <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="frameShape">
@@ -5876,7 +5876,7 @@ P=IOC:,CONFIG=scan;</string>
      <number>1</number>
     </property>
     <property name="text">
-     <string>PFI STATUS SCREEN</string>
+     <string>VPFI STATUS SCREEN</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -5927,166 +5927,6 @@ P=IOC:,CONFIG=scan;</string>
       <green>209</green>
       <blue>239</blue>
      </color>
-    </property>
-   </widget>
-   <widget class="caCartesianPlot" name="cacartesianplot_2">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>225</y>
-      <width>325</width>
-      <height>161</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">SIGMA</string>
-    </property>
-    <property name="TitleX">
-     <string notr="true">Time Point</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">Counts</string>
-    </property>
-    <property name="channels_1" stdset="0">
-     <string notr="true">VPFI:Qi2:Stats1:TSSigma</string>
-    </property>
-    <property name="Style_1">
-     <enum>caCartesianPlot::Dots</enum>
-    </property>
-    <property name="symbol_1">
-     <enum>caCartesianPlot::Rect</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="plotMode">
-     <enum>caCartesianPlot::PlotLastNPoints</enum>
-    </property>
-    <property name="triggerChannel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="gridColor">
-     <color>
-      <red>194</red>
-      <green>194</green>
-      <blue>194</blue>
-     </color>
-    </property>
-    <property name="XaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-    <property name="YaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-   </widget>
-   <widget class="caCartesianPlot" name="cacartesianplot_3">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>65</y>
-      <width>325</width>
-      <height>155</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">MEAN</string>
-    </property>
-    <property name="TitleX">
-     <string notr="true">Time Point</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">Counts</string>
-    </property>
-    <property name="channels_1" stdset="0">
-     <string notr="true">VPFI:Qi2:Stats1:TSMeanValue</string>
-    </property>
-    <property name="Style_1">
-     <enum>caCartesianPlot::Dots</enum>
-    </property>
-    <property name="symbol_1">
-     <enum>caCartesianPlot::Triangle</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="plotMode">
-     <enum>caCartesianPlot::PlotLastNPoints</enum>
-    </property>
-    <property name="triggerChannel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="gridColor">
-     <color>
-      <red>194</red>
-      <green>194</green>
-      <blue>194</blue>
-     </color>
-    </property>
-    <property name="XaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-    <property name="YaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
     </property>
    </widget>
    <widget class="caLineEdit" name="caLineEdit_28">
@@ -6759,7 +6599,7 @@ P=IOC:,CONFIG=scan;</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -6807,7 +6647,7 @@ P=IOC:,CONFIG=scan;</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:TIFF1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -6872,10 +6712,10 @@ P=IOC:,CONFIG=scan;</string>
      <string notr="true">A=1 &amp;&amp; B=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="channelB">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -6909,7 +6749,7 @@ P=IOC:,CONFIG=scan;</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:ROI1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7027,7 +6867,7 @@ P=IOC:,CONFIG=scan;</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Proc1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:Proc1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7092,7 +6932,7 @@ P=IOC:,CONFIG=scan;</string>
      <string notr="true">A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -7161,8 +7001,7 @@ P=IOC:,CONFIG=scan;</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">
-Qi2:Stats1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7227,7 +7066,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string notr="true">A=&quot;ROI1&quot;</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:NDArrayPort_RBV</string>
+     <string notr="true">VPFI:Qi2:TIFF1:NDArrayPort_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -7273,7 +7112,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Proc1:EnableFilter_RBV</string>
+     <string notr="true">VPFI:Qi2:Proc1:EnableFilter_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7321,7 +7160,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Proc1:EnableBackground_RBV</string>
+     <string notr="true">VPFI:Qi2:Proc1:EnableBackground_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7439,7 +7278,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:ArraySizeX_RBV</string>
+     <string notr="true">VPFI:Qi2:ROI1:ArraySizeX_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7487,7 +7326,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:ArraySizeY_RBV</string>
+     <string notr="true">VPFI:Qi2:ROI1:ArraySizeY_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7973,7 +7812,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:EnableCallbacks</string>
+     <string notr="true">VPFI:Qi2:ROI1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -7999,7 +7838,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:EnableCallbacks</string>
+     <string notr="true">VPFI:Qi2:ROI1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -8025,7 +7864,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Stats1:EnableCallbacks</string>
+     <string notr="true">VPFI:Qi2:Stats1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -8051,7 +7890,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:EnableCallbacks</string>
+     <string notr="true">VPFI:Qi2:TIFF1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -8097,7 +7936,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string notr="true">A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8148,7 +7987,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string notr="true">A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8161,86 +8000,6 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="tiltAngle">
      <number>180</number>
-    </property>
-   </widget>
-   <widget class="caCartesianPlot" name="cacartesianplot_4">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>220</y>
-      <width>325</width>
-      <height>161</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">AVERAGE Y PROFILE</string>
-    </property>
-    <property name="TitleX">
-     <string notr="true">pixels</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">Counts</string>
-    </property>
-    <property name="channels_1" stdset="0">
-     <string notr="true">VPFI:Qi2:Stats1:ProfileAverageY_RBV</string>
-    </property>
-    <property name="Style_1">
-     <enum>caCartesianPlot::ThinLines</enum>
-    </property>
-    <property name="symbol_1">
-     <enum>caCartesianPlot::NoSymbol</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="plotMode">
-     <enum>caCartesianPlot::PlotLastNPoints</enum>
-    </property>
-    <property name="triggerChannel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="gridColor">
-     <color>
-      <red>194</red>
-      <green>194</green>
-      <blue>194</blue>
-     </color>
-    </property>
-    <property name="XaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-    <property name="YaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
     </property>
    </widget>
    <widget class="caLineEdit" name="caLineEdit_47">
@@ -8259,7 +8018,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:NDArrayPort_RBV</string>
+     <string notr="true">VPFI:Qi2:TIFF1:NDArrayPort_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8387,7 +8146,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI2:EnableCallbacks_RBV</string>
+     <string notr="true">VPFI:Qi2:ROI2:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8467,7 +8226,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI2:EnableCallbacks</string>
+     <string notr="true">VPFI:Qi2:ROI2:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -8547,10 +8306,16 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">Percent</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">VPFI:OXFORD:xray:WATT_RBV;VPFI:Qi2:cam1:NikonKsShutter</string>
+     <string notr="true">VPFI:OXFORD:xray:WATT_RBV;VPFI:Qi2:cam1:Acquire</string>
+    </property>
+    <property name="units">
+     <enum>caStripPlot::Millisecond</enum>
     </property>
     <property name="period">
      <double>5.000000000000000</double>
+    </property>
+    <property name="refreshRate" stdset="0">
+     <enum>caStripPlot::Medium</enum>
     </property>
     <property name="XaxisType">
      <enum>caStripPlot::TimeScale</enum>
@@ -8559,7 +8324,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::autoScale</enum>
     </property>
     <property name="YaxisLimitsMax_1">
-     <double>1.000000000000000</double>
+     <double>80.000000000000000</double>
     </property>
     <property name="YaxisScalingMax_1" stdset="0">
      <enum>caStripPlot::Channel</enum>
@@ -8667,12 +8432,8 @@ color: rgb(0, 0, 0);</string>
    <zorder>cagraphics_5</zorder>
    <zorder>calabel_2</zorder>
    <zorder>cagraphics_14</zorder>
-   <zorder>cacartesianplot_2</zorder>
-   <zorder>cacartesianplot_3</zorder>
-   <zorder>caLineEdit_28</zorder>
    <zorder>caLineEdit_30</zorder>
    <zorder>calabel_49</zorder>
-   <zorder>calabel_50</zorder>
    <zorder>calabel_51</zorder>
    <zorder>caLineEdit_31</zorder>
    <zorder>caLineEdit_32</zorder>
@@ -8713,7 +8474,6 @@ color: rgb(0, 0, 0);</string>
    <zorder>catogglebutton_11</zorder>
    <zorder>cagraphics_30</zorder>
    <zorder>cagraphics_31</zorder>
-   <zorder>cacartesianplot_4</zorder>
    <zorder>caLineEdit_47</zorder>
    <zorder>caLineEdit_48</zorder>
    <zorder>calabel_55</zorder>
@@ -8723,6 +8483,8 @@ color: rgb(0, 0, 0);</string>
    <zorder>calabel_58</zorder>
    <zorder>caLineEdit_29</zorder>
    <zorder>castripplot_4</zorder>
+   <zorder>caLineEdit_28</zorder>
+   <zorder>calabel_50</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -8786,11 +8548,6 @@ color: rgb(0, 0, 0);</string>
    <class>caThermo</class>
    <extends>QWidget</extends>
    <header>caThermo</header>
-  </customwidget>
-  <customwidget>
-   <class>caCartesianPlot</class>
-   <extends>QFrame</extends>
-   <header>caCartesianPlot</header>
   </customwidget>
   <customwidget>
    <class>caStripPlot</class>
