@@ -1577,7 +1577,7 @@
       <enum>caLineEdit::User</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -1666,8 +1666,11 @@
      <property name="colorMode">
       <enum>caLineEdit::Static</enum>
      </property>
+     <property name="precision">
+      <number>4</number>
+     </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
