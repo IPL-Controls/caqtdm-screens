@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>411</width>
+    <width>410</width>
     <height>234</height>
    </rect>
   </property>
@@ -108,7 +108,7 @@ background-color: rgb(105, 105, 105);
      <string/>
     </property>
     <property name="files">
-     <string>caputRecorder1_small.adl</string>
+     <string>caputRecorder_small.ui</string>
     </property>
     <property name="args">
      <string>P=$(P),L=$(L)</string>

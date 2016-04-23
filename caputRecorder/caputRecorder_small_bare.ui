@@ -55,9 +55,9 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caPolyLine" name="caPolygon_0">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>376</x>
       <y>10</y>
-      <width>17</width>
+      <width>21</width>
       <height>20</height>
      </rect>
     </property>
@@ -79,7 +79,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      </color>
     </property>
     <property name="xyPairs" stdset="0">
-     <string>8,20;4,17;1,13;0,8;0,4;0,1;2,0;5,0;8,2;8,5;9,2;12,0;15,0;16,1;17,4;17,8;15,13;12,17;9,20;8,20</string>
+     <string>9,20;5,17;1,13;0,8;0,4;0,1;2,0;6,0;9,2;9,5;12,2;15,0;19,0;20,1;21,4;21,8;19,13;15,17;12,20;9,20</string>
     </property>
     <property name="fillstyle" stdset="0">
      <enum>caPolyLine::Filled</enum>
@@ -146,7 +146,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>5</pointsize>
+      <pointsize>4</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -370,7 +370,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>265</x>
       <y>135</y>
-      <width>74</width>
+      <width>81</width>
       <height>22</height>
      </rect>
     </property>
@@ -427,13 +427,13 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
       <rect>
        <x>35</x>
        <y>5</y>
-       <width>42</width>
+       <width>51</width>
        <height>16</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="frameShape">
@@ -469,8 +469,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>10</x>
       <y>80</y>
-      <width>60</width>
-      <height>14</height>
+      <width>81</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="font">
@@ -482,7 +482,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <enum>QFrame::NoFrame</enum>
     </property>
     <property name="text">
-     <string>status:</string>
+     <string>status</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -770,7 +770,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>5</pointsize>
+      <pointsize>4</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -815,9 +815,9 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caLineEdit" name="caLineEdit_0">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>60</x>
       <y>80</y>
-      <width>331</width>
+      <width>341</width>
       <height>20</height>
      </rect>
     </property>
@@ -830,7 +830,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
@@ -881,7 +881,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
@@ -917,8 +917,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caGraphics" name="caRectangle_1">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>40</y>
+      <x>386</x>
+      <y>35</y>
       <width>5</width>
       <height>5</height>
      </rect>

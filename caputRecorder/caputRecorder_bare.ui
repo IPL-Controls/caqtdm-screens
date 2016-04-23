@@ -153,7 +153,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -262,7 +262,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string>$(L)caputRecorderCommand.VAL</string>
+     <string notr="true">$(P)caputRecorderCommand.VAL</string>
     </property>
     <property name="foreground">
      <color>
@@ -523,7 +523,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -943,7 +943,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1208,7 +1208,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="frameShape">
@@ -1297,15 +1297,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1348,15 +1348,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1447,15 +1447,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1546,15 +1546,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1693,15 +1693,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1792,15 +1792,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1843,15 +1843,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1894,15 +1894,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -1945,15 +1945,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -2044,15 +2044,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -2143,15 +2143,15 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="foreground">
      <color>
       <red>0</red>
-      <green>0</green>
+      <green>170</green>
       <blue>0</blue>
      </color>
     </property>
     <property name="background">
      <color>
-      <red>236</red>
-      <green>236</green>
-      <blue>236</blue>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="colorMode">
@@ -2676,6 +2676,93 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <enum>caMessageButton::Static</enum>
     </property>
    </widget>
+   <widget class="caGraphics" name="caRectangle_1">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>15</y>
+      <width>5</width>
+      <height>5</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>174</red>
+      <green>174</green>
+      <blue>174</blue>
+     </color>
+    </property>
+    <property name="linestyle" stdset="0">
+     <enum>caGraphics::Solid</enum>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>174</red>
+      <green>174</green>
+      <blue>174</blue>
+     </color>
+    </property>
+    <property name="visibility">
+     <enum>caGraphics::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string>a</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string>$(P)caputRecorderSubMLIS</string>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Rectangle</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="caLabel_9">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>165</y>
+      <width>108</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>Recording</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="fontScaleMode">
+     <enum>ESimpleLabel::WidthAndHeight</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>225</red>
+      <green>144</green>
+      <blue>21</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>225</red>
+      <green>144</green>
+      <blue>21</blue>
+     </color>
+    </property>
+    <property name="visibility">
+     <enum>caLabel::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string>a</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string>$(P)caputRecorderMacroRecording</string>
+    </property>
+   </widget>
    <zorder>cagraphics_2</zorder>
    <zorder>cagraphics</zorder>
    <zorder>caLabel_2</zorder>
@@ -2737,6 +2824,8 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <zorder>caTextEntry_3</zorder>
    <zorder>caLabel_14</zorder>
    <zorder>caMessageButton_0</zorder>
+   <zorder>caRectangle_1</zorder>
+   <zorder>caLabel_9</zorder>
   </widget>
  </widget>
  <customwidgets>
