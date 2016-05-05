@@ -577,7 +577,7 @@
      <string notr="true">caputRecorder.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=VPFI:SCAN:, L=</string>
+     <string notr="true">P=VPFI:SCAN:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>

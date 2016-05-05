@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>747</width>
+    <width>742</width>
     <height>697</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>PFI MAIN CONTROL SCREEN</string>
+   <string>VPFI MAIN CONTROL SCREEN</string>
   </property>
   <property name="windowOpacity">
    <double>0.500000000000000</double>
@@ -5681,6 +5681,45 @@ T</string>
       <string notr="true">1</string>
      </property>
     </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_14">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>640</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="55">
+       <red>0</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">RECORDER</string>
+     </property>
+     <property name="files">
+      <string notr="true">caputRecorder.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=VPFI:SCAN:</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::RowColumn</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false;false;</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_8</zorder>
     <zorder>cagraphics</zorder>
@@ -5818,6 +5857,7 @@ T</string>
     <zorder>caMessageButton_20</zorder>
     <zorder>carelateddisplay_13</zorder>
     <zorder>camessagebutton_3</zorder>
+    <zorder>carelateddisplay_14</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -5943,109 +5983,6 @@ T</string>
      </color>
     </property>
    </widget>
-   <widget class="caLineEdit" name="caLineEdit_28">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>195</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="inputMask">
-     <string/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">VPFI:Qi2:Stats1:MeanValue_RBV</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="100">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_29">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>360</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="inputMask">
-     <string/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">VPFI: Qi2:Stats1:Sigma_RBV</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="100">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="frameColor">
-     <color alpha="25">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
    <widget class="caLineEdit" name="caLineEdit_30">
     <property name="geometry">
      <rect>
@@ -6123,76 +6060,6 @@ T</string>
       <red>255</red>
       <green>255</green>
       <blue>0</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_50">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>175</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>MEAN</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_51">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>340</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>9</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SIGMA</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
      </color>
     </property>
    </widget>
@@ -6493,7 +6360,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>568</y>
+      <y>596</y>
       <width>111</width>
       <height>21</height>
      </rect>
@@ -6528,7 +6395,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>620</x>
-      <y>550</y>
+      <y>578</y>
       <width>41</width>
       <height>21</height>
      </rect>
@@ -6563,7 +6430,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>122</x>
-      <y>580</y>
+      <y>608</y>
       <width>81</width>
       <height>21</height>
      </rect>
@@ -6598,7 +6465,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>125</x>
-      <y>570</y>
+      <y>598</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -6646,7 +6513,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>620</x>
-      <y>570</y>
+      <y>598</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -6694,7 +6561,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>191</x>
-      <y>567</y>
+      <y>595</y>
       <width>45</width>
       <height>21</height>
      </rect>
@@ -6748,7 +6615,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>235</x>
-      <y>570</y>
+      <y>598</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -6796,7 +6663,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>550</y>
+      <y>578</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -6831,7 +6698,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>350</x>
-      <y>550</y>
+      <y>578</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -6866,7 +6733,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>345</x>
-      <y>570</y>
+      <y>598</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -6914,7 +6781,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>302</x>
-      <y>567</y>
+      <y>595</y>
       <width>45</width>
       <height>21</height>
      </rect>
@@ -6965,7 +6832,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>590</y>
+      <y>618</y>
       <width>51</width>
       <height>21</height>
      </rect>
@@ -7000,7 +6867,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>610</y>
+      <y>638</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -7048,7 +6915,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>408</x>
-      <y>567</y>
+      <y>595</y>
       <width>101</width>
       <height>21</height>
      </rect>
@@ -7099,7 +6966,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>345</x>
-      <y>610</y>
+      <y>638</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -7159,7 +7026,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>345</x>
-      <y>590</y>
+      <y>618</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -7207,7 +7074,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>608</y>
+      <y>636</y>
       <width>41</width>
       <height>20</height>
      </rect>
@@ -7242,7 +7109,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>310</x>
-      <y>588</y>
+      <y>616</y>
       <width>31</width>
       <height>16</height>
      </rect>
@@ -7277,7 +7144,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>590</y>
+      <y>618</y>
       <width>51</width>
       <height>16</height>
      </rect>
@@ -7325,7 +7192,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>610</y>
+      <y>638</y>
       <width>51</width>
       <height>16</height>
      </rect>
@@ -7373,7 +7240,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>235</x>
-      <y>588</y>
+      <y>616</y>
       <width>16</width>
       <height>20</height>
      </rect>
@@ -7408,7 +7275,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>235</x>
-      <y>608</y>
+      <y>636</y>
       <width>16</width>
       <height>20</height>
      </rect>
@@ -7443,7 +7310,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>561</x>
-      <y>567</y>
+      <y>595</y>
       <width>61</width>
       <height>21</height>
      </rect>
@@ -7638,7 +7505,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>25</x>
-      <y>590</y>
+      <y>618</y>
       <width>91</width>
       <height>21</height>
      </rect>
@@ -7680,7 +7547,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>650</x>
-      <y>605</y>
+      <y>633</y>
       <width>61</width>
       <height>20</height>
      </rect>
@@ -7740,7 +7607,7 @@ T</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">VPFI:Qi2:cam1:NumImagesCounter_RBV</string>
+     <string notr="true">VPFI:SCAN:scan1.CPT</string>
     </property>
     <property name="foreground">
      <color>
@@ -7814,7 +7681,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>550</y>
+      <y>578</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -7840,7 +7707,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>550</y>
+      <y>578</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -7866,7 +7733,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>620</x>
-      <y>590</y>
+      <y>618</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -7892,7 +7759,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>670</x>
-      <y>550</y>
+      <y>578</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -7918,7 +7785,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>445</x>
-      <y>575</y>
+      <y>603</y>
       <width>51</width>
       <height>35</height>
      </rect>
@@ -7969,7 +7836,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>499</x>
-      <y>605</y>
+      <y>633</y>
       <width>71</width>
       <height>25</height>
      </rect>
@@ -8020,7 +7887,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>505</x>
-      <y>560</y>
+      <y>588</y>
       <width>61</width>
       <height>31</height>
      </rect>
@@ -8145,7 +8012,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>610</y>
+      <y>638</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -8193,7 +8060,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>590</y>
+      <y>618</y>
       <width>41</width>
       <height>21</height>
      </rect>
@@ -8228,7 +8095,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>592</y>
+      <y>620</y>
       <width>21</width>
       <height>20</height>
      </rect>
@@ -8289,7 +8156,7 @@ T</string>
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>390</y>
+      <y>410</y>
       <width>681</width>
       <height>161</height>
      </rect>
@@ -8320,13 +8187,13 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">Percent</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">VPFI:OXFORD:xray:WATT_RBV;VPFI:Qi2:cam1:Acquire</string>
+     <string notr="true">VPFI:OXFORD:xray:FIRING_RBV;VPFI:NikonKsSync:EXPOSING_RBV</string>
     </property>
     <property name="units">
-     <enum>caStripPlot::Millisecond</enum>
+     <enum>caStripPlot::Second</enum>
     </property>
     <property name="period">
-     <double>5.000000000000000</double>
+     <double>10.000000000000000</double>
     </property>
     <property name="refreshRate" stdset="0">
      <enum>caStripPlot::Medium</enum>
@@ -8338,7 +8205,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::autoScale</enum>
     </property>
     <property name="YaxisLimitsMax_1">
-     <double>80.000000000000000</double>
+     <double>1.000000000000000</double>
     </property>
     <property name="YaxisScalingMax_1" stdset="0">
      <enum>caStripPlot::Channel</enum>
@@ -8438,6 +8305,100 @@ color: rgb(0, 0, 0);</string>
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="caCartesianPlot" name="caCartesianPlot_1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>681</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="Title" stdset="0">
+     <string notr="true">VPFI:Qi2:FFT1:FFTAbsValue</string>
+    </property>
+    <property name="TitleX">
+     <string>Frequency (Hz)</string>
+    </property>
+    <property name="TitleY">
+     <string notr="true">VPFI:Qi2:FFT1:FFTAbsValue</string>
+    </property>
+    <property name="channels_1" stdset="0">
+     <string>VPFI:Qi2:FFT1:FFTFreqAxis;VPFI:Qi2:FFT1:FFTAbsValue</string>
+    </property>
+    <property name="Style_1">
+     <enum>caCartesianPlot::Lines</enum>
+    </property>
+    <property name="symbol_1">
+     <enum>caCartesianPlot::NoSymbol</enum>
+    </property>
+    <property name="color_1">
+     <color>
+      <red>75</red>
+      <green>110</green>
+      <blue>199</blue>
+     </color>
+    </property>
+    <property name="Style_2">
+     <enum>caCartesianPlot::Lines</enum>
+    </property>
+    <property name="symbol_2">
+     <enum>caCartesianPlot::Rect</enum>
+    </property>
+    <property name="Style_3">
+     <enum>caCartesianPlot::Lines</enum>
+    </property>
+    <property name="symbol_3">
+     <enum>caCartesianPlot::Triangle</enum>
+    </property>
+    <property name="plotMode">
+     <enum>caCartesianPlot::PlotLastNPoints</enum>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>218</red>
+      <green>218</green>
+      <blue>218</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>218</red>
+      <green>218</green>
+      <blue>218</blue>
+     </color>
+    </property>
+    <property name="scaleColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="XaxisScaling" stdset="0">
+     <enum>caCartesianPlot::Auto</enum>
+    </property>
+    <property name="YaxisScaling" stdset="0">
+     <enum>caCartesianPlot::Auto</enum>
+    </property>
+    <property name="XaxisLimits">
+     <string>0;1</string>
+    </property>
+    <property name="YaxisLimits">
+     <string>0;1</string>
+    </property>
+   </widget>
    <zorder>caFrame_2</zorder>
    <zorder>caFrame_4</zorder>
    <zorder>caThermo_1</zorder>
@@ -8448,7 +8409,6 @@ color: rgb(0, 0, 0);</string>
    <zorder>cagraphics_14</zorder>
    <zorder>caLineEdit_30</zorder>
    <zorder>calabel_49</zorder>
-   <zorder>calabel_51</zorder>
    <zorder>caLineEdit_31</zorder>
    <zorder>caLineEdit_32</zorder>
    <zorder>calabel_57</zorder>
@@ -8495,10 +8455,8 @@ color: rgb(0, 0, 0);</string>
    <zorder>calabel_69</zorder>
    <zorder>catogglebutton_12</zorder>
    <zorder>calabel_58</zorder>
-   <zorder>caLineEdit_29</zorder>
    <zorder>castripplot_4</zorder>
-   <zorder>caLineEdit_28</zorder>
-   <zorder>calabel_50</zorder>
+   <zorder>caCartesianPlot_1</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -8562,6 +8520,11 @@ color: rgb(0, 0, 0);</string>
    <class>caThermo</class>
    <extends>QWidget</extends>
    <header>caThermo</header>
+  </customwidget>
+  <customwidget>
+   <class>caCartesianPlot</class>
+   <extends>QFrame</extends>
+   <header>caCartesianPlot</header>
   </customwidget>
   <customwidget>
    <class>caStripPlot</class>
