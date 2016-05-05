@@ -46,7 +46,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=$(W), S=scan1, CONFIG=$(CONFIG)</string>
+      <string notr="true">P=$(W), S=scan1, CONFIG=scan</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../scan/scan-v2.ui</string>

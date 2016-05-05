@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>310</width>
-    <height>459</height>
+    <width>311</width>
+    <height>456</height>
    </rect>
   </property>
   <property name="focusPolicy">
@@ -167,7 +167,7 @@
     <property name="minValue">
      <double>0.000000000000000</double>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::WidthAndHeight</enum>
     </property>
     <property name="formatType">
