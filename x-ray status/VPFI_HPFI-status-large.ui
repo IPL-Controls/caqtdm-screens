@@ -3348,6 +3348,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
       <blue>164</blue>
      </color>
     </property>
+    <property name="colorMode">
+     <enum>caLabel::Alarm</enum>
+    </property>
     <property name="visibility">
      <enum>caLabel::Calc</enum>
     </property>
@@ -4166,6 +4169,9 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
       <blue>164</blue>
      </color>
     </property>
+    <property name="colorMode">
+     <enum>caLabel::Alarm</enum>
+    </property>
     <property name="visibility">
      <enum>caLabel::Calc</enum>
     </property>
@@ -4554,7 +4560,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <number>4</number>
     </property>
     <property name="text">
-     <string>VPFI MOTOR STATUS</string>
+     <string>HPFI MOTOR STATUS</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
