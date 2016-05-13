@@ -109,86 +109,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </color>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_15">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>590</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="text">
-     <string>ss</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_17">
-    <property name="geometry">
-     <rect>
-      <x>440</x>
-      <y>590</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="text">
-     <string>s0</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>85</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caLabel" name="calabel_18">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>550</x>
       <y>590</y>
       <width>41</width>
       <height>31</height>
@@ -226,7 +150,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLabel" name="calabel_19">
     <property name="geometry">
      <rect>
-      <x>360</x>
+      <x>420</x>
       <y>590</y>
       <width>41</width>
       <height>31</height>
@@ -366,7 +290,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLabel" name="calabel_21">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>140</x>
       <y>590</y>
       <width>41</width>
       <height>31</height>
@@ -390,47 +314,6 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <color>
       <red>255</red>
       <green>215</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_22">
-    <property name="geometry">
-     <rect>
-      <x>120</x>
-      <y>590</y>
-      <width>41</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>13</pointsize>
-     </font>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="lineWidth">
-     <number>1</number>
-    </property>
-    <property name="text">
-     <string>s2</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>85</green>
       <blue>0</blue>
      </color>
     </property>
@@ -538,60 +421,6 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      </color>
     </property>
    </widget>
-   <widget class="caLineEdit" name="caLineEdit_6">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>630</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
    <widget class="caLabel" name="calabel_48">
     <property name="geometry">
      <rect>
@@ -627,7 +456,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_9">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>130</x>
       <y>630</y>
       <width>71</width>
       <height>20</height>
@@ -732,7 +561,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_11">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>400</x>
       <y>630</y>
       <width>71</width>
       <height>20</height>
@@ -783,7 +612,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_12">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>540</x>
       <y>630</y>
       <width>71</width>
       <height>20</height>
@@ -834,178 +663,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
-   <widget class="caLineEdit" name="caLineEdit_13">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>630</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_14">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>630</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_7">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>660</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
    <widget class="caLineEdit" name="caLineEdit_8">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>130</x>
       <y>660</y>
       <width>71</width>
       <height>20</height>
@@ -1110,7 +771,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_16">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>400</x>
       <y>660</y>
       <width>71</width>
       <height>20</height>
@@ -1161,7 +822,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_17">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>540</x>
       <y>660</y>
       <width>71</width>
       <height>20</height>
@@ -1209,604 +870,10 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
-   <widget class="caLineEdit" name="caLineEdit_18">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>660</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_19">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>660</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_20">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>690</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_23">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>720</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_24">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>750</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_25">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>780</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_26">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>690</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_27">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>720</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_28">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>750</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_29">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>780</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
    <widget class="caLineEdit" name="caLineEdit_30">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>540</x>
       <y>690</y>
       <width>71</width>
       <height>20</height>
@@ -1863,7 +930,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_31">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>540</x>
       <y>720</y>
       <width>71</width>
       <height>20</height>
@@ -1920,7 +987,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_32">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>540</x>
       <y>750</y>
       <width>71</width>
       <height>20</height>
@@ -1977,7 +1044,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_34">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>540</x>
       <y>780</y>
       <width>71</width>
       <height>20</height>
@@ -2034,7 +1101,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_35">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>400</x>
       <y>690</y>
       <width>71</width>
       <height>20</height>
@@ -2091,7 +1158,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_36">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>400</x>
       <y>720</y>
       <width>71</width>
       <height>20</height>
@@ -2148,7 +1215,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_37">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>400</x>
       <y>750</y>
       <width>71</width>
       <height>20</height>
@@ -2205,7 +1272,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_38">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>400</x>
       <y>780</y>
       <width>71</width>
       <height>20</height>
@@ -2502,7 +1569,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_44">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>130</x>
       <y>690</y>
       <width>71</width>
       <height>20</height>
@@ -2559,7 +1626,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_45">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>130</x>
       <y>720</y>
       <width>71</width>
       <height>20</height>
@@ -2616,7 +1683,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_46">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>130</x>
       <y>750</y>
       <width>71</width>
       <height>20</height>
@@ -2673,7 +1740,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <widget class="caLineEdit" name="caLineEdit_47">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>130</x>
       <y>780</y>
       <width>71</width>
       <height>20</height>
@@ -2710,246 +1777,6 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
     </property>
     <property name="precision">
      <number>3</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_48">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>690</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_49">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>720</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_50">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>750</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="limitsMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="unitsEnabled">
-     <bool>false</bool>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_51">
-    <property name="geometry">
-     <rect>
-      <x>100</x>
-      <y>780</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="cursorPosition">
-     <number>0</number>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="placeholderText">
-     <string>N/A</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>85</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>69</red>
-      <green>69</green>
-      <blue>71</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precision">
-     <number>2</number>
     </property>
     <property name="precisionMode">
      <enum>caLineEdit::User</enum>
@@ -7157,41 +5984,24 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <zorder>cagraphics_5</zorder>
    <zorder>cagraphics_4</zorder>
    <zorder>calabel_5</zorder>
-   <zorder>calabel_15</zorder>
-   <zorder>calabel_17</zorder>
    <zorder>calabel_18</zorder>
    <zorder>calabel_19</zorder>
    <zorder>calabel_20</zorder>
    <zorder>calabel_43</zorder>
    <zorder>calabel_44</zorder>
    <zorder>calabel_21</zorder>
-   <zorder>calabel_22</zorder>
    <zorder>calabel_45</zorder>
    <zorder>calabel_46</zorder>
    <zorder>calabel_47</zorder>
-   <zorder>caLineEdit_6</zorder>
    <zorder>calabel_48</zorder>
    <zorder>caLineEdit_9</zorder>
    <zorder>caLineEdit_10</zorder>
    <zorder>caLineEdit_11</zorder>
    <zorder>caLineEdit_12</zorder>
-   <zorder>caLineEdit_13</zorder>
-   <zorder>caLineEdit_14</zorder>
-   <zorder>caLineEdit_7</zorder>
    <zorder>caLineEdit_8</zorder>
    <zorder>caLineEdit_15</zorder>
    <zorder>caLineEdit_16</zorder>
    <zorder>caLineEdit_17</zorder>
-   <zorder>caLineEdit_18</zorder>
-   <zorder>caLineEdit_19</zorder>
-   <zorder>caLineEdit_20</zorder>
-   <zorder>caLineEdit_23</zorder>
-   <zorder>caLineEdit_24</zorder>
-   <zorder>caLineEdit_25</zorder>
-   <zorder>caLineEdit_26</zorder>
-   <zorder>caLineEdit_27</zorder>
-   <zorder>caLineEdit_28</zorder>
-   <zorder>caLineEdit_29</zorder>
    <zorder>caLineEdit_30</zorder>
    <zorder>caLineEdit_31</zorder>
    <zorder>caLineEdit_32</zorder>
@@ -7208,10 +6018,6 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgb
    <zorder>caLineEdit_45</zorder>
    <zorder>caLineEdit_46</zorder>
    <zorder>caLineEdit_47</zorder>
-   <zorder>caLineEdit_48</zorder>
-   <zorder>caLineEdit_49</zorder>
-   <zorder>caLineEdit_50</zorder>
-   <zorder>caLineEdit_51</zorder>
    <zorder>calabel_24</zorder>
    <zorder>calabel_29</zorder>
    <zorder>calabel_30</zorder>
