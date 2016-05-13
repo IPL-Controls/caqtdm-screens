@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>742</width>
-    <height>697</height>
+    <height>695</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -8156,10 +8156,15 @@ T</string>
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>410</y>
+      <y>244</y>
       <width>681</width>
-      <height>161</height>
+      <height>331</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
     </property>
     <property name="layoutDirection">
      <enum>Qt::LeftToRight</enum>
@@ -8181,13 +8186,13 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">SYNC STATUS</string>
     </property>
     <property name="TitleX">
-     <string notr="true">Time</string>
+     <string notr="true">Time (s)</string>
     </property>
     <property name="TitleY">
-     <string notr="true">Percent</string>
+     <string notr="true">Percent (%)</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">VPFI:OXFORD:xray:FIRING_RBV;VPFI:NikonKsSync:EXPOSING_RBV</string>
+     <string notr="true">VPFI:OXFORD:xray:FIRING_RBV;VPFI:NikonKsSync:EXPOSING_RBV;VPFI:NikonKsSync:TRIGGER_READY_RBV</string>
     </property>
     <property name="units">
      <enum>caStripPlot::Second</enum>
@@ -8217,7 +8222,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::FillUnder</enum>
     </property>
     <property name="color_1">
-     <color alpha="150">
+     <color alpha="50">
       <red>255</red>
       <green>0</green>
       <blue>0</blue>
@@ -8233,7 +8238,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::Channel</enum>
     </property>
     <property name="Style_2">
-     <enum>caStripPlot::FillUnder</enum>
+     <enum>caStripPlot::Lines</enum>
     </property>
     <property name="color_2">
      <color alpha="150">
@@ -8252,7 +8257,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::Channel</enum>
     </property>
     <property name="Style_3">
-     <enum>caStripPlot::FillUnder</enum>
+     <enum>caStripPlot::Lines</enum>
     </property>
     <property name="color_3">
      <color alpha="150">
@@ -8305,98 +8310,90 @@ color: rgb(0, 0, 0);</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="caCartesianPlot" name="caCartesianPlot_1">
+   <widget class="caLineEdit" name="caLineEdit_52">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>240</y>
-      <width>681</width>
-      <height>161</height>
+      <x>610</x>
+      <y>70</y>
+      <width>101</width>
+      <height>20</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);
-border-color: rgb(0, 0, 0);
-color: rgb(0, 0, 0);</string>
+    <property name="text">
+     <string>123</string>
     </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">VPFI:Qi2:FFT1:FFTAbsValue</string>
-    </property>
-    <property name="TitleX">
-     <string>Frequency (Hz)</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">VPFI:Qi2:FFT1:FFTAbsValue</string>
-    </property>
-    <property name="channels_1" stdset="0">
-     <string>VPFI:Qi2:FFT1:FFTFreqAxis;VPFI:Qi2:FFT1:FFTAbsValue</string>
-    </property>
-    <property name="Style_1">
-     <enum>caCartesianPlot::Lines</enum>
-    </property>
-    <property name="symbol_1">
-     <enum>caCartesianPlot::NoSymbol</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>75</red>
-      <green>110</green>
-      <blue>199</blue>
-     </color>
-    </property>
-    <property name="Style_2">
-     <enum>caCartesianPlot::Lines</enum>
-    </property>
-    <property name="symbol_2">
-     <enum>caCartesianPlot::Rect</enum>
-    </property>
-    <property name="Style_3">
-     <enum>caCartesianPlot::Lines</enum>
-    </property>
-    <property name="symbol_3">
-     <enum>caCartesianPlot::Triangle</enum>
-    </property>
-    <property name="plotMode">
-     <enum>caCartesianPlot::PlotLastNPoints</enum>
+    <property name="channel" stdset="0">
+     <string notr="true">VPFI:Qi2:cam1:NikonFrameRate</string>
     </property>
     <property name="foreground">
      <color>
-      <red>218</red>
-      <green>218</green>
-      <blue>218</blue>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
      </color>
     </property>
     <property name="background">
-     <color>
-      <red>218</red>
-      <green>218</green>
-      <blue>218</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
      <color>
       <red>0</red>
       <green>0</green>
       <blue>0</blue>
      </color>
     </property>
-    <property name="XaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Auto</enum>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
     </property>
-    <property name="YaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Auto</enum>
+    <property name="precision">
+     <number>4</number>
     </property>
-    <property name="XaxisLimits">
-     <string>0;1</string>
+    <property name="precisionMode">
+     <enum>caLineEdit::User</enum>
     </property>
-    <property name="YaxisLimits">
-     <string>0;1</string>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::WidthAndHeight</enum>
+    </property>
+    <property name="unitsEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::decimal</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_92">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>70</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>CAMERA FRAME RATE</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
     </property>
    </widget>
    <zorder>caFrame_2</zorder>
@@ -8456,7 +8453,8 @@ color: rgb(0, 0, 0);</string>
    <zorder>catogglebutton_12</zorder>
    <zorder>calabel_58</zorder>
    <zorder>castripplot_4</zorder>
-   <zorder>caCartesianPlot_1</zorder>
+   <zorder>caLineEdit_52</zorder>
+   <zorder>calabel_92</zorder>
   </widget>
  </widget>
  <customwidgets>
@@ -8520,11 +8518,6 @@ color: rgb(0, 0, 0);</string>
    <class>caThermo</class>
    <extends>QWidget</extends>
    <header>caThermo</header>
-  </customwidget>
-  <customwidget>
-   <class>caCartesianPlot</class>
-   <extends>QFrame</extends>
-   <header>caCartesianPlot</header>
   </customwidget>
   <customwidget>
    <class>caStripPlot</class>
