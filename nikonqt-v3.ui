@@ -111,7 +111,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -174,7 +174,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -455,7 +455,7 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -543,7 +543,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>14</pointsize>
+       <pointsize>16</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1109,7 +1109,7 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -1175,7 +1175,7 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -2044,7 +2044,7 @@
       <enum>caLineEdit::Alarm_Static</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -2289,7 +2289,7 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
@@ -2355,7 +2355,7 @@
       <enum>caLineEdit::Channel</enum>
      </property>
      <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::Height</enum>
+      <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
       <enum>caLineEdit::decimal</enum>
