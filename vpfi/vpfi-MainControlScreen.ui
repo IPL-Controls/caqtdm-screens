@@ -8206,6 +8206,9 @@ color: rgb(0, 0, 0);</string>
     <property name="XaxisType">
      <enum>caStripPlot::TimeScale</enum>
     </property>
+    <property name="numberOfXticks" stdset="0">
+     <number>8</number>
+    </property>
     <property name="YAxisScaling" stdset="0">
      <enum>caStripPlot::autoScale</enum>
     </property>
