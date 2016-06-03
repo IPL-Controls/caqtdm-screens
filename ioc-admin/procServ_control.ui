@@ -367,53 +367,12 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      </color>
     </property>
    </widget>
-   <widget class="caLabel" name="caLabel_30">
-    <property name="geometry">
-     <rect>
-      <x>345</x>
-      <y>95</y>
-      <width>131</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-    <property name="text">
-     <string>AUTO RESTART</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caLineEdit" name="caLineEdit_2">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>95</y>
-      <width>41</width>
+      <x>470</x>
+      <y>97</y>
+      <width>35</width>
       <height>20</height>
      </rect>
     </property>
@@ -496,19 +455,6 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="falseValue">
      <string>0</string>
-    </property>
-   </widget>
-   <widget class="caToggleButton" name="catogglebutton_2">
-    <property name="geometry">
-     <rect>
-      <x>325</x>
-      <y>95</y>
-      <width>21</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">$(ioc):TOGGLE</string>
     </property>
    </widget>
    <widget class="caMessageButton" name="caMessageButton_0">
@@ -677,6 +623,45 @@ color: rgb(0, 255, 0);</string>
      <number>100</number>
     </property>
    </widget>
+   <widget class="caToggleButton" name="catogglebutton_3">
+    <property name="geometry">
+     <rect>
+      <x>325</x>
+      <y>95</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>AUTO RESTART</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">$(ioc):TOGGLE</string>
+    </property>
+    <property name="falseValue">
+     <string>0</string>
+    </property>
+   </widget>
    <zorder>cagraphics</zorder>
    <zorder>cagraphics_2</zorder>
    <zorder>caLabel_2</zorder>
@@ -685,14 +670,13 @@ color: rgb(0, 255, 0);</string>
    <zorder>caLineEdit_1</zorder>
    <zorder>calabel</zorder>
    <zorder>calabel_2</zorder>
-   <zorder>caLabel_30</zorder>
    <zorder>caLineEdit_2</zorder>
    <zorder>catogglebutton</zorder>
-   <zorder>catogglebutton_2</zorder>
    <zorder>caMessageButton_0</zorder>
    <zorder>caMessageButton_1</zorder>
    <zorder>catextentry</zorder>
    <zorder>textBrowser</zorder>
+   <zorder>catogglebutton_3</zorder>
   </widget>
  </widget>
  <customwidgets>
