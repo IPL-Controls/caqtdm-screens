@@ -472,7 +472,7 @@ border-radius: 2px;
     <widget class="caLabel" name="caLabel_3">
      <property name="geometry">
       <rect>
-       <x>46</x>
+       <x>20</x>
        <y>24</y>
        <width>156</width>
        <height>20</height>
@@ -546,7 +546,7 @@ border-radius: 2px;
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -597,7 +597,7 @@ border-radius: 2px;
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -607,7 +607,7 @@ border-radius: 2px;
     <widget class="caLabel" name="caLabel_4">
      <property name="geometry">
       <rect>
-       <x>36</x>
+       <x>10</x>
        <y>49</y>
        <width>168</width>
        <height>20</height>
@@ -681,7 +681,7 @@ border-radius: 2px;
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -732,7 +732,7 @@ border-radius: 2px;
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -742,7 +742,7 @@ border-radius: 2px;
     <widget class="caLabel" name="caLabel_5">
      <property name="geometry">
       <rect>
-       <x>96</x>
+       <x>80</x>
        <y>74</y>
        <width>96</width>
        <height>20</height>
@@ -816,7 +816,7 @@ border-radius: 2px;
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -867,7 +867,7 @@ border-radius: 2px;
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -954,7 +954,7 @@ border-radius: 2px;
      <property name="minValue">
       <double>0.000000000000000</double>
      </property>
-     <property name="fontScaleMode">
+     <property name="fontScaleMode" stdset="0">
       <enum>caLineEdit::WidthAndHeight</enum>
      </property>
      <property name="formatType">
@@ -1003,7 +1003,7 @@ border-radius: 2px;
      <widget class="caLabel" name="caLabel_7">
       <property name="geometry">
        <rect>
-        <x>21</x>
+        <x>0</x>
         <y>0</y>
         <width>120</width>
         <height>20</height>
@@ -1080,7 +1080,7 @@ border-radius: 2px;
       <property name="minValue">
        <double>0.000000000000000</double>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::WidthAndHeight</enum>
       </property>
       <property name="formatType">
@@ -1090,7 +1090,7 @@ border-radius: 2px;
      <widget class="caLabel" name="caLabel_8">
       <property name="geometry">
        <rect>
-        <x>0</x>
+        <x>-25</x>
         <y>25</y>
         <width>144</width>
         <height>20</height>
@@ -1197,7 +1197,7 @@ border-radius: 2px;
       <property name="minValue">
        <double>0.000000000000000</double>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::WidthAndHeight</enum>
       </property>
       <property name="formatType">
@@ -1216,7 +1216,7 @@ border-radius: 2px;
       <widget class="caLabel" name="caLabel_9">
        <property name="geometry">
         <rect>
-         <x>0</x>
+         <x>-30</x>
          <y>0</y>
          <width>168</width>
          <height>20</height>
@@ -1293,7 +1293,7 @@ border-radius: 2px;
        <property name="minValue">
         <double>0.000000000000000</double>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::WidthAndHeight</enum>
        </property>
        <property name="formatType">
@@ -1537,7 +1537,7 @@ border-radius: 2px;
       <widget class="caLabel" name="caLabel_13">
        <property name="geometry">
         <rect>
-         <x>0</x>
+         <x>-30</x>
          <y>0</y>
          <width>168</width>
          <height>20</height>
@@ -1614,7 +1614,7 @@ border-radius: 2px;
        <property name="minValue">
         <double>0.000000000000000</double>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::WidthAndHeight</enum>
        </property>
        <property name="formatType">
@@ -1681,7 +1681,7 @@ border-radius: 2px;
         <property name="minValue">
          <double>0.000000000000000</double>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
@@ -1732,7 +1732,7 @@ border-radius: 2px;
         <property name="minValue">
          <double>0.000000000000000</double>
         </property>
-        <property name="fontScaleMode">
+        <property name="fontScaleMode" stdset="0">
          <enum>caLineEdit::WidthAndHeight</enum>
         </property>
         <property name="formatType">
@@ -1743,7 +1743,7 @@ border-radius: 2px;
       <widget class="caLabel" name="caLabel_14">
        <property name="geometry">
         <rect>
-         <x>0</x>
+         <x>-30</x>
          <y>0</y>
          <width>156</width>
          <height>20</height>
@@ -1789,7 +1789,7 @@ border-radius: 2px;
       <widget class="caLabel" name="caLabel_15">
        <property name="geometry">
         <rect>
-         <x>0</x>
+         <x>-20</x>
          <y>0</y>
          <width>120</width>
          <height>20</height>
@@ -1866,7 +1866,7 @@ border-radius: 2px;
        <property name="minValue">
         <double>0.000000000000000</double>
        </property>
-       <property name="fontScaleMode">
+       <property name="fontScaleMode" stdset="0">
         <enum>caLineEdit::WidthAndHeight</enum>
        </property>
        <property name="formatType">
@@ -1877,7 +1877,7 @@ border-radius: 2px;
      <widget class="caLabel" name="caLabel_16">
       <property name="geometry">
        <rect>
-        <x>9</x>
+        <x>-20</x>
         <y>209</y>
         <width>180</width>
         <height>20</height>
@@ -1984,7 +1984,7 @@ border-radius: 2px;
       <property name="minValue">
        <double>0.000000000000000</double>
       </property>
-      <property name="fontScaleMode">
+      <property name="fontScaleMode" stdset="0">
        <enum>caLineEdit::WidthAndHeight</enum>
       </property>
       <property name="formatType">
@@ -1992,81 +1992,6 @@ border-radius: 2px;
       </property>
      </widget>
     </widget>
-   </widget>
-   <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>680</y>
-      <width>70</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>115</red>
-      <green>223</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string>Simulation setup</string>
-    </property>
-    <property name="files">
-     <string notr="true">ADCorr.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true">P=$(P)corr1:,</string>
-    </property>
-    <property name="stackingMode" stdset="0">
-     <enum>caRowColMenu::Menu</enum>
-    </property>
-    <property name="removeParent" stdset="0">
-     <string>false</string>
-    </property>
-   </widget>
-   <widget class="caLabel" name="caLabel_17">
-    <property name="geometry">
-     <rect>
-      <x>451</x>
-      <y>680</y>
-      <width>111</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::NoFrame</enum>
-    </property>
-    <property name="text">
-     <string>Correction setup</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-    </property>
-    <property name="fontScaleMode">
-     <enum>ESimpleLabel::WidthAndHeight</enum>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
    </widget>
    <zorder>caLabel_0</zorder>
    <zorder>caFrame_0</zorder>
@@ -2077,8 +2002,6 @@ border-radius: 2px;
    <zorder>caInclude_5</zorder>
    <zorder>caFrame_6</zorder>
    <zorder>caRelatedDisplay_0</zorder>
-   <zorder>caRelatedDisplay_1</zorder>
-   <zorder>caLabel_17</zorder>
   </widget>
  </widget>
  <customwidgets>
