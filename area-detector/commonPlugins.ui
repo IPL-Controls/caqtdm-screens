@@ -13772,7 +13772,7 @@ border-radius: 2px;
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:PortName_RBV</string>
+     <string notr="true">$(P)RO1:PortName_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -13823,7 +13823,7 @@ border-radius: 2px;
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:PluginType_RBV</string>
+     <string notr="true">$(P)RO1:PluginType_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -13871,7 +13871,7 @@ border-radius: 2px;
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:NDArrayPort</string>
+     <string notr="true">$(P)RO1:NDArrayPort</string>
     </property>
     <property name="foreground">
      <color>
@@ -13919,7 +13919,7 @@ border-radius: 2px;
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:EnableCallbacks</string>
+     <string notr="true">$(P)RO1:EnableCallbacks</string>
     </property>
     <property name="colorMode">
      <enum>caMenu::Static</enum>
@@ -13952,7 +13952,7 @@ border-radius: 2px;
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:EnableCallbacks_RBV</string>
+     <string notr="true">$(P)RO1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -14000,7 +14000,7 @@ border-radius: 2px;
      </rect>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:BlockingCallbacks</string>
+     <string notr="true">$(P)RO1:BlockingCallbacks</string>
     </property>
     <property name="colorMode">
      <enum>caMenu::Static</enum>
@@ -14033,7 +14033,7 @@ border-radius: 2px;
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:DroppedArrays_RBV</string>
+     <string notr="true">$(P)RO1:DroppedArrays_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -14084,7 +14084,7 @@ border-radius: 2px;
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:QueueFree</string>
+     <string notr="true">$(P)RO1:QueueFree</string>
     </property>
     <property name="foreground">
      <color>
@@ -14135,7 +14135,7 @@ border-radius: 2px;
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">$(P)Corr1:ArrayRate_RBV</string>
+     <string notr="true">$(P)RO1:ArrayRate_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -14203,10 +14203,10 @@ border-radius: 2px;
      <string>CORR1:</string>
     </property>
     <property name="files">
-     <string notr="true">NDCorrection.ui</string>
+     <string notr="true">NDRemoveOutliers.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=$(P),R=Corr1:</string>
+     <string notr="true">P=$(P),R=RO1:</string>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>

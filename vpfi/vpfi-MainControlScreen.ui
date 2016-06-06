@@ -6189,47 +6189,17 @@ T</string>
       </color>
      </property>
     </widget>
-    <widget class="caMenu" name="caMenu_2">
-     <property name="geometry">
-      <rect>
-       <x>590</x>
-       <y>310</y>
-       <width>111</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">VPFI:Qi2:Corr1:CorrectionType</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMenu::Static</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>115</red>
-       <green>223</green>
-       <blue>255</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="caTextEntry_23">
      <property name="geometry">
       <rect>
-       <x>620</x>
+       <x>590</x>
        <y>360</y>
-       <width>80</width>
-       <height>19</height>
+       <width>111</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:Qi2:Corr1:RadiusOutliers</string>
+      <string notr="true">VPFI:Qi2:RO1:RadiusOutliers</string>
      </property>
      <property name="foreground">
       <color>
@@ -6270,14 +6240,14 @@ T</string>
     <widget class="caTextEntry" name="caTextEntry_24">
      <property name="geometry">
       <rect>
-       <x>620</x>
+       <x>590</x>
        <y>380</y>
-       <width>80</width>
-       <height>19</height>
+       <width>110</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:Qi2:Corr1:ThresholdOutliers</string>
+      <string notr="true">VPFI:Qi2:RO1:ThresholdOutliers</string>
      </property>
      <property name="foreground">
       <color>
@@ -6318,14 +6288,14 @@ T</string>
     <widget class="caMenu" name="caMenu_13">
      <property name="geometry">
       <rect>
-       <x>620</x>
-       <y>335</y>
-       <width>80</width>
-       <height>19</height>
+       <x>589</x>
+       <y>310</y>
+       <width>111</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:Qi2:Corr1:WhichOutliers</string>
+      <string notr="true">VPFI:Qi2:RO1:WhichOutliers</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Static</enum>
@@ -6345,46 +6315,11 @@ T</string>
       </color>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_93">
-     <property name="geometry">
-      <rect>
-       <x>465</x>
-       <y>310</y>
-       <width>121</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>Correction Type</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>160</red>
-       <green>160</green>
-       <blue>164</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caLabel" name="calabel_94">
      <property name="geometry">
       <rect>
        <x>465</x>
-       <y>335</y>
+       <y>310</y>
        <width>121</width>
        <height>21</height>
       </rect>
@@ -6511,6 +6446,71 @@ T</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="caMenu" name="caMenu_3">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>335</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">VPFI:Qi2:RO1:Method</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMenu::Static</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>223</green>
+       <blue>255</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_97">
+     <property name="geometry">
+      <rect>
+       <x>465</x>
+       <y>335</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Method</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
      </property>
     </widget>
     <zorder>cagraphics_2</zorder>
@@ -6662,15 +6662,15 @@ T</string>
     <zorder>calabel_20</zorder>
     <zorder>calabel_21</zorder>
     <zorder>calabel_22</zorder>
-    <zorder>caMenu_2</zorder>
     <zorder>caTextEntry_23</zorder>
     <zorder>caTextEntry_24</zorder>
     <zorder>caMenu_13</zorder>
-    <zorder>calabel_93</zorder>
     <zorder>calabel_94</zorder>
     <zorder>calabel_95</zorder>
     <zorder>calabel_96</zorder>
     <zorder>label_11</zorder>
+    <zorder>caMenu_3</zorder>
+    <zorder>calabel_97</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
