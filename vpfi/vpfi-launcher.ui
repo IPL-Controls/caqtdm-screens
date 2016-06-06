@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>14</pointsize>
+      <pointsize>18</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -522,7 +522,7 @@
      <string notr="true">CONTROL SCREEN</string>
     </property>
     <property name="files">
-     <string notr="true">vpfi-MainControlScreen.ui</string>
+     <string notr="true">..\vpfi\vpfi-MainControlScreen.ui</string>
     </property>
     <property name="args">
      <string notr="true"/>
