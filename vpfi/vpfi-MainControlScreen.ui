@@ -5556,6 +5556,9 @@ T</string>
        <height>18</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">VPFI:Qi2:ROI1:EnableX</string>
      </property>
@@ -5585,6 +5588,9 @@ T</string>
        <width>73</width>
        <height>18</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">VPFI:Qi2:ROI1:EnableY</string>
@@ -6121,6 +6127,9 @@ T</string>
        <height>20</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
      <property name="channel" stdset="0">
       <string notr="true">VPFI:Qi2:RO1:WhichOutliers</string>
      </property>
@@ -6283,6 +6292,9 @@ T</string>
        <width>111</width>
        <height>21</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
      </property>
      <property name="channel" stdset="0">
       <string notr="true">VPFI:Qi2:RO1:Method</string>
@@ -7852,7 +7864,7 @@ MODE</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>7</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="inputMask">
