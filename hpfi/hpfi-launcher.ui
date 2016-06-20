@@ -323,7 +323,7 @@
      <string notr="true">hpfi-scan.ui</string>
     </property>
     <property name="args">
-     <string notr="true">W=IOC:, CONFIG=scan</string>
+     <string notr="true">W=HPFI:SCAN:, CONFIG=scan</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -630,10 +630,10 @@
      <string notr="true">CPI;OXFORD</string>
     </property>
     <property name="files">
-     <string notr="true">../cpi-new.ui;../OX96000qt.ui</string>
+     <string notr="true">../cpi.ui;../OX96000qt.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=HPFI:CPI:xray;P=HPFI:OXFORD:xray:</string>
+     <string notr="true">P=HPFI:CPI:xray,S=HPFI:cpiSync;P=HPFI:OXFORD:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>

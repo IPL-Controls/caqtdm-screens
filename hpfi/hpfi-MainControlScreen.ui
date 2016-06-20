@@ -1732,7 +1732,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">HFPI:Qi2:cam1:Gain_RBV</string>
+      <string notr="true">HPFI:Qi2:cam1:Gain_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -2468,7 +2468,7 @@
       <enum>caGraphics::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">Qi2:cam1:Acquire</string>
+      <string notr="true">HPFI:Qi2:cam1:Acquire</string>
      </property>
      <property name="channelB">
       <string notr="true"/>
@@ -3226,7 +3226,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <string notr="true"/>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">Qi2:cam1:Acquire</string>
+      <string notr="true">HPFI:Qi2:cam1:Acquire</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -4662,10 +4662,10 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <string notr="true">X-RAY</string>
      </property>
      <property name="files">
-      <string notr="true">../cpi-new.ui</string>
+      <string notr="true">../cpi.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=cpi</string>
+      <string notr="true">P=HPFI:CPI:xray,S=HPFI:cpiSync</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
@@ -5403,7 +5403,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <number>40</number>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">Qi2:cam1:NikonTriggerMode</string>
+      <string notr="true">HPFI:Qi2:cam1:NikonTriggerMode</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Static</enum>

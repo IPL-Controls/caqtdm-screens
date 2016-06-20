@@ -583,7 +583,7 @@
           <enum>EPushButton::Height</enum>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">cpi:FLMAIncrement</string>
+          <string notr="true">$(P):FLMAIncrement</string>
          </property>
          <property name="label">
           <string notr="true">-5</string>
@@ -622,7 +622,7 @@
           <enum>EPushButton::Height</enum>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">cpi:FLMAIncrement</string>
+          <string notr="true">$(P):FLMAIncrement</string>
          </property>
          <property name="label">
           <string notr="true">-</string>
@@ -661,7 +661,7 @@
           <enum>EPushButton::Height</enum>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">cpi:FLMAIncrement</string>
+          <string notr="true">$(P):FLMAIncrement</string>
          </property>
          <property name="label">
           <string notr="true">+</string>
@@ -700,7 +700,7 @@
           <enum>EPushButton::Height</enum>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">cpi:FLMAIncrement</string>
+          <string notr="true">$(P):FLMAIncrement</string>
          </property>
          <property name="label">
           <string notr="true">+5</string>
@@ -746,7 +746,7 @@
           <enum>EPushButton::Height</enum>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">cpi:FLSIncrement</string>
+          <string notr="true">$(P):FLSIncrement</string>
          </property>
          <property name="label">
           <string notr="true">-</string>
@@ -785,7 +785,7 @@
           <enum>EPushButton::Height</enum>
          </property>
          <property name="channel" stdset="0">
-          <string notr="true">cpi:FLSIncrement</string>
+          <string notr="true">$(P):FLSIncrement</string>
          </property>
          <property name="label">
           <string notr="true">+</string>
@@ -1517,7 +1517,7 @@
      <enum>caLabel::IfZero</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpiSync:ExposeOut</string>
+     <string notr="true">$(S):ExposeOut</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_96">
@@ -1574,7 +1574,7 @@
      <string>Fluoro Expose</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpiSync:FluoroIn</string>
+     <string notr="true">$(S):FluoroIn</string>
     </property>
     <property name="foreground">
      <color>
@@ -1600,7 +1600,7 @@
      <enum>EPushButton::Height</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:FluoroTimerReset</string>
+     <string notr="true">$(P):FluoroTimerReset</string>
     </property>
     <property name="label">
      <string notr="true">Reset Fluoro Accum Timers</string>
@@ -1645,7 +1645,7 @@
      <enum>EPushButton::Height</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:FluoroTimerReset</string>
+     <string notr="true">$(P):FluoroTimerReset</string>
     </property>
     <property name="label">
      <string notr="true">Reset Fluoro Interval Timers</string>
