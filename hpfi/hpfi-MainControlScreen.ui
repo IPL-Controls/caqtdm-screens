@@ -815,7 +815,7 @@
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">HPFI:cpiSync:On</string>
+      <string notr="true">HPFI:cpiSync:ON</string>
      </property>
      <property name="label">
       <string notr="true">ON</string>
@@ -860,7 +860,7 @@
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">HPFI:cpiSync:Off</string>
+      <string notr="true">HPFI:cpiSync:OFF</string>
      </property>
      <property name="label">
       <string notr="true">OFF</string>
@@ -2152,13 +2152,13 @@
      </property>
      <property name="font">
       <font>
-       <pointsize>5</pointsize>
+       <pointsize>8</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string>Qi2-CPI SINGLE EXPOSURE</string>
+      <string>SINGLE EXPOSURE</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -2552,7 +2552,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">HPFI:cpiSync:GenWarmUpSeq</string>
+      <string notr="true">HPFI:cpiSync:WARM</string>
      </property>
      <property name="label">
       <string notr="true">WARM UP</string>
@@ -2631,7 +2631,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">Qi2:TIFF1:WriteFile_RBV</string>
+      <string notr="true">HPFI:Qi2:TIFF1:WriteFile_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -5631,7 +5631,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <string>DOC</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:NikonKsSync:DOC</string>
+      <string notr="true">HPFI:cpiSync:DOC</string>
      </property>
      <property name="background">
       <color alpha="0">
@@ -6824,269 +6824,6 @@ color: rgb(0, 0, 0);</string>
      </color>
     </property>
    </widget>
-   <widget class="caCartesianPlot" name="cacartesianplot_2">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>300</y>
-      <width>325</width>
-      <height>151</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">SIGMA</string>
-    </property>
-    <property name="TitleX">
-     <string notr="true">Time Point</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">Counts</string>
-    </property>
-    <property name="channels_1" stdset="0">
-     <string notr="true">;Qi2:Stats1:TSSigma</string>
-    </property>
-    <property name="Style_1">
-     <enum>caCartesianPlot::Dots</enum>
-    </property>
-    <property name="symbol_1">
-     <enum>caCartesianPlot::Rect</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="plotMode">
-     <enum>caCartesianPlot::PlotLastNPoints</enum>
-    </property>
-    <property name="triggerChannel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="gridColor">
-     <color>
-      <red>194</red>
-      <green>194</green>
-      <blue>194</blue>
-     </color>
-    </property>
-    <property name="XaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-    <property name="YaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-   </widget>
-   <widget class="caCartesianPlot" name="cacartesianplot_3">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>140</y>
-      <width>325</width>
-      <height>155</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">MEAN</string>
-    </property>
-    <property name="TitleX">
-     <string notr="true">Time Point</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">Counts</string>
-    </property>
-    <property name="channels_1" stdset="0">
-     <string notr="true">;Qi2:Stats1:TSMeanValue</string>
-    </property>
-    <property name="Style_1">
-     <enum>caCartesianPlot::Dots</enum>
-    </property>
-    <property name="symbol_1">
-     <enum>caCartesianPlot::Triangle</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="plotMode">
-     <enum>caCartesianPlot::PlotLastNPoints</enum>
-    </property>
-    <property name="triggerChannel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="gridColor">
-     <color>
-      <red>194</red>
-      <green>194</green>
-      <blue>194</blue>
-     </color>
-    </property>
-    <property name="XaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-    <property name="YaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_28">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>270</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="inputMask">
-     <string/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">Qi2:Stats1:MeanValue_RBV</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="100">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="caLineEdit_29">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>420</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="inputMask">
-     <string/>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true"> Qi2:Stats1:Sigma_RBV</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="100">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-    <property name="frameColor">
-     <color alpha="25">
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
-    </property>
-    <property name="fontScaleMode" stdset="0">
-     <enum>caLineEdit::Height</enum>
-    </property>
-    <property name="formatType">
-     <enum>caLineEdit::decimal</enum>
-    </property>
-   </widget>
    <widget class="caLineEdit" name="caLineEdit_30">
     <property name="geometry">
      <rect>
@@ -7164,76 +6901,6 @@ color: rgb(0, 0, 0);</string>
       <red>255</red>
       <green>255</green>
       <blue>0</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_50">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>250</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>10</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>MEAN</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_51">
-    <property name="geometry">
-     <rect>
-      <x>395</x>
-      <y>390</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>9</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>SIGMA</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
      </color>
     </property>
    </widget>
@@ -7756,7 +7423,7 @@ color: rgb(0, 0, 0);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7804,7 +7471,7 @@ color: rgb(0, 0, 0);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:TIFF1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -7906,7 +7573,7 @@ color: rgb(0, 0, 0);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:ROI1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8024,7 +7691,7 @@ color: rgb(0, 0, 0);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Proc1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:Proc1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8158,8 +7825,7 @@ color: rgb(0, 0, 0);</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">
-Qi2:Stats1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:Stats1:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8270,7 +7936,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Proc1:EnableFilter_RBV</string>
+     <string notr="true">HPFI:Qi2:Proc1:EnableFilter_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8318,7 +7984,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Proc1:EnableBackground_RBV</string>
+     <string notr="true">HPFI:Qi2:Proc1:EnableBackground_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8436,7 +8102,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:ArraySizeX_RBV</string>
+     <string notr="true">HPFI:Qi2:ROI1:ArraySizeX_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8484,7 +8150,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:ArraySizeY_RBV</string>
+     <string notr="true">HPFI:Qi2:ROI1:ArraySizeY_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -8836,7 +8502,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Stats1:TSControl</string>
+     <string notr="true">HPFI:Qi2:Stats1:TSControl</string>
     </property>
     <property name="label">
      <string>Erase/Start</string>
@@ -8970,7 +8636,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:EnableCallbacks</string>
+     <string notr="true">HPFI:Qi2:ROI1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -8996,7 +8662,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI1:EnableCallbacks</string>
+     <string notr="true">HPFI:Qi2:ROI1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -9022,7 +8688,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:Stats1:EnableCallbacks</string>
+     <string notr="true">HPFI:Qi2:Stats1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -9048,7 +8714,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:EnableCallbacks</string>
+     <string notr="true">HPFI:Qi2:TIFF1:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -9056,72 +8722,6 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
       <green>209</green>
       <blue>239</blue>
      </color>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="calineedit_3">
-    <property name="geometry">
-     <rect>
-      <x>145</x>
-      <y>482</y>
-      <width>31</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(255, 170, 255, 0); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(127, 85, 127, 0) rgba(255, 255, 255, 0)  rgba(255, 255, 255, 0) rgba(127, 85, 127, 0);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">IOC:scan2.CPT</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>255</red>
-      <green>170</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
-    </property>
-   </widget>
-   <widget class="caLineEdit" name="calineedit_4">
-    <property name="geometry">
-     <rect>
-      <x>325</x>
-      <y>480</y>
-      <width>31</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">caTextEntry,caLineEdit {background-color: rgba(255, 170, 255, 0); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(127, 85, 127, 0) rgba(255, 255, 255, 0)  rgba(255, 255, 255, 0) rgba(127, 85, 127, 0);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">IOC:scan1.CPT</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>255</red>
-      <green>170</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="colorMode">
-     <enum>caLineEdit::Static</enum>
     </property>
    </widget>
    <widget class="caLineEdit" name="caLineEdit_46">
@@ -9140,7 +8740,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:AnodeTubeHeat</string>
+     <string notr="true">HPFI:CPI:xray:AnodeTubeHeat</string>
     </property>
     <property name="foreground">
      <color>
@@ -9271,86 +8871,6 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <number>180</number>
     </property>
    </widget>
-   <widget class="caCartesianPlot" name="cacartesianplot_4">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>460</y>
-      <width>325</width>
-      <height>161</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::Box</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Plain</enum>
-    </property>
-    <property name="lineWidth">
-     <number>2</number>
-    </property>
-    <property name="Title" stdset="0">
-     <string notr="true">AVERAGE Y PROFILE</string>
-    </property>
-    <property name="TitleX">
-     <string notr="true">pixels</string>
-    </property>
-    <property name="TitleY">
-     <string notr="true">Counts</string>
-    </property>
-    <property name="channels_1" stdset="0">
-     <string notr="true">;Qi2:Stats1:ProfileAverageY_RBV</string>
-    </property>
-    <property name="Style_1">
-     <enum>caCartesianPlot::ThinLines</enum>
-    </property>
-    <property name="symbol_1">
-     <enum>caCartesianPlot::NoSymbol</enum>
-    </property>
-    <property name="color_1">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="plotMode">
-     <enum>caCartesianPlot::PlotLastNPoints</enum>
-    </property>
-    <property name="triggerChannel" stdset="0">
-     <string notr="true"/>
-    </property>
-    <property name="background">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="scaleColor">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="gridColor">
-     <color>
-      <red>194</red>
-      <green>194</green>
-      <blue>194</blue>
-     </color>
-    </property>
-    <property name="XaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-    <property name="YaxisScaling" stdset="0">
-     <enum>caCartesianPlot::Channel</enum>
-    </property>
-   </widget>
    <widget class="caLineEdit" name="caLineEdit_47">
     <property name="geometry">
      <rect>
@@ -9367,7 +8887,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:NDArrayPort_RBV</string>
+     <string notr="true">HPFI:Qi2:TIFF1:NDArrayPort_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -9412,7 +8932,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">cpi:ErrorMessage</string>
+     <string notr="true">HPFI:CPI:xray:ErrorMessage</string>
     </property>
     <property name="foreground">
      <color>
@@ -9540,7 +9060,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI2:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:ROI2:EnableCallbacks_RBV</string>
     </property>
     <property name="foreground">
      <color>
@@ -9620,7 +9140,7 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
      <string/>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:ROI2:EnableCallbacks</string>
+     <string notr="true">HPFI:Qi2:ROI2:EnableCallbacks</string>
     </property>
     <property name="background">
      <color>
@@ -9759,14 +9279,8 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <zorder>cagraphics_5</zorder>
    <zorder>calabel_2</zorder>
    <zorder>cagraphics_14</zorder>
-   <zorder>cacartesianplot_2</zorder>
-   <zorder>cacartesianplot_3</zorder>
-   <zorder>caLineEdit_28</zorder>
-   <zorder>caLineEdit_29</zorder>
    <zorder>caLineEdit_30</zorder>
    <zorder>calabel_49</zorder>
-   <zorder>calabel_50</zorder>
-   <zorder>calabel_51</zorder>
    <zorder>caLineEdit_31</zorder>
    <zorder>caLineEdit_32</zorder>
    <zorder>calabel_57</zorder>
@@ -9806,12 +9320,9 @@ Qi2:Stats1:EnableCallbacks_RBV</string>
    <zorder>catogglebutton_9</zorder>
    <zorder>catogglebutton_10</zorder>
    <zorder>catogglebutton_11</zorder>
-   <zorder>calineedit_3</zorder>
-   <zorder>calineedit_4</zorder>
    <zorder>caLineEdit_46</zorder>
    <zorder>cagraphics_30</zorder>
    <zorder>cagraphics_31</zorder>
-   <zorder>cacartesianplot_4</zorder>
    <zorder>caLineEdit_47</zorder>
    <zorder>caLineEdit_48</zorder>
    <zorder>calabel_55</zorder>
@@ -11021,11 +10532,6 @@ color: rgb(0, 0, 0);</string>
    <class>caThermo</class>
    <extends>QWidget</extends>
    <header>caThermo</header>
-  </customwidget>
-  <customwidget>
-   <class>caCartesianPlot</class>
-   <extends>QFrame</extends>
-   <header>caCartesianPlot</header>
   </customwidget>
   <customwidget>
    <class>caStripPlot</class>
