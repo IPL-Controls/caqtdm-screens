@@ -2167,7 +2167,7 @@
       <string notr="true">HPFI:cpiSync:NikonSingleExposeSeq</string>
      </property>
      <property name="label">
-      <string notr="true">Qi2-CPI SINGLE EXPOSURE</string>
+      <string notr="true">SINGLE EXPOSURE</string>
      </property>
      <property name="foreground">
       <color>
@@ -2184,7 +2184,7 @@
       </color>
      </property>
      <property name="releaseMessage">
-      <string notr="true">1</string>
+      <string notr="true">0</string>
      </property>
      <property name="pressMessage">
       <string>1</string>
@@ -4430,7 +4430,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <enum>caGraphics::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">cpiSync:ExposeOut</string>
+      <string notr="true">HPFI:cpiSync:ExposeOut</string>
      </property>
      <property name="channelB">
       <string notr="true"/>
@@ -6916,7 +6916,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6964,7 +6964,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7536,10 +7536,10 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">A=1 &amp;&amp; B=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="channelB">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -7756,7 +7756,7 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -7890,7 +7890,7 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">A=&quot;ROI1&quot;</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:TIFF1:NDArrayPort_RBV</string>
+     <string notr="true">HPFI:Qi2:TIFF1:NDArrayPort_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -7923,7 +7923,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -8373,7 +8373,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8540,7 +8540,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8805,7 +8805,7 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -8856,7 +8856,7 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">A=1</string>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">Qi2:image1:EnableCallbacks_RBV</string>
+     <string notr="true">HPFI:Qi2:image1:EnableCallbacks_RBV</string>
     </property>
     <property name="form">
      <enum>caGraphics::Arrow</enum>
@@ -9373,7 +9373,7 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">Duration(s)</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">cpiSync:DutyCycle;cpiSync:ShotDuration</string>
+     <string notr="true">HPFI:cpiSync:DutyCycle;HPFI:cpiSync:ShotDuration</string>
     </property>
     <property name="period">
      <double>10.000000000000000</double>
@@ -9523,7 +9523,7 @@ color: rgb(0, 0, 0);</string>
      <string notr="true">Duration(s)</string>
     </property>
     <property name="channels" stdset="0">
-     <string notr="true">cpiSync:CpiDuration;cpiSync:Qi2Duration</string>
+     <string notr="true">HPFI:cpiSync:CpiDuration;HPFI:cpiSync:Qi2Duration</string>
     </property>
     <property name="period">
      <double>10.000000000000000</double>
@@ -10352,7 +10352,7 @@ color: rgb(0, 0, 0);</string>
       <string notr="true">Percent</string>
      </property>
      <property name="channels" stdset="0">
-      <string notr="true">cpiSync:ExposeOut;cpiSync:Qi2Exposing</string>
+      <string notr="true">HPFI:cpiSync:ExposeOut;HPFI:cpiSync:EXPOSING_RBV</string>
      </property>
      <property name="period">
       <double>5.000000000000000</double>
