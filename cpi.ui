@@ -2977,7 +2977,7 @@
        <string>Document</string>
       </property>
       <property name="channel" stdset="0">
-       <string notr="true">cpiSync:Document</string>
+       <string notr="true">HPFI:cpiSync:DOC</string>
       </property>
       <property name="foreground">
        <color>
@@ -3390,7 +3390,7 @@
       <enum>caLabel::IfZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S):Qi2Exposing</string>
+      <string notr="true">$(S):EXPOSING_RBV</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_80">
@@ -3431,7 +3431,7 @@
       <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S):Qi2Exposing</string>
+      <string notr="true">$(S):EXPOSING_RBV</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_81">
@@ -3472,7 +3472,7 @@
       <enum>caLabel::IfZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S):Qi2TriggerReady</string>
+      <string notr="true">$(S):TRIGGER_READY_RBV</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_83">
@@ -3513,7 +3513,7 @@
       <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S):Qi2TriggerReady</string>
+      <string notr="true">$(S):TRIGGER_READY_RBV</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_77">
