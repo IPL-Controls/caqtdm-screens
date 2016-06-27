@@ -5364,18 +5364,15 @@ P=VPFI:SCAN:,CONFIG=scan;</string>
     <widget class="caMessageButton" name="caMessageButton_20">
      <property name="geometry">
       <rect>
-       <x>670</x>
+       <x>650</x>
        <y>580</y>
-       <width>41</width>
+       <width>61</width>
        <height>111</height>
       </rect>
      </property>
      <property name="text">
-      <string>A
-B
-O
-R
-T</string>
+      <string>SCAN
+ABORT</string>
      </property>
      <property name="fontScaleMode">
       <enum>EPushButton::WidthAndHeight</enum>
@@ -6583,6 +6580,63 @@ MODE</string>
       </color>
      </property>
     </widget>
+    <widget class="caMessageButton" name="camessagebutton_4">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>470</y>
+       <width>121</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ALL
+ABORT</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>13</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">VPFI:NikonKsSync:ABORT</string>
+     </property>
+     <property name="label">
+      <string notr="true">ALL
+ABORT</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="releaseMessage">
+      <string notr="true">0</string>
+     </property>
+     <property name="pressMessage">
+      <string notr="true">1</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_7</zorder>
     <zorder>cagraphics_13</zorder>
@@ -6742,6 +6796,7 @@ MODE</string>
     <zorder>calineedit_9</zorder>
     <zorder>calabel_50</zorder>
     <zorder>catogglebutton_15</zorder>
+    <zorder>camessagebutton_4</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -9040,9 +9095,9 @@ MODE</string>
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>300</y>
+      <y>430</y>
       <width>681</width>
-      <height>331</height>
+      <height>201</height>
      </rect>
     </property>
     <property name="font">
