@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>208</width>
-    <height>309</height>
+    <height>269</height>
    </rect>
   </property>
   <property name="styleSheet">
@@ -23,7 +23,7 @@
       <x>10</x>
       <y>50</y>
       <width>191</width>
-      <height>251</height>
+      <height>211</height>
      </rect>
     </property>
     <property name="font">
@@ -109,7 +109,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>140</y>
+      <y>100</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -148,13 +148,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Nikon Qi2;Nikon D800</string>
+     <string notr="true">Nikon D800;Varian Paxscan 3024M</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqi2-slim;../nikonqt-v3</string>
+     <string notr="true">../nikonqt-v3;../Varianqt-v3</string>
     </property>
     <property name="args">
-     <string notr="true">P=Qi2:, R=cam1:, W=IOC:;P=D800:,W=IOC:;</string>
+     <string notr="true">P=CEL:D800:,W=CEL:SCAN:;P=CEL:VARIAN:, R=cam1:, W=CEL:SCAN:, S=CEL:VarianSync:;;</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
@@ -167,7 +167,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>260</y>
+      <y>220</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -200,7 +200,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>180</y>
+      <y>140</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -236,7 +236,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>220</y>
+      <y>180</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -294,7 +294,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>100</y>
+      <y>60</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -333,55 +333,19 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">cpi;OXFORD:xray</string>
+     <string notr="true">CPI</string>
     </property>
     <property name="files">
      <string notr="true">../cpi.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=cpi;P=OXFORD:xray:</string>
+     <string notr="true">P=CEL:CPI:xray</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
      <enum>caRowColMenu::Menu</enum>
-    </property>
-   </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_16">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>60</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">CONTROL SCREEN</string>
-    </property>
-    <property name="files">
-     <string notr="true">pfi-MainControlScreen.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true"/>
     </property>
    </widget>
   </widget>

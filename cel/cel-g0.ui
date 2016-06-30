@@ -140,7 +140,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>11</pointsize>
+       <pointsize>12</pointsize>
        <weight>75</weight>
        <bold>true</bold>
       </font>
@@ -415,25 +415,6 @@
       </color>
      </property>
     </widget>
-    <widget class="caInclude" name="cainclude_10">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>595</y>
-       <width>117</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(105, 105, 105);</string>
-     </property>
-     <property name="macro">
-      <string notr="true">P=KOZ:,M1=m1,M2=m2,M3=m3,M4=m4,M5=m5,M6=m6</string>
-     </property>
-     <property name="filename" stdset="0">
-      <string notr="true">../motor/motor_all_torque.ui</string>
-     </property>
-    </widget>
     <widget class="caMessageButton" name="camessagebutton">
      <property name="geometry">
       <rect>
@@ -664,7 +645,6 @@
     <zorder>calabel_43</zorder>
     <zorder>calabel_44</zorder>
     <zorder>calabel_45</zorder>
-    <zorder>cainclude_10</zorder>
     <zorder>camessagebutton</zorder>
     <zorder>camessagebutton_2</zorder>
     <zorder>calabel_2</zorder>

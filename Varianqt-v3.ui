@@ -111,7 +111,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -174,7 +174,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1003,7 +1003,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:VarianSync:XSYNC</string>
+      <string notr="true">$(S)XSYNC</string>
      </property>
      <property name="colorMode">
       <enum>caMenu::Static</enum>
@@ -2609,7 +2609,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:VarianSync:ExpOk</string>
+      <string notr="true">$(S)ExpOk</string>
      </property>
      <property name="colorMode">
       <enum>caLed::Static</enum>
@@ -3086,7 +3086,7 @@
       <string>ON</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:VarianSync:DOC</string>
+      <string notr="true">$(S)DOC</string>
      </property>
      <property name="label">
       <string notr="true">ON</string>
@@ -3125,7 +3125,7 @@
       <string>OFF</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:VarianSync:DOC</string>
+      <string notr="true">$(S)DOC</string>
      </property>
      <property name="label">
       <string notr="true">OFF</string>
@@ -3184,7 +3184,7 @@
       <enum>caGraphics::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:VarianSync:DOC</string>
+      <string notr="true">$(S)DOC</string>
      </property>
      <property name="form">
       <enum>caGraphics::Rectangle</enum>
@@ -3254,7 +3254,7 @@
       <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">VPFI:VarianSync:XSYNC_RBV</string>
+      <string notr="true">$(S)XSYNC_RBV</string>
      </property>
      <property name="foreground">
       <color>
