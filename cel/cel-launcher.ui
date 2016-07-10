@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>14</pointsize>
+      <pointsize>18</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -148,13 +148,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Nikon D800;Varian Paxscan 3024M</string>
+     <string notr="true">Nikon D700;Varian Paxscan 3024M</string>
     </property>
     <property name="files">
      <string notr="true">../nikonqt-v3;../Varianqt-v3</string>
     </property>
     <property name="args">
-     <string notr="true">P=CEL:D800:,W=CEL:SCAN:;P=CEL:VARIAN:, R=cam1:, W=CEL:SCAN:, S=CEL:VarianSync:;;</string>
+     <string notr="true">P=CEL:D700:,W=CEL:SCAN:;P=CEL:VARIAN:, R=cam1:, W=CEL:SCAN:, S=CEL:VarianSync:;;</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>

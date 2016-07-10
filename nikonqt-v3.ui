@@ -111,7 +111,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -174,7 +174,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -412,8 +412,8 @@
      </property>
      <property name="font">
       <font>
-       <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -543,7 +543,7 @@
      <property name="font">
       <font>
        <family>Yu Mincho Demibold</family>
-       <pointsize>16</pointsize>
+       <pointsize>17</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1066,8 +1066,8 @@
      </property>
      <property name="font">
       <font>
-       <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -1132,8 +1132,8 @@
      </property>
      <property name="font">
       <font>
-       <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -2017,6 +2017,12 @@
        <height>20</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>13</pointsize>
+      </font>
+     </property>
      <property name="text">
       <string>123</string>
      </property>
@@ -2246,8 +2252,8 @@
      </property>
      <property name="font">
       <font>
-       <family>MS Shell Dlg 2</family>
-       <pointsize>13</pointsize>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="styleSheet">
@@ -2312,8 +2318,8 @@
      </property>
      <property name="font">
       <font>
-       <family>MS Shell Dlg 2</family>
-       <pointsize>15</pointsize>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
       </font>
      </property>
      <property name="styleSheet">
