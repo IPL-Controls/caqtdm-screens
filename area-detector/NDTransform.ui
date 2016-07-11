@@ -1635,9 +1635,9 @@ border-radius: 2px;
     <widget class="caTextEntry" name="caTextEntry_1">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>160</x>
        <y>40</y>
-       <width>71</width>
+       <width>81</width>
        <height>20</height>
       </rect>
      </property>
@@ -1791,9 +1791,9 @@ border-radius: 2px;
     <widget class="caMenu" name="caMenu_3">
      <property name="geometry">
       <rect>
-       <x>155</x>
+       <x>159</x>
        <y>90</y>
-       <width>85</width>
+       <width>81</width>
        <height>20</height>
       </rect>
      </property>
@@ -1822,7 +1822,7 @@ border-radius: 2px;
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>30</y>
+       <y>-50</y>
        <width>161</width>
        <height>91</height>
       </rect>
@@ -1863,9 +1863,9 @@ border-radius: 2px;
     <widget class="caTextEntry" name="caTextEntry_2">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>160</x>
        <y>65</y>
-       <width>71</width>
+       <width>81</width>
        <height>20</height>
       </rect>
      </property>
@@ -1981,22 +1981,5 @@ border-radius: 2px;
   </customwidget>
  </customwidgets>
  <resources/>
- <connections>
-  <connection>
-   <sender>caMenu_0</sender>
-   <signal>currentIndexChanged(int)</signal>
-   <receiver>calabel_8</receiver>
-   <slot>raise()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>220</x>
-     <y>592</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>214</x>
-     <y>619</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

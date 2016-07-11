@@ -7343,41 +7343,6 @@ ABORT</string>
      <enum>caThermo::Channel</enum>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_61">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>648</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>9</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>TIFF1</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caLabel" name="calabel_62">
     <property name="geometry">
      <rect>
@@ -7611,76 +7576,6 @@ ABORT</string>
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_63">
-    <property name="geometry">
-     <rect>
-      <x>25</x>
-      <y>650</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>8</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>ROI 1 </string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_64">
-    <property name="geometry">
-     <rect>
-      <x>345</x>
-      <y>650</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>7</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>PROC1</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caLineEdit" name="caLineEdit_36">
     <property name="geometry">
      <rect>
@@ -7781,41 +7676,6 @@ ABORT</string>
     </property>
     <property name="tiltAngle">
      <number>180</number>
-    </property>
-   </widget>
-   <widget class="caLabel" name="calabel_65">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>688</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>8</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>STATS1</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
     </property>
    </widget>
    <widget class="caLineEdit" name="caLineEdit_37">
@@ -8465,9 +8325,9 @@ ABORT</string>
    <widget class="caRelatedDisplay" name="carelateddisplay_5">
     <property name="geometry">
      <rect>
-      <x>105</x>
+      <x>300</x>
       <y>605</y>
-      <width>91</width>
+      <width>151</width>
       <height>31</height>
      </rect>
     </property>
@@ -8693,7 +8553,7 @@ ABORT</string>
    <widget class="caToggleButton" name="catogglebutton_10">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>625</x>
       <y>688</y>
       <width>21</width>
       <height>20</height>
@@ -8719,7 +8579,7 @@ ABORT</string>
    <widget class="caToggleButton" name="catogglebutton_11">
     <property name="geometry">
      <rect>
-      <x>670</x>
+      <x>675</x>
       <y>650</y>
       <width>21</width>
       <height>20</height>
@@ -9023,45 +8883,10 @@ ABORT</string>
      <enum>caLineEdit::decimal</enum>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_69">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>688</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>8</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>ROI 2 </string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caToggleButton" name="catogglebutton_12">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>485</x>
       <y>690</y>
       <width>21</width>
       <height>20</height>
@@ -9468,41 +9293,6 @@ color: rgb(0, 0, 0);</string>
      <number>180</number>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_93">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>650</y>
-      <width>41</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>9</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>RO 1 </string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caToggleButton" name="catogglebutton_16">
     <property name="geometry">
      <rect>
@@ -9631,41 +9421,6 @@ color: rgb(0, 0, 0);</string>
      <number>180</number>
     </property>
    </widget>
-   <widget class="caLabel" name="calabel_98">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>650</y>
-      <width>51</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>8</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>TRANS1</string>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>0</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color alpha="0">
-      <red>160</red>
-      <green>160</green>
-      <blue>164</blue>
-     </color>
-    </property>
-   </widget>
    <widget class="caToggleButton" name="catogglebutton_17">
     <property name="geometry">
      <rect>
@@ -9692,6 +9447,354 @@ color: rgb(0, 0, 0);</string>
      </color>
     </property>
    </widget>
+   <widget class="caGraphics" name="cagraphics_34">
+    <property name="geometry">
+     <rect>
+      <x>415</x>
+      <y>665</y>
+      <width>57</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="fillstyle" stdset="0">
+     <enum>caGraphics::Filled</enum>
+    </property>
+    <property name="lineSize">
+     <number>2</number>
+    </property>
+    <property name="lineColor">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="visibility">
+     <enum>caGraphics::Calc</enum>
+    </property>
+    <property name="visibilityCalc">
+     <string notr="true">A=1 &amp;&amp; B=1</string>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">VPFI:Qi2:ROI2:EnableCallbacks_RBV</string>
+    </property>
+    <property name="channelB">
+     <string notr="true">VPFI:Qi2:ROI2:ArrayCallbacks_RBV</string>
+    </property>
+    <property name="form">
+     <enum>caGraphics::Line</enum>
+    </property>
+    <property name="arrowSize">
+     <number>20</number>
+    </property>
+    <property name="arrowMode">
+     <enum>caGraphics::Single</enum>
+    </property>
+    <property name="tiltAngle">
+     <number>180</number>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_11">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>640</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="55">
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">TRANS1</string>
+    </property>
+    <property name="files">
+     <string notr="true">../area-detector/NDTransform.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:,R=Trans1:</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::RowColumn</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_16">
+    <property name="geometry">
+     <rect>
+      <x>345</x>
+      <y>640</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="55">
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">PROC1</string>
+    </property>
+    <property name="files">
+     <string notr="true">../area-detector/NDProcess.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:,R=Proc1:</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::RowColumn</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_17">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>640</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="55">
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">TIFF1</string>
+    </property>
+    <property name="files">
+     <string notr="true">../area-detector/NDFileTIFF.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:,R=TIFF1:</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::RowColumn</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_18">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>640</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="55">
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">RO1</string>
+    </property>
+    <property name="files">
+     <string notr="true">../area-detector/NDRemoveOutliers.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:, R=RO1:</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::RowColumn</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_19">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>680</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="55">
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">ROI2</string>
+    </property>
+    <property name="files">
+     <string notr="true">../area-detector/NDROI.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:,R=ROI2:</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::RowColumn</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_20">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>680</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="55">
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">STATS1</string>
+    </property>
+    <property name="files">
+     <string notr="true">../area-detector/NDStats.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:,R=Stats1:</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::RowColumn</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;</string>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_22">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>640</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true"/>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="55">
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">ROI1</string>
+    </property>
+    <property name="files">
+     <string notr="true">../area-detector/NDROI.ui</string>
+    </property>
+    <property name="args">
+     <string notr="true">P=VPFI:Qi2:, R=ROI1:</string>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::RowColumn</enum>
+    </property>
+    <property name="removeParent" stdset="0">
+     <string>false;false;</string>
+    </property>
+   </widget>
    <zorder>cagraphics_5</zorder>
    <zorder>cagraphics_14</zorder>
    <zorder>caFrame_2</zorder>
@@ -9705,17 +9808,13 @@ color: rgb(0, 0, 0);</string>
    <zorder>caLineEdit_31</zorder>
    <zorder>caLineEdit_32</zorder>
    <zorder>calabel_57</zorder>
-   <zorder>calabel_61</zorder>
    <zorder>calabel_62</zorder>
    <zorder>caLineEdit_33</zorder>
    <zorder>caLineEdit_34</zorder>
    <zorder>cagraphics_26</zorder>
    <zorder>caLineEdit_35</zorder>
-   <zorder>calabel_63</zorder>
-   <zorder>calabel_64</zorder>
    <zorder>caLineEdit_36</zorder>
    <zorder>cagraphics_27</zorder>
-   <zorder>calabel_65</zorder>
    <zorder>caLineEdit_37</zorder>
    <zorder>cagraphics_28</zorder>
    <zorder>caLineEdit_38</zorder>
@@ -9744,7 +9843,6 @@ color: rgb(0, 0, 0);</string>
    <zorder>caLineEdit_48</zorder>
    <zorder>calabel_55</zorder>
    <zorder>caLineEdit_50</zorder>
-   <zorder>calabel_69</zorder>
    <zorder>catogglebutton_12</zorder>
    <zorder>calabel_58</zorder>
    <zorder>castripplot_4</zorder>
@@ -9752,12 +9850,18 @@ color: rgb(0, 0, 0);</string>
    <zorder>calabel_92</zorder>
    <zorder>caLineEdit_43</zorder>
    <zorder>cagraphics_32</zorder>
-   <zorder>calabel_93</zorder>
    <zorder>catogglebutton_16</zorder>
    <zorder>caLineEdit_46</zorder>
    <zorder>cagraphics_33</zorder>
-   <zorder>calabel_98</zorder>
    <zorder>catogglebutton_17</zorder>
+   <zorder>cagraphics_34</zorder>
+   <zorder>carelateddisplay_11</zorder>
+   <zorder>carelateddisplay_16</zorder>
+   <zorder>carelateddisplay_17</zorder>
+   <zorder>carelateddisplay_18</zorder>
+   <zorder>carelateddisplay_19</zorder>
+   <zorder>carelateddisplay_20</zorder>
+   <zorder>carelateddisplay_22</zorder>
   </widget>
  </widget>
  <customwidgets>
