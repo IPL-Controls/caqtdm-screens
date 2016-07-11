@@ -1635,14 +1635,14 @@ border-radius: 2px;
     <widget class="caTextEntry" name="caTextEntry_1">
      <property name="geometry">
       <rect>
-       <x>190</x>
+       <x>170</x>
        <y>40</y>
-       <width>51</width>
+       <width>71</width>
        <height>20</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)$(R)NumPixels</string>
+      <string notr="true">$(P)$(R)NumPixelsX</string>
      </property>
      <property name="foreground">
       <color>
@@ -1680,36 +1680,6 @@ border-radius: 2px;
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <widget class="caMenu" name="caMenu_2">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>65</y>
-       <width>31</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)$(R)Direction</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMenu::Static</enum>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>115</red>
-       <green>223</green>
-       <blue>255</blue>
-      </color>
-     </property>
-    </widget>
     <widget class="caLabel" name="caLabel_10">
      <property name="geometry">
       <rect>
@@ -1723,7 +1693,7 @@ border-radius: 2px;
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="text">
-      <string>No. Pixels</string>
+      <string>x (pixels)</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1759,7 +1729,7 @@ border-radius: 2px;
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="text">
-      <string>Direction</string>
+      <string>y (pixels)</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1852,7 +1822,7 @@ border-radius: 2px;
      <property name="geometry">
       <rect>
        <x>90</x>
-       <y>40</y>
+       <y>30</y>
        <width>161</width>
        <height>91</height>
       </rect>
@@ -1861,11 +1831,10 @@ border-radius: 2px;
       <enum>Qt::StrongFocus</enum>
      </property>
      <property name="autoFillBackground">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgba(187, 187, 187, 255); color: rgba(187, 187, 187, 255);
-alternate-background-color: rgb(187, 187, 187);</string>
+      <string notr="true">background-color: rgba(187, 187, 187, 255); color: rgba(187, 187, 187, 255);</string>
      </property>
      <property name="foreground">
       <color>
@@ -1891,6 +1860,80 @@ alternate-background-color: rgb(187, 187, 187);</string>
       <string notr="true">$(P)$(R)Type</string>
      </property>
     </widget>
+    <widget class="caTextEntry" name="caTextEntry_2">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>65</y>
+       <width>71</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)NumPixelsY</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>115</red>
+       <green>223</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="maxValue">
+      <double>1.000000000000000</double>
+     </property>
+     <property name="minValue">
+      <double>0.000000000000000</double>
+     </property>
+     <property name="fontScaleMode" stdset="0">
+      <enum>caLineEdit::WidthAndHeight</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <zorder>caRectangle_1</zorder>
+    <zorder>caLabel_1</zorder>
+    <zorder>caMenu_0</zorder>
+    <zorder>caFrame_2</zorder>
+    <zorder>caFrame_3</zorder>
+    <zorder>caFrame_4</zorder>
+    <zorder>caFrame_5</zorder>
+    <zorder>caLabel_2</zorder>
+    <zorder>caLabel_3</zorder>
+    <zorder>caLabel_4</zorder>
+    <zorder>caLabel_5</zorder>
+    <zorder>caLabel_6</zorder>
+    <zorder>caLabel_7</zorder>
+    <zorder>caLabel_8</zorder>
+    <zorder>caLabel_9</zorder>
+    <zorder>caFrame_6</zorder>
+    <zorder>caFrame_7</zorder>
+    <zorder>caFrame_8</zorder>
+    <zorder>caFrame_9</zorder>
+    <zorder>caTextEntry_1</zorder>
+    <zorder>caLabel_10</zorder>
+    <zorder>caLabel_11</zorder>
+    <zorder>caLabel_12</zorder>
+    <zorder>caMenu_3</zorder>
+    <zorder>caTextEntry_2</zorder>
+    <zorder>calabel_8</zorder>
    </widget>
   </widget>
  </widget>
@@ -1946,12 +1989,12 @@ alternate-background-color: rgb(187, 187, 187);</string>
    <slot>raise()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>197</x>
-     <y>591</y>
+     <x>220</x>
+     <y>592</y>
     </hint>
     <hint type="destinationlabel">
-     <x>194</x>
-     <y>625</y>
+     <x>214</x>
+     <y>619</y>
     </hint>
    </hints>
   </connection>
