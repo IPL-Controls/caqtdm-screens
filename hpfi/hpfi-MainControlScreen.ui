@@ -2032,7 +2032,7 @@
      <property name="geometry">
       <rect>
        <x>465</x>
-       <y>120</y>
+       <y>160</y>
        <width>241</width>
        <height>30</height>
       </rect>
@@ -2720,7 +2720,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
     <widget class="caRelatedDisplay" name="carelateddisplay_4">
      <property name="geometry">
       <rect>
-       <x>480</x>
+       <x>470</x>
        <y>542</y>
        <width>71</width>
        <height>20</height>
@@ -2744,7 +2744,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <string notr="true">SCAN</string>
      </property>
      <property name="files">
-      <string notr="true">pfi-scan.ui</string>
+      <string notr="true">hpfi-scan.ui</string>
      </property>
      <property name="args">
       <string notr="true">W=HPFI:SCAN:, CONFIG=scan</string>
@@ -3059,15 +3059,15 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
     <widget class="caLabel" name="calabel_77">
      <property name="geometry">
       <rect>
-       <x>470</x>
-       <y>280</y>
-       <width>131</width>
+       <x>465</x>
+       <y>250</y>
+       <width>81</width>
        <height>21</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <pointsize>10</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3095,7 +3095,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>570</x>
-       <y>280</y>
+       <y>250</y>
        <width>51</width>
        <height>20</height>
       </rect>
@@ -3143,7 +3143,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>465</x>
-       <y>152</y>
+       <y>195</y>
        <width>241</width>
        <height>21</height>
       </rect>
@@ -3243,7 +3243,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>630</x>
-       <y>280</y>
+       <y>250</y>
        <width>71</width>
        <height>20</height>
       </rect>
@@ -3285,7 +3285,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>465</x>
-       <y>175</y>
+       <y>225</y>
        <width>141</width>
        <height>21</height>
       </rect>
@@ -3320,7 +3320,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>605</x>
-       <y>175</y>
+       <y>225</y>
        <width>21</width>
        <height>20</height>
       </rect>
@@ -3346,7 +3346,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>630</x>
-       <y>175</y>
+       <y>225</y>
        <width>71</width>
        <height>20</height>
       </rect>
@@ -4678,9 +4678,9 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>460</x>
-       <y>115</y>
+       <y>120</y>
        <width>251</width>
-       <height>301</height>
+       <height>261</height>
       </rect>
      </property>
      <property name="foreground">
@@ -5005,10 +5005,10 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
       <string notr="true">ERROR LOG</string>
      </property>
      <property name="files">
-      <string notr="true">pfi-verifyLog.ui</string>
+      <string notr="true">hpfi-verifyLog.ui</string>
      </property>
      <property name="args">
-      <string notr="true">P=PFI:</string>
+      <string notr="true">P=HPFI:</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::RowColumn</enum>
@@ -5175,212 +5175,6 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
        <red>0</red>
        <green>0</green>
        <blue>0</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="caMessageButton_39">
-     <property name="geometry">
-      <rect>
-       <x>465</x>
-       <y>200</y>
-       <width>241</width>
-       <height>30</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>11</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>ACQUIRE FLAT</string>
-     </property>
-     <property name="fontScaleMode">
-      <enum>EPushButton::WidthAndHeight</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">HPFI:Qi2:START_FLAT</string>
-     </property>
-     <property name="label">
-      <string notr="true">ACQUIRE FLAT</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true">0</string>
-     </property>
-     <property name="pressMessage">
-      <string>1</string>
-     </property>
-     <property name="colorMode">
-      <enum>caMessageButton::Static</enum>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="caLineEdit_49">
-     <property name="geometry">
-      <rect>
-       <x>465</x>
-       <y>232</y>
-       <width>241</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>123</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">HPFI:Qi2:FLAT_STATUS</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="limitsMode">
-      <enum>caLineEdit::Channel</enum>
-     </property>
-     <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::WidthAndHeight</enum>
-     </property>
-     <property name="formatType">
-      <enum>caLineEdit::decimal</enum>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_7">
-     <property name="geometry">
-      <rect>
-       <x>605</x>
-       <y>255</y>
-       <width>21</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(169, 209, 239, 25);</string>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">Qi2:Proc1:EnableFlatField</string>
-     </property>
-     <property name="background">
-      <color>
-       <red>169</red>
-       <green>209</green>
-       <blue>239</blue>
-      </color>
-     </property>
-    </widget>
-    <widget class="caLineEdit" name="caLineEdit_51">
-     <property name="geometry">
-      <rect>
-       <x>630</x>
-       <y>255</y>
-       <width>71</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>123</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">HPFI:Qi2:Proc1:EnableFlatField_RBV</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>170</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="colorMode">
-      <enum>caLineEdit::Static</enum>
-     </property>
-     <property name="fontScaleMode" stdset="0">
-      <enum>caLineEdit::WidthAndHeight</enum>
-     </property>
-     <property name="formatType">
-      <enum>caLineEdit::decimal</enum>
-     </property>
-    </widget>
-    <widget class="caLabel" name="calabel_80">
-     <property name="geometry">
-      <rect>
-       <x>465</x>
-       <y>255</y>
-       <width>141</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>10</pointsize>
-      </font>
-     </property>
-     <property name="text">
-      <string>USE FLAT FRAME:</string>
-     </property>
-     <property name="alignment">
-      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="0">
-       <red>160</red>
-       <green>160</green>
-       <blue>164</blue>
       </color>
      </property>
     </widget>
@@ -5681,7 +5475,7 @@ P=HPFI:SCAN:,CONFIG=scan;</string>
      <property name="geometry">
       <rect>
        <x>660</x>
-       <y>570</y>
+       <y>575</y>
        <width>41</width>
        <height>111</height>
       </rect>
@@ -5734,7 +5528,7 @@ T</string>
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>310</y>
+       <y>275</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -5768,7 +5562,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>335</y>
+       <y>300</y>
        <width>111</width>
        <height>21</height>
       </rect>
@@ -5801,7 +5595,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>360</y>
+       <y>325</y>
        <width>111</width>
        <height>20</height>
       </rect>
@@ -5849,7 +5643,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>590</x>
-       <y>385</y>
+       <y>350</y>
        <width>110</width>
        <height>20</height>
       </rect>
@@ -5897,7 +5691,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>465</x>
-       <y>310</y>
+       <y>275</y>
        <width>121</width>
        <height>21</height>
       </rect>
@@ -5931,8 +5725,8 @@ color: rgb(0, 0, 0);</string>
     <widget class="caLabel" name="calabel_97">
      <property name="geometry">
       <rect>
-       <x>470</x>
-       <y>330</y>
+       <x>465</x>
+       <y>300</y>
        <width>121</width>
        <height>21</height>
       </rect>
@@ -5967,7 +5761,7 @@ color: rgb(0, 0, 0);</string>
      <property name="geometry">
       <rect>
        <x>465</x>
-       <y>360</y>
+       <y>325</y>
        <width>121</width>
        <height>21</height>
       </rect>
@@ -6001,8 +5795,8 @@ color: rgb(0, 0, 0);</string>
     <widget class="caLabel" name="calabel_96">
      <property name="geometry">
       <rect>
-       <x>470</x>
-       <y>380</y>
+       <x>465</x>
+       <y>350</y>
        <width>121</width>
        <height>21</height>
       </rect>
@@ -6542,6 +6336,76 @@ color: rgb(0, 0, 0);</string>
       <string>false;false;</string>
      </property>
     </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>130</y>
+       <width>231</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255, 50);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="lineWidth">
+      <number>2</number>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="carelateddisplay_9">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>132</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="label">
+      <string notr="true">CORRECTIONS</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="55">
+       <red>255</red>
+       <green>0</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string notr="true">CORRECTIONS</string>
+     </property>
+     <property name="files">
+      <string notr="true"/>
+     </property>
+     <property name="args">
+      <string notr="true"/>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::RowColumn</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false;false;</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_8</zorder>
     <zorder>cagraphics</zorder>
@@ -6666,11 +6530,6 @@ color: rgb(0, 0, 0);</string>
     <zorder>calabel_73</zorder>
     <zorder>calabel_38</zorder>
     <zorder>calabel_71</zorder>
-    <zorder>caMessageButton_39</zorder>
-    <zorder>caLineEdit_49</zorder>
-    <zorder>catogglebutton_7</zorder>
-    <zorder>caLineEdit_51</zorder>
-    <zorder>calabel_80</zorder>
     <zorder>camenu_8</zorder>
     <zorder>calabel_18</zorder>
     <zorder>caLineEdit_15</zorder>
@@ -6699,6 +6558,8 @@ color: rgb(0, 0, 0);</string>
     <zorder>calabel_20</zorder>
     <zorder>calabel_23</zorder>
     <zorder>carelateddisplay_22</zorder>
+    <zorder>label_12</zorder>
+    <zorder>carelateddisplay_9</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -6916,7 +6777,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -6964,7 +6825,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7923,7 +7784,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>7</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -8373,7 +8234,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8540,7 +8401,7 @@ color: rgb(0, 0, 0);</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
