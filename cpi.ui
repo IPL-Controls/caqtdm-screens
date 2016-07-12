@@ -748,58 +748,6 @@
      </color>
     </property>
    </widget>
-   <widget class="caFrame" name="caframe_3">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>630</y>
-      <width>151</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="background">
-     <color alpha="125">
-      <red>109</red>
-      <green>109</green>
-      <blue>112</blue>
-     </color>
-    </property>
-    <property name="backgroundMode">
-     <enum>caFrame::Filled</enum>
-    </property>
-    <property name="visibility">
-     <enum>caFrame::Calc</enum>
-    </property>
-    <property name="visibilityCalc">
-     <string notr="true">A==1</string>
-    </property>
-    <property name="channel" stdset="0">
-     <string notr="true">cpiSync:RadReadyOut </string>
-    </property>
-    <widget class="caToggleButton" name="catogglebutton_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>131</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Expose</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(S):Expose</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>173</red>
-       <green>173</green>
-       <blue>173</blue>
-      </color>
-     </property>
-    </widget>
-   </widget>
    <widget class="caFrame" name="caframe_4">
     <property name="geometry">
      <rect>
@@ -2862,6 +2810,29 @@
       </color>
      </property>
     </widget>
+    <widget class="caToggleButton" name="catogglebutton_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Expose</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(S):Expose</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>173</red>
+       <green>173</green>
+       <blue>173</blue>
+      </color>
+     </property>
+    </widget>
    </widget>
    <widget class="caLabel" name="calabel_75">
     <property name="geometry">
@@ -3860,6 +3831,7 @@
     <zorder>calabel_95</zorder>
     <zorder>caLineEdit_41</zorder>
     <zorder>calabel_84</zorder>
+    <zorder>catogglebutton_2</zorder>
    </widget>
    <widget class="caLabel" name="calabel_78">
     <property name="geometry">
@@ -3958,7 +3930,6 @@
    <zorder>caMessageButton_29</zorder>
    <zorder>caMessageButton_30</zorder>
    <zorder>calabel_36</zorder>
-   <zorder>caframe_3</zorder>
    <zorder>calabel_69</zorder>
    <zorder>caframe_4</zorder>
    <zorder>caLineEdit_39</zorder>
