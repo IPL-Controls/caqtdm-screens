@@ -795,7 +795,7 @@
       <string notr="true">Allowed Values</string>
      </property>
      <property name="files">
-      <string notr="true">cpiAllowedValues.ui</string>
+      <string notr="true">cpi-allowed_values</string>
      </property>
      <property name="args">
       <string notr="true"/>
@@ -3831,7 +3831,6 @@
     <zorder>calabel_95</zorder>
     <zorder>caLineEdit_41</zorder>
     <zorder>calabel_84</zorder>
-    <zorder>catogglebutton_2</zorder>
    </widget>
    <widget class="caLabel" name="calabel_78">
     <property name="geometry">
