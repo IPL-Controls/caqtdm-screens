@@ -288,7 +288,7 @@
      <string notr="true">Micro focus X-ray;Fixed Anode X-ray</string>
     </property>
     <property name="files">
-     <string notr="true">../OX96000qt;../xray-1.1</string>
+     <string notr="true">../OX96000qt;../sri.ui</string>
     </property>
     <property name="args">
      <string notr="true">P=RAD:OXFORD:xray:;P=RAD:SRI:xray</string>
