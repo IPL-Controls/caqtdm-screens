@@ -151,7 +151,7 @@
      <string notr="true">SIM:DET:cam1;SIM:Qi2:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../area-detector/simDetector.ui;soft-qi2.ui</string>
+     <string notr="true">../area-detector/simDetector.ui;../nikonqi2-slim.ui</string>
     </property>
     <property name="args">
      <string notr="true">P=SIM:DET:,R=cam1:;P=SIM:Qi2:,R=cam1:;</string>

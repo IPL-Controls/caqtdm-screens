@@ -66,10 +66,10 @@
     </property>
     <property name="font">
      <font>
-      <family>MS Shell Dlg 2</family>
+      <family>Times New Roman</family>
       <pointsize>9</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="cursor">
@@ -285,10 +285,10 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Micro focus X-ray;Fixed Anode X-ray</string>
+     <string notr="true">OXFORD;SRI</string>
     </property>
     <property name="files">
-     <string notr="true">../OX96000qt;../sri.ui</string>
+     <string notr="true">../oxford.ui;../sri.ui</string>
     </property>
     <property name="args">
      <string notr="true">P=RAD:OXFORD:xray:;P=RAD:SRI:xray</string>

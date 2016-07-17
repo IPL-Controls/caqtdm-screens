@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>18</pointsize>
+      <pointsize>14</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -151,12 +151,12 @@
      <string notr="true">IPL:SRI:xray</string>
     </property>
     <property name="files">
-     <string notr="true">../SB801Kqt</string>
+     <string notr="true">../sri.ui</string>
     </property>
     <property name="args">
      <string notr="true">P=IPL:SRI:xray:</string>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
@@ -215,7 +215,7 @@
      <string notr="true">P=IPL:D800:cam1:, W=IPL-2:SCAN:;P=PI4096:,R=cam1:,W=IPL-2:SCAN:;P=IPL:D3X:cam1:,W=IPL-2:SCAN:
 </string>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
@@ -342,7 +342,7 @@
     <property name="args">
      <string notr="true">W=IPL:SCAN:, CONFIG=scan</string>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
@@ -436,7 +436,7 @@
     <property name="args">
      <string notr="true">P=IPL:SRS:awg:</string>
     </property>
-    <property name="fontScaleMode">
+    <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
     </property>
     <property name="stackingMode" stdset="0">
