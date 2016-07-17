@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>18</pointsize>
+      <pointsize>14</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -477,13 +477,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">SRI;OXFORD</string>
+     <string notr="true">OXFORD</string>
     </property>
     <property name="files">
-     <string notr="true">../SB801Kqt.ui;../OX96000qt.ui</string>
+     <string notr="true">../oxford.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=VPFI:SRI:xray:;P=VPFI:OXFORD:xray:</string>
+     <string notr="true">P=VPFI:OXFORD:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
