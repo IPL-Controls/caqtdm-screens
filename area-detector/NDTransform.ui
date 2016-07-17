@@ -1635,9 +1635,9 @@ border-radius: 2px;
     <widget class="caTextEntry" name="caTextEntry_1">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>195</x>
        <y>40</y>
-       <width>81</width>
+       <width>45</width>
        <height>20</height>
       </rect>
      </property>
@@ -1685,7 +1685,7 @@ border-radius: 2px;
       <rect>
        <x>95</x>
        <y>40</y>
-       <width>71</width>
+       <width>101</width>
        <height>20</height>
       </rect>
      </property>
@@ -1693,7 +1693,7 @@ border-radius: 2px;
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="text">
-      <string>x (pixels)</string>
+      <string>X Offset (pixels)</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1721,7 +1721,7 @@ border-radius: 2px;
       <rect>
        <x>95</x>
        <y>65</y>
-       <width>61</width>
+       <width>111</width>
        <height>20</height>
       </rect>
      </property>
@@ -1729,7 +1729,7 @@ border-radius: 2px;
       <enum>QFrame::NoFrame</enum>
      </property>
      <property name="text">
-      <string>y (pixels)</string>
+      <string>Y Offset (pixels)</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignAbsolute|Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -1791,9 +1791,9 @@ border-radius: 2px;
     <widget class="caMenu" name="caMenu_3">
      <property name="geometry">
       <rect>
-       <x>159</x>
+       <x>155</x>
        <y>90</y>
-       <width>81</width>
+       <width>85</width>
        <height>20</height>
       </rect>
      </property>
@@ -1818,54 +1818,12 @@ border-radius: 2px;
       </color>
      </property>
     </widget>
-    <widget class="caLabel" name="calabel_8">
-     <property name="geometry">
-      <rect>
-       <x>90</x>
-       <y>-50</y>
-       <width>161</width>
-       <height>91</height>
-      </rect>
-     </property>
-     <property name="focusPolicy">
-      <enum>Qt::StrongFocus</enum>
-     </property>
-     <property name="autoFillBackground">
-      <bool>false</bool>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(187, 187, 187, 255); color: rgba(187, 187, 187, 255);</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>187</red>
-       <green>187</green>
-       <blue>187</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>187</red>
-       <green>187</green>
-       <blue>187</blue>
-      </color>
-     </property>
-     <property name="visibility">
-      <enum>caLabel::Calc</enum>
-     </property>
-     <property name="visibilityCalc">
-      <string notr="true">A!=8</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(P)$(R)Type</string>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="caTextEntry_2">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>195</x>
        <y>65</y>
-       <width>81</width>
+       <width>45</width>
        <height>20</height>
       </rect>
      </property>
@@ -1908,32 +1866,48 @@ border-radius: 2px;
       <enum>caLineEdit::decimal</enum>
      </property>
     </widget>
-    <zorder>caRectangle_1</zorder>
-    <zorder>caLabel_1</zorder>
-    <zorder>caMenu_0</zorder>
-    <zorder>caFrame_2</zorder>
-    <zorder>caFrame_3</zorder>
-    <zorder>caFrame_4</zorder>
-    <zorder>caFrame_5</zorder>
-    <zorder>caLabel_2</zorder>
-    <zorder>caLabel_3</zorder>
-    <zorder>caLabel_4</zorder>
-    <zorder>caLabel_5</zorder>
-    <zorder>caLabel_6</zorder>
-    <zorder>caLabel_7</zorder>
-    <zorder>caLabel_8</zorder>
-    <zorder>caLabel_9</zorder>
-    <zorder>caFrame_6</zorder>
-    <zorder>caFrame_7</zorder>
-    <zorder>caFrame_8</zorder>
-    <zorder>caFrame_9</zorder>
-    <zorder>caTextEntry_1</zorder>
-    <zorder>caLabel_10</zorder>
-    <zorder>caLabel_11</zorder>
-    <zorder>caLabel_12</zorder>
-    <zorder>caMenu_3</zorder>
-    <zorder>caTextEntry_2</zorder>
-    <zorder>calabel_8</zorder>
+    <widget class="caLabel" name="calabel_8">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>30</y>
+       <width>161</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(187, 187, 187, 255); color: rgba(187, 187, 187, 255);</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>187</red>
+       <green>187</green>
+       <blue>187</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>187</red>
+       <green>187</green>
+       <blue>187</blue>
+      </color>
+     </property>
+     <property name="visibility">
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A!=8</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">$(P)$(R)Type</string>
+     </property>
+    </widget>
    </widget>
   </widget>
  </widget>
@@ -1981,5 +1955,22 @@ border-radius: 2px;
   </customwidget>
  </customwidgets>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>caMenu_0</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>calabel_8</receiver>
+   <slot>raise()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>593</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>182</x>
+     <y>622</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
