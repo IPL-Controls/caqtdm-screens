@@ -339,7 +339,7 @@
      <string notr="true">../cpi.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=CEL:CPI:xray</string>
+     <string notr="true">P=CEL:CPI:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
