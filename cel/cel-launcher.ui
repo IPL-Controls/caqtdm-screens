@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>18</pointsize>
+      <pointsize>14</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -339,7 +339,7 @@
      <string notr="true">../cpi.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=CEL:CPI:xray:</string>
+     <string notr="true">P=CEL:CPI:xray:,S=CEL:cpiSync:;</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>

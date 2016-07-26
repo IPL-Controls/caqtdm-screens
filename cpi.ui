@@ -2677,7 +2677,7 @@
       <string>Rad Prep</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)RadPrep</string>
+      <string notr="true">$(S)RAD_PREP</string>
      </property>
      <property name="foreground">
       <color>
@@ -2700,7 +2700,7 @@
       <string>Expose</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)Expose</string>
+      <string notr="true">$(S)EXPOSE</string>
      </property>
      <property name="foreground">
       <color>
@@ -2723,7 +2723,7 @@
       <string>Photospot</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)PhotospotIn</string>
+      <string notr="true">$(S)PhotoSpotIn</string>
      </property>
      <property name="foreground">
       <color>
@@ -2935,7 +2935,7 @@
       <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)RadPrepOut</string>
+      <string notr="true">$(S)RAD_PREP_RBV</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_48">
@@ -2976,10 +2976,16 @@
       </color>
      </property>
      <property name="visibility">
-      <enum>caLabel::IfNotZero</enum>
+      <enum>caLabel::Calc</enum>
+     </property>
+     <property name="visibilityCalc">
+      <string notr="true">A=1 || B=2</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)RadReadyOut</string>
+      <string notr="true">$(S)RAD_READY_RBV</string>
+     </property>
+     <property name="channelB">
+      <string notr="true">$(P)RadPrep</string>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_65">
@@ -3023,7 +3029,7 @@
       <enum>caLabel::IfNotZero</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)ExposeOut</string>
+      <string notr="true">$(S)EXPOSE_RBV</string>
      </property>
     </widget>
     <widget class="caMessageButton" name="camessagebutton_8">
@@ -3230,7 +3236,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)TimeSinceLastExposure</string>
+      <string notr="true">$(S)LAST_EXPOSURE_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -3525,7 +3531,7 @@
       </color>
      </property>
      <property name="colorMode">
-      <enum>caLineEdit::Alarm_Static</enum>
+      <enum>caLineEdit::Static</enum>
      </property>
      <property name="framePresent" stdset="0">
       <bool>true</bool>
@@ -3586,7 +3592,7 @@
       <string notr="true"/>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)RadPrepOut</string>
+      <string notr="true">$(S)RAD_PREP_RBV</string>
      </property>
      <property name="channelB">
       <string notr="true"/>
@@ -3640,7 +3646,7 @@
       <string notr="true"/>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)RadReadyOut</string>
+      <string notr="true">$(S)RAD_READY_RBV</string>
      </property>
      <property name="channelB">
       <string notr="true"/>
@@ -3656,29 +3662,6 @@
      </property>
      <property name="tiltAngle">
       <number>180</number>
-     </property>
-    </widget>
-    <widget class="caToggleButton" name="catogglebutton_4">
-     <property name="geometry">
-      <rect>
-       <x>15</x>
-       <y>675</y>
-       <width>161</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Document</string>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">$(S)DOC</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
      </property>
     </widget>
     <widget class="caGraphics" name="cagraphics_4">
@@ -3767,9 +3750,9 @@
       <enum>caGraphics::Rectangle</enum>
      </property>
     </widget>
+    <zorder>cagraphics_4</zorder>
     <zorder>cagraphics_3</zorder>
     <zorder>cagraphics_2</zorder>
-    <zorder>cagraphics_4</zorder>
     <zorder>cagraphics_5</zorder>
     <zorder>calabel</zorder>
     <zorder>calabel_2</zorder>
@@ -3845,7 +3828,6 @@
     <zorder>calineedit_17</zorder>
     <zorder>cagraphics_33</zorder>
     <zorder>cagraphics_34</zorder>
-    <zorder>catogglebutton_4</zorder>
    </widget>
   </widget>
  </widget>
