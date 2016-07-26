@@ -1627,7 +1627,7 @@
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgba(169, 209, 239, 25);</string>
+      <string notr="true">background-color: rgba(169, 209, 239, 0);</string>
      </property>
      <property name="text">
       <string>AUTO SAVE</string>
@@ -7062,7 +7062,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7110,7 +7110,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7798,7 +7798,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>8</pointsize>
+      <pointsize>7</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -8251,7 +8251,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8418,7 +8418,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>9</pointsize>
      </font>
     </property>
     <property name="text">
