@@ -1778,7 +1778,7 @@
       </color>
      </property>
      <property name="precision">
-      <number>2</number>
+      <number>0</number>
      </property>
      <property name="precisionMode">
       <enum>caLineEdit::Channel</enum>
