@@ -1704,7 +1704,7 @@
       <string>Fluoro Expose</string>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(S)FluoroIn</string>
+      <string notr="true">$(S)FLUORO</string>
      </property>
      <property name="foreground">
       <color>
