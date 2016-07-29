@@ -45,7 +45,7 @@
      <property name="font">
       <font>
        <family>Times New Roman</family>
-       <pointsize>19</pointsize>
+       <pointsize>15</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -560,7 +560,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -623,7 +623,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -686,7 +686,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -749,7 +749,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -812,7 +812,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -875,7 +875,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -938,7 +938,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1001,7 +1001,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1064,7 +1064,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1127,7 +1127,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1190,7 +1190,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1253,7 +1253,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1316,7 +1316,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1379,7 +1379,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1442,7 +1442,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1739,7 +1739,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>13</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1778,10 +1778,10 @@
       </color>
      </property>
      <property name="precision">
-      <number>0</number>
+      <number>2</number>
      </property>
      <property name="precisionMode">
-      <enum>caLineEdit::Channel</enum>
+      <enum>caLineEdit::User</enum>
      </property>
      <property name="unitsEnabled">
       <bool>true</bool>
