@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>746</width>
-    <height>776</height>
+    <height>773</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -5464,13 +5464,13 @@ T</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>8</pointsize>
+       <pointsize>7</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string>SINGLE EXPOSURE</string>
+      <string>SINGLE HARD EXPOSE</string>
      </property>
      <property name="iconSize">
       <size>
@@ -6478,7 +6478,7 @@ T</string>
      <property name="foreground">
       <color>
        <red>0</red>
-       <green>255</green>
+       <green>170</green>
        <blue>0</blue>
       </color>
      </property>
@@ -6684,6 +6684,61 @@ ABORT</string>
       <string>false;false;</string>
      </property>
     </widget>
+    <widget class="caMessageButton" name="camessagebutton_5">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>800</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>SINGLE LIVE EXPOSE</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>13</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">VPFI:NikonKsSync:LIVE_TRIGGER</string>
+     </property>
+     <property name="label">
+      <string notr="true">SINGLE EXPOSURE</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>171</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="releaseMessage">
+      <string notr="true"/>
+     </property>
+     <property name="pressMessage">
+      <string notr="true">1</string>
+     </property>
+    </widget>
     <zorder>cagraphics_2</zorder>
     <zorder>cagraphics_7</zorder>
     <zorder>cagraphics_13</zorder>
@@ -6845,6 +6900,7 @@ ABORT</string>
     <zorder>catogglebutton_15</zorder>
     <zorder>camessagebutton_4</zorder>
     <zorder>carelateddisplay_9</zorder>
+    <zorder>camessagebutton_5</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="MONITOR">
@@ -7062,7 +7118,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7110,7 +7166,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -7798,7 +7854,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>7</pointsize>
+      <pointsize>8</pointsize>
      </font>
     </property>
     <property name="inputMask">
@@ -8251,7 +8307,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8418,7 +8474,7 @@ ABORT</string>
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
      </font>
     </property>
     <property name="text">
@@ -8990,16 +9046,16 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::Second</enum>
     </property>
     <property name="period">
-     <double>10.000000000000000</double>
+     <double>6.000000000000000</double>
     </property>
     <property name="refreshRate" stdset="0">
-     <enum>caStripPlot::Medium</enum>
+     <enum>caStripPlot::Low</enum>
     </property>
     <property name="XaxisType">
      <enum>caStripPlot::TimeScale</enum>
     </property>
     <property name="numberOfXticks" stdset="0">
-     <number>8</number>
+     <number>10</number>
     </property>
     <property name="YAxisScaling" stdset="0">
      <enum>caStripPlot::autoScale</enum>
@@ -9033,10 +9089,10 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::Channel</enum>
     </property>
     <property name="Style_2">
-     <enum>caStripPlot::Lines</enum>
+     <enum>caStripPlot::FillUnder</enum>
     </property>
     <property name="color_2">
-     <color alpha="150">
+     <color alpha="50">
       <red>0</red>
       <green>0</green>
       <blue>255</blue>
@@ -9052,7 +9108,7 @@ color: rgb(0, 0, 0);</string>
      <enum>caStripPlot::Channel</enum>
     </property>
     <property name="Style_3">
-     <enum>caStripPlot::Lines</enum>
+     <enum>caStripPlot::FillUnder</enum>
     </property>
     <property name="color_3">
      <color alpha="150">
@@ -9108,9 +9164,9 @@ color: rgb(0, 0, 0);</string>
    <widget class="caLineEdit" name="caLineEdit_52">
     <property name="geometry">
      <rect>
-      <x>600</x>
+      <x>570</x>
       <y>70</y>
-      <width>101</width>
+      <width>131</width>
       <height>20</height>
      </rect>
     </property>
@@ -9144,7 +9200,7 @@ color: rgb(0, 0, 0);</string>
      <number>4</number>
     </property>
     <property name="precisionMode">
-     <enum>caLineEdit::User</enum>
+     <enum>caLineEdit::Channel</enum>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>caLineEdit::WidthAndHeight</enum>
@@ -9159,7 +9215,7 @@ color: rgb(0, 0, 0);</string>
    <widget class="caLabel" name="calabel_92">
     <property name="geometry">
      <rect>
-      <x>430</x>
+      <x>400</x>
       <y>70</y>
       <width>171</width>
       <height>21</height>
@@ -9795,6 +9851,351 @@ color: rgb(0, 0, 0);</string>
      <string>false;false;</string>
     </property>
    </widget>
+   <widget class="caLineEdit" name="caLineEdit_54">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>95</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>123</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">VPFI:NikonKsSync:DUTYCYCLE_RBV</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+    <property name="precision">
+     <number>4</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::Channel</enum>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::WidthAndHeight</enum>
+    </property>
+    <property name="unitsEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::decimal</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_93">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>95</y>
+      <width>171</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>DUTY CYCLE</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_98">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>120</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ACQUIRE TIME</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="caLineEdit_55">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>120</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>123</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">VPFI:NikonKsSync:ACQUIRE_RBV</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+    <property name="precision">
+     <number>4</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::Channel</enum>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::WidthAndHeight</enum>
+    </property>
+    <property name="unitsEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::decimal</enum>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="caLineEdit_56">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>145</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>123</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">VPFI:NikonKsSync:IDLE_RBV</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+    <property name="precision">
+     <number>4</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::Channel</enum>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::WidthAndHeight</enum>
+    </property>
+    <property name="unitsEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::decimal</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_99">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>145</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>IDLE TIME</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
+   <widget class="caLineEdit" name="caLineEdit_57">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>180</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>123</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">VPFI:NikonKsSync:TRIGGER_ACQUIRE_DELAY_RBV</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="colorMode">
+     <enum>caLineEdit::Static</enum>
+    </property>
+    <property name="precision">
+     <number>4</number>
+    </property>
+    <property name="precisionMode">
+     <enum>caLineEdit::Channel</enum>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>caLineEdit::WidthAndHeight</enum>
+    </property>
+    <property name="unitsEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="formatType">
+     <enum>caLineEdit::decimal</enum>
+    </property>
+   </widget>
+   <widget class="caLabel" name="calabel_100">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>170</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TRIGGER-&gt;
+ACQUIRE DELAY</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color alpha="0">
+      <red>255</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </widget>
    <zorder>cagraphics_5</zorder>
    <zorder>cagraphics_14</zorder>
    <zorder>caFrame_2</zorder>
@@ -9862,6 +10263,14 @@ color: rgb(0, 0, 0);</string>
    <zorder>carelateddisplay_19</zorder>
    <zorder>carelateddisplay_20</zorder>
    <zorder>carelateddisplay_22</zorder>
+   <zorder>caLineEdit_54</zorder>
+   <zorder>calabel_93</zorder>
+   <zorder>calabel_98</zorder>
+   <zorder>caLineEdit_55</zorder>
+   <zorder>caLineEdit_56</zorder>
+   <zorder>calabel_99</zorder>
+   <zorder>caLineEdit_57</zorder>
+   <zorder>calabel_100</zorder>
   </widget>
   <widget class="QWidget" name="tab_2">
    <property name="styleSheet">
