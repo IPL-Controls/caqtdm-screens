@@ -1277,9 +1277,9 @@
     <widget class="caTextEntry" name="caTextEntry_21">
      <property name="geometry">
       <rect>
-       <x>120</x>
+       <x>145</x>
        <y>300</y>
-       <width>61</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -1325,9 +1325,9 @@
     <widget class="caTextEntry" name="caTextEntry_22">
      <property name="geometry">
       <rect>
-       <x>120</x>
+       <x>145</x>
        <y>325</y>
-       <width>61</width>
+       <width>51</width>
        <height>21</height>
       </rect>
      </property>
@@ -1460,9 +1460,9 @@
     <widget class="caMenu" name="camenu_4">
      <property name="geometry">
       <rect>
-       <x>120</x>
+       <x>145</x>
        <y>350</y>
-       <width>151</width>
+       <width>126</width>
        <height>21</height>
       </rect>
      </property>
@@ -1539,7 +1539,7 @@
       <rect>
        <x>30</x>
        <y>325</y>
-       <width>81</width>
+       <width>121</width>
        <height>21</height>
       </rect>
      </property>
@@ -1549,7 +1549,7 @@
       </font>
      </property>
      <property name="text">
-      <string>EXP TIME</string>
+      <string>ACQUIRE TIME</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -5464,13 +5464,13 @@ T</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>8</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string>SINGLE HARD EXPOSE</string>
+      <string>SINGLE EXPOSURE</string>
      </property>
      <property name="iconSize">
       <size>
@@ -6695,13 +6695,13 @@ ABORT</string>
      </property>
      <property name="font">
       <font>
-       <pointsize>7</pointsize>
+       <pointsize>8</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
      </property>
      <property name="text">
-      <string>SINGLE LIVE EXPOSE</string>
+      <string>SINGLE EXPOSURE</string>
      </property>
      <property name="iconSize">
       <size>
@@ -10365,9 +10365,9 @@ ACQUIRE DELAY</string>
    <widget class="caCamera" name="cacamera">
     <property name="geometry">
      <rect>
-      <x>65</x>
+      <x>85</x>
       <y>80</y>
-      <width>651</width>
+      <width>631</width>
       <height>391</height>
      </rect>
     </property>
