@@ -248,7 +248,7 @@
      <string notr="true">../oxford.ui;../sri.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=XRM:OXFORD:xray:;P=XRM:SRI:xray</string>
+     <string notr="true">P=XRM:OXFORD:xray:;P=XRM:SRI:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>

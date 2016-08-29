@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>814</width>
-    <height>403</height>
+    <height>243</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>40</y>
       <width>801</width>
-      <height>331</height>
+      <height>171</height>
      </rect>
     </property>
     <property name="foreground">
@@ -371,23 +371,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=XRM:SRI:xray</string>
-    </property>
-    <property name="filename" stdset="0">
-     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-    </property>
-   </widget>
-   <widget class="caInclude" name="cainclude_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>250</y>
-      <width>711</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="macro">
-     <string notr="true">ioc=RAD</string>
+     <string notr="true">ioc=XRM:NEWPORT</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -419,7 +403,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=XRM:NEWPORT</string>
+     <string notr="true">ioc=XRM:D700</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -435,7 +419,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="macro">
-     <string notr="true">ioc=XRM:OXFORD:xray</string>
+     <string notr="true">ioc=XRM:SRI:xray</string>
     </property>
     <property name="filename" stdset="0">
      <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
@@ -471,7 +455,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">putty -telnet 192.168.1.100 2000</string>
+     <string notr="true">putty -telnet 192.168.1.110 2000</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -510,7 +494,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.100 2001</string>
+     <string notr="true">putty -telnet 192.168.1.110 2001</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_4">
@@ -546,7 +530,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.100 2002</string>
+     <string notr="true">putty -telnet 192.168.1.110 2002</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_5">
@@ -582,43 +566,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.100 2003</string>
-    </property>
-   </widget>
-   <widget class="caShellCommand" name="cashellcommand_7">
-    <property name="geometry">
-     <rect>
-      <x>730</x>
-      <y>220</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-2004</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>16</red>
-      <green>147</green>
-      <blue>239</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true"/>
-    </property>
-    <property name="args">
-     <string notr="true">putty -telnet 192.168.1.100 2004</string>
+     <string notr="true">putty -telnet localhost 2003</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_10">
@@ -667,58 +615,6 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </color>
     </property>
    </widget>
-   <widget class="caInclude" name="cainclude_14">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>290</y>
-      <width>711</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="macro">
-     <string notr="true">ioc=RAD:VARIAN</string>
-    </property>
-    <property name="filename" stdset="0">
-     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-    </property>
-   </widget>
-   <widget class="caShellCommand" name="cashellcommand_8">
-    <property name="geometry">
-     <rect>
-      <x>730</x>
-      <y>260</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-2005</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>16</red>
-      <green>147</green>
-      <blue>239</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true"/>
-    </property>
-    <property name="args">
-     <string notr="true">putty -telnet localhost 2005</string>
-    </property>
-   </widget>
    <widget class="caLabel" name="calabel_14">
     <property name="geometry">
      <rect>
@@ -763,110 +659,6 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <green>209</green>
       <blue>239</blue>
      </color>
-    </property>
-   </widget>
-   <widget class="caInclude" name="cainclude_15">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>330</y>
-      <width>711</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="macro">
-     <string notr="true">ioc=RAD:VarianSync</string>
-    </property>
-    <property name="filename" stdset="0">
-     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-    </property>
-   </widget>
-   <widget class="caShellCommand" name="cashellcommand_9">
-    <property name="geometry">
-     <rect>
-      <x>730</x>
-      <y>300</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-2006</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>16</red>
-      <green>147</green>
-      <blue>239</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true"/>
-    </property>
-    <property name="args">
-     <string notr="true">putty -telnet localhost 2006</string>
-    </property>
-   </widget>
-   <widget class="caInclude" name="cainclude_12">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>210</y>
-      <width>711</width>
-      <height>35</height>
-     </rect>
-    </property>
-    <property name="macro">
-     <string notr="true">ioc=RAD:NEWPORT</string>
-    </property>
-    <property name="filename" stdset="0">
-     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
-    </property>
-   </widget>
-   <widget class="caShellCommand" name="cashellcommand_10">
-    <property name="geometry">
-     <rect>
-      <x>730</x>
-      <y>340</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true">-2007</string>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>16</red>
-      <green>147</green>
-      <blue>239</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true"/>
-    </property>
-    <property name="files">
-     <string notr="true"/>
-    </property>
-    <property name="args">
-     <string notr="true">putty -telnet localhost 2007</string>
     </property>
    </widget>
   </widget>

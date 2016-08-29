@@ -557,7 +557,7 @@
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)KVP_MIN</string>
+      <string notr="true">$(P)KVP</string>
      </property>
      <property name="foreground">
       <color>
@@ -601,7 +601,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -669,7 +669,7 @@
       </font>
      </property>
      <property name="text">
-      <string>POWER (W)</string>
+      <string>CURRENT (uA)</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -737,7 +737,7 @@
       <bool>false</bool>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)WATT_MIN</string>
+      <string notr="true">$(P)UA</string>
      </property>
      <property name="foreground">
       <color>
@@ -781,7 +781,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -790,7 +790,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)WATT_RBV</string>
+      <string notr="true">$(P)UA_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -895,7 +895,7 @@
       </font>
      </property>
      <property name="text">
-      <string>CURRENT (uA)</string>
+      <string>POWER (W)</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -936,7 +936,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -945,7 +945,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)UA_RBV</string>
+      <string notr="true">$(P)WATT_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -999,7 +999,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1062,7 +1062,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1229,7 +1229,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1568,7 +1568,7 @@
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)FAULT_RESET</string>
+      <string notr="true">$(P)STANDBY</string>
      </property>
      <property name="label">
       <string notr="true">STANDBY</string>
@@ -1606,7 +1606,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -1615,7 +1615,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)ILV_RBV</string>
+      <string notr="true">$(P)INTV_RBV</string>
      </property>
      <property name="foreground">
       <color>
@@ -1669,7 +1669,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
