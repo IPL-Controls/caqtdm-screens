@@ -196,42 +196,6 @@
      <string notr="true"/>
     </property>
    </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_6">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>140</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="label">
-     <string notr="true"/>
-    </property>
-    <property name="foreground">
-     <color>
-      <red>255</red>
-      <green>255</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="background">
-     <color>
-      <red>0</red>
-      <green>0</green>
-      <blue>255</blue>
-     </color>
-    </property>
-    <property name="labels">
-     <string notr="true">g0</string>
-    </property>
-    <property name="files">
-     <string notr="true">cel-g0.ui</string>
-    </property>
-    <property name="args">
-     <string notr="true"/>
-    </property>
-   </widget>
    <widget class="caRelatedDisplay" name="carelateddisplay_8">
     <property name="geometry">
      <rect>
@@ -340,6 +304,64 @@
     </property>
     <property name="args">
      <string notr="true">P=CEL:CPI:xray:,S=CEL:cpiSync:;</string>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
+    </property>
+   </widget>
+   <widget class="caRelatedDisplay" name="carelateddisplay_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="label">
+     <string notr="true">- CEL STAGES</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>0</red>
+      <green>0</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true">g0;g1</string>
+    </property>
+    <property name="files">
+     <string notr="true">cel-g0;cel-g1</string>
+    </property>
+    <property name="args">
+     <string notr="true">;</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
