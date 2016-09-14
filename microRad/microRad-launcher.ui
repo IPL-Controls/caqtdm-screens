@@ -67,7 +67,7 @@
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>9</pointsize>
+      <pointsize>10</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -196,10 +196,10 @@
      <string notr="true">RAD:VARIAN:cam1;IPL:D3X:cam1</string>
     </property>
     <property name="files">
-     <string notr="true">../Varianqt.ui;../nikonqt-v2.ui</string>
+     <string notr="true">../Varianqt-v3.ui;../nikonqt-v2.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=RAD:VARIAN:, R=cam1:, W=RAD:SCAN:;P=IPL:D3X:cam1:,W=RAD
+     <string notr="true">P=RAD:VARIAN:, R=cam1:, W=RAD:SCAN:,S=RAD:VarianSync:;P=IPL:D3X:cam1:,W=RAD
 :SCAN:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
