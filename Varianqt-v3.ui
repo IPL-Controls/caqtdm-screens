@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>537</width>
-    <height>656</height>
+    <height>696</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -653,7 +653,7 @@
        <x>20</x>
        <y>430</y>
        <width>251</width>
-       <height>221</height>
+       <height>261</height>
       </rect>
      </property>
      <property name="foreground">
@@ -1496,7 +1496,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1553,7 +1553,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>10</pointsize>
+       <pointsize>11</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3476,6 +3476,120 @@
       </color>
      </property>
     </widget>
+    <widget class="caMessageButton" name="camessagebutton_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>650</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LIVE SCAN X</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>13</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">CEL:VarianSync:SYNC_TRIGGER</string>
+     </property>
+     <property name="label">
+      <string notr="true">SINGLE EXPOSURE</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>171</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="releaseMessage">
+      <string notr="true"/>
+     </property>
+     <property name="pressMessage">
+      <string notr="true">1</string>
+     </property>
+    </widget>
+    <widget class="caTextEntry" name="catextentry_2">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>660</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">caTextEntry,caLineEdit {background-color: rgba(199, 199, 199, 255); color: rgba(0, 0, 0, 255); border-radius: 1px;} caLineEdit {border: 0px; border-style:outset; padding: 0px 0px 0px 2px; border-color: rgba(0, 0, 0, 255) rgba(0, 0, 0, 255)  rgba(0, 0, 0, 255) rgba(0, 0, 0, 255);} caTextEntry { border: 2px; padding: 0px;} caTextEntry {border-style:inset; border-color: rgba(99, 99, 99, 255) rgba(255, 255, 255, 255)  rgba(255, 255, 255, 255) rgba(99, 99, 99, 255);} caTextEntry:focus {padding: 0px; border: 2px groove rgba(255, 0, 0, 255); border-radius: 1px;} </string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">CEL:NEWPORT:m2.TWV</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>199</red>
+       <green>199</green>
+       <blue>199</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_131">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>640</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>x movement (mm)</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
     <zorder>cagraphics_3</zorder>
     <zorder>caMenu_3</zorder>
     <zorder>cagraphics_5</zorder>
@@ -3568,6 +3682,9 @@
     <zorder>caTextEntry_39</zorder>
     <zorder>caLineEdit_61</zorder>
     <zorder>calabel_55</zorder>
+    <zorder>camessagebutton_3</zorder>
+    <zorder>catextentry_2</zorder>
+    <zorder>calabel_131</zorder>
    </widget>
   </widget>
  </widget>
