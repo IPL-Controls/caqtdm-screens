@@ -451,7 +451,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2000</string>
+     <string notr="true">-3000</string>
     </property>
     <property name="foreground">
      <color>
@@ -471,7 +471,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="files">
-     <string notr="true">putty -telnet 192.168.1.110 2000</string>
+     <string notr="true">putty -telnet 192.168.1.115 3000</string>
     </property>
     <property name="args">
      <string notr="true"/>
@@ -487,7 +487,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2001</string>
+     <string notr="true">-3001</string>
     </property>
     <property name="foreground">
      <color>
@@ -510,7 +510,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.110 2001</string>
+     <string notr="true">putty -telnet 192.168.1.115 3001</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_4">
@@ -523,7 +523,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2002</string>
+     <string notr="true">-3002</string>
     </property>
     <property name="foreground">
      <color>
@@ -546,7 +546,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.110 2002</string>
+     <string notr="true">putty -telnet 192.168.1.115 3002</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_5">
@@ -559,7 +559,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2003</string>
+     <string notr="true">-3003</string>
     </property>
     <property name="foreground">
      <color>
@@ -582,7 +582,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.110 2003</string>
+     <string notr="true">putty -telnet 192.168.1.115 3003</string>
     </property>
    </widget>
    <widget class="caShellCommand" name="cashellcommand_7">
@@ -595,7 +595,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2004</string>
+     <string notr="true">-3004</string>
     </property>
     <property name="foreground">
      <color>
@@ -618,7 +618,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet 192.168.1.110 2004</string>
+     <string notr="true">putty -telnet 192.168.1.115 3004</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_10">
@@ -693,7 +693,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2005</string>
+     <string notr="true">-3005</string>
     </property>
     <property name="foreground">
      <color>
@@ -716,7 +716,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet localhost 2005</string>
+     <string notr="true">putty -telnet localhost 3005</string>
     </property>
    </widget>
    <widget class="caLabel" name="calabel_14">
@@ -791,7 +791,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2006</string>
+     <string notr="true">-3006</string>
     </property>
     <property name="foreground">
      <color>
@@ -814,7 +814,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet localhost 2006</string>
+     <string notr="true">putty -telnet localhost 3006</string>
     </property>
    </widget>
    <widget class="caInclude" name="cainclude_12">
@@ -843,7 +843,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      </rect>
     </property>
     <property name="label">
-     <string notr="true">2007</string>
+     <string notr="true">-3007</string>
     </property>
     <property name="foreground">
      <color>
@@ -866,7 +866,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
      <string notr="true"/>
     </property>
     <property name="args">
-     <string notr="true">putty -telnet localhost 2007</string>
+     <string notr="true">putty -telnet localhost 3007</string>
     </property>
    </widget>
   </widget>
