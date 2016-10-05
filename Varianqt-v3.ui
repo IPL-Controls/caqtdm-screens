@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>537</width>
+    <width>544</width>
     <height>696</height>
    </rect>
   </property>
@@ -111,7 +111,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -174,7 +174,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -322,7 +322,7 @@
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>370</y>
+       <y>410</y>
        <width>261</width>
        <height>281</height>
       </rect>
@@ -465,7 +465,7 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>410</y>
+       <y>450</y>
        <width>241</width>
        <height>231</height>
       </rect>
@@ -577,7 +577,7 @@
        <x>280</x>
        <y>50</y>
        <width>261</width>
-       <height>311</height>
+       <height>351</height>
       </rect>
      </property>
      <property name="foreground">
@@ -605,7 +605,7 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>375</y>
+       <y>420</y>
        <width>241</width>
        <height>25</height>
       </rect>
@@ -1210,8 +1210,8 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>330</y>
-       <width>71</width>
+       <y>375</y>
+       <width>91</width>
        <height>20</height>
       </rect>
      </property>
@@ -1251,9 +1251,9 @@
     <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
      <property name="geometry">
       <rect>
-       <x>370</x>
-       <y>330</y>
-       <width>81</width>
+       <x>290</x>
+       <y>325</y>
+       <width>91</width>
        <height>21</height>
       </rect>
      </property>
@@ -1294,8 +1294,8 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>310</y>
-       <width>71</width>
+       <y>350</y>
+       <width>91</width>
        <height>20</height>
       </rect>
      </property>
@@ -1330,54 +1330,6 @@
      </property>
      <property name="args">
       <string notr="true">P=$(P),R=cam1:</string>
-     </property>
-     <property name="stackingMode" stdset="0">
-      <enum>caRowColMenu::Menu</enum>
-     </property>
-     <property name="removeParent" stdset="0">
-      <string>false</string>
-     </property>
-    </widget>
-    <widget class="caRelatedDisplay" name="Asyn">
-     <property name="geometry">
-      <rect>
-       <x>370</x>
-       <y>310</y>
-       <width>81</width>
-       <height>21</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="label">
-      <string notr="true">-ASYN</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>0</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>187</red>
-       <green>187</green>
-       <blue>187</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string>More</string>
-     </property>
-     <property name="files">
-      <string notr="true">../asyn/asynRecord.ui</string>
-     </property>
-     <property name="args">
-      <string notr="true">P=$(P)$(R),R=AsynIO</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::Menu</enum>
@@ -1496,7 +1448,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1553,7 +1505,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3493,7 +3445,7 @@
       </font>
      </property>
      <property name="text">
-      <string>LIVE SCAN X</string>
+      <string/>
      </property>
      <property name="iconSize">
       <size>
@@ -3508,7 +3460,7 @@
       <string notr="true">CEL:VarianSync:SYNC_TRIGGER</string>
      </property>
      <property name="label">
-      <string notr="true">SINGLE EXPOSURE</string>
+      <string notr="true"/>
      </property>
      <property name="foreground">
       <color>
@@ -3565,7 +3517,7 @@
       <rect>
        <x>160</x>
        <y>640</y>
-       <width>121</width>
+       <width>111</width>
        <height>21</height>
       </rect>
      </property>
@@ -3624,7 +3576,6 @@
     <zorder>caRelatedDisplay_6</zorder>
     <zorder>caRelatedDisplay_5</zorder>
     <zorder>caRelatedDisplay_4</zorder>
-    <zorder>Asyn</zorder>
     <zorder>caMenu_8</zorder>
     <zorder>caled_6</zorder>
     <zorder>camenu</zorder>
