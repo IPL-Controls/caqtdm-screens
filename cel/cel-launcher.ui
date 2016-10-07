@@ -148,13 +148,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">Nikon D800;Varian Paxscan 3024M</string>
+     <string notr="true">Nikon D800;Varian Paxscan 3024M;Pilatus 100K X</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v3;../Varianqt-v3</string>
+     <string notr="true">../nikonqt-v3;../Varianqt-v3;../pilatus.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=CEL:D800:,W=CEL:SCAN:;P=CEL:VARIAN:, R=cam1:, W=CEL:SCAN:, S=CEL:VarianSync:;;</string>
+     <string notr="true">P=CEL:D800:,W=CEL:SCAN:;P=CEL:VARIAN:, R=cam1:, W=CEL:SCAN:, S=CEL:VarianSync:;P=CEL:PILATUS:,R=cam1:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
