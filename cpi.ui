@@ -2186,7 +2186,7 @@
      <property name="geometry">
       <rect>
        <x>15</x>
-       <y>505</y>
+       <y>500</y>
        <width>281</width>
        <height>25</height>
       </rect>
@@ -2395,7 +2395,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
@@ -2504,7 +2504,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>11</pointsize>
+       <pointsize>10</pointsize>
        <weight>50</weight>
        <bold>false</bold>
       </font>
