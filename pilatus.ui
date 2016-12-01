@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>706</width>
+    <width>701</width>
     <height>686</height>
    </rect>
   </property>
@@ -111,7 +111,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -174,7 +174,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1395,7 +1395,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1823,7 +1823,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2206,7 +2206,7 @@
       <rect>
        <x>30</x>
        <y>570</y>
-       <width>131</width>
+       <width>41</width>
        <height>20</height>
       </rect>
      </property>
@@ -2216,7 +2216,7 @@
       </font>
      </property>
      <property name="text">
-      <string>SHAPING TIME/GAIN</string>
+      <string>GAIN</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -2239,14 +2239,14 @@
     <widget class="caMenu" name="camenu_4">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>110</x>
        <y>570</y>
-       <width>101</width>
+       <width>151</width>
        <height>21</height>
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">$(P)$(R)ThresholdAutoApply</string>
+      <string notr="true">$(P)$(R)GainMenu</string>
      </property>
     </widget>
     <widget class="caTextEntry" name="caTextEntry_15">
@@ -2267,7 +2267,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2646,7 +2646,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2700,7 +2700,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2754,7 +2754,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2808,7 +2808,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2862,7 +2862,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3027,7 +3027,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -3090,7 +3090,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -3140,7 +3140,7 @@
       <rect>
        <x>275</x>
        <y>590</y>
-       <width>431</width>
+       <width>151</width>
        <height>91</height>
       </rect>
      </property>
@@ -3405,6 +3405,9 @@
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(R)ArrayCallbacks</string>
      </property>
+     <property name="colorMode">
+      <enum>caMenu::Static</enum>
+     </property>
     </widget>
     <widget class="caMenu" name="camenu_7">
      <property name="geometry">
@@ -3417,6 +3420,9 @@
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(R)TriggerMode</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMenu::Static</enum>
      </property>
     </widget>
     <widget class="caLabel" name="calabel_63">
@@ -3675,6 +3681,16 @@
      </property>
      <property name="channel" stdset="0">
       <string notr="true">$(P)$(R)ShutterMode</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMenu::Static</enum>
+     </property>
+     <property name="background">
+      <color>
+       <red>181</red>
+       <green>181</green>
+       <blue>181</blue>
+      </color>
      </property>
     </widget>
     <widget class="caLineEdit" name="caLineEdit_58">
@@ -4041,7 +4057,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>9</pointsize>
+       <pointsize>8</pointsize>
       </font>
      </property>
      <property name="text">
@@ -4212,9 +4228,9 @@
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>630</y>
-       <width>81</width>
-       <height>31</height>
+       <y>650</y>
+       <width>61</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="font">
@@ -4610,10 +4626,10 @@
     <widget class="caRelatedDisplay" name="caRelatedDisplay_1">
      <property name="geometry">
       <rect>
-       <x>370</x>
-       <y>630</y>
+       <x>345</x>
+       <y>650</y>
        <width>71</width>
-       <height>31</height>
+       <height>21</height>
       </rect>
      </property>
      <property name="font">
@@ -4657,10 +4673,10 @@
     <widget class="caRelatedDisplay" name="caRelatedDisplay_4">
      <property name="geometry">
       <rect>
-       <x>450</x>
-       <y>630</y>
-       <width>71</width>
-       <height>31</height>
+       <x>280</x>
+       <y>625</y>
+       <width>61</width>
+       <height>21</height>
       </rect>
      </property>
      <property name="font">
@@ -4709,7 +4725,7 @@
       <rect>
        <x>280</x>
        <y>595</y>
-       <width>421</width>
+       <width>141</width>
        <height>25</height>
       </rect>
      </property>
@@ -4750,56 +4766,6 @@
       </color>
      </property>
     </widget>
-    <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
-     <property name="geometry">
-      <rect>
-       <x>530</x>
-       <y>630</y>
-       <width>81</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-      </font>
-     </property>
-     <property name="label">
-      <string notr="true">-SCAN</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color alpha="55">
-       <red>115</red>
-       <green>223</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="labels">
-      <string>Common plugins</string>
-     </property>
-     <property name="files">
-      <string notr="true">commonPlugins.ui</string>
-     </property>
-     <property name="args">
-      <string>P=$(P)</string>
-     </property>
-     <property name="fontScaleMode" stdset="0">
-      <enum>EPushButton::WidthAndHeight</enum>
-     </property>
-     <property name="stackingMode" stdset="0">
-      <enum>caRowColMenu::Menu</enum>
-     </property>
-     <property name="removeParent" stdset="0">
-      <string>false</string>
-     </property>
-    </widget>
     <widget class="caLabel" name="calabel_79">
      <property name="geometry">
       <rect>
@@ -4830,6 +4796,371 @@
       </color>
      </property>
     </widget>
+    <widget class="caMenu" name="camenu_9">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>625</y>
+       <width>121</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(199, 199, 199);</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">CEL:PilatusSync:XSYNC</string>
+     </property>
+     <property name="colorMode">
+      <enum>caMenu::Static</enum>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>181</red>
+       <green>181</green>
+       <blue>181</blue>
+      </color>
+     </property>
+     <property name="labelDisplay">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_80">
+     <property name="geometry">
+      <rect>
+       <x>435</x>
+       <y>625</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>XRAY</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="0">
+       <red>160</red>
+       <green>160</green>
+       <blue>164</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caGraphics" name="cagraphics_9">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>590</y>
+       <width>275</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>105</red>
+       <green>105</green>
+       <blue>105</blue>
+      </color>
+     </property>
+     <property name="fillstyle" stdset="0">
+      <enum>caGraphics::Filled</enum>
+     </property>
+     <property name="lineSize">
+      <number>2</number>
+     </property>
+     <property name="lineColor">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLabel" name="calabel_10">
+     <property name="geometry">
+      <rect>
+       <x>435</x>
+       <y>595</y>
+       <width>265</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::WinPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>5</number>
+     </property>
+     <property name="text">
+      <string>SYNC</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>85</red>
+       <green>170</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>70</red>
+       <green>70</green>
+       <blue>70</blue>
+      </color>
+     </property>
+    </widget>
+    <widget class="caLineEdit" name="caLineEdit_61">
+     <property name="geometry">
+      <rect>
+       <x>605</x>
+       <y>625</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Lucida Sans Typewriter</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>123</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">CEL:PilatusSync:XSYNC_RBV</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>170</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="colorMode">
+      <enum>caLineEdit::Static</enum>
+     </property>
+     <property name="precision">
+      <number>3</number>
+     </property>
+     <property name="precisionMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="limitsMode">
+      <enum>caLineEdit::Channel</enum>
+     </property>
+     <property name="fontScaleMode" stdset="0">
+      <enum>caLineEdit::WidthAndHeight</enum>
+     </property>
+     <property name="formatType">
+      <enum>caLineEdit::decimal</enum>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="camessagebutton_3">
+     <property name="geometry">
+      <rect>
+       <x>435</x>
+       <y>650</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>SOFT TRIGGER</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>13</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">CEL:PilatusSync:SOFT_TRIGGER</string>
+     </property>
+     <property name="label">
+      <string notr="true">SOFT TRIGGER</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>171</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="releaseMessage">
+      <string notr="true"/>
+     </property>
+     <property name="pressMessage">
+      <string notr="true">1</string>
+     </property>
+    </widget>
+    <widget class="caMessageButton" name="camessagebutton_4">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>650</y>
+       <width>121</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HARD TRIGGER</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>13</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="fontScaleMode">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">CEL:PilatusSync:HARD_TRIGGER</string>
+     </property>
+     <property name="label">
+      <string notr="true">HARD TRIGGER</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>171</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="releaseMessage">
+      <string notr="true"/>
+     </property>
+     <property name="pressMessage">
+      <string notr="true">1</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>625</y>
+       <width>61</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="label">
+      <string notr="true">-OLD</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>255</red>
+       <green>255</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color alpha="55">
+       <red>115</red>
+       <green>223</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string>Common plugins</string>
+     </property>
+     <property name="files">
+      <string notr="true">pilatusDetector.ui</string>
+     </property>
+     <property name="args">
+      <string>P=$(P),R=cam1:</string>
+     </property>
+     <property name="fontScaleMode" stdset="0">
+      <enum>EPushButton::WidthAndHeight</enum>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
+    <zorder>cagraphics_9</zorder>
     <zorder>cagraphics_5</zorder>
     <zorder>caRectangle_8</zorder>
     <zorder>cagraphics</zorder>
@@ -4942,8 +5273,14 @@
     <zorder>caRelatedDisplay_1</zorder>
     <zorder>caRelatedDisplay_4</zorder>
     <zorder>calabel_9</zorder>
-    <zorder>caRelatedDisplay_5</zorder>
     <zorder>calabel_79</zorder>
+    <zorder>camenu_9</zorder>
+    <zorder>calabel_80</zorder>
+    <zorder>calabel_10</zorder>
+    <zorder>caLineEdit_61</zorder>
+    <zorder>camessagebutton_3</zorder>
+    <zorder>camessagebutton_4</zorder>
+    <zorder>caRelatedDisplay_5</zorder>
    </widget>
   </widget>
  </widget>
