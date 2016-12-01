@@ -280,7 +280,7 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="label">
-     <string notr="true">- CEL STAGES</string>
+     <string notr="true">- STAGES</string>
     </property>
     <property name="foreground">
      <color>
@@ -297,10 +297,10 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">g0;g1</string>
+     <string notr="true">cel-lens;xray;</string>
     </property>
     <property name="files">
-     <string notr="true">cel-g0;cel-g1</string>
+     <string notr="true">cel-g1;cel-xray_stage;</string>
     </property>
     <property name="args">
      <string notr="true">;</string>
@@ -355,13 +355,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">CPI 2;NOVA</string>
+     <string notr="true">CPI 2;NOVA;SRI</string>
     </property>
     <property name="files">
-     <string notr="true">../cpi;../oxford</string>
+     <string notr="true">../cpi;../oxford;../sri</string>
     </property>
     <property name="args">
-     <string notr="true">P=CEL:CPI:xray:,S=CEL:cpiSync:;P=CEL:OXFORD:xray:;;</string>
+     <string notr="true">P=CEL:CPI:xray:,S=CEL:cpiSync:;P=CEL:OXFORD:xray:;P=CEL:SRI:xray:</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>

@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>813</width>
-    <height>431</height>
+    <height>502</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,7 +61,7 @@ border-bottom-color: rgb(0, 0, 0);</string>
       <x>5</x>
       <y>40</y>
       <width>801</width>
-      <height>361</height>
+      <height>431</height>
      </rect>
     </property>
     <property name="foreground">
@@ -924,6 +924,110 @@ border-bottom-color: rgb(0, 0, 0);</string>
     </property>
     <property name="args">
      <string notr="true">putty -telnet 192.168.1.115 2008</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_28">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>711</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=CEL:GALIL</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_12">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>400</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-2009</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.115 2009</string>
+    </property>
+   </widget>
+   <widget class="caInclude" name="cainclude_29">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>425</y>
+      <width>711</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="macro">
+     <string notr="true">ioc=CEL:SRI:xray</string>
+    </property>
+    <property name="filename" stdset="0">
+     <string notr="true">../ioc-admin/single_ioc_admin.ui</string>
+    </property>
+   </widget>
+   <widget class="caShellCommand" name="cashellcommand_13">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>435</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="label">
+     <string notr="true">-2010</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>16</red>
+      <green>147</green>
+      <blue>239</blue>
+     </color>
+    </property>
+    <property name="labels">
+     <string notr="true"/>
+    </property>
+    <property name="files">
+     <string notr="true"/>
+    </property>
+    <property name="args">
+     <string notr="true">putty -telnet 192.168.1.115 2010</string>
     </property>
    </widget>
   </widget>
