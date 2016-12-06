@@ -106,7 +106,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m18</string>
+      <string notr="true">P=HPFI:NEWPORT:,M=m18</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -122,7 +122,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m104</string>
+      <string notr="true">P=HPFI:NEWPORT:,M=m104</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -221,7 +221,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=NEW:,M=m105</string>
+      <string notr="true">P=HPFI:NEWPORT:,M=m105</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
@@ -237,7 +237,7 @@
       </rect>
      </property>
      <property name="macro">
-      <string notr="true">P=DMC01:,M=B</string>
+      <string notr="true">P=HPFI:GALIL:,M=m1</string>
      </property>
      <property name="filename" stdset="0">
       <string notr="true">../motor/motor-v2.ui</string>
