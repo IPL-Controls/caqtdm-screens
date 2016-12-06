@@ -528,7 +528,7 @@
      <enum>caRowColMenu::Menu</enum>
     </property>
    </widget>
-   <widget class="caRelatedDisplay" name="carelateddisplay_16">
+   <widget class="caRelatedDisplay" name="carelateddisplay_17">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -537,8 +537,24 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
     <property name="label">
-     <string notr="true"/>
+     <string notr="true">-   CONTROL SCREEN</string>
     </property>
     <property name="foreground">
      <color>
@@ -555,13 +571,19 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">CONTROL SCREEN</string>
+     <string notr="true">CPI;OXFORD</string>
     </property>
     <property name="files">
-     <string notr="true">hpfi-MainControlScreen.ui</string>
+     <string notr="true">hpfi-MainControlScreen-cpi.ui;hpfi-MainControlScreen-oxford.ui</string>
     </property>
     <property name="args">
-     <string notr="true"/>
+     <string notr="true">P=HPFI:CPI:xray:,S=HPFI:cpiSync:;P=HPFI:OXFORD:xray:</string>
+    </property>
+    <property name="fontScaleMode" stdset="0">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="stackingMode" stdset="0">
+     <enum>caRowColMenu::Menu</enum>
     </property>
    </widget>
   </widget>
