@@ -158,7 +158,7 @@
       <number>1</number>
      </property>
      <property name="text">
-      <string>ss</string>
+      <string>SS</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>

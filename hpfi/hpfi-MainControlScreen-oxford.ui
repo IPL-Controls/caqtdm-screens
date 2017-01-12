@@ -8428,7 +8428,7 @@ ABORT</string>
      <set>Qt::AlignAbsolute|Qt::AlignCenter|Qt::AlignHCenter|Qt::AlignVCenter</set>
     </property>
     <property name="channel" stdset="0">
-     <string notr="true">HPFI:SCAN:scan1.CPT</string>
+     <string notr="true">HPFI:SCAN:scanProgress:Nfinished</string>
     </property>
     <property name="foreground">
      <color>
