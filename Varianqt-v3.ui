@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>544</width>
+    <width>537</width>
     <height>696</height>
    </rect>
   </property>
@@ -111,7 +111,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -174,7 +174,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -322,7 +322,7 @@
      <property name="geometry">
       <rect>
        <x>280</x>
-       <y>410</y>
+       <y>370</y>
        <width>261</width>
        <height>281</height>
       </rect>
@@ -465,7 +465,7 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>450</y>
+       <y>410</y>
        <width>241</width>
        <height>231</height>
       </rect>
@@ -577,7 +577,7 @@
        <x>280</x>
        <y>50</y>
        <width>261</width>
-       <height>351</height>
+       <height>311</height>
       </rect>
      </property>
      <property name="foreground">
@@ -605,7 +605,7 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>420</y>
+       <y>375</y>
        <width>241</width>
        <height>25</height>
       </rect>
@@ -1210,8 +1210,8 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>375</y>
-       <width>91</width>
+       <y>330</y>
+       <width>71</width>
        <height>20</height>
       </rect>
      </property>
@@ -1251,9 +1251,9 @@
     <widget class="caRelatedDisplay" name="caRelatedDisplay_5">
      <property name="geometry">
       <rect>
-       <x>290</x>
-       <y>325</y>
-       <width>91</width>
+       <x>370</x>
+       <y>330</y>
+       <width>81</width>
        <height>21</height>
       </rect>
      </property>
@@ -1294,8 +1294,8 @@
      <property name="geometry">
       <rect>
        <x>290</x>
-       <y>350</y>
-       <width>91</width>
+       <y>310</y>
+       <width>71</width>
        <height>20</height>
       </rect>
      </property>
@@ -1330,6 +1330,54 @@
      </property>
      <property name="args">
       <string notr="true">P=$(P),R=cam1:</string>
+     </property>
+     <property name="stackingMode" stdset="0">
+      <enum>caRowColMenu::Menu</enum>
+     </property>
+     <property name="removeParent" stdset="0">
+      <string>false</string>
+     </property>
+    </widget>
+    <widget class="caRelatedDisplay" name="Asyn">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>310</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="label">
+      <string notr="true">-ASYN</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="background">
+      <color>
+       <red>187</red>
+       <green>187</green>
+       <blue>187</blue>
+      </color>
+     </property>
+     <property name="labels">
+      <string>More</string>
+     </property>
+     <property name="files">
+      <string notr="true">../asyn/asynRecord.ui</string>
+     </property>
+     <property name="args">
+      <string notr="true">P=$(P)$(R),R=AsynIO</string>
      </property>
      <property name="stackingMode" stdset="0">
       <enum>caRowColMenu::Menu</enum>
@@ -3428,61 +3476,6 @@
       </color>
      </property>
     </widget>
-    <widget class="caMessageButton" name="camessagebutton_3">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>650</y>
-       <width>121</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>12</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>13</width>
-       <height>20</height>
-      </size>
-     </property>
-     <property name="fontScaleMode">
-      <enum>EPushButton::WidthAndHeight</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">CEL:VarianSync:SYNC_TRIGGER</string>
-     </property>
-     <property name="label">
-      <string notr="true"/>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>171</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true"/>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">1</string>
-     </property>
-    </widget>
     <widget class="caTextEntry" name="catextentry_2">
      <property name="geometry">
       <rect>
@@ -3499,7 +3492,7 @@
       <set>Qt::AlignCenter</set>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">CEL:NEWPORT:m2.TWV</string>
+      <string notr="true">XRM:NEWPORT:m3.TWV</string>
      </property>
      <property name="background">
       <color>
@@ -3517,7 +3510,7 @@
       <rect>
        <x>160</x>
        <y>640</y>
-       <width>111</width>
+       <width>121</width>
        <height>21</height>
       </rect>
      </property>
@@ -3540,6 +3533,32 @@
        <green>160</green>
        <blue>164</blue>
       </color>
+     </property>
+    </widget>
+    <widget class="caToggleButton" name="catogglebutton_21">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>650</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>sync motor</string>
+     </property>
+     <property name="channel" stdset="0">
+      <string notr="true">XRM:VarianSync:SYNC_MOTOR</string>
+     </property>
+     <property name="foreground">
+      <color>
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+     <property name="elevation">
+      <enum>caToggleButton::as_is</enum>
      </property>
     </widget>
     <zorder>cagraphics_3</zorder>
@@ -3576,6 +3595,7 @@
     <zorder>caRelatedDisplay_6</zorder>
     <zorder>caRelatedDisplay_5</zorder>
     <zorder>caRelatedDisplay_4</zorder>
+    <zorder>Asyn</zorder>
     <zorder>caMenu_8</zorder>
     <zorder>caled_6</zorder>
     <zorder>camenu</zorder>
@@ -3633,9 +3653,9 @@
     <zorder>caTextEntry_39</zorder>
     <zorder>caLineEdit_61</zorder>
     <zorder>calabel_55</zorder>
-    <zorder>camessagebutton_3</zorder>
     <zorder>catextentry_2</zorder>
     <zorder>calabel_131</zorder>
+    <zorder>catogglebutton_21</zorder>
    </widget>
   </widget>
  </widget>

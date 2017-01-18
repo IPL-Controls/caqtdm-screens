@@ -151,13 +151,13 @@
      </color>
     </property>
     <property name="labels">
-     <string notr="true">XRM:D700:;XRM:VARIAN</string>
+     <string notr="true">XRM:D700:;XRM:VARIAN;XRM:Qi2</string>
     </property>
     <property name="files">
-     <string notr="true">../nikonqt-v3.ui;../Varianqt-v3.ui</string>
+     <string notr="true">../nikonqt-v3.ui;../Varianqt-v3.ui;../nikonqi2-slim.ui</string>
     </property>
     <property name="args">
-     <string notr="true">P=XRM:D700:,W=XRM:SCAN:;P=XRM:VARIAN:,R=cam1:,W=XRM:SCAN:,S=XRM:VarianSync:</string>
+     <string notr="true">P=XRM:D700:,W=XRM:SCAN:;P=XRM:VARIAN:,R=cam1:,W=XRM:SCAN:,S=XRM:VarianSync:;P=XRM:Qi2:,R=cam1:,W=XRM:SCAN:;</string>
     </property>
     <property name="fontScaleMode" stdset="0">
      <enum>EPushButton::WidthAndHeight</enum>
