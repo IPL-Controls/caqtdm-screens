@@ -60,7 +60,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>120</x>
       <y>95</y>
-      <width>201</width>
+      <width>141</width>
       <height>20</height>
      </rect>
     </property>
@@ -73,7 +73,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Lucida Sans Typewriter</family>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="alignment">
@@ -123,7 +123,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
      <rect>
       <x>120</x>
       <y>120</y>
-      <width>201</width>
+      <width>141</width>
       <height>21</height>
      </rect>
     </property>
@@ -217,7 +217,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     <property name="font">
      <font>
       <family>Times New Roman</family>
-      <pointsize>15</pointsize>
+      <pointsize>19</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -332,7 +332,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
       <weight>50</weight>
       <bold>false</bold>
      </font>
@@ -370,7 +370,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caLineEdit" name="caLineEdit_2">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>415</x>
       <y>97</y>
       <width>35</width>
       <height>20</height>
@@ -421,7 +421,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caToggleButton" name="catogglebutton">
     <property name="geometry">
      <rect>
-      <x>325</x>
+      <x>270</x>
       <y>120</y>
       <width>181</width>
       <height>22</height>
@@ -429,7 +429,7 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="layoutDirection">
@@ -460,9 +460,9 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caMessageButton" name="caMessageButton_0">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>535</x>
       <y>120</y>
-      <width>91</width>
+      <width>65</width>
       <height>21</height>
      </rect>
     </property>
@@ -502,9 +502,9 @@ QWidget#centralWidget {background-color: rgb(156, 156, 156);}
    <widget class="caMessageButton" name="caMessageButton_1">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>460</x>
       <y>95</y>
-      <width>91</width>
+      <width>141</width>
       <height>21</height>
      </rect>
     </property>
@@ -626,7 +626,7 @@ color: rgb(0, 255, 0);</string>
    <widget class="caToggleButton" name="catogglebutton_3">
     <property name="geometry">
      <rect>
-      <x>325</x>
+      <x>270</x>
       <y>95</y>
       <width>151</width>
       <height>22</height>
@@ -634,7 +634,7 @@ color: rgb(0, 255, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>10</pointsize>
+      <pointsize>13</pointsize>
      </font>
     </property>
     <property name="layoutDirection">
@@ -662,6 +662,48 @@ color: rgb(0, 255, 0);</string>
      <string>0</string>
     </property>
    </widget>
+   <widget class="caMessageButton" name="caMessageButton_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>120</y>
+      <width>65</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>KILL</string>
+    </property>
+    <property name="fontScaleMode">
+     <enum>EPushButton::WidthAndHeight</enum>
+    </property>
+    <property name="channel" stdset="0">
+     <string notr="true">$(ioc):KILL</string>
+    </property>
+    <property name="label">
+     <string notr="true">KILL</string>
+    </property>
+    <property name="foreground">
+     <color>
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </property>
+    <property name="background">
+     <color>
+      <red>170</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="pressMessage">
+     <string>1</string>
+    </property>
+    <property name="colorMode">
+     <enum>caMessageButton::Static</enum>
+    </property>
+   </widget>
    <zorder>cagraphics</zorder>
    <zorder>cagraphics_2</zorder>
    <zorder>caLabel_2</zorder>
@@ -677,6 +719,7 @@ color: rgb(0, 255, 0);</string>
    <zorder>catextentry</zorder>
    <zorder>textBrowser</zorder>
    <zorder>catogglebutton_3</zorder>
+   <zorder>caMessageButton_2</zorder>
   </widget>
  </widget>
  <customwidgets>

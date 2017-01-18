@@ -111,7 +111,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -174,7 +174,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1395,7 +1395,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -1514,7 +1514,7 @@
       </rect>
      </property>
      <property name="channel" stdset="0">
-      <string>$(P)$(R)NDAttributesFile</string>
+      <string notr="true">$(P)TIFF1:NDAttributesFile</string>
      </property>
      <property name="foreground">
       <color>
@@ -1823,7 +1823,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2267,7 +2267,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2646,7 +2646,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2700,7 +2700,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2754,7 +2754,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2808,7 +2808,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -2862,7 +2862,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -3027,7 +3027,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -3090,7 +3090,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="mouseTracking">
@@ -4057,7 +4057,7 @@
      <property name="font">
       <font>
        <family>Lucida Sans Typewriter</family>
-       <pointsize>8</pointsize>
+       <pointsize>9</pointsize>
       </font>
      </property>
      <property name="text">
@@ -5005,7 +5005,7 @@
       <rect>
        <x>435</x>
        <y>650</y>
-       <width>121</width>
+       <width>261</width>
        <height>25</height>
       </rect>
      </property>
@@ -5017,7 +5017,7 @@
       </font>
      </property>
      <property name="text">
-      <string>SOFT TRIGGER</string>
+      <string>TRIGGER</string>
      </property>
      <property name="iconSize">
       <size>
@@ -5029,65 +5029,10 @@
       <enum>EPushButton::WidthAndHeight</enum>
      </property>
      <property name="channel" stdset="0">
-      <string notr="true">CEL:PilatusSync:SOFT_TRIGGER</string>
+      <string notr="true">CEL:PilatusSync:TRIGGER</string>
      </property>
      <property name="label">
-      <string notr="true">SOFT TRIGGER</string>
-     </property>
-     <property name="foreground">
-      <color>
-       <red>255</red>
-       <green>255</green>
-       <blue>255</blue>
-      </color>
-     </property>
-     <property name="background">
-      <color>
-       <red>171</red>
-       <green>0</green>
-       <blue>0</blue>
-      </color>
-     </property>
-     <property name="releaseMessage">
-      <string notr="true"/>
-     </property>
-     <property name="pressMessage">
-      <string notr="true">1</string>
-     </property>
-    </widget>
-    <widget class="caMessageButton" name="camessagebutton_4">
-     <property name="geometry">
-      <rect>
-       <x>580</x>
-       <y>650</y>
-       <width>121</width>
-       <height>25</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>9</pointsize>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>HARD TRIGGER</string>
-     </property>
-     <property name="iconSize">
-      <size>
-       <width>13</width>
-       <height>20</height>
-      </size>
-     </property>
-     <property name="fontScaleMode">
-      <enum>EPushButton::WidthAndHeight</enum>
-     </property>
-     <property name="channel" stdset="0">
-      <string notr="true">CEL:PilatusSync:HARD_TRIGGER</string>
-     </property>
-     <property name="label">
-      <string notr="true">HARD TRIGGER</string>
+      <string notr="true">TRIGGER</string>
      </property>
      <property name="foreground">
       <color>
@@ -5279,7 +5224,6 @@
     <zorder>calabel_10</zorder>
     <zorder>caLineEdit_61</zorder>
     <zorder>camessagebutton_3</zorder>
-    <zorder>camessagebutton_4</zorder>
     <zorder>caRelatedDisplay_5</zorder>
    </widget>
   </widget>
